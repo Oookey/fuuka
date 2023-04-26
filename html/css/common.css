@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+/* ----- 共通CSS ----- */
+.pc{display: inherit !important;}
+.sp{display: none !important;}
+@media screen and ( max-width:767px ){
+	.pc{display: none !important;}
+	.sp{display: inherit !important;}
+}
+html{font-size: 62.5%;}
+body{
+	font-size:1.6em;
+	font-style: normal;
+    font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+    color: #292929
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+@media (min-width: 768px) {
+    body {
+        min-width: 1024px;
+    }
+}
+@media only screen and (max-width: 767px){
+	html{font-size: calc( 1000vw / 430vw );}
+}
+
+:root {
+	--main-color:#306E1D;
+    --bg-brown-color:#F2EEE1;
+	--brown-color:#64562F;
+}
+
+.c1{color: var(--main-color) !important;}
+.bg_b_c{color: var(--bg-brown-color) !important;}
+.shadow{box-shadow: 12px 12px 12px rgba( 0, 0, 0, 0.16);}
+
+.inner{
+    width: 100%;
+    max-width: 148rem;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 767px){
+    .inner{
+        padding: 0 2rem;
+    }
+}
+
+/* ----- Loading ----- */
+
+
+
+/* ----- Header ----- */
+
+
+
+/* ----- Main Menu ----- */
+
+
+
+/* ----- Fix menu ----- */
+
+
+
+/* ----- Footer ----- */
+
+
