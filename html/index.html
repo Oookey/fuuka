@@ -11,8 +11,11 @@
     <link rel="shortcut icon" href="./image/favicon.ico">
     <link rel="apple-touch-icon" href="./image/webclip.png" />
     <link rel="stylesheet" href="./css/master.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=M+PLUS+1p:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=M+PLUS+1p:wght@100;300;400;500;700&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
 
     <script src="./js/jquery-3.6.3.min.js"></script>
 
@@ -35,6 +38,155 @@
     <!-- ↓↓↓ HEADER ↓↓↓ -->
     <header>
         <!-- main menu -->
+        <!-- グローバルメニュー -->
+        <div class="global_menu">
+            <a href="./index.html"class="global_menu_logo"><img src="./image/logo.svg" alt=""></a>
+            <ul class="global_menu_inner">
+                <li>
+                    <a href="">お食事のご案内</a>
+                </li>
+                <li>
+                    <a href="">10趣のお部屋</a>
+                </li>
+                <li>
+                    <a href="">まるごとおもてなし</a>
+                </li>
+                <li>
+                    <a href="">施設案内</a>
+                </li>
+                <li>
+                    <a href="">周辺観光</a>
+                </li>
+                <li>
+                    <a href="">アクセス</a>
+                </li>
+            </ul>
+            <ul class="global_menu_other">
+                <li>
+                    <a href="">
+                        <p><span class="arrow"></span>宿泊プラン一覧</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <p><span class="arrow"></span>空室情報</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger">
+            <div class="openbtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="g-nav">
+                <div id="g-nav-list">
+                    <div class="nav_inner">
+                        <div class="nav_bg"></div>
+                        <div class="nav_access">
+                            <a href="./index.html"><img src="./image/logo_b.png" alt=""></a>
+                            <p>
+                                八ヶ岳ホテル風か
+                                <br><br>
+                                〒408-0044
+                                <br>
+                                山梨県北杜市小淵沢町字上の原3989-1
+                                <br><br>
+                                TEL:0551-36-6414
+                                <br>
+                                （受付時間/9:00～21:00）
+                            </p>
+                        </div>
+                        <div class="nav_content">
+                            <div class="flex">
+                                <ul class="nav_mc">
+                                    <li>
+                                        <a href="">
+                                            <div class="horiz_text">
+                                            <span class="text_line_h"></span>
+                                            <h2 class="">客室のご案内</h2>
+                                            <p>10趣のお部屋</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="horiz_text">
+                                            <span class="text_line_h"></span>
+                                            <h2 class="">お食事のご案内</h2>
+                                            <p>美食フレンチ</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="horiz_text">
+                                            <span class="text_line_h"></span>
+                                            <h2 class="">ホテル案内</h2>
+                                            <p></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="horiz_text">
+                                            <span class="text_line_h"></span>
+                                            <h2 class="">宿泊体験プラン</h2>
+                                            <p>～Yatsugatake Inclusive　泊まって楽しむ八ヶ岳～</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="horiz_text">
+                                            <span class="text_line_h"></span>
+                                            <h2 class="">周辺観光</h2>
+                                            <p></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="nav_sub">
+                                    <li><a href="https://kumanoclub.jp/#access">・アクセスマップ</a></li>
+                                    <li><a href="https://kumanoclub.jp/contact/">・お問い合せ</a></li>
+                                    <!-- <li style="width: 18rem;"><a target="_blank" rel="noopener">・お問い合せ(調整中)</a></li> -->
+                                    <li><a href="https://kumanoclub.jp#plan">・特別プラン</a></li>
+                                    <li><a href="https://kumanoclub.jp/news/">・お知らせ</a></li>
+                                </ul>
+                            </div>
+                            <a href="https://kumanoclub.jp/stargazing/">
+                                <div class="nav_star">
+                                    <h2>星見のテラス<br><span>Starry Sky Viewing</span></h2>
+                                    <p><span class="arrow"></span>詳しくはこちら</p>
+                                </div>
+                            </a>
+                            <div class="flex">
+                                <a href="" class="btn"><span class="arrow"></span>宿泊プラン一覧</a>
+                                <a href="" class="btn"><span class="arrow"></span>空室情報</a>
+                            </div>
+                            <div class="nav_sns flex">
+                                <div class="flex_inner">
+                                    <div>
+                                        <p class="fs14">公式SNS</p>
+                                        <div class="insta_icon">
+                                            <a href="" target="_blank" rel="noopener">
+                                                <img src="https://kumanoclub.jp/wp/wp-content/themes/knmc/image/instagram_icon.svg">
+                                                <p class="fs08">Instagram</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav_sub nav_photo">
+                                    <a href="">熊野周辺のフォトスポット</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
         <!-- fix menu -->
 
@@ -44,11 +196,100 @@
     <!-- ↓↓↓ MAIN ↓↓↓ -->
     <main>
         <!-- mv -->
-        <div class="mv"></div>
+        <div class="top_fv">
+            <div class="top_fv_inner">
+                <div class="top_fv_movie">
+                    <div class="in"> 
+                        <img src="./image/top_mv.png" alt="" class="movie">
+                        <!-- <video class="movie" src="../movie/fuuka_mv.mp4" autoplay="" muted="" loop="" playsinline=""></video> -->
+                    </div>
+                </div>
+                <div class="fv_menu">
+                    <a href="https://www.instagram.com/hotel_fuka/?hl=ja" class="fv_menu_inner instagram" target="_blank" rel="noopener">
+                        <img class="fv_menu_icon" src="./image/icon_instagram_fv.svg" alt="">
+                    </a>
+                    <a href="./index.html#access" class="fv_menu_inner map">
+                        <img class="fv_menu_icon" src="./image/icon_map_fv.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
 
         <!-- topic & news -->
         <div class="top_topic_news">
-            <div class="top_topic"></div>
+            <div class="top_topic">
+                <div class="card02 l-section">
+                    <div class="l-inner">
+                   
+                      <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide">
+                            <article class="slide">
+                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/139/800/500" alt=""></div>
+                              <div class="slide-content">
+                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                              </div>
+                            </article>
+                          </a>
+                          <a href="#" class="swiper-slide">
+                            <article class="slide">
+                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
+                              <div class="slide-content">
+                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                              </div>
+                            </article>
+                          </a>
+                          <a href="#" class="swiper-slide">
+                            <article class="slide">
+                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
+                              <div class="slide-content">
+                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                              </div>
+                            </article>
+                          </a>
+                          <a href="#" class="swiper-slide">
+                            <article class="slide">
+                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
+                              <div class="slide-content">
+                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                              </div>
+                            </article>
+                          </a>
+                          <a href="#" class="swiper-slide">
+                            <article class="slide">
+                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
+                              <div class="slide-content">
+                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                              </div>
+                            </article>
+                          </a>
+                          <a href="#" class="swiper-slide">
+                            <article class="slide">
+                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
+                              <div class="slide-content">
+                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                              </div>
+                            </article>
+                          </a>
+                          
+                        </div><!-- /swiper-wrapper -->
+                   
+                        <div class="swiper-controller">
+                          <div class="swiper-pagination"></div>
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-button-next"></div>
+                        </div>
+                      </div><!-- /swiper -->
+                   
+                    </div>
+                  </div>
+            </div>
             <div class="top_news"></div>
         </div>
 
@@ -104,6 +345,7 @@
 
     <!-- ↓↓↓ etc. ↓↓↓ -->
     <script src="./js/main.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
     <!-- ↑↑↑ etc. ↑↑↑ -->
 
 </body>

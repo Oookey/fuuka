@@ -9,10 +9,11 @@
 }
 html{font-size: 62.5%;}
 body{
-	font-size:1.6em;
+	font-size:1.6rem;
 	font-style: normal;
-    font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
-    color: #292929
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #292929;
+    letter-spacing: 0.1rem;
 }
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -33,6 +34,13 @@ body{
 	--brown-color:#64562F;
 }
 
+.fs08{
+    font-size: 0.8rem;
+}
+.fs14{
+    font-size: 1.4rem;
+}
+
 .c1{color: var(--main-color) !important;}
 .bg_b_c{color: var(--bg-brown-color) !important;}
 .shadow{box-shadow: 12px 12px 12px rgba( 0, 0, 0, 0.16);}
@@ -47,6 +55,37 @@ body{
         padding: 0 2rem;
     }
 }
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    position: relative;
+    width: 0.45em;
+    height: 0.45em;
+    transform: translateX(-25%) rotate(45deg);
+    margin-right: 1rem;
+}
+.arrow::before, .arrow::after {
+    content: '';
+    position: absolute;
+    background: currentColor;
+    border-radius: 0.1em;
+}
+.arrow::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0.08em;
+}
+.arrow::after {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0.08em;
+}
+.flex {
+    display: flex;
+}
 
 /* ----- Loading ----- */
 
@@ -57,8 +96,270 @@ body{
 
 
 /* ----- Main Menu ----- */
-
-
+/* グローバルメニュー */
+.global_menu{
+    position: fixed;
+    z-index: 998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    height: 10rem;
+    color: var(--main-color);
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 14rem;
+    font-size: 1.4rem;
+}
+.global_menu_logo img{
+    width: 18rem;
+    margin-right: 2.5rem;
+}
+.global_menu_inner,.global_menu_other{
+    display: flex;
+}
+.global_menu_inner li{
+    margin-right: 2rem;
+}
+.global_menu_other li{
+    border: solid 0.1rem var(--main-color);
+    border-radius: 3rem;
+    padding: 1.5rem 2rem;
+}
+.global_menu_other li:nth-of-type(1){
+    margin-right: 1rem;
+}
+.global_menu_other .arrow{
+    color: var(--main-color);
+}
+/* ハンバーガーメニュー */
+.hamburger{
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 12.3rem;
+    height: 12.3rem;
+    background-color: var(--main-color);
+    z-index: 999;
+    border-radius: 0 0 0 2rem;
+}
+.openbtn {
+    position: fixed;
+    z-index: 999;
+    top: 4.7rem;
+    right: 4rem;
+    width: 4rem;
+    height: 3rem;
+    padding: 0rem;
+}
+.openbtn span {
+    display: inline-block;
+    transition: all .4s;
+    position: absolute;
+    height: 0.3rem;
+    border-radius: 2px;
+    background-color: #fff;
+    width: 100%;
+}
+.openbtn span:nth-of-type(1){
+    top: 0;
+}
+.openbtn span:nth-of-type(2){
+    top: 49%;
+}
+.openbtn span:nth-of-type(3){
+    bottom: 0;
+}
+.hamburger.active .openbtn span{
+    background-color: #ADADAD;
+}
+.hamburger.active .openbtn span:nth-of-type(1) {
+    top: 0.8rem;
+    transform: translateY(5px) rotate(-45deg);
+}
+.hamburger.active .openbtn span:nth-of-type(2) {
+    opacity: 0;
+}
+.hamburger.active .openbtn span:nth-of-type(3) {
+    bottom: 0.8rem;
+    transform: translateY(-5px) rotate(45deg);
+}
+#g-nav {
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    right: -120%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: all 0.6s;
+    animation-name: fadein;
+}
+#g-nav.panelactive #g-nav-list {
+    animation-name: fadeInAnime;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    line-height: 2.6rem;
+}
+#g-nav.panelactive {
+    right: 0;
+}
+#g-nav .nav_bg {
+    background-image: url(../image/menu_bg.png);
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+#g-nav .nav_access {
+    position: absolute;
+    top: 7rem;
+    left: 34%;
+    color: #292929;
+    font-size: 1.6rem;
+}
+.nav_btn a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#g-nav .nav_access img {
+    width: 28rem;
+    height: auto;
+    margin-bottom: 3.5rem;
+    mix-blend-mode: multiply;
+}
+#g-nav .nav_content {
+    position: absolute;
+    top: 9rem;
+    left: calc(34% + 26rem);
+    color: #292929;
+    width: 38%;
+    min-width: 44rem;
+    max-width: 53rem;
+}
+#g-nav .nav_content .flex {
+    justify-content: space-between;
+}
+#g-nav .nav_mc {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#g-nav ul {
+    z-index: 999;
+}
+#g-nav .nav_mc li {
+    margin-bottom: 3rem;
+}
+.nav_btn a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#g-nav .horiz_text {
+    position: static;
+    flex-wrap: wrap;
+    width: 28rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+#g-nav .text_line_h {
+    padding-left: 2rem;
+    border: solid 0.01rem #292929;
+    margin-right: 2rem;
+}
+#g-nav .nav_mc h2 {
+    font-size: 2.2rem;
+}
+#g-nav .nav_mc p {
+    font-size: 1.3rem;
+    margin-left: 4.2rem;
+    margin-top: 0.4rem;
+}
+#g-nav .nav_sub{
+    width: 16rem;
+    font-size: 1.6rem;
+}
+#g-nav .nav_sub li {
+    margin-bottom: 3rem;
+}
+#g-nav .nav_star {
+    background-image: url(../image/menu_star.png);
+    height: 8.3rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+#g-nav .nav_star h2 {
+    font-size: 2.4rem;
+    line-height: 2.3rem;
+    position: absolute;
+    left: 4.5rem;
+    top: 55%;
+    transform: translateY(-50%);
+}
+#g-nav .nav_star h2 span {
+    font-size: 1.3rem;
+}
+#g-nav .nav_star p {
+    font-size: 1.3rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 1rem;
+}
+#g-nav .btn {
+    border: 0.1rem solid;
+    width: 47%;
+    height: 6.8rem;
+    margin-right: 0;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#g-nav .nav_sns {
+    font-family: 'Noto Sans JP', sans-serif;
+    align-items: flex-end;
+    text-align: center;
+    width: 13rem;
+    white-space: nowrap;
+    letter-spacing: 0.1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+#g-nav .nav_content .flex .flex_inner {
+    display: flex;
+    align-items: flex-end;
+}
+#g-nav .nav_sns .insta_icon {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.insta_icon a {
+    display: inline-block;
+}
+#g-nav .nav_sns img {
+    width: 4rem;
+    height: auto;
+}
+#g-nav .nav_sns .nav_photo {
+    border-bottom: 0.1rem solid #292929;
+    margin-bottom: 2.8rem;
+    margin-left: 7rem;
+    width: auto;
+}
 
 /* ----- Fix menu ----- */
 
