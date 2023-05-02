@@ -19,6 +19,18 @@
 
     <script src="./js/jquery-3.6.3.min.js"></script>
 
+    <!-- kirigirisu -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'jfc4tfq',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+
     <!-- ↓↓↓　本番時コメントアウトを外す　↓↓↓ -->
     <!-- Google Tag Manager -->
     <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -217,80 +229,87 @@
 
         <!-- topic & news -->
         <div class="top_topic_news">
+            <!-- topics -->
             <div class="top_topic">
-                <div class="card02 l-section">
-                    <div class="l-inner">
-                   
-                      <div class="swiper">
-                        <div class="swiper-wrapper">
-                          <a href="#" class="swiper-slide">
-                            <article class="slide">
-                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/139/800/500" alt=""></div>
-                              <div class="slide-content">
-                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
-                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                              </div>
-                            </article>
-                          </a>
-                          <a href="#" class="swiper-slide">
-                            <article class="slide">
-                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
-                              <div class="slide-content">
-                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
-                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                              </div>
-                            </article>
-                          </a>
-                          <a href="#" class="swiper-slide">
-                            <article class="slide">
-                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
-                              <div class="slide-content">
-                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
-                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                              </div>
-                            </article>
-                          </a>
-                          <a href="#" class="swiper-slide">
-                            <article class="slide">
-                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
-                              <div class="slide-content">
-                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
-                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                              </div>
-                            </article>
-                          </a>
-                          <a href="#" class="swiper-slide">
-                            <article class="slide">
-                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
-                              <div class="slide-content">
-                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
-                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                              </div>
-                            </article>
-                          </a>
-                          <a href="#" class="swiper-slide">
-                            <article class="slide">
-                              <div class="slide-media img-cover"><img src="https://picsum.photos/id/127/800/500" alt=""></div>
-                              <div class="slide-content">
-                                <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
-                                <h2 class="slide-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                              </div>
-                            </article>
-                          </a>
-                          
-                        </div><!-- /swiper-wrapper -->
-                   
-                        <div class="swiper-controller">
-                          <div class="swiper-pagination"></div>
-                          <div class="swiper-button-prev"></div>
-                          <div class="swiper-button-next"></div>
+                <div class="topics_title">
+                    <h2>Topic<br><span>-特集-</span></h2>
+                    <img src="./image/topics_illust.svg" alt="">
+                </div>
+                <!-- slider -->
+                <div class="l-wrapper">
+                    <div id="demo02" class="card02 l-section">
+                        <div class="l-inner">
+                        <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                            <div class="swiper-wrapper" id="swiper-wrapper-264345ba8ce2e194" aria-live="polite" style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                                <a href="#" class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10" style="margin-right: 32px;">
+                                    <article class="slide">
+                                        <div class="slide-media img-cover"><img src="./image/topics-1.png" alt=""></div>
+                                        <div class="slide-content">
+                                            <h2 class="slide-title">アワード三冠受賞</h2>
+                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
+                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="#" class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 10" style="margin-right: 32px;">
+                                    <article class="slide">
+                                        <div class="slide-media img-cover"><img src="./image/topics-2.png" alt=""></div>
+                                        <div class="slide-content">
+                                            <h2 class="slide-title">アワード三冠受賞</h2>
+                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
+                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="#" class="swiper-slide" role="group" aria-label="3 / 10" style="margin-right: 32px;">
+                                    <article class="slide">
+                                        <div class="slide-media img-cover"><img src="./image/topics-3.png" alt=""></div>
+                                        <div class="slide-content">
+                                            <h2 class="slide-title">いちご狩り体験</h2>
+                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
+                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="#" class="swiper-slide" role="group" aria-label="4 / 10" style="margin-right: 32px;">
+                                    <article class="slide">
+                                        <div class="slide-media img-cover"><img src="./image/topics-4.png" alt=""></div>
+                                        <div class="slide-content">
+                                            <h2 class="slide-title">入笠山トレッキング</h2>
+                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
+                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="#" class="swiper-slide" role="group" aria-label="5 / 10" style="margin-right: 32px;">
+                                    <article class="slide">
+                                        <div class="slide-media img-cover"><img src="./image/topics-5.png" alt=""></div>
+                                        <div class="slide-content">
+                                            <h2 class="slide-title">八ヶ岳周辺観光</h2>
+                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
+                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div><!-- /swiper-wrapper -->
                         </div>
-                      </div><!-- /swiper -->
-                   
                     </div>
-                  </div>
+                    <div class="swiper-controller">
+                        <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-264345ba8ce2e194" aria-disabled="true"></div>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-264345ba8ce2e194" aria-disabled="false"></div>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div><!-- /swiper -->
+                </div><!-- /wrapper -->
             </div>
-            <div class="top_news"></div>
+            <!-- news -->
+            <div class="top_news">
+                <h2>お知らせ</h2>
+                <dl>
+                    <dt>2023/4/1</dt>
+                    <dd>八ヶ岳ホテル風か　ウェブサイトをリニューアルしました。</dd>
+                    <dd><a href=""><span class="arrow"></span>お知らせ一覧へ</a></dd>
+                </dl>
+            </div>
         </div>
 
         <!-- special -->
@@ -344,8 +363,8 @@
     <!-- ↑↑↑ FOOTER ↑↑↑ -->
 
     <!-- ↓↓↓ etc. ↓↓↓ -->
-    <script src="./js/main.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
     <!-- ↑↑↑ etc. ↑↑↑ -->
 
 </body>

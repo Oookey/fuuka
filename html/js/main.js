@@ -16,6 +16,10 @@ const mySwiper = new Swiper('.card02 .swiper', {
   slidesPerView: 'auto',
   spaceBetween: 16,
   grabCursor: true,
+  freeMode: {
+    enabled: true,
+    momentum: false,
+  },
   pagination: {
     el: '.card02 .swiper-pagination',
     clickable: true,
