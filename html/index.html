@@ -29,7 +29,13 @@
           },
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
-      </script>
+    </script>
+    <!-- special-mask -->
+    <svg width="0" height="0" style="position: absolute; top: 0; left: 0;">
+        <clipPath id="mask-special">
+        <path d="M257.227,495.833a430.935,430.935,0,0,1-206.251,0c-20.286-5.113-38.9-27.368-41.089-47.551a1910.475,1910.475,0,0,1,0-388.209c2.188-20.184,20.8-42.438,41.089-47.552a430.935,430.935,0,0,1,206.251,0c20.286,5.114,38.9,27.368,41.089,47.552a1910.475,1910.475,0,0,1,0,388.209c-2.188,20.183-20.8,42.438-41.089,47.551" transform="translate(508.354 0) rotate(90)"/>
+        </clipPath>
+    </svg>
 
     <!-- ↓↓↓　本番時コメントアウトを外す　↓↓↓ -->
     <!-- Google Tag Manager -->
@@ -314,7 +320,29 @@
 
         <!-- special -->
         <div class="special">
-            <div class="inner"></div>
+            <div class="inner">
+                <div class="title">
+                    <h2><span>Special</span><br>風かの”まるごとおもてなし”</h2>
+                </div>
+                <div class="flex special_contents">
+                    <a href="" class="special_contents_inner">
+						<div class="special_contents_img">
+                            <figure><div class="fit"><img src="./image/special_img-1.png" alt="" class="img"></div></figure>
+                        </div>
+						<div class="special_contents_text">
+                            <h2>おすすめの<br>過ごし方</h2>
+						</div>
+					</a>
+                    <a href="" class="special_contents_inner">
+						<div class="special_contents_img">
+                            <figure><div class="fit"><img src="./image/special_img-2.png" alt="" class="img"></div></figure>
+                        </div>
+						<div class="special_contents_text">
+                            <h2>大人の方へ<br>おすすめの<br>おもてなし</h2>
+						</div>
+					</a>
+                </div>
+            </div>
         </div>
 
         <!-- ご案内 -->
