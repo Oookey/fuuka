@@ -34,3 +34,18 @@ const mySwiper = new Swiper('.card02 .swiper', {
     }
   },
 });
+
+//スライダー
+$(function(){
+  $('.slick').slick({
+      autoplay: true,
+      dots: true,
+      infinite: true,
+      speed: 1500,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true,
+      autoplaySpeed:1500,
+      arrows:false,
+  });
+});

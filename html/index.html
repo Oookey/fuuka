@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=M+PLUS+1p:wght@100;300;400;500;700&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <!-- slick -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
 
     <script src="./js/jquery-3.6.3.min.js"></script>
 
@@ -222,6 +225,11 @@
                         <!-- <video class="movie" src="../movie/fuuka_mv.mp4" autoplay="" muted="" loop="" playsinline=""></video> -->
                     </div>
                 </div>
+                <div class="top_fv_text">
+                    <p>大人も子供も楽しめる</p>
+                    <p>オールインクルーシブ</p>
+                    <p>大切な人との思い出旅へ</p>
+                </div>
                 <div class="fv_menu">
                     <a href="https://www.instagram.com/hotel_fuka/?hl=ja" class="fv_menu_inner instagram" target="_blank" rel="noopener">
                         <img class="fv_menu_icon" src="./image/icon_instagram_fv.svg" alt="">
@@ -382,19 +390,27 @@
         <div class="about content">
             <div class="inner">
                 <img class="title" src="./image/top_about_title.svg" alt="">
-                <img class="illust" src="./image/about_illust.svg" alt="">
+                <img class="illust-r" src="./image/about_illust.svg" alt="">
                 <div class="float-l con_mv">
                     <img src="./image/top_about_mv.png" alt="">
                 </div>
                 <div class="float-r con_text-r">
-                    <h2><span>天空のリゾート地へ。</span><br>標高1000ｍの高原リゾート<br>八ヶ岳の大自然を満喫</h2>
-                    <p>
+                    <div class="con_title">
+                        <p>天空のリゾート地へ。</p>
+                        <h2>標高1000ｍの高原リゾート<br>八ヶ岳の大自然を満喫</h2>
+                    </div>
+                    <p class="text">
                         ご滞在は追加料金の心配なくたくさんのおもてなしを楽しめるオールインクルーシブ。<br>
                         大人も子供もお酒好きな方もそうでない方も、皆さまが楽しめるたくさんのおもてなしをご用意。お家族、恋人、お友達との大切な思い出旅を演出します。
                     </p>
-                    <a href="">
+                    <a href="" class="flex">
                         <p class="btn"><span class="arrow"></span>ホテルのご案内</p>
                     </a>
+                    <ul class="slick">
+                        <li><img src="./image/about_slider-1.png"></li>
+                        <li><img src="./image/about_slider-2.png"></li>
+                        <li><img src="./image/about_slider-3.png"></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -403,32 +419,90 @@
         <div class="dinner content">
             <div class="inner">
                 <img class="title" src="./image/top_dinner_title.svg" alt="">
-                <img class="illust" src="./image/dinner_illust.svg" alt="">
+                <img class="illust-r" src="./image/dinner_illust.svg" alt="">
                 <div class="float-l con_mv">
                     <img src="./image/top_dinner_mv.png" alt="">
                 </div>
                 <div class="float-r con_text-r">
-                    <h2><span>美食フレンチ</span><br>美食フレンチと<br>オールインクルーシブの<br>マリアージュ</h2>
-                    <p>
+                    <div class="con_title">
+                        <p>美食フレンチ</p>
+                        <h2>美食フレンチと<br>オールインクルーシブの<br>マリアージュ</h2>
+                    </div>
+                    <p class="text">
                         ご滞在は、美食オールインクルーシブをテーマにした自由で快適なステイ。<br>
                         夕食時、バータイムはアルコールを含む約80種のお飲み物がフリードリンク。<br>
                         お食事は、ここでしか味わえない逸品のフレンチでおもてなしいたします。
                     </p>
-                    <a href="">
+                    <a href="" class="flex">
                         <p class="btn"><span class="arrow"></span>お食事のご案内</p>
                     </a>
+                    <ul class="slick">
+                        <li><img src="./image/dinner_slider-1.png"></li>
+                        <li><img src="./image/dinner_slider-2.png"></li>
+                        <li><img src="./image/dinner_slider-3.png"></li>
+                    </ul>
                 </div>
             </div>
         </div>
 
         <!-- 客室 -->
-        <div class="room">
-            <div class="inner"></div>
+        <div class="room content">
+            <div class="inner">
+                <img class="title" src="./image/top_room_title.svg" alt="">
+                <img class="illust-l" src="./image/room_illust.svg" alt="">
+                <div class="float-r con_mv">
+                    <img src="./image/top_room_mv.png" alt="">
+                </div>
+                <div class="float-l con_text-l">
+                    <div class="con_title">
+                        <p>お部屋の中でも森林浴を</p>
+                        <h2>春夏秋冬 表情の違う<br>八ヶ岳を愛でる10趣の客室</h2>
+                    </div>
+                    <p class="text">
+                        八ヶ岳の風は木々の薫りを身にまとい、こちらまでやってくる<br>
+                        星と月のほとりで過ごす、森の中のリゾートに身を委ね<br>
+                        ゆったりと癒しのひと時をお過ごしください
+                    </p>
+                    <a href="" class="flex">
+                        <p class="btn"><span class="arrow"></span>客室のご案内</p>
+                    </a>
+                    <ul class="slick">
+                        <li><img src="./image/room_slider-1.png"></li>
+                        <li><img src="./image/room_slider-2.png"></li>
+                        <li><img src="./image/room_slider-3.png"></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <!-- 露天風呂 -->
-        <div class="bath">
-            <div class="inner"></div>
+        <div class="bath content">
+            <div class="inner">
+                <img class="title" src="./image/top_bath_title.svg" alt="">
+                <img class="illust-l" src="./image/bath_illust.svg" alt="">
+                <div class="float-r con_mv">
+                    <img src="./image/top_bath_mv.png" alt="">
+                </div>
+                <div class="float-l con_text-l">
+                    <div class="con_title">
+                        <p>八ヶ岳の稜線を眺めながら、<br>のんびりと浸かる露天風呂。</p>
+                        <h2>【風香の湯】芹ヶ沢温泉に<br>つかり過ごす、極上の休日</h2>
+                    </div>
+                    <p class="text">
+                        いつもと違った旅にでかけ温泉につかりながら、木々の葉ずれの音に耳を傾ける。<br>
+                        喧騒とは無縁の地、八ヶ岳で心身をじっくり癒す、<br>
+                        癒しのひと時をお過ごしくださいませ
+                    </p>
+                    <a href="" class="flex">
+                        <p class="btn"><span class="arrow"></span>露天風呂のご案内</p>
+                    </a>
+                    <ul class="slick">
+                        <li><img src="./image/bath_slider-1.png"></li>
+                        <li><img src="./image/bath_slider-2.png"></li>
+                        <li><img src="./image/bath_slider-3.png"></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <!-- 体験宿泊プラン -->
@@ -458,6 +532,7 @@
 
     <!-- ↓↓↓ etc. ↓↓↓ -->
     <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
     <!-- ↑↑↑ etc. ↑↑↑ -->
 

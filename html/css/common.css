@@ -62,6 +62,7 @@ body{
     max-width: 148rem;
     margin: 0 auto;
     position: relative;
+    padding: 0 1rem;
 }
 .btn {
     color: #fff;
@@ -138,6 +139,7 @@ body{
     padding-left: 2rem;
     padding-right: 14rem;
     font-size: 1.4rem;
+    min-width: 130rem;
 }
 .global_menu_logo img{
     width: 18rem;
