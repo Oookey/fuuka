@@ -53,7 +53,7 @@
 }
 /* topic & news */
 .top_topic_news{
-    background-color: #F2EEE1;
+    background-color: var(--bg-brown-color);
     padding-top: 4.5rem;
 }
 .topics_title{
@@ -67,8 +67,6 @@
   color: var(--main-color);
   font-family: ab-kirigirisu, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-weight: bold;
   line-height: 4.3rem;
 }
 .topics_title h2 span{
@@ -259,23 +257,19 @@
   margin-bottom: 1.4rem;
   font-size: 1.8rem;
   color: var(--main-color);
-  font-weight: bold;
 }
 .card02 .slide-date {
   font-size: 1.4rem;
   line-height: 1;
   display: block;
   color: #868686;
+  font-weight: 400;
 }
 .card02 .slide-detail {
   line-height: 2.4rem;
-  /* display: -webkit-box;
-  overflow: hidden;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  height: 3.2em; */
   margin-top: 1.4rem;
   font-size: 1.4rem;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -360,7 +354,6 @@
   width: 14rem;
   border-radius: 2.2rem 0rem 0rem 2.2rem;
   font-family: 'Noto Sans JP', sans-serif;
-  font-weight: bold;
 }
 .top_news dl{
   display: flex;
@@ -370,7 +363,6 @@
   height: 7.7rem;
   border-radius: 0rem 2.2rem 2.2rem 0rem;
   color: var(--main-color);
-  font-weight: bold;
   font-size: 1.8rem;
   width: 86%;
 }
@@ -388,10 +380,10 @@
   line-height: 2.4rem;
 }
 /* まるごとおもてなし */
-.special{
+.special,.room,.plan,.tourism{
   position: relative;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top: 9vw;
+  padding-bottom: 9vw;
   background-image: url(../image/body_bg_top.png), url(../image/body_bg_bottom.png);
   background-position: 0 0, 0 100%;
   background-size: contain, contain;
@@ -402,7 +394,6 @@
   text-align: center;
   font-size: 3.6rem;
   color: var(--main-color);
-  font-weight: bold;
   letter-spacing: 1rem;
   line-height: 6rem;
 }
@@ -426,30 +417,21 @@
   -webkit-box-pack: justify;
   justify-content: space-between;
   position: relative;
-  padding-top: 6vw;
+  padding-top: 4rem;
 }
 .special_contents_inner{
   width: calc(50% - 1.25vw);
   flex-shrink: 0;
-  width: 100%;
+  width: 51rem;
   height: 100%;
   position: relative;
   transition-property: transform;
   max-width: 750px;
   display: block;
 }
-.special_contents_img{
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-}
-.special_contents_img figure{
+.special_contents_inner figure{
   clip-path: path('M257.227,495.833a430.935,430.935,0,0,1-206.251,0c-20.286-5.113-38.9-27.368-41.089-47.551a1910.475,1910.475,0,0,1,0-388.209c2.188-20.184,20.8-42.438,41.089-47.552a430.935,430.935,0,0,1,206.251,0c20.286,5.114,38.9,27.368,41.089,47.552a1910.475,1910.475,0,0,1,0,388.209c-2.188,20.183-20.8,42.438-41.089,47.551'); 
-   /* width: 100%;
-   padding-top: 100%; */
 }
-/* ======================= */
 .special .flex {
   display: -webkit-box;
   display: flex;
@@ -459,37 +441,15 @@
   width: 110rem;
   margin: 0 auto;
 }
-.special_contents {
-  position: relative;
-  padding-top: 6vw;
-}
-.special_contents_inner {
-  width: 51rem;
-}
-.special_contents_img {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-}
-.special_contents_img figure {
-  /* padding-top: 100%; */
+.special_contents_inner figure {
   clip-path: url(#mask-special);
   -webkit-clip-path: url(#mask-special);
   height: 31rem;
 }
-.special_contents_img figure {
+.special_contents_inner figure {
   width: 100%;
-  /* padding-top: 100%; */
 }
-.special_contents_img figure>.fit {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.special_contents_img figure>.fit>img {
+.special_contents_inner figure>img {
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: 50% 50%;
@@ -503,11 +463,112 @@
   font-size: 2.8rem;
   font-weight: bold;
   color: #fff;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 1rem;
   line-height: 3.7rem;
+  text-align: center;
+}
+.special_contents_text h2{
+  margin-bottom: 2.2rem;
+}
+.special .special_contents_inner:last-child .btn{
+  background-color: #3C2F09;
+}
+.special .concept{
+  display: flex;
+  margin-top: 7.7rem;
+}
+.special .concept .float-l,
+.special .concept .float-r{
+  width: 50%;
+}
+.special .concept .title{
+  text-align: left;
+  line-height: 4.5rem;
+  padding-right: 3rem;
+}
+.special .concept .title h2:nth-of-type(1){
+  color: var(--main-color);
+  font-size: 3.6rem;
+  letter-spacing: 1rem;
+  font-family: ab-kirigirisu, sans-serif;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+}
+.special .concept .title h2:nth-of-type(2){
+  font-size: 3.2rem;
+  color: #292929;
+  letter-spacing: 1rem;
+  letter-spacing: 0.4rem;
+}
+.special .concept .title img{
+  float: right;
+}
+.special .concept .float-r{
+  font-size: 2rem;
+  line-height: 3.8rem;
+  padding-left: 3rem;
+  padding-top: 4.7rem;
+}
+.special .concept .btn{
+  margin-top: 6.2rem;
+}
+.special .concept a:last-of-type .btn{
+  margin-left: 3.3rem;
+}
+/* ご案内 お食事 客室 露天風呂 */
+.about,.dinner,.bath{
+  background-color: var(--bg-brown-color);
+}
+.content {
+  display: flex;
+  position: relative;
+}
+.content .con_mv,.content .con_text-r,.content .con_text-l{
+  width: 50%;
+}
+.about .title,.dinner .title{
+  margin: 0 auto;
+  padding-bottom: 11.5rem;
+  display: flex;
+}
+.content .illust{
+  position: absolute;
+  z-index: 1;
+  right: 13rem;
+  top: 20rem;
+}
+.content .float-l img{
+  width: 100%;
+  height: 61rem;
+  object-fit: cover;
+  border-radius: 3.8rem;
+}
+.content .con_text-r{
+  padding-left: 6rem;
+}
+.content .con_text-l{
+  padding-right: 6rem;
+}
+.content .con_text-r,.content .con_text-l{
+  width: 50%;
+  position: relative;
+}
+.content .con_text-r h2,.content .con_text-l h2{
+  font-size: 3.4rem;
+  letter-spacing: 1.3rem;
+  line-height: 4.6rem;
+  margin-bottom: 3.4rem;
+}
+.content .con_text-r h2 span,.content .con_text-l h2 span{
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  line-height: 6rem;
+}
+.content .con_text-r p,.content .con_text-l p{
+  line-height: 2.6rem;
 }
 
 /* ----- まるごとおもてなし ----- */

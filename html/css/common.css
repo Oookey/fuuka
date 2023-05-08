@@ -14,6 +14,7 @@ body{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #292929;
     letter-spacing: 0.1rem;
+    font-weight: bold;
 }
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -41,6 +42,17 @@ body{
     font-size: 1.4rem;
 }
 
+.float-r{
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+.float-l{
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
 .c1{color: var(--main-color) !important;}
 .bg_b_c{color: var(--bg-brown-color) !important;}
 .shadow{box-shadow: 0px 0px 12px rgba( 0, 0, 0, 0.16);}
@@ -49,10 +61,25 @@ body{
     width: 100%;
     max-width: 148rem;
     margin: 0 auto;
+    position: relative;
+}
+.btn {
+    color: #fff;
+    font-size: 1.6rem;
+    background-color: var(--main-color);
+    border-radius: 3rem;
+    padding: 1rem 2.5rem;
+    letter-spacing: 0.3rem;
+    line-height: 3rem;
+    float: left;
 }
 @media only screen and (max-width: 767px){
     .inner{
         padding: 0 2rem;
+    }
+    .btn{
+        font-size: 2.4rem;
+        float: none;
     }
 }
 .arrow {
