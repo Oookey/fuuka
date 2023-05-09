@@ -1,20 +1,34 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-/* お食事 */
-.bg_wave{
-    position: relative;
-    padding-top: 9vw;
-    padding-bottom: 9vw;
-    background-image: url(../image/body_bg_top.png), url(../image/body_bg_bottom.png);
-    background-position: 0 0, 0 100%;
-    background-size: contain, contain;
-    background-repeat: no-repeat, no-repeat;
-    background-color: #fff;
+/* サブページの導入部分 */
+.pageinfo{
+    width: 100%;
+}
+.pageinfo_inner{
+    text-align: center;
+}
+.pageinfo_inner h2{
+    font-size: 3.2rem;
+    line-height: 4.6rem;
+    margin-bottom: 5rem;
+    letter-spacing: 9.6px;
+    padding-top: 9.9rem;
+}
+.pageinfo_inner p{
+    font-size: 2rem;
+    line-height: 3.8rem;
+    padding-bottom: 6rem;
 }
 
 
+/* お食事 */
+.c_info_bg{
+    background-image: url(../image/pagetitle_cuisine.png), url(../image/cuisine_bg_illest1.png);
+    background-size: 35.2rem auto, 26.6rem auto;
+    background-position: left 5.5rem, right 7rem top 7rem;
+    background-repeat: no-repeat, no-repeat;
+}
 
 
 
