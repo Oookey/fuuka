@@ -56,6 +56,16 @@ body{
 .c1{color: var(--main-color) !important;}
 .bg_b_c{background-color: var(--bg-brown-color) !important;}
 .shadow{box-shadow: 0px 0px 12px rgba( 0, 0, 0, 0.16);}
+.bg_wave{
+    position: relative;
+    padding-top: 9vw;
+    padding-bottom: 9vw;
+    background-image: url(../image/body_bg_top.png), url(../image/body_bg_bottom.png);
+    background-position: 0 0, 0 100%;
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #fff;
+}
 
 .inner{
     width: 100%;
