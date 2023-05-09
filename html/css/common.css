@@ -34,14 +34,14 @@ body{
     --bg-brown-color:#F2EEE1;
 	--brown-color:#64562F;
 }
-
+/* フォントサイズ */
 .fs08{
     font-size: 0.8rem;
 }
 .fs14{
     font-size: 1.4rem;
 }
-
+/* float */
 .float-r{
     float: right;
     position: relative;
@@ -93,6 +93,7 @@ body{
         float: none;
     }
 }
+/* 矢印 */
 .arrow {
     display: inline-block;
     vertical-align: middle;

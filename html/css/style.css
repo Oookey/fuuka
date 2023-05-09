@@ -404,16 +404,6 @@
   line-height: 2.4rem;
 }
 /* まるごとおもてなし */
-.special,.room,.plan,.tourism{
-  position: relative;
-  padding-top: 9vw;
-  padding-bottom: 9vw;
-  background-image: url(../image/body_bg_top.png), url(../image/body_bg_bottom.png);
-  background-position: 0 0, 0 100%;
-  background-size: contain, contain;
-  background-repeat: no-repeat, no-repeat;
-  background-color: #fff;
-}
 .special .title{
   text-align: center;
   font-size: 3.6rem;
@@ -543,9 +533,6 @@
   margin-left: 3.3rem;
 }
 /* ご案内 お食事 客室 露天風呂 */
-.about,.dinner,.bath{
-  background-color: var(--bg-brown-color);
-}
 .content {
   display: flex;
   position: relative;
