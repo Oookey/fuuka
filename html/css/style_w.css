@@ -3,7 +3,16 @@
 
 
 /* お食事 */
-
+.bg_wave{
+    position: relative;
+    padding-top: 9vw;
+    padding-bottom: 9vw;
+    background-image: url(../image/body_bg_top.png), url(../image/body_bg_bottom.png);
+    background-position: 0 0, 0 100%;
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #fff;
+}
 
 
 
