@@ -79,7 +79,7 @@ body{
     font-size: 1.6rem;
     background-color: var(--main-color);
     border-radius: 3rem;
-    padding: 1rem 2.5rem;
+    padding: 1.2rem 2.8rem;
     letter-spacing: 0.3rem;
     line-height: 3rem;
     float: left;
@@ -140,23 +140,17 @@ body{
   padding-bottom: 11.5rem;
   display: flex;
 }
+.content .illust{
+    position: absolute;
+    z-index: 1;
+}
 .content .illust-r{
-  position: absolute;
-  z-index: 1;
   right: 10rem;
   top: 20rem;
 }
 .content .illust-l{
-  position: absolute;
-  z-index: 1;
   left: 10rem;
   top: 16rem;
-}
-.content .illust-bath{
-  position: absolute;
-  z-index: 1;
-  bottom: -27.3rem;
-  right: 20rem;
 }
 .content .float-l img,.content .float-r img{
   width: 100%;

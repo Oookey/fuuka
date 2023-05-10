@@ -78,3 +78,19 @@ $(function(){
       dotsClass: "slick_exp-dots",
   });
 });
+ 
+// 八ヶ岳周辺観光
+$(function(){
+  $('.slick_tourism').slick({
+      autoplay: true,
+      dots: false,
+      infinite: true,
+      speed: 1500,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true,
+      initialSlide:5,
+      autoplaySpeed:1500,
+      arrows:false,
+  });
+});
