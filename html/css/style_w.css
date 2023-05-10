@@ -29,6 +29,88 @@
     background-position: left 5.5rem, right 7rem top 7rem;
     background-repeat: no-repeat, no-repeat;
 }
+.menu_navi{
+    text-align: center;
+}
+.cuisine_subtitle{
+    width: 42rem;
+    margin-bottom: 4.1rem;
+}
+.menu_navi p{
+    font-size: 2rem;
+    line-height: 3.8rem;
+    margin-bottom: 4.9rem;
+}
+.menu_navi_inner{
+    width: 100%;
+    max-width: 102rem;
+    overflow: hidden;
+    margin: 0 auto 4rem;
+}
+.menu_navi_left{
+    float: left;
+    background-image: url(../image/cuisine_bg_wrap1.png);
+    background-size: cover;
+    background-position: center;
+    width: 46.2rem;
+    height: 32.8rem;
+    padding-top: 3rem;
+}
+.menu_navi p.menu_navi_title{
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 4.6rem;
+    color:#A38319;
+    margin-bottom: 1rem;
+}
+.menu_navi_line{
+    width: 33rem;
+    height: 0.4rem;
+    color:#A38319;
+    background-color: #A38319;
+    border-radius: 20rem;
+    margin: 0 auto 2.8rem;
+}
+.menu_navi p.menu_navi_info{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2.6rem;
+    line-height: 2.6rem;
+}
+.menu_navi_inner a{
+    display: inline-block;
+}
+.menu_navi_inner a p{
+    font-size: 2.2rem;
+    color: #A38319;
+    margin-bottom: 0;
+}
+.menu_navi .menu_navi_inner a p span.arrow{
+
+}
+.menu_navi_right{
+    float: right;
+    background-image: url(../image/cuisine_bg_wrap2.png);
+    background-size: cover;
+    background-position: center;
+    width: 46.2rem;
+    height: 32.8rem;
+    padding-top: 3rem;
+    color: var(--main-color);
+}
+.menu_navi .menu_navi_right p.menu_navi_title{
+    color: var(--main-color);
+}
+.menu_navi .menu_navi_right .menu_navi_line{
+    color: var(--main-color);
+    background-color: var(--main-color);
+}
+.menu_navi_inner .menu_navi_right a p{
+    color: var(--main-color);
+}
+
+
+
 
 
 
