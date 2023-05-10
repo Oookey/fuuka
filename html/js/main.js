@@ -94,3 +94,51 @@ $(function(){
       arrows:false,
   });
 });
+
+//インスタグラム
+const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-slide').length;
+
+  const params = {
+    slidesPerView: 'auto',
+    loop: true,
+    loopedSlides: slideLength,
+    speed: 8000,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    freeMode: {
+      enabled: true,
+      momentum: false,
+    },
+    grabCursor: true,
+    spaceBetween: 14, // スライド間余白
+  }
+
+  const initSwiper = () => {
+    const mySwiper_a = new Swiper('.insta_slide .swiper-a', {
+      ...params,
+      on: {
+        touchEnd: (swiper) => {
+          swiper.slideTo(swiper.activeIndex + 1);
+        }
+      }
+    });
+
+    const mySwiper_b = new Swiper('.insta_slide .swiper-b', {
+      ...params,
+      autoplay: {
+        ...params.autoplay,
+        reverseDirection: true
+      },
+      on: {
+        touchEnd: (swiper) => {
+          swiper.slideTo(swiper.activeIndex - 1);
+        }
+      }
+    });
+  };
+
+  window.addEventListener('load', function(){
+    initSwiper();
+  }); 

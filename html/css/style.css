@@ -821,6 +821,80 @@
   font-size: 2.2rem;
   margin: 3rem 0 1.5rem;
 }
+/* インスタグラム */
+.instagram .title{
+  text-align: center;
+  letter-spacing: 0.3rem;
+  margin-bottom: 5.5rem;
+}
+.instagram .title h2{
+  font-family: ab-kirigirisu, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 4.5rem;
+}
+.instagram .title h2::before{
+  content: url(../image/icon_instagram.svg);
+  position: relative;
+  top: 4px;
+  margin: 0 12px 0 0;
+}
+.l-section {
+  border-top: 1px solid #eee;
+}
+.l-section .l-inner {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+[class*=swiper]:focus {
+  outline: none;
+}
+
+.slide-media,
+.thumb-media {
+  position: relative;
+  overflow: hidden;
+}
+.slide-media img,
+.thumb-media img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2.2rem;
+}
+.insta_slide {
+  margin-bottom: 16rem;
+}
+.insta_slide .l-inner {
+  padding-bottom: 0;
+}
+.insta_slide .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+          transition-timing-function: linear !important;
+}
+.insta_slide .swiper-slide {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.insta_slide .slide {
+  width: var(--slide-width);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  --slide-width: 23rem;
+}
+.insta_slide .slide-media {
+  height: var(--slide-width);
+}
+.swiper-b{
+  margin-top: 1.4rem;
+}
 
 /* ----- まるごとおもてなし ----- */
 
