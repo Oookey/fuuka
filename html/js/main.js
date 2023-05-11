@@ -65,7 +65,7 @@ $(function(){
   $('.slick_exp').slick({
       autoplay: true,//自動的に動き出すか。初期値はfalse。
       infinite: true,//スライドをループさせるかどうか。初期値はtrue。
-      speed: 1300,//スライドのスピード。初期値は300。
+      speed: 1500,//スライドのスピード。初期値は300。
       autoplaySpeed:5000,
       slidesToShow: 1,//スライドを画面に3枚見せる
       slidesToScroll: 1,//1回のスクロールで1枚の写真を移動して見せる
@@ -102,7 +102,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-sl
     slidesPerView: 'auto',
     loop: true,
     loopedSlides: slideLength,
-    speed: 8000,
+    speed: 10000,
     autoplay: {
       delay: 0,
       disableOnInteraction: false,

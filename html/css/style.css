@@ -548,7 +548,7 @@
   padding-top: 23rem;
   padding-bottom: 23rem;
 }
-.plan .title,.news .title,.hotel .title{
+.plan .title,.news .title,.hotel .title,.map .title{
   font-size: 3rem;
   margin: 0 auto;
   text-align: center;
@@ -822,6 +822,10 @@
   margin: 3rem 0 1.5rem;
 }
 /* インスタグラム */
+.instagram{
+  padding-top: 7rem;
+  padding-bottom: 57rem;
+}
 .instagram .title{
   text-align: center;
   letter-spacing: 0.3rem;
@@ -866,9 +870,6 @@
      object-fit: cover;
   border-radius: 2.2rem;
 }
-.insta_slide {
-  margin-bottom: 16rem;
-}
 .insta_slide .l-inner {
   padding-bottom: 0;
 }
@@ -894,6 +895,78 @@
 }
 .swiper-b{
   margin-top: 1.4rem;
+}
+/* map */
+.map_bg{
+  position: relative;
+  padding-top: 1vw;
+  padding-bottom: 9vw;
+  background-image: url(../image/body_bg_top.png);
+  background-position: 0 0, 0 100%;
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #fff;
+ }
+.map{
+  position: relative;
+}
+.map .inner{
+  position: absolute !important;
+  top: -47rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.map .title{
+  margin-bottom: 4.5rem;
+}
+.map .googlemap{
+  margin: 0 auto;
+  max-width: 144rem;
+  width: 90%;
+  height: 73rem;
+  position: relative;
+}
+.map .googlemap iframe{
+  margin: 0 auto;
+  max-width: 144rem;
+  width: 100%;
+  height: 73rem;
+  border-radius: 8rem;
+}
+.map .address{
+  display: flex;
+  justify-content: flex-start;
+  margin: 5.6rem auto 0;
+  max-width: 144rem;
+  width: 90%;
+  letter-spacing: 0.1rem;
+  margin-bottom: 18rem;
+}
+.map .address h2{
+  font-size: 2.6rem;
+  white-space: nowrap;
+  display: flex;
+  align-items: flex-start;
+  line-height: 3.2rem;
+}
+.map .address h2::after{
+  content:"";
+  display:inline-block;
+  width:3px;
+  height:57px;
+  background-color:#707070;
+  margin-left: 4rem;
+}
+.map .address div{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.map .address p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-left: 4rem;
+  white-space: nowrap;
 }
 
 /* ----- まるごとおもてなし ----- */
