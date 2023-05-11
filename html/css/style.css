@@ -956,6 +956,7 @@
   height:57px;
   background-color:#707070;
   margin-left: 4rem;
+  border-radius: 0.2rem;
 }
 .map .address div{
   display: flex;
