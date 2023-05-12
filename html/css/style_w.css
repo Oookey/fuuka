@@ -110,7 +110,69 @@
     color: var(--main-color);
 }
 
+.meal_menu{
+    border-top:2px solid var(--main-color);
+    border-bottom:1px solid var(--main-color);
+    width:67rem;
+    margin-top:7rem;
+}
 
+#cuisine .content .con_text-r, #cuisine .content .con_text-l{
+    height: auto;
+}
+
+/*アコーディオンメニュー*/
+.accordion {
+    max-width: 76vw;
+    }
+    .toggle {
+    display: none;
+    }
+    .option {
+    position: relative;
+    }
+    .accordion_title,
+    .accordion_content {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: all 0.3s;
+    }
+    .accordion_title {
+    display: block;
+    font-size:2.4rem;
+    padding: 2.5rem 0 2.5rem 7.2rem;
+    letter-spacing: 0.3rem;
+    color: var(--main-color);
+    }
+    .accordion_title::after,
+    .accordion_title::before {
+    content: "";
+    position: absolute;
+    left: 2.6em;
+    top:3rem;
+    width: 2px;
+    height: 0.75em;
+    background-color: var(--main-color);
+    transition: all 0.3s;
+    border-radius: 2rem;
+    }
+    .accordion_title::after {
+    transform: rotate(90deg);
+    }
+    .accordion_content {
+    max-height: 0;
+    overflow: hidden;
+    }
+    
+    .toggle:checked + .accordion_title + .accordion_content {
+    max-height: 100rem;
+    transition: all 1.5s;
+    }
+    .toggle:checked + .accordion_title::before {
+    transform: rotate(90deg) !important;
+    }
+/* ================ */
 
 
 
