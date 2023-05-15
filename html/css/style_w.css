@@ -23,6 +23,19 @@
 
 
 /* お食事 */
+#cuisine .top_fv_movie .in{
+    padding-bottom: 90rem;
+}
+#cuisine .top_fv_movie .movie{
+    padding-top: 10rem;
+}
+#cuisine .top_fv{
+    height: 90rem;
+}
+#cuisine .top_fv::before{
+    height: 15rem;
+}
+
 .c_info_bg{
     background-image: url(../image/pagetitle_cuisine.png), url(../image/cuisine_bg_illest1.png);
     background-size: 35.2rem auto, 26.6rem auto;
@@ -86,9 +99,7 @@
     color: #A38319;
     margin-bottom: 0;
 }
-.menu_navi .menu_navi_inner a p span.arrow{
 
-}
 .menu_navi_right{
     float: right;
     background-image: url(../image/cuisine_bg_wrap2.png);
@@ -110,7 +121,193 @@
     color: var(--main-color);
 }
 
+.meal_menu{
+    border-top:2px solid var(--main-color);
+    border-bottom:1px solid var(--main-color);
+    width:67rem;
+    margin-top:7rem;
+}
 
+#cuisine .content .con_text-r, #cuisine .content .con_text-l{
+    height: auto;
+}
+#cuisine .cuisine_content.content.bg_b_c {
+    padding-bottom: 0;
+}
+
+#cuisine .cuisine_content .inner{
+    padding:7rem 0;
+}
+#cuisine .cuisine_content .inner.img_bg_2{
+    padding-top: 12rem;
+    padding-bottom: 9rem;
+}
+#cuisine .cuisine_content .inner.img_bg_3{
+    padding-top: 12rem;
+    padding-bottom: 9rem;
+}
+.cuisine_inline_menu{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5.5rem;
+    margin-bottom: 4rem;
+}
+.cuisine_inline_menu .float-l, .cuisine_inline_menu .float-r{
+    width: 50%;
+}
+.cuisine_inline_menu p{
+    line-height: 2.6rem;
+}
+.cuisine_inline_menu p.p1{
+    font-size: 2rem;
+    padding-bottom: 1.6rem;
+}
+.cuisine_content .kome{
+    font-size: 1.4rem;
+    text-indent: -1.4em;
+    padding-left: 1.4em;
+    line-height: 2.6rem;
+}
+
+.img_bg_1, .img_bg_2, .img_bg_3{
+    position: relative;
+}
+.img_bg_1::before{
+    content: "";
+    position: absolute;
+    width: 26.7rem;
+    height: 9.1rem;
+    background-image: url(../image/cuisine_illest1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -8rem;
+    left: 13rem;
+}
+.img_bg_1::after{
+    content: "";
+    position: absolute;
+    width: 21.4rem;
+    height: 13.8rem;
+    background-image: url(../image/cuisine_illest2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0rem;
+    left: 13rem;
+    bottom: -10rem;
+    left: 109rem;
+}
+.img_bg_2::before{
+    content: "";
+    position: absolute;
+    width: 35.6rem;
+    height: 26.7rem;
+    background-image: url(../image/cuisine_illest3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -24rem;
+    left: 100rem;
+}
+.img_bg_2::after{
+    content: "";
+    position: absolute;
+    width: 8.5rem;
+    height: 13.8rem;
+    background-image: url(../image/cuisine_illest4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0rem;
+    left: 13rem;
+    bottom: -11.5rem;
+    left: 96rem;
+}
+.img_bg_3::before{
+    content: "";
+    position: absolute;
+    width: 28.4rem;
+    height: 25.3rem;
+    background-image: url(../image/cuisine_bg_photo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -18rem;
+    left: 109rem;
+}
+.img_bg_3::after{
+    content: "";
+    position: absolute;
+    width: 25.2rem;
+    height: 21.5rem;
+    background-image: url(../image/cuisine_bg_photo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0rem;
+    left: 13rem;
+    bottom: -11rem;
+    left: 25rem;
+}
+
+/*アコーディオンメニュー*/
+.accordion {
+    max-width: 76vw;
+    }
+    .toggle {
+    display: none;
+    }
+    .option {
+    position: relative;
+    }
+    .accordion_title,
+    .accordion_content {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: all 0.3s;
+    }
+    .accordion_title {
+    display: block;
+    font-size:2.4rem;
+    padding: 2.5rem 0 2.5rem 9.2rem;
+    letter-spacing: 0.3rem;
+    color: var(--main-color);
+    }
+    .accordion_title::after,
+    .accordion_title::before {
+    content: "";
+    position: absolute;
+    left: 2.6em;
+    top:3rem;
+    width: 0.3rem;
+    height: 0.75em;
+    background-color: var(--main-color);
+    transition: all 0.3s;
+    border-radius: 2rem;
+    }
+    .accordion_title::after {
+    transform: rotate(90deg);
+    }
+    .accordion_content {
+    max-height: 0;
+    overflow: hidden;
+    }
+    .meal_menu_text_inner{
+        padding: 0 0 0 3.6rem;
+        line-height: 2.6rem;
+    }
+    .meal_menu_text_inner:first-child{
+        padding-top: 4.5rem;
+    }
+    .meal_menu_text_inner:last-child{
+        padding-bottom: 5rem;
+    }
+    .toggle:checked + .accordion_title + .accordion_content {
+    max-height: 100rem;
+    transition: all 1.5s;
+    border-top:1px solid var(--main-color);
+    /* padding: 4.5rem 0 5rem 3.6rem; */
+    }
+    .toggle:checked + .accordion_title::before {
+    transform: rotate(90deg) !important;
+    }
+/* ================ */
 
 
 
