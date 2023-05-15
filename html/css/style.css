@@ -300,12 +300,6 @@
   html {
     -webkit-text-size-adjust: 100%;
   }
-  .l-inner {
-    padding: 0 4rem;
-  }
-  .pc {
-    display: none !important;
-  }
 }
 
 @media only screen and (max-width: 599px) {
@@ -401,7 +395,7 @@
 }
 .top_news dd{
   margin-left: 2rem;
-  line-height: 2.4rem;
+  line-height: 2.7rem;
 }
 /* まるごとおもてなし */
 .special .title{
@@ -968,6 +962,111 @@
   line-height: 3.2rem;
   margin-left: 4rem;
   white-space: nowrap;
+}
+@media screen and ( max-width:1024px ){
+  /* 体験宿泊プラン */
+  .slick-next {
+    right: 2rem !important;
+  }
+  .slick-prev {
+    left: 2rem !important;
+}
+}
+@media screen and (max-width: 767px){
+  /* FV */
+  .top_fv{
+    padding-right: 0rem;
+    height: 72rem;
+  }
+  .top_fv_text{
+    right: 5rem;
+  }
+  .top_fv_text p{
+    font-size: 2rem;
+    padding: 3rem 1rem;
+  }
+  /* topics */
+  .top_topic_news{
+    padding-top: 14rem;
+  }
+  .topics_title{
+    width: 100%;
+  }
+  .topics_title h2{
+    font-size: 3.6rem;
+    text-align: left;
+  }
+  .topics_title h2 span{
+    font-size: 1.6rem;
+  }
+  .topics_title img{
+    margin: 0;
+    width: 16.6rem;
+    position: absolute;
+    right: 4rem;
+    bottom: -61rem;
+  }
+  /* slider */
+  .l-inner{
+    width: 93vw;
+    margin-top: 4rem;
+    height: 51rem;
+  }
+  .card02 .swiper-controller{
+    width: 88vw;
+  }
+  .swiper-button-prev::after, .swiper-button-next::after{
+    width: 3.3rem;
+    height: 2.1rem;
+  }
+  /* news */
+  .top_news{
+    margin-top: 13.5rem;
+    position: relative;
+    height: auto;
+    border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+  }
+  .top_news h2{
+    position: absolute;
+    top: -4rem;
+    left: 0;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
+    background-color: var(--main-color);
+    border-radius: 1.6rem 1.6rem 0 0;
+    width: 10rem;
+  }
+  .top_news dl{
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 2.5rem 2rem 1.5rem;
+    border-radius: 0rem 1.6rem 1.6rem 1.6rem;
+  }
+  .top_news dt{
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .top_news dd {
+    margin: 0;
+  }
+  .top_news dd:last-child {
+    width: 100%;
+    text-align: right;
+    border-top: dashed #C9C9C9 0.2rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+  }
+  .top_news dl a{
+    margin: 0;
+  }
+
+  /* map */
+  .map .address{
+    flex-wrap: wrap;
+  }
 }
 
 /* ----- まるごとおもてなし ----- */

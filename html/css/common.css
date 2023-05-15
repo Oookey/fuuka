@@ -1,11 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 /* ----- 共通CSS ----- */
-.pc{display: inherit !important;}
+/* .pc{display: block !important;} */
 .sp{display: none !important;}
+@media screen and ( max-width:1024px ){
+    .pc,.sp{display: none !important;}
+    /* .tablet{display: block !important;} */
+}
 @media screen and ( max-width:767px ){
-	.pc{display: none !important;}
-	.sp{display: inherit !important;}
+	.pc,.tablet{display: none !important;}
+	.sp{display: block !important;}
 }
 html{font-size: 62.5%;}
 body{
@@ -86,6 +90,9 @@ body{
     letter-spacing: 0.3rem;
     line-height: 3rem;
     float: left;
+}
+.difference {
+    mix-blend-mode: difference;
 }
 @media only screen and (max-width: 767px){
     .inner{
@@ -289,6 +296,14 @@ body{
 .global_menu_other .arrow{
     color: var(--main-color);
 }
+@media screen and (max-width: 1024px){
+    .global_menu{
+        justify-content: flex-start;
+    }
+    .global_menu_logo img{
+        margin-right: 5.6rem;
+    }
+}
 /* ハンバーガーメニュー */
 .hamburger{
     cursor: pointer;
@@ -369,7 +384,8 @@ body{
 }
 #g-nav .nav_bg {
     background-image: url(../image/menu_bg.png);
-    width: 30%;
+    width: 28%;
+    /* max-width: 56.5rem; */
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -377,10 +393,11 @@ body{
 }
 #g-nav .nav_access {
     position: absolute;
-    top: 7rem;
+    top: 9rem;
     left: 34%;
     color: #292929;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    width: 22%;
 }
 .nav_btn a {
     display: flex;
@@ -388,15 +405,16 @@ body{
     align-items: center;
 }
 #g-nav .nav_access img {
-    width: 28rem;
+    width: 32rem;
     height: auto;
     margin-bottom: 3.5rem;
     mix-blend-mode: multiply;
+    margin-left: -4rem;
 }
 #g-nav .nav_content {
     position: absolute;
-    top: 9rem;
-    left: calc(34% + 26rem);
+    top: 11rem;
+    left: calc(40% + 24rem);
     color: #292929;
     width: 38%;
     min-width: 44rem;
@@ -437,9 +455,10 @@ body{
     font-size: 2.2rem;
 }
 #g-nav .nav_mc p {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     margin-left: 4.2rem;
     margin-top: 0.4rem;
+    white-space: nowrap;
 }
 #g-nav .nav_sub{
     width: 16rem;
@@ -484,6 +503,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
+    color: #292929;
+    border-radius: 0;
 }
 #g-nav .nav_sns {
     font-family: 'Noto Sans JP', sans-serif;
@@ -518,8 +540,344 @@ body{
 }
 
 /* ----- Fix menu ----- */
-
-
+.sns_menu.difference {
+    bottom: 18rem;
+    right: 2.8rem;
+    z-index: 2;
+}
+.sns_menu {
+    justify-content: end;
+    position: fixed;
+    bottom: 18rem;
+    right: 2.8rem;
+    z-index: 2;
+    padding-top: 3rem;
+    text-align: center;
+}
+.sns_menu_inner {
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+.insta_icon {
+    margin-bottom: 2rem;
+}
+.insta_icon a {
+    display: inline-block;
+}
+.sns_menu {
+    justify-content: end;
+    position: fixed;
+    right: 0;
+    bottom: 2rem;
+    z-index: 4;
+    padding-top: 3rem;
+    text-align: center;
+    color: #fff;
+}
+.page-top_reserve_btn {
+    position: relative;
+    background-color: var(--main-color);
+}
+.page-top {
+    position: absolute;
+    width: 5.3rem;
+    height: 5.3rem;
+    background-color: #EAEAEA;
+    border-radius: 50%;
+    right: 14rem;
+    bottom: 0rem;
+    cursor: pointer;
+}
+.page-top a {
+    display: inline-block;
+    height: 5.3rem;
+    width: 5.3rem;
+}
+.page-top a:before {
+    content: "";
+    left: 2.2rem;
+    width: 1rem;
+    height: 1rem;
+    top: 2.3rem;
+    border-top: 2px solid #707070;
+    border-right: 2px solid #707070;
+    transform: rotate(-45deg);
+    position: absolute;
+}
+.hotel_reserve_btn {
+    width: 10.1rem;
+    box-shadow: 0px 0px 12px #00000029;
+    z-index: 999;
+    position: relative;
+    cursor: pointer;
+}
+.hotel_reserve_btn p {
+    line-height: 2.5rem;
+    letter-spacing: 0.36rem;
+    color: #fff;
+}
+.hotel_reserve_btn p:first-child {
+    padding: 4rem 0 1.1rem;
+}
+.hotel_reserve_btn p:last-child {
+    padding-bottom: 3rem;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+}
+.hotel_reserve_inner {
+    position: fixed;
+    z-index: 998;
+    bottom: 2rem;
+    right: -120%;
+    width: 91rem;
+    height: auto;
+    transition: all 0.6s;
+    padding: 21rem 0rem 10rem 8rem;
+    margin: 0rem 6rem -10rem -3rem;
+}
+.box_search_489ban {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: table;
+    line-height: 1 !important;
+    background: #fff;
+}
+.box_search_489ban #search_489ban {
+    overflow: hidden;
+}
+#search_489ban {
+    padding: 2rem 3rem;
+    background: #fff;
+    box-shadow: 0px 0px 12px #00000029;
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 15.6rem;
+}
+.box_search_489ban > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+#search_489ban form {
+    display: flex;
+    align-items: flex-end;
+}
+#search_489ban dl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#search_489ban dt {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+#search_489ban dt, #search_489ban dd {
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    vertical-align: top;
+}
+.box_search_489ban #search_489ban dt {
+    padding: 0 0 5px;
+    font-size: 16px;
+    color: #000 !important;
+}
+#search_489ban label {
+    font-size: 1.2rem;
+}
+#search_489ban dd span, #search_489ban label, #search_489ban input, #search_489ban select {
+    display: inline-block;
+    font-weight: 400;
+}
+#search_489ban input, #search_489ban select {
+    border: solid #707070 0.1rem;
+    font-size: 1.7rem;
+    padding: 0.5rem 1rem 0.6rem 0.5rem;
+    letter-spacing: 0.1rem;
+    height: 4rem;
+    outline: none;
+    background: #fff url(https://www.oyadonet.com/489/kuro/489ban_calender.png) no-repeat right 10px center;
+    background-size: 16px;
+    cursor: pointer;
+}
+#search_489ban label input {
+    margin-left: 2.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.1rem;
+    cursor: pointer;
+}
+#search_489ban .inbox_489ban {
+    margin-left: 4rem;
+    margin-right: 6rem;
+}
+#search_489ban .stay_489ban, #search_489ban .room_489ban, #search_489ban .person_489ban {
+    width: 50%;
+    float: left;
+}
+#search_489ban .stay_489ban dt, #search_489ban .room_489ban dt, #search_489ban .person_489ban dt {
+    width: auto;
+}
+.box_search_489ban #search_489ban select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://www.oyadonet.com/489/kuro/489ban_select.png) no-repeat right 5px center #fff;
+    background-size: 6px;
+    width: 80px;
+    cursor: pointer;
+}
+.box_search_489ban #search_489ban button {
+    float: left;
+    width: 198px;
+    height: 50px;
+    padding: 2px 0 0 18px;
+    -webkit-appearance: button;
+    appearance: button;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+    background: url(https://www.oyadonet.com/489/kuro/489ban_btn.png) no-repeat 40px center #292929;
+    background-size: 18px;
+    text-align: center;
+}
+#search_489ban button {
+    padding: 1.6rem 6rem;
+    background-color: #292929;
+    color: #fff;
+    font-size: 1.7rem;
+    font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+}
+.box_search_489ban ul {
+    clear: both;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+    margin-top: 1.5rem;
+}
+#search_489ban li {
+    list-style: none;
+    display: inline-block;
+}
+.box_search_489ban ul li {
+    font-size: 14px;
+    width: auto;
+    margin: 0 35px 0 0;
+}
+.box_search_489ban ul li.ico_489ban1 a {
+    background: url(https://www.oyadonet.com/489/kuro/489ban_ico1.png) no-repeat 0 12px;
+    background-size: 19px;
+    padding: 15px 0 3px 25px;
+}
+.box_search_489ban ul li a {
+    display: inline-block;
+    color: #566875 !important;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.box_search_489ban ul li.ico_489ban2 a {
+    background: url(https://www.oyadonet.com/489/kuro/489ban_ico2.png) no-repeat 0 13px;
+    background-size: 26px;
+    padding: 15px 0 3px 32px;
+}
+.box_search_489ban ul li.ico_489ban3 a {
+    background: url(https://www.oyadonet.com/489/kuro/489ban_ico3.png) no-repeat 0 12px;
+    background-size: 16px;
+    padding: 15px 0 3px 23px;
+}
+.box_search_489ban ul li.ico_489ban4 a {
+    background: url(https://www.oyadonet.com/489/kuro/489ban_ico4.png) no-repeat 0 14px;
+    background-size: 14px;
+    padding: 15px 0 3px 20px;
+}
+#search_489ban .inbox_489ban:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+@media screen and (max-width: 767px){
+    .hotel_reserve_btn.bg3 {
+        position: fixed;
+        z-index: 997;
+        bottom: 0;
+        width: 8.8rem;
+        height: 11rem;
+    }
+    .hotel_reserve_btn p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .hotel_reserve_btn p:first-child {
+        padding: 2.6rem 0 0.9rem;
+        line-height: 2.1rem;
+    }
+    .hotel_reserve_btn p:last-child {
+        padding-bottom: 0.8rem;
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    #search_489ban {
+        padding: 0;
+        height: 11rem;
+    }
+    #search_489ban form {
+        align-items: flex-start;
+        width: 60%;
+        min-width: 34rem;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+    #search_489ban dl {
+        position: relative;
+    }
+    .box_search_489ban #search_489ban dt {
+        margin-bottom: 0.5rem;
+        padding-bottom: 0;
+    }
+    #search_489ban label {
+        height: 1.3rem;
+    }
+    #search_489ban dd {
+        display: flex;
+        flex-direction: column;
+    }
+    #search_489ban input {
+        min-width: 13rem;
+        padding: 1.2rem 3rem 1.2rem 0rem;
+        align-items: center;
+    }
+    #search_489ban input, #search_489ban select {
+        letter-spacing: 0;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+    #search_489ban label input {
+        margin-left: 0.5rem;
+        height: 1.3rem;
+        min-width: auto;
+    }
+    #search_489ban .inbox_489ban {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box_search_489ban #search_489ban select {
+        width: 5.7rem;
+        padding: 1rem;
+    }
+    .box_search_489ban #search_489ban button {
+        width: 11.3rem;
+        margin-top: 1.12rem;
+        background-size: 1.4rem;
+        background-position: 1.8rem;
+        padding-left: 24px;
+    }
+}
 
 /* ----- Footer ----- */
 footer,.footer_img,.footer_img img {
@@ -697,4 +1055,23 @@ footer .hotel_net p {
 }
 .footer2 .flex {
     justify-content: center;
+}
+@media screen and (max-width: 1126px){
+    .each_page {
+        width: 51rem !important;
+        font-size: 1.4rem;
+    }
+    .btn_box{
+        width: 50rem !important;
+        margin-top: 0 !important;
+    }
+    .white_btn{
+        margin-left: 0 !important;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .footer1_inner {
+        flex-direction: column;
+    }
 }

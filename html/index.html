@@ -52,7 +52,7 @@
         <!-- グローバルメニュー -->
         <div class="global_menu">
             <a href="./index.html"class="global_menu_logo"><img src="./image/logo.svg" alt=""></a>
-            <ul class="global_menu_inner">
+            <ul class="global_menu_inner pc">
                 <li>
                     <a href="">お食事のご案内</a>
                 </li>
@@ -73,7 +73,7 @@
                 </li>
             </ul>
             <ul class="global_menu_other">
-                <li>
+                <li class="pc">
                     <a href="">
                         <p><span class="arrow"></span>宿泊プラン一覧</p>
                     </a>
@@ -200,12 +200,83 @@
         </div>
 
         <!-- fix menu -->
-
+        <div class="pc">
+            <div class="sns_menu flex difference">
+                <div class="sns_menu_inner">
+                    <div class="insta_icon">
+                        <a href="https://www.instagram.com/resort_kumanoclub/" target="_blank" rel="noopener">
+                            <img src="https://kumanoclub.jp/wp/wp-content/themes/knmc/image/instagram_icon_w.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sns_menu flex">
+                <div class="flex page-top_reserve_btn">
+                        
+                    <div class="page-top"  id="page-top">
+                        <a href="#top"></a>
+                    </div>
+                    
+                    <div class="hotel_reserve">
+                        <div class="hotel_reserve_btn">
+                            <p class="fs18">宿泊<br>予約</p>
+                            <p class="fs10">Search</p>
+                        </div>
+                        <nav class="hotel_reserve_inner">
+                            <div class="box_search_489ban">
+                                <div id="search_489ban">
+                                    <script src="https://reserve.489ban.net/client/kumanoclub/0/plan/searchjs?search_stay=1&search_guest_types=3&search_date_type=1&link_target=0" type="text/javascript" charset="utf-8"></script>
+                                    <ul>
+                                        <li class="ico_489ban1"><span><strong><a href="https://reserve.489ban.net/client/kumanoclub/0/plan">プラン一覧・ご予約</a></strong></span></li>
+                                        <li class="ico_489ban2"><span><strong><a href="https://reserve.489ban.net/client/kumanoclub/0/plan/availability/room">客室タイプから予約</a></strong></span></li>
+                                        <li class="ico_489ban3"><span><strong><a href="https://reserve.489ban.net/client/kumanoclub/0/plan/availability/daily">空室カレンダーから予約</a></strong></span></li>
+                                        <li class="ico_489ban4"><span><strong><a href="https://reserve.489ban.net/client/kumanoclub/0/booked/login">ご予約の確認・変更・キャンセル</a></strong></span></li>
+                                    </ul>
+                                </div>  
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 右側メニュー SP-->
+        <div class="sp">
+            <div class="sns_menu flex">
+                <div class="sns_menu_inner">
+                    <div class="insta_icon">
+                        <a href="https://www.instagram.com/resort_kumanoclub/" target="_blank" rel="noopener">
+                            <img src="https://kumanoclub.jp/wp/wp-content/themes/knmc/image/instagram_icon.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="page-top" id="page-top-sp">
+                    <a href="#top"></a>
+                </div>
+            </div>
+        </div>
+        <div class="sp">
+            <div class="hotel_reserve_sp">
+                <div class="hotel_reserve_btn" id="hotel_reserve_btn_sp">
+                    <p class="fs18">宿泊<br>予約</p>
+                    <p class="fs10">Search</p>
+                </div>
+                <nav class="hotel_reserve_inner_sp">
+                    <div style="">
+                        <div id="sp_nav_close" class="difference"></div>
+                    </div>
+                    <div class="box_search_489ban">
+                        <div id="search_489ban">
+                            <script src="https://reserve.489ban.net/client/kumanoclub/0/plan/searchjs?search_stay=1&search_guest_types=3&search_date_type=1&link_target=0" type="text/javascript" charset="utf-8"></script>
+                        </div>  
+                    </div>
+                </nav>
+            </div>
+        </div>    
     </header>
     <!-- ↑↑↑ HEADER ↑↑↑ -->
 
     <!-- ↓↓↓ MAIN ↓↓↓ -->
-    <main>
+    <main id="top">
         <!-- mv -->
         <div class="top_fv">
             <div class="top_fv_inner">
@@ -220,7 +291,7 @@
                     <p>オールインクルーシブ</p>
                     <p>大切な人との思い出旅へ</p>
                 </div>
-                <div class="fv_menu">
+                <div class="fv_menu tablet">
                     <a href="https://www.instagram.com/hotel_fuka/?hl=ja" class="fv_menu_inner" target="_blank" rel="noopener">
                         <img class="fv_menu_icon" src="./image/icon_instagram_fv.svg" alt="">
                     </a>
@@ -236,7 +307,7 @@
             <!-- topics -->
             <div class="top_topic">
                 <div class="topics_title">
-                    <h2>Topic<br><span>-特集-</span></h2>
+                    <h2>Topic<br class="pc"><span>-特集-</span></h2>
                     <img src="./image/topics_illust.svg" alt="">
                 </div>
                 <!-- slider -->

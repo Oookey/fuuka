@@ -9,6 +9,17 @@
 })(document);
 
 // main.js
+// スムーススクロール
+$(function(){
+  $('a[href^="#"]').click(function(){
+  var href= $(this).attr("href");
+  var speed = 1100;
+  var target = $(href == "#" || href == "" ? 'html' : href);
+  var position = target.offset().top;
+  $("html, body").animate({scrollTop:position}, speed, 'swing');
+  return false;
+});
+});
 // ハンバーガーメニュー
 $(".hamburger").click(function () {//ボタンがクリックされたら
 	$(this).toggleClass('active');//ボタン自身に activeクラスを付与し
@@ -19,6 +30,20 @@ $(".hamburger").click(function () {//ボタンがクリックされたら
 $(".nav_sub a").click(function () {//ナビゲーションのリンクがクリックされたら
     $(".hamburger").removeClass('active');//ボタンの activeクラスを除去し
     $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+});
+
+// // 宿泊予約PC
+$(".hotel_reserve").hover(function () {//ボタンがホバーされたら
+	$(this).toggleClass('active');//ボタン自身に activeクラスを付与し
+    $(".hotel_reserve_inner").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
+});
+// // 宿泊予約SP
+$("#hotel_reserve_btn_sp").on('click',function () {//ボタンがクリックされたら
+  $(".hotel_reserve_inner_sp").addClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
+});
+
+$("#sp_nav_close").on('click',function () {//ボタンがクリックされたら
+  $(".hotel_reserve_inner_sp").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
 });
 
 // topics
