@@ -73,6 +73,13 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-color: #fff;
 }
+@media screen and (max-width: 767px){
+    .bg_wave{
+        padding-top: 12vw;
+        padding-bottom: 12vw;
+        background-image: url(../image/body_bg_top-sp.png), url(../image/body_bg_bottom-sp.png);
+    }
+}
 
 .inner{
     width: 100%;
@@ -90,6 +97,7 @@ body{
     letter-spacing: 0.3rem;
     line-height: 3rem;
     float: left;
+    text-align: center;
 }
 .difference {
     mix-blend-mode: difference;
@@ -247,6 +255,52 @@ body{
 .slick .slick-dots li button:focus:before{
   opacity: 1;
   font-size:3rem;
+}
+@media screen and (max-width: 767px){
+    .content{
+        padding-top: 10rem;
+    }
+    .content .title{
+        width: 33rem;
+        margin: 0 auto;
+        padding-bottom: 4.3rem;
+    }
+    .content .con_mv, .content .con_text-r, .content .con_text-l {
+        width: 100%;
+        float: none;
+        padding: 0;
+        height: auto;
+    }
+    .content .float-l img, .content .float-r img{
+        height: 31rem;
+    }
+    .content .con_text-r{
+        padding-left: 0;
+    }
+    .content .con_title{
+        margin-top: 2.5rem;
+    }
+    .content .con_text-r .con_title p, .content .con_text-l .con_title p{
+        letter-spacing: 0.3rem;
+        margin-bottom: 1rem;
+    }
+    .content .con_text-r h2, .content .con_text-l h2{
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+    }
+    .content .con_text-r .text, .content .con_text-l .text{
+        font-size: 2rem;
+        letter-spacing: 0;
+        line-height: 3rem;
+    }
+    .content .con_text-r a, .content .con_text-l a{
+        margin: auto;
+    }
+    .content .illust-r{
+    }
+    .content .btn{
+
+    }
 }
 
 /* ----- Loading ----- */
