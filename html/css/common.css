@@ -296,10 +296,8 @@ body{
     .content .con_text-r a, .content .con_text-l a{
         margin: auto;
     }
-    .content .illust-r{
-    }
-    .content .btn{
-
+    .slick li img{
+        margin: 0 1rem 0.5rem;
     }
 }
 

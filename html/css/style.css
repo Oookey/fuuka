@@ -664,18 +664,6 @@
   width:7px;/*ドットボタンのサイズ*/
   height:7px;/*ドットボタンのサイズ*/
 }
-@media screen and (max-width: 767px){
-  .slick_exp-dots li{
-    margin: 0 -16rem !important;
-    height: 0;
-}
-.slick_exp-dots{
-    margin: 3rem auto 0;
-    display: flex;
-    width: 50%;
-    justify-content: center;
-}
-}
 
 /* お知らせ */
 .news{
@@ -683,7 +671,7 @@
 }
 .news dl {
   max-width: 83rem;
-  width: 90%;
+  width: 100%;
   /* border-top: 0.3rem solid var(--brown-color); */
   margin: 3rem auto 0;
   font-family: 'Noto Sans JP', sans-serif;
@@ -746,11 +734,13 @@
   max-width: 100rem;
 }
 .hotel .hotel_list li {
+  max-width: 40rem;
+  width: 95%;
   position: relative;
   margin: 1.4rem 1.5rem;
 }
 .hotel .hotel_list li img{
-  width: 40rem;
+  width: 100%;
   height: 28rem;
   object-fit: cover;
   border-radius: 2.2rem;
@@ -920,7 +910,7 @@
 .map .googlemap{
   margin: 0 auto;
   max-width: 144rem;
-  width: 90%;
+  width: 100%;
   height: 73rem;
   position: relative;
 }
@@ -966,15 +956,6 @@
   line-height: 3.2rem;
   margin-left: 4rem;
   white-space: nowrap;
-}
-@media screen and ( max-width:1024px ){
-  /* 体験宿泊プラン */
-  .slick-next {
-    right: 2rem !important;
-  }
-  .slick-prev {
-    left: 2rem !important;
-}
 }
 @media screen and (max-width: 767px){
   #top .btn{
@@ -1147,6 +1128,7 @@
   }
   .special .concept .title{
     text-align: center;
+    padding: 0;
   }
   .special .concept .title h2:nth-of-type(2){
     font-size: 2.6rem;
@@ -1179,9 +1161,16 @@
     transform: translateX(50%);
   }
   .bath.content .illust{
-    top: 88rem;
     right: 50%;
-    top: 88rem;
+    transform: translateX(50%);
+    bottom: auto;
+    width: 25rem;
+    margin-top: 2rem;
+  }
+  .bath.content .illust-l{
+    top: 92.5rem;
+    right: 50%;
+    bottom: auto;
   }
   .about.content{
     padding-bottom: 0;
@@ -1189,12 +1178,99 @@
   .room.content{
     padding-bottom: 12rem;
   }
+  /* 体験宿泊プラン */
+  .plan.bg_wave{
+    padding-top: 16rem;
+  }
+  .plan .slick_exp .slick_exp_li{
+    width: 30rem;
+    margin: 0 1rem;
+  }
+  .plan .slick_exp .slick_exp_li img{
+    width: 30rem;
+    height: 25rem;
+  }
+  .slick_exp-dots li{
+    margin: 0 -2rem !important;
+    height: 0;
+  }
+  .slick_exp-dots{
+    margin: 3rem auto 0;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+  .slick-arrow{
+    top: 13.5rem !important;
+  }
+  .slick-next {
+    right: calc(50% - -1rem) !important;
+  }
+  .slick-prev {
+    left: calc(50% - -1rem) !important;
+}
+  /* news */
+  .news{
+    margin-top: 8rem;
+  }
+  .news .btn,.hotel .btn{
+    font-size: 1.6rem;
+  }
+  /* ホテル案内 */
+  .hotel{
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+  }
+  .hotel .illust{
+    width: 25rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hotel .about{
+    letter-spacing: 0;
+    margin: 1.5rem auto 3rem;
+    line-height: 3rem;
+  }
+  .hotel .hotel_list li{
+    margin: 1.4rem 0rem;
+  }
+  .hotel .hotel_list li h2{
+    font-size: 2.4rem;
+    letter-spacing: 0;
+    left: 2rem;
+    bottom: 3rem;
+  }
+  /* 観光 */
+  .tourism.bg_wave{
+    padding-top: 20vw;
+    padding-bottom: 30vw;
+  }
+  .tourism .illust.sp{
+    position: static;
+    margin: 0 auto;
+  }
+  .tourism .title h2{
+    font-size: 3rem;
+  }
   /* map */
+  .map .googlemap{
+    height: 56rem;
+  }
+  .map .googlemap iframe{
+    height: 56rem;
+  }
   .map .address{
     flex-wrap: wrap;
   }
+  .map .address h2{
+    margin-bottom: 1rem;
+  }
+  .map .address h2::after{
+    display: none;
+  }
   .map .address p{
     white-space: inherit;
+    margin: 0;
   }
 }
 
