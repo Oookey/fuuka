@@ -432,6 +432,9 @@
 #about .content .con_text-r h2, #about .content .con_text-l h2{
     letter-spacing: 0.9rem;
 }
+#about .content .con_text-r .text, #about .content .con_text-l .text{
+    line-height: 2.6rem;
+}
 
 #about .about_point_wrap p{
     line-height: 2.6rem;
@@ -479,34 +482,59 @@
     width: 37rem;
     height: 22.3rem;
     background-image: url(../image/about_bg_illest2.png);
-    top: -17rem;
-    left: 20rem;
+    top: -21rem;
+    left: 12rem;
 }
 #about .img_bg_2::before{
     width: 34.9rem;
     height: 25rem;
     background-image: url(../image/about_bg_illest3.png);
-    top: -15rem;
-    right: 13rem;
+    top: -23rem;
+    right: 10rem;
 }
 #about .img_bg_3::before{
     width: 31.9rem;
     height: 26.5rem;
     background-image: url(../image/about_bg_illest4.png);
-    top: -11rem;
-    left: 15rem;
+    top: -26rem;
+    left: 17rem;
 }
 #about .img_bg_4::before{
     width: 29.2rem;
     height: 22.8rem;
     background-image: url(../image/about_bg_illest5.png);
-    top: -14rem;
-    right: 12rem;
+    top: -24rem;
+    right: 22rem;
 }
 #about .img_bg_5::before{
     width: 32.1rem;
     height: 25.6rem;
     background-image: url(../image/about_bg_illest6.png);
-    top: -14rem;
-    right: 12rem;
+    top: -22rem;
+    left: 15rem;
+}
+.about1{
+    padding-bottom: 16rem;
+}
+.about2{
+    padding-bottom: 20rem;
+}
+.about4{
+    padding-top: 6rem;
+}
+.about5{
+    padding-bottom: 0;
+}
+.about7{
+    padding-bottom: 17rem;
+}
+.about8{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.bg_wave.about9{
+    background-image: url(../image/body_bg_top.png);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
