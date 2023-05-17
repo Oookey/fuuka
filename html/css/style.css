@@ -1308,7 +1308,19 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+@media screen and (max-width: 767px){
+  .pageinfo_inner h2{
+    padding-top: 26.5rem;
+    font-size: 2.6rem;
+    letter-spacing: 0.5rem;
+    line-height: 4rem;
+    margin-bottom: 30rem;
+  }
+  .c_info_bg{
+    background-size: 30rem auto, 26.6rem auto !important;
+    background-position: left 50% top 5.6rem, right 50% top 43rem !important;
+  }
+}
 
 /*===== お食事 =====*/
 .c_info_bg{
@@ -1383,7 +1395,6 @@
   width: 46.2rem;
   height: 32.8rem;
   padding-top: 3rem;
-  color: var(--main-color);
 }
 .menu_navi .menu_navi_right p.menu_navi_title{
   color: var(--main-color);
@@ -1496,29 +1507,29 @@
 /*アコーディオンメニュー*/
 .accordion {
   max-width: 76vw;
-  }
-  .toggle {
+}
+.toggle {
   display: none;
-  }
-  .option {
+}
+.option {
   position: relative;
-  }
-  .accordion_title,
-  .accordion_content {
+}
+.accordion_title,
+.accordion_content {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: all 0.3s;
-  }
-  .accordion_title {
+}
+.accordion_title {
   display: block;
   font-size:2.4rem;
   padding: 2.5rem 0 2.5rem 9.2rem;
   letter-spacing: 0.3rem;
   color: var(--main-color);
-  }
-  .accordion_title::after,
-  .accordion_title::before {
+}
+.accordion_title::after,
+.accordion_title::before {
   content: "";
   position: absolute;
   left: 2.6em;
@@ -1528,37 +1539,75 @@
   background-color: var(--main-color);
   transition: all 0.3s;
   border-radius: 2rem;
-  }
-  .accordion_title::after {
+ }
+.accordion_title::after {
   transform: rotate(90deg);
-  }
-  .accordion_content {
+}
+.accordion_content {
   max-height: 0;
   overflow: hidden;
-  }
-  .meal_menu_text_inner{
-      padding: 0 0 0 3.6rem;
-      line-height: 2.6rem;
-  }
-  .meal_menu_text_inner:first-child{
-      padding-top: 4.5rem;
-  }
-  .meal_menu_text_inner:last-child{
-      padding-bottom: 5rem;
-  }
-  .toggle:checked + .accordion_title + .accordion_content {
+}
+.meal_menu_text_inner{
+    padding: 0 0 0 3.6rem;
+    line-height: 2.6rem;
+}
+.meal_menu_text_inner:first-child{
+    padding-top: 4.5rem;
+}
+.meal_menu_text_inner:last-child{
+    padding-bottom: 5rem;
+}
+.toggle:checked + .accordion_title + .accordion_content {
   max-height: 100rem;
   transition: all 1.5s;
   border-top:1px solid var(--main-color);
   /* padding: 4.5rem 0 5rem 3.6rem; */
-  }
-  .toggle:checked + .accordion_title::before {
+}
+.toggle:checked + .accordion_title::before {
   transform: rotate(90deg) !important;
+}
+@media screen and (max-width: 767px){
+  .cuisine_subtitle{
+    margin-bottom: 3rem;
   }
+  .menu_navi_inner{
+    margin-bottom: 0;
+  }
+  .menu_navi_left,.menu_navi_right{
+    background-size: 75%;
+    background-repeat: no-repeat;
+    float: none;
+    margin: 0 auto 3.5rem;
+    height: 24.7rem;
+    padding: 0;
+  }
+  .menu_navi p.menu_navi_title{
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .menu_navi_line{
+    width: 29rem;
+    margin: 0 auto 1.5rem;
+  }
+  .menu_navi p.menu_navi_info{
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+  #cuisine .img_bg_1::before{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 17rem;
+  }
+  .menu_navi p{
+    margin-bottom: 16rem;
+  }
+  #cuisine .img_bg_1::after{
+    left: auto;
+    right: 5rem;
+  }
+}
 /* ================ */
-
-
-
 
 /*===== 客室のご案内 =====*/
 #room .c_info_bg{
@@ -1671,7 +1720,9 @@
 .room9{
   padding-bottom: 0;
 }
+@media screen and (max-width: 767px){
 
+}
 
 /* ----- まるごとおもてなし ----- */
 
