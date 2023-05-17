@@ -166,8 +166,6 @@
   left: 0;
   content: "";
   border-radius: 50%;
-  /* -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow); */
   background-color: #DED8C3;
 }
 .swiper-button-prev::after, .swiper-button-next::after {
@@ -179,14 +177,8 @@
   z-index: 1;
 }
 .swiper-button-prev::after {
-  /* margin-left: 0.4rem; */
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
-}
-.swiper-button-next::after {
-  /* margin-right: 0.4rem;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg); */
 }
 .swiper-button-disabled {
   pointer-events: none;
@@ -249,10 +241,6 @@
   pointer-events: none;
   opacity: 0.4;
 }
-.card02 .swiper-button-disabled::before {
-  /* -webkit-box-shadow: var(--box-shadow-inset);
-          box-shadow: var(--box-shadow-inset); */
-}
 .card02 .swiper-slide {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -298,23 +286,6 @@
   font-weight: 400;
 }
 
-@media only screen and (max-width: 1024px) {
-  html {
-    -webkit-text-size-adjust: 100%;
-  }
-}
-
-/* @media only screen and (max-width: 599px) {
-  html {
-    font-size: 50%;
-  }
-  .pc-tab {
-    display: none !important;
-  }
-  .card02 .slide {
-    width: 24rem;
-  }
-} */
 
 @media only screen and (min-width: 1025px) {
   .tab-sp {
@@ -347,12 +318,12 @@
             transform: translateY(0);
   }
 }
-
-/* @media only screen and (min-width: 600px) {
-  .sp {
-    display: none !important;
+@media screen and (max-width: 1024px){
+  .card02 .swiper-controller{
+    width: 100vw;
   }
-} */
+}
+
 /* news */
 .top_news{
   display: flex;
@@ -396,6 +367,11 @@
 }
 .top_news dt{
   margin-left: 3rem;
+}
+.top_news.shadow dd:first-of-type a{
+  font-size: 1.8rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  white-space: inherit;
 }
 .top_news dd{
   margin-left: 2rem;
@@ -577,6 +553,9 @@
   letter-spacing: 0.2rem;
   line-height: 2.3rem;
 }
+.plan .btn{
+  margin: 4rem auto 0;
+}
 /* 矢印 */
 /*矢印の設定*/
 .slick-arrow {
@@ -625,7 +604,7 @@
 }
 /* next */
 .slick-next {
-  right: -9rem !important
+  right: calc(0% - -4rem) !important;
 }
 .slick-next::after {
   right: 3.2rem;
@@ -633,7 +612,7 @@
 }
 /* prev */
 .slick-prev {
-  left: -9rem !important
+  left: calc(0% - -4rem) !important;
 }
 .slick-prev::after {
   left: 3.2rem;
@@ -667,7 +646,7 @@
 
 /* お知らせ */
 .news{
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 .news dl {
   max-width: 83rem;
@@ -781,11 +760,11 @@
   position: absolute;
   z-index: 1;
 }
-.tourism .illust:nth-of-type(1){
+.tourism .illust:nth-of-type(2){
   left: 15rem;
   top: 4rem;
 }
-.tourism .illust:nth-of-type(2){
+.tourism .illust:nth-of-type(3){
   right: 15rem;
   top: 6rem;
 }
@@ -978,6 +957,7 @@
   .top_fv_text p{
     font-size: 2rem;
     padding: 3rem 1rem;
+    margin-left: 1.6rem;
   }
   /* topics */
   .top_topic_news{
@@ -1202,18 +1182,26 @@
   }
   .slick-arrow{
     top: 13.5rem !important;
+    width: 6rem !important;
+    height: 6rem !important;
   }
   .slick-next {
-    right: calc(50% - -1rem) !important;
+    right: calc(0% - -19rem) !important;
+  }
+  .slick-next::after{
+    right: 2.7rem;
   }
   .slick-prev {
-    left: calc(50% - -1rem) !important;
-}
+    left: calc(0% - -19rem) !important;
+  }
+  .slick-prev::after{
+    left: 2.7rem;
+  }
   /* news */
   .news{
     margin-top: 8rem;
   }
-  .news .btn,.hotel .btn{
+  .news .btn,.hotel .btn,.plan .btn{
     font-size: 1.6rem;
   }
   /* ホテル案内 */
