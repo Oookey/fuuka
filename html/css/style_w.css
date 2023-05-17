@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* サブページの共通部分 */
-.subpage .top_fv_movie .in{
+/* .subpage .top_fv_movie .in{
     padding-bottom: 90rem;
 }
 .subpage .top_fv_movie .movie{
@@ -32,20 +32,21 @@
     line-height: 3.8rem;
     padding-bottom: 6rem;
 }
-.img_bg_1, .img_bg_2, .img_bg_3, .img_bg_4{
+.img_bg_1, .img_bg_2, .img_bg_3, .img_bg_4, .img_bg_5{
     position: relative;
 }
 .img_bg_1::before, .img_bg_1::after, .img_bg_2::before, .img_bg_2::after,
-.img_bg_3::before, .img_bg_3::after, .img_bg_4::before, .img_bg_4::after{
+.img_bg_3::before, .img_bg_3::after, .img_bg_4::before, .img_bg_4::after,
+.img_bg_5::before, .img_bg_5::after{
     content: "";
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 
 /*===== お食事 =====*/
-.c_info_bg{
+/* .c_info_bg{
     background-image: url(../image/pagetitle_cuisine.png), url(../image/cuisine_bg_illest1.png);
     background-size: 35.2rem auto, 26.6rem auto;
     background-position: left 5.5rem, right 7rem top 7rem;
@@ -225,10 +226,10 @@
     left: 13rem;
     bottom: -11rem;
     left: 25rem;
-}
+} */
 
 /*アコーディオンメニュー*/
-.accordion {
+/* .accordion {
     max-width: 76vw;
     }
     .toggle {
@@ -284,18 +285,17 @@
     max-height: 100rem;
     transition: all 1.5s;
     border-top:1px solid var(--main-color);
-    /* padding: 4.5rem 0 5rem 3.6rem; */
     }
     .toggle:checked + .accordion_title::before {
     transform: rotate(90deg) !important;
-    }
+    } */
 /* ================ */
 
 
 
 
 /*===== 客室のご案内 =====*/
-#room .c_info_bg{
+/* #room .c_info_bg{
     background-image: url(../image/pagetitle_room.png), url(../image/room_bg_illest1.png);
     background-size: 35.2rem auto, 26.6rem auto;
     background-position: left 5.5rem, right 7rem top 7rem;
@@ -404,7 +404,7 @@
 }
 .room9{
     padding-bottom: 0;
-}
+} */
 
 
 
@@ -433,5 +433,80 @@
     letter-spacing: 0.9rem;
 }
 
+#about .about_point_wrap p{
+    line-height: 2.6rem;
+}
+.about_point_wrap p span{
+    font-size: 2.4rem;
+    letter-spacing: 0.6rem;
+}
+.about_point_wrap .indent3{
+    text-indent: -3em;
+    padding-left: 3em;
+}
+.about5 .about_point_wrap{
+    padding: 3rem 2.5rem 3rem 3.2rem;
+}
+.about6 .float-r{
+    position: relative;
+}
+.content .float-r img.about_photo_6_float{
+    position: absolute;
+    width: 29.2rem;
+    height: auto;
+    left: -14.6rem;
+    bottom: -20.2rem;
+}
+.about6 .about_point_wrap{
+    width: 49.6rem;
+    margin: 3.8rem 0 4.4rem;
+}
+.about_kidroom_inner{
+    margin: 4rem 0;
+    overflow: hidden;
+}
+.about_kidroom_inner .float-l{
+    width: 19rem;
+}
+.about_kidroom_inner .float-l:nth-child(2){
+    width: 23rem;
+}
+.about_kidroom_inner .float-l p{
+    line-height: 2.6rem;
+}
 
-
+#about .img_bg_1::before{
+    width: 37rem;
+    height: 22.3rem;
+    background-image: url(../image/about_bg_illest2.png);
+    top: -17rem;
+    left: 20rem;
+}
+#about .img_bg_2::before{
+    width: 34.9rem;
+    height: 25rem;
+    background-image: url(../image/about_bg_illest3.png);
+    top: -15rem;
+    right: 13rem;
+}
+#about .img_bg_3::before{
+    width: 31.9rem;
+    height: 26.5rem;
+    background-image: url(../image/about_bg_illest4.png);
+    top: -11rem;
+    left: 15rem;
+}
+#about .img_bg_4::before{
+    width: 29.2rem;
+    height: 22.8rem;
+    background-image: url(../image/about_bg_illest5.png);
+    top: -14rem;
+    right: 12rem;
+}
+#about .img_bg_5::before{
+    width: 32.1rem;
+    height: 25.6rem;
+    background-image: url(../image/about_bg_illest6.png);
+    top: -14rem;
+    right: 12rem;
+}

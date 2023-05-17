@@ -1262,14 +1262,417 @@
   }
 }
 
+
+/* ------------------- */
+/* サブページの共通部分 */
+/* ------------------ */
+.subpage .top_fv_movie .in{
+  padding-bottom: 90rem;
+}
+.subpage .top_fv_movie .movie{
+  padding-top: 10rem;
+}
+.subpage .top_fv{
+  height: 90rem;
+}
+.subpage .top_fv::before{
+  height: 15rem;
+}
+.pageinfo{
+  width: 100%;
+}
+.pageinfo_inner{
+  text-align: center;
+}
+.pageinfo_inner h2{
+  font-size: 3.2rem;
+  line-height: 4.6rem;
+  margin-bottom: 5rem;
+  letter-spacing: 9.6px;
+  padding-top: 9.9rem;
+}
+.pageinfo_inner p{
+  font-size: 2rem;
+  line-height: 3.8rem;
+  padding-bottom: 6rem;
+}
+.img_bg_1, .img_bg_2, .img_bg_3, .img_bg_4, .img_bg_5{
+  position: relative;
+}
+.img_bg_1::before, .img_bg_1::after, .img_bg_2::before, .img_bg_2::after,
+.img_bg_3::before, .img_bg_3::after, .img_bg_4::before, .img_bg_4::after,
+.img_bg_5::before, .img_bg_5::after{
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*===== お食事 =====*/
+.c_info_bg{
+  background-image: url(../image/pagetitle_cuisine.png), url(../image/cuisine_bg_illest1.png);
+  background-size: 35.2rem auto, 26.6rem auto;
+  background-position: left 5.5rem, right 7rem top 7rem;
+  background-repeat: no-repeat, no-repeat;
+}
+.menu_navi{
+  text-align: center;
+  margin-top: -11rem;
+}
+.cuisine_subtitle{
+  width: 42rem;
+  margin-bottom: 4.1rem;
+}
+.menu_navi p{
+  font-size: 2rem;
+  line-height: 3.8rem;
+  margin-bottom: 4.9rem;
+}
+.menu_navi_inner{
+  width: 100%;
+  max-width: 102rem;
+  overflow: hidden;
+  margin: 0 auto 4rem;
+}
+.menu_navi_left{
+  float: left;
+  background-image: url(../image/cuisine_bg_wrap1.png);
+  background-size: cover;
+  background-position: center;
+  width: 46.2rem;
+  height: 32.8rem;
+  padding-top: 3rem;
+}
+.menu_navi p.menu_navi_title{
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 4.6rem;
+  color:#A38319;
+  margin-bottom: 1rem;
+}
+.menu_navi_line{
+  width: 33rem;
+  height: 0.4rem;
+  color:#A38319;
+  background-color: #A38319;
+  border-radius: 20rem;
+  margin: 0 auto 2.8rem;
+}
+.menu_navi p.menu_navi_info{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2.6rem;
+  line-height: 2.6rem;
+}
+.menu_navi_inner a{
+  display: inline-block;
+}
+.menu_navi_inner a p{
+  font-size: 2.2rem;
+  color: #A38319;
+  margin-bottom: 0;
+}
+
+.menu_navi_right{
+  float: right;
+  background-image: url(../image/cuisine_bg_wrap2.png);
+  background-size: cover;
+  background-position: center;
+  width: 46.2rem;
+  height: 32.8rem;
+  padding-top: 3rem;
+  color: var(--main-color);
+}
+.menu_navi .menu_navi_right p.menu_navi_title{
+  color: var(--main-color);
+}
+.menu_navi .menu_navi_right .menu_navi_line{
+  color: var(--main-color);
+  background-color: var(--main-color);
+}
+.menu_navi_inner .menu_navi_right a p{
+  color: var(--main-color);
+}
+
+.meal_menu{
+  border-top:2px solid var(--main-color);
+  border-bottom:1px solid var(--main-color);
+  width:67rem;
+  margin-top:7rem;
+}
+
+#cuisine .content .con_text-r, #cuisine .content .con_text-l{
+  height: auto;
+}
+#cuisine .cuisine_content.content.bg_b_c {
+  padding-bottom: 0;
+}
+
+#cuisine .cuisine_content .inner{
+  padding:7rem 0;
+}
+#cuisine .cuisine_content .inner.img_bg_2{
+  padding-top: 12rem;
+  padding-bottom: 9rem;
+}
+#cuisine .cuisine_content .inner.img_bg_3{
+  padding-top: 12rem;
+  padding-bottom: 9rem;
+}
+.cuisine_inline_menu{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5.5rem;
+  margin-bottom: 4rem;
+}
+.cuisine_inline_menu .float-l, .cuisine_inline_menu .float-r{
+  width: 50%;
+}
+.cuisine_inline_menu p{
+  line-height: 2.6rem;
+}
+.cuisine_inline_menu p.p1{
+  font-size: 2rem;
+  padding-bottom: 1.6rem;
+}
+.cuisine_content .kome{
+  font-size: 1.4rem;
+  text-indent: -1.4em;
+  padding-left: 1.4em;
+  line-height: 2.6rem;
+}
+
+#cuisine .img_bg_1::before{
+  width: 26.7rem;
+  height: 9.1rem;
+  background-image: url(../image/cuisine_illest1.png);
+  top: -8rem;
+  left: 13rem;
+}
+#cuisine .img_bg_1::after{
+  width: 21.4rem;
+  height: 13.8rem;
+  background-image: url(../image/cuisine_illest2.png);
+  bottom: 0rem;
+  left: 13rem;
+  bottom: -10rem;
+  left: 109rem;
+}
+#cuisine .img_bg_2::before{
+  width: 35.6rem;
+  height: 26.7rem;
+  background-image: url(../image/cuisine_illest3.png);
+  top: -24rem;
+  left: 100rem;
+}
+#cuisine .img_bg_2::after{
+  width: 8.5rem;
+  height: 13.8rem;
+  background-image: url(../image/cuisine_illest4.png);
+  bottom: 0rem;
+  left: 13rem;
+  bottom: -11.5rem;
+  left: 96rem;
+}
+#cuisine .img_bg_3::before{
+  width: 28.4rem;
+  height: 25.3rem;
+  background-image: url(../image/cuisine_bg_photo1.png);
+  top: -18rem;
+  left: 109rem;
+}
+#cuisine .img_bg_3::after{
+  width: 25.2rem;
+  height: 21.5rem;
+  background-image: url(../image/cuisine_bg_photo2.png);
+  bottom: 0rem;
+  left: 13rem;
+  bottom: -11rem;
+  left: 25rem;
+}
+
+/*アコーディオンメニュー*/
+.accordion {
+  max-width: 76vw;
+  }
+  .toggle {
+  display: none;
+  }
+  .option {
+  position: relative;
+  }
+  .accordion_title,
+  .accordion_content {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+  }
+  .accordion_title {
+  display: block;
+  font-size:2.4rem;
+  padding: 2.5rem 0 2.5rem 9.2rem;
+  letter-spacing: 0.3rem;
+  color: var(--main-color);
+  }
+  .accordion_title::after,
+  .accordion_title::before {
+  content: "";
+  position: absolute;
+  left: 2.6em;
+  top:3rem;
+  width: 0.3rem;
+  height: 0.75em;
+  background-color: var(--main-color);
+  transition: all 0.3s;
+  border-radius: 2rem;
+  }
+  .accordion_title::after {
+  transform: rotate(90deg);
+  }
+  .accordion_content {
+  max-height: 0;
+  overflow: hidden;
+  }
+  .meal_menu_text_inner{
+      padding: 0 0 0 3.6rem;
+      line-height: 2.6rem;
+  }
+  .meal_menu_text_inner:first-child{
+      padding-top: 4.5rem;
+  }
+  .meal_menu_text_inner:last-child{
+      padding-bottom: 5rem;
+  }
+  .toggle:checked + .accordion_title + .accordion_content {
+  max-height: 100rem;
+  transition: all 1.5s;
+  border-top:1px solid var(--main-color);
+  /* padding: 4.5rem 0 5rem 3.6rem; */
+  }
+  .toggle:checked + .accordion_title::before {
+  transform: rotate(90deg) !important;
+  }
+/* ================ */
+
+
+
+
+/*===== 客室のご案内 =====*/
+#room .c_info_bg{
+  background-image: url(../image/pagetitle_room.png), url(../image/room_bg_illest1.png);
+  background-size: 35.2rem auto, 26.6rem auto;
+  background-position: left 5.5rem, right 7rem top 7rem;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#room .content .inner{
+  padding: 7.8rem 0 1rem;
+}
+#room .content .inner.img_bg_2{
+  padding-top: 9rem;
+}
+#room .content .inner.img_bg_3{
+  padding-top: 13rem;
+}
+#room .content .inner.img_bg_4{
+  padding-top: 10rem;
+}
+#room .content .con_text-r .con_title p, #room .content .con_text-l .con_title p{
+  letter-spacing: 0.3rem;
+}
+#room .content .con_text-r h2, #room .content .con_text-l h2{
+  letter-spacing: 0.9rem;
+}
+#room .content .inner a{
+  margin-top: 4.4rem;
+}
+#room .content .inner .float-r .room_point{
+  margin-bottom: 18rem;
+}
+.room_point{
+  margin-top: 3.8rem;
+}
+.room_point p{
+  text-indent: -1em;
+  padding-left: 1em;
+  line-height: 2.6rem;
+}
+.room_star_wrap{
+  background-color: #E6E1CF;
+  border-radius: 2.2rem;
+  margin: 3.8rem auto 4.4rem;
+  padding: 3.1rem 1.5rem 2.3rem 3.2rem;
+  position: relative;
+}
+.room_star_wrap::before{
+  content: "プレミアム設備";
+  background: var(--brown-color) url(../image/icon_star.png) no-repeat 2rem 0.5rem;
+  background-size: 2.6rem;
+  padding: 1rem 2.5rem 1rem 4.4rem;
+  border-radius: 100rem;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: -1.8rem;
+  left: 3.1rem;
+}
+.room_star_wrap p{
+  line-height: 2.6rem;
+}
+#room .img_bg_1::before{
+  width: 23rem;
+  height: 20.6rem;
+  background-image: url(../image/room_bg_photo1.png);
+  top: -17rem;
+  left: 20rem;
+}
+#room .img_bg_2::before{
+  width: 25.7rem;
+  height: 21.3rem;
+  background-image: url(../image/room_bg_photo2.png);
+  top: -15rem;
+  right: 13rem;
+}
+#room .img_bg_3::before{
+  width: 24.8rem;
+  height: 19.4rem;
+  background-image: url(../image/room_bg_photo3.png);
+  top: -11rem;
+  left: 15rem;
+}
+#room .img_bg_4::before{
+  width: 24.2rem;
+  height: 19.7rem;
+  background-image: url(../image/room_bg_photo4.png);
+  top: -14rem;
+  right: 12rem;
+}
+.room3{
+  padding-bottom: 17rem;
+}
+.room4{
+  padding-bottom: 14rem;
+}
+.room5{
+  padding-bottom: 0;
+}
+.room6{
+  padding-bottom: 1rem;
+}
+.room7{
+  padding-bottom: 2rem;
+}
+.room8{
+  padding-bottom: 2rem;
+}
+.room9{
+  padding-bottom: 0;
+}
+
+
 /* ----- まるごとおもてなし ----- */
-
-
-/* ----- お食事 ----- */
-
-
-
-/* ----- 客室のご案内 ----- */
 
 
 
