@@ -3,12 +3,8 @@
 /* ----- 共通CSS ----- */
 /* .pc{display: block !important;} */
 .sp{display: none !important;}
-@media screen and ( max-width:1024px ){
-    /* .pc,.sp{display: none !important;} */
-    /* .tablet{display: block !important;} */
-}
 @media screen and ( max-width:767px ){
-	.pc,.tablet{display: none !important;}
+	.pc{display: none !important;}
 	.sp{display: block !important;}
 }
 html{font-size: 62.5%;}
