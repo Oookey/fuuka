@@ -405,3 +405,33 @@
 .room9{
     padding-bottom: 0;
 }
+
+
+
+/*===== ホテルのご案内 =====*/
+#about .c_info_bg{
+    background-image: url(../image/pagetitle_about.png), url(../image/about_bg_illest1.png);
+    background-size: 35.2rem auto, 26.6rem auto;
+    background-position: left 5.5rem, right 7rem top 7rem;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.about_point_wrap{
+    background-color: #E6E1CF;
+    border-radius: 2.2rem;
+    margin: 3.8rem auto 4.4rem;
+    padding: 3rem 1.5rem 3rem 3.2rem;
+    position: relative;
+}
+#about .content .inner{
+    padding: 8rem 0 10rem;
+}
+#about .content .con_text-r .con_title p, #about .content .con_text-l .con_title p{
+    letter-spacing: 0.3rem;
+}
+#about .content .con_text-r h2, #about .content .con_text-l h2{
+    letter-spacing: 0.9rem;
+}
+
+
+
