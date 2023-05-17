@@ -390,11 +390,7 @@
 .room4{
     padding-bottom: 14rem;
 }
-.bg_wave.room5{
-    background-image: url(../image/body_bg_top.png);
-    background-position: 0 0;
-    background-size: contain;
-    background-repeat: no-repeat;
+.room5{
     padding-bottom: 0;
 }
 
