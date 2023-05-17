@@ -58,6 +58,7 @@ body{
 
 .c1{color: var(--main-color) !important;}
 .bg_b_c{background-color: var(--bg-brown-color) !important;}
+.red{color: #E30A0A;}
 .shadow{box-shadow: 0px 0px 12px rgba( 0, 0, 0, 0.16);}
 .bg_wave{
     position: relative;

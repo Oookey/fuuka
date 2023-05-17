@@ -538,3 +538,110 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+
+/*===== アクセス =====*/
+#access.subpage .top_fv{
+    background-color: var(--bg-brown-color);
+    height: 46rem;
+}
+#access.subpage .top_fv_movie .in {
+    padding-bottom: 46rem;
+}
+#access .fv_menu{
+    top: 12rem;
+    right: -10rem;
+    background-color: #fff;
+    width: 10rem;
+    height: 58.4rem;
+    padding: 2.5rem 0;
+}
+#access .c_info_bg{
+    background-image: none;
+}
+#access .pageinfo img{
+    width: 26rem;
+    padding-top: 6.4rem;
+}
+#access .map .inner{
+    position: relative !important;
+    top: 0;
+}
+#access .content .map .inner .title{
+    text-align: center;
+    display: block;
+    margin-bottom: 2.9rem;
+    padding-bottom: 0;
+}
+#access .content .con_text-l h2{
+    margin-bottom: 1.8rem;
+}
+#access .content .con_text-r .text, #access .content .con_text-l .text{
+    line-height: 2.6rem;
+}
+#access .content .con_text-l{
+    height: auto;
+}
+#access .content .con_text-l .text span{
+    font-size: 2.2rem;
+}
+#access .float-r{
+    text-align: right;
+}
+#access .content .float-r img{
+    width: 60rem;
+    height: 40rem;
+    margin-top: 6rem;
+}
+#access .float-r img.float-r_img1{
+    width: 39.2rem;
+    height: auto;
+    margin-top: 0;
+}
+#access .float-r img.float-r_img2{
+    width: 25.8rem;
+    height: auto;
+    margin-top: 5rem;
+    margin-right: 11rem;
+}
+.access_how{
+    width: 100%;
+    margin-top: 9.3rem;
+}
+#access .about_point_wrap p{
+    line-height: 2.6rem;
+}
+#access .access_free .float-r{
+    text-align: left;
+}
+#access .img_bg_1::before{
+    width: 31.5rem;
+    height: 24.8rem;
+    background-image: url(../image/access_illest1.png);
+    top: -29rem;
+    right: 9rem;
+}
+#access .img_bg_2::before{
+    width: 28.9rem;
+    height: 16.9rem;
+    background-image: url(../image/access_illest2.png);
+    top: -23rem;
+    left: 27rem;
+}
+#access .img_bg_3::before{
+    width: 29rem;
+    height: 25.3rem;
+    background-image: url(../image/access_illest4.png);
+    top: -31rem;
+    left: 28rem;
+}
+.access1{
+    padding-top: 10rem;
+}
+.access2{
+    padding-top: 25rem;
+    padding-bottom: 23rem;
+}
+.access3{
+    padding-top: 8rem;
+}
