@@ -954,6 +954,7 @@
   }
   .top_fv_text{
     right: 5rem;
+    top: 16rem;
   }
   .top_fv_text p{
     font-size: 2rem;
@@ -1314,10 +1315,13 @@
   }
   .pageinfo_inner h2{
     padding-top: 26.5rem;
-    font-size: 2.6rem;
-    letter-spacing: 0.1rem;
+    font-size: 2.53rem;
+    letter-spacing: 0rem;
     line-height: 4rem;
     margin-bottom: 30rem;
+  }
+  .pageinfo_inner p{
+    padding-bottom: 9rem;
   }
   .c_info_bg{
     background-size: 30rem auto, 26.6rem auto !important;
@@ -1834,7 +1838,7 @@
   padding-bottom: 0;
 }
 .bg_wave.room11{
-  background-image: url(../image/body_bg_top.png);
+  background-image: url(../image/body_bg_top-sp.png);
   background-position: 0 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1882,6 +1886,99 @@
   width: 100%;
 }
 @media screen and (max-width: 767px){
+  #room .content {
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+  }
+  #room .content .inner{
+    padding-top: 0;
+  }
+  #room .img_bg_1::before,
+  #room .img_bg_2::before,
+  #room .img_bg_3::before,
+  #room .img_bg_4::before{
+    width: 17rem;
+    height: 15rem;
+    left: auto;
+    right: 3rem;
+  }
+  #room .img_bg_1::before{
+    top: -18rem;
+  }
+  #room .img_bg_2::before{
+    top: -19rem;
+  }
+  #room .img_bg_3::before{
+    top: -18rem;
+  }
+  #room .img_bg_4::before{
+    top: -20rem;
+  }
+  #room .content .con_text-r .con_title p, #room .content .con_text-l .con_title p{
+    letter-spacing: 0.1rem;
+  }
+  #room .content .con_text-r h2, #room .content .con_text-l h2{
+    letter-spacing: 0;
+  }
+  .room_star_wrap{
+    margin: 5.2rem 2.8rem 3rem;
+  }
+  #room .content .inner.img_bg_2{
+    padding-top: 0;
+  }
+  .room_point{
+    font-size: 1.4rem;
+    padding: 0 2.8rem;
+    margin-top: 6.7rem;
+    margin-bottom: 0 !important;
+  }
+  #room .content .inner.img_bg_3,#room .content .inner.img_bg_4{
+    padding-top: 0;
+  }
+  .room3{
+    padding-top: 14rem !important;
+    padding-bottom: 13rem !important;
+  }
+  .room4{
+    padding-bottom: 5rem !important;
+  }
+  .room5,.room7,.room9{
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+  }
+  .room6,.room8,.room10{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+  }
+  .room11{
+    padding: 7rem 2.8rem 6rem !important;
+  }
+  .room11 p{
+    font-size: 1.4rem;
+  }
+  .subpage .content.room11 .con_title{
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .room11.content h2{
+    font-size: 2.6rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 0rem;
+    line-height: 3.8rem;
+  }
+  .room_fixtures_inner,.room11 p{
+    padding-left: 0;
+  }
+  .room_ame_inner li img{
+    border-radius: 3.8rem;
+  }
+  .room_ame_inner{
+    flex-wrap: wrap;
+  }
+  .room_ame_inner li{
+    width: 47%;
+    margin-bottom: 2rem;
+  }
 }
 
 
