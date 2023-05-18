@@ -2113,7 +2113,81 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-
+@media screen and (max-width: 767px){
+  #about .content .inner{
+    padding: 0;
+  }
+  #about .content .con_text-r h2, #about .content .con_text-l h2{
+    letter-spacing: 0.1rem;
+  }
+  #about .content .con_text-r .con_title p, #about .content .con_text-l .con_title p{
+    line-height: 3rem;
+  }
+  #about .content .con_text-r .text, #about .content .con_text-l .text{
+    line-height: 3.8rem;
+  }
+  #about .img_bg_1::before,#about .img_bg_2::before{
+    width: 18rem;
+    height: 10.6rem;
+    left: auto;
+    right: 3rem;
+    top: -17rem;
+  }
+  #about .img_bg_2::before{
+    width: 18rem;
+    height: 13rem;
+    left: auto;
+    right: 3rem;
+    top: -19rem;
+  }
+  .about_point_wrap{
+    margin: 3.8rem 2.8rem 4.4rem;
+    padding: 3rem;
+  }
+  .about1,.about2,.about3,.about7{
+    padding-bottom: 13rem;
+  }
+  .about4{
+    padding-bottom: 3rem;
+    padding-top: 10rem;
+  }
+  .about8{
+    padding-top: 8rem;
+  }
+  #about .img_bg_3::before{
+    width: 18rem;
+    height: 15rem;
+    left: auto;
+    right: 3rem;
+    top: -18rem;
+  }
+  .content .float-r img.about_photo_6_float{
+    width: 10rem;
+    left: -2rem;
+    bottom: -3rem;
+  }
+  .about6 .about_point_wrap{
+    width: auto;
+    margin: 3.8rem 2.8rem 4.4rem;
+  }
+  #about .img_bg_4::before{
+    width: 18rem;
+    height: 14rem;
+    left: auto;
+    right: 3rem;
+    top: -20rem;
+  }
+  #about .img_bg_5::before{
+    width: 18rem;
+    height: 13rem;
+    left: auto;
+    right: 3rem;
+    top: -18rem;
+  }
+  .about_kidroom_inner{
+    margin: 4rem 2.8rem;
+  }
+}
 
 
 /* ----- アクセス ----- */
