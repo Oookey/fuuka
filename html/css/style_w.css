@@ -406,6 +406,55 @@
     padding-bottom: 0;
 } */
 
+.bg_wave.room11{
+    background-image: url(../image/body_bg_top.png);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.room11 .inner{
+    max-width: 140rem;
+}
+.room11.content h2{
+    font-size: 3.4rem;
+    line-height: 4.6rem;
+    margin-bottom: 3.4rem;
+    letter-spacing: 0.9rem;
+}
+.room11 p{
+    line-height: 2.6rem;
+}
+.room_fixtures_inner{
+    overflow: hidden;
+    margin-bottom: 3.3rem;
+    padding-left: 2rem;
+}
+.room_fixtures_inner .float-l{
+    width: 33rem;
+}
+.room_fixtures_inner .float-l:nth-child(2){
+    width: 19rem;
+}
+.room_ame_list{
+    padding-left: 2rem;
+}
+.marugoto{
+    margin-top: 8.8rem;
+}
+.room_ame_inner{
+    width: 100%;
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.room_ame_inner li{
+    width: 32.1rem;
+    text-align: center;
+}
+.room_ame_inner li img{
+    width: 100%;
+}
+
 
 
 /*===== ホテルのご案内 =====*/
