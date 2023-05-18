@@ -44,6 +44,16 @@
     background-size: cover;
 } */
 
+#access .c_info_bg, #news .c_info_bg,
+#news_detail .c_info_bg, #topic_detail .c_info_bg{
+    background-image: none;
+}
+#news .pageinfo img, #news_detail .pageinfo img,
+#topic_detail .pageinfo img{
+    width: 26rem;
+    padding-top: 16rem;
+}
+
 
 /*===== お食事 =====*/
 /* .c_info_bg{
@@ -406,7 +416,7 @@
     padding-bottom: 0;
 } */
 
-.bg_wave.room11{
+/* .bg_wave.room11{
     background-image: url(../image/body_bg_top.png);
     background-position: 0 0;
     background-size: contain;
@@ -453,12 +463,12 @@
 }
 .room_ame_inner li img{
     width: 100%;
-}
+} */
 
 
 
 /*===== ホテルのご案内 =====*/
-#about .c_info_bg{
+/* #about .c_info_bg{
     background-image: url(../image/pagetitle_about.png), url(../image/about_bg_illest1.png);
     background-size: 35.2rem auto, 26.6rem auto;
     background-position: left 5.5rem, right 7rem top 7rem;
@@ -586,11 +596,11 @@
     background-position: 0 0;
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 
 /*===== アクセス =====*/
-#access.subpage .top_fv{
+/* #access.subpage .top_fv{
     background-color: var(--bg-brown-color);
     height: 46rem;
 }
@@ -604,9 +614,6 @@
     width: 10rem;
     height: 58.4rem;
     padding: 2.5rem 0;
-}
-#access .c_info_bg{
-    background-image: none;
 }
 #access .pageinfo img{
     width: 26rem;
@@ -693,4 +700,207 @@
 }
 .access3{
     padding-top: 8rem;
+} */
+
+
+/*===== お知らせ =====*/
+#news .news{
+    margin: 0 auto;
 }
+#news .bg_wave{
+    background-image: url(../image/body_bg_top.png);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#news .img_bg_1::before, #news_detail .img_bg_1::before{
+    width: 24.9rem;
+    height: 24.7rem;
+    background-image: url(../image/news_illest1.png);
+    top: -24rem;
+    left: -15vw;
+}
+#news dl{
+    margin-bottom: 2.8rem;
+}
+
+/* ページネーション */
+.Pagination {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Pagination > * + * {
+    margin-left: 0.5rem;
+}
+.Pagination-Item-Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 2.5rem;
+    height: 3.2rem;
+    background: #fff;
+    font-size: 1.4rem;
+    transition: all 0.15s linear;
+}
+.Pagination-Item-Link-Icon {
+    width: 1.3rem;
+}
+.Pagination-Item-Link.isActive {
+    pointer-events: none;
+    background: var(--brown-color);
+    color: #fff;
+    padding-left: 0.25rem;
+}
+.Pagination-Item-Link:not(.isActive):hover {
+    background: var(--brown-color);
+    color: #fff;
+}
+.Pagination-Item-Link span{
+    margin-left: 0.2rem;
+}
+
+/*===== お知らせ詳細 =====*/
+#news_detail .vertical{
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    margin-top: 4.5rem;
+}
+#news_detail .news{
+    margin: 0 auto 20rem;
+    padding-top: 5rem;
+    flex-wrap: nowrap;
+}
+#news_detail .news dl{
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+}
+#news_detail .detail{
+    width: 82rem;
+    border-top: 0.3rem solid var(--brown-color);
+    border-bottom: 0.3rem solid var(--brown-color);
+    border-radius: 0.2rem;
+}
+#news_detail .detail_title{
+    border-bottom: 0.2rem solid var(--brown-color);
+    margin-top: 2.5rem;
+    padding: 0 1rem 3rem;
+    font-weight: bold;
+}
+#news_detail .detail_title p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#news_detail .detail_title h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.8rem;
+    margin-right: 0;
+}
+#news_detail .detail_inner{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    letter-spacing: 0.2rem;
+    padding: 0 1rem;
+}
+#news_detail .title{
+    display: flex;
+    flex-direction: column;
+}
+
+#news_detail .vertical{
+    margin-top: 0;
+}
+#news_detail .news a{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+}
+#news_detail .news a .btn{
+    width: 29rem;
+}
+.detail_inner .news_info{
+    margin-bottom: 4rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+}
+.detail_inner .news_subtitle{
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+}
+.detail_inner .news_img{
+    width: 100%;
+    max-width: 43.3rem;
+    height: auto;
+    margin-bottom: 3rem;
+    text-align: right;
+}
+.detail_inner .news_img img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.1rem;
+}
+#news_detail .detail_inner .news_img a{
+    display: inline-block;
+    border: none;
+    margin-top: 0;
+}
+.detail_inner .news_img a.news_img_size p{
+    font-size: 1.1rem;
+}
+.detail_inner .news_img a.news_img_size p::before{
+    content: "";
+    display: inline-block;
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-right: 0.7rem;
+    background-image: url(../image/lightbox/expansion_btn.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    vertical-align: -0.6rem;
+}
+.detail_inner .news_detail{
+    margin-bottom: 2rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+}
+
+@media screen and (max-width: 767px){
+    #news_detail .news{
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+    }
+    #news_detail .news h2{
+        margin: 0px auto 4rem;
+    }
+    #news_detail .vertical{
+        font-size: 2.8rem;
+    }
+    #news_detail .news dl{
+        margin: 1.7rem auto;
+    }
+    .Pagination{
+        min-width: 30rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #news_detail .detail{
+        min-width: 30rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #news_detail .detail_title h2{
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+

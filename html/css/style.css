@@ -1833,23 +1833,294 @@
 .room9{
   padding-bottom: 0;
 }
+.bg_wave.room11{
+  background-image: url(../image/body_bg_top.png);
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.room11 .inner{
+  max-width: 140rem;
+}
+.room11.content h2{
+  font-size: 3.4rem;
+  line-height: 4.6rem;
+  margin-bottom: 3.4rem;
+  letter-spacing: 0.9rem;
+}
+.room11 p{
+  line-height: 2.6rem;
+}
+.room_fixtures_inner{
+  overflow: hidden;
+  margin-bottom: 3.3rem;
+  padding-left: 2rem;
+}
+.room_fixtures_inner .float-l{
+  width: 33rem;
+}
+.room_fixtures_inner .float-l:nth-child(2){
+  width: 19rem;
+}
+.room_ame_list{
+  padding-left: 2rem;
+}
+.marugoto{
+  margin-top: 8.8rem;
+}
+.room_ame_inner{
+  width: 100%;
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.room_ame_inner li{
+  width: 32.1rem;
+  text-align: center;
+}
+.room_ame_inner li img{
+  width: 100%;
+}
 @media screen and (max-width: 767px){
 }
-
-/* ----- まるごとおもてなし ----- */
 
 
 
 /* ----- ホテルのご案内 ----- */
+#about .c_info_bg{
+  background-image: url(../image/pagetitle_about.png), url(../image/about_bg_illest1.png);
+  background-size: 35.2rem auto, 26.6rem auto;
+  background-position: left 5.5rem, right 7rem top 7rem;
+  background-repeat: no-repeat, no-repeat;
+}
 
+.about_point_wrap{
+  background-color: #E6E1CF;
+  border-radius: 2.2rem;
+  margin: 3.8rem auto 4.4rem;
+  padding: 3rem 1.5rem 3rem 3.2rem;
+  position: relative;
+}
+#about .content .inner{
+  padding: 8rem 0 10rem;
+}
+#about .content .con_text-r .con_title p, #about .content .con_text-l .con_title p{
+  letter-spacing: 0.3rem;
+}
+#about .content .con_text-r h2, #about .content .con_text-l h2{
+  letter-spacing: 0.9rem;
+}
+#about .content .con_text-r .text, #about .content .con_text-l .text{
+  line-height: 2.6rem;
+}
 
+#about .about_point_wrap p{
+  line-height: 2.6rem;
+}
+.about_point_wrap p span{
+  font-size: 2.4rem;
+  letter-spacing: 0.6rem;
+}
+.about_point_wrap .indent3{
+  text-indent: -3em;
+  padding-left: 3em;
+}
+.about5 .about_point_wrap{
+  padding: 3rem 2.5rem 3rem 3.2rem;
+}
+.about6 .float-r{
+  position: relative;
+}
+.content .float-r img.about_photo_6_float{
+  position: absolute;
+  width: 29.2rem;
+  height: auto;
+  left: -14.6rem;
+  bottom: -20.2rem;
+}
+.about6 .about_point_wrap{
+  width: 49.6rem;
+  margin: 3.8rem 0 4.4rem;
+}
+.about_kidroom_inner{
+  margin: 4rem 0;
+  overflow: hidden;
+}
+.about_kidroom_inner .float-l{
+  width: 19rem;
+}
+.about_kidroom_inner .float-l:nth-child(2){
+  width: 23rem;
+}
+.about_kidroom_inner .float-l p{
+  line-height: 2.6rem;
+}
 
-/* ----- 周辺観光 ----- */
+#about .img_bg_1::before{
+  width: 37rem;
+  height: 22.3rem;
+  background-image: url(../image/about_bg_illest2.png);
+  top: -21rem;
+  left: 12rem;
+}
+#about .img_bg_2::before{
+  width: 34.9rem;
+  height: 25rem;
+  background-image: url(../image/about_bg_illest3.png);
+  top: -23rem;
+  right: 10rem;
+}
+#about .img_bg_3::before{
+  width: 31.9rem;
+  height: 26.5rem;
+  background-image: url(../image/about_bg_illest4.png);
+  top: -26rem;
+  left: 17rem;
+}
+#about .img_bg_4::before{
+  width: 29.2rem;
+  height: 22.8rem;
+  background-image: url(../image/about_bg_illest5.png);
+  top: -24rem;
+  right: 22rem;
+}
+#about .img_bg_5::before{
+  width: 32.1rem;
+  height: 25.6rem;
+  background-image: url(../image/about_bg_illest6.png);
+  top: -22rem;
+  left: 15rem;
+}
+.about1{
+  padding-bottom: 16rem;
+}
+.about2{
+  padding-bottom: 20rem;
+}
+.about4{
+  padding-top: 6rem;
+}
+.about5{
+  padding-bottom: 0;
+}
+.about7{
+  padding-bottom: 17rem;
+}
+.about8{
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.bg_wave.about9{
+  background-image: url(../image/body_bg_top.png);
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 
 
 /* ----- アクセス ----- */
-
+#access.subpage .top_fv{
+  background-color: var(--bg-brown-color);
+  height: 46rem;
+}
+#access.subpage .top_fv_movie .in {
+  padding-bottom: 46rem;
+}
+#access .fv_menu{
+  top: 12rem;
+  right: -10rem;
+  background-color: #fff;
+  width: 10rem;
+  height: 58.4rem;
+  padding: 2.5rem 0;
+}
+#access .pageinfo img{
+  width: 26rem;
+  padding-top: 6.4rem;
+}
+#access .map .inner{
+  position: relative !important;
+  top: 0;
+}
+#access .content .map .inner .title{
+  text-align: center;
+  display: block;
+  margin-bottom: 2.9rem;
+  padding-bottom: 0;
+}
+#access .content .con_text-l h2{
+  margin-bottom: 1.8rem;
+}
+#access .content .con_text-r .text, #access .content .con_text-l .text{
+  line-height: 2.6rem;
+}
+#access .content .con_text-l{
+  height: auto;
+}
+#access .content .con_text-l .text span{
+  font-size: 2.2rem;
+}
+#access .float-r{
+  text-align: right;
+}
+#access .content .float-r img{
+  width: 60rem;
+  height: 40rem;
+  margin-top: 6rem;
+}
+#access .float-r img.float-r_img1{
+  width: 39.2rem;
+  height: auto;
+  margin-top: 0;
+}
+#access .float-r img.float-r_img2{
+  width: 25.8rem;
+  height: auto;
+  margin-top: 5rem;
+  margin-right: 11rem;
+}
+.access_how{
+  width: 100%;
+  margin-top: 9.3rem;
+}
+#access .about_point_wrap p{
+  line-height: 2.6rem;
+}
+#access .access_free .float-r{
+  text-align: left;
+}
+#access .img_bg_1::before{
+  width: 31.5rem;
+  height: 24.8rem;
+  background-image: url(../image/access_illest1.png);
+  top: -29rem;
+  right: 9rem;
+}
+#access .img_bg_2::before{
+  width: 28.9rem;
+  height: 16.9rem;
+  background-image: url(../image/access_illest2.png);
+  top: -23rem;
+  left: 27rem;
+}
+#access .img_bg_3::before{
+  width: 29rem;
+  height: 25.3rem;
+  background-image: url(../image/access_illest4.png);
+  top: -31rem;
+  left: 28rem;
+}
+.access1{
+  padding-top: 10rem;
+}
+.access2{
+  padding-top: 25rem;
+  padding-bottom: 23rem;
+}
+.access3{
+  padding-top: 8rem;
+}
 
 
 /* ----- お問い合わせ ----- */
@@ -1872,3 +2143,8 @@
 
 
 
+/* ----- まるごとおもてなし ----- */
+
+
+
+/* ----- 周辺観光 ----- */
