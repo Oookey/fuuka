@@ -44,15 +44,16 @@
     background-size: cover;
 } */
 
-#access .c_info_bg, #news .c_info_bg,
-#news_detail .c_info_bg, #topic_detail .c_info_bg{
+/* #access .c_info_bg, #news .c_info_bg,
+#news_detail .c_info_bg, #topic_detail .c_info_bg,
+#news_detail.contact .c_info_bg{
     background-image: none;
 }
 #news .pageinfo img, #news_detail .pageinfo img,
 #topic_detail .pageinfo img{
     width: 26rem;
     padding-top: 16rem;
-}
+} */
 
 
 /*===== お食事 =====*/
@@ -704,10 +705,10 @@
 
 
 /*===== お知らせ =====*/
-#news .news{
+/* #news .news{
     margin: 0 auto;
 }
-#news .bg_wave{
+#news .bg_wave, #news_detail .bg_wave{
     background-image: url(../image/body_bg_top.png);
     background-position: 0 0;
     background-size: contain;
@@ -722,10 +723,10 @@
 }
 #news dl{
     margin-bottom: 2.8rem;
-}
+} */
 
 /* ページネーション */
-.Pagination {
+/* .Pagination {
     font-family: 'Noto Sans JP', sans-serif;
     display: flex;
     align-items: center;
@@ -760,10 +761,10 @@
 }
 .Pagination-Item-Link span{
     margin-left: 0.2rem;
-}
+} */
 
 /*===== お知らせ詳細 =====*/
-#news_detail .vertical{
+/* #news_detail .vertical{
     font-size: 3rem;
     letter-spacing: 1.5rem;
     margin-top: 4.5rem;
@@ -898,9 +899,351 @@
     #news_detail .detail_title h2{
         margin-bottom: 0;
     }
+} */
+
+
+
+/*===== Topic詳細 =====*/
+/* #news_detail.topic_detail .img_bg_1::before{
+    width: 23rem;
+    height: 24.1rem;
+    background-image: url(../image/topic_detail_illest1.png);
+    top: -22rem;
+    left: -15vw;
+}
+#news_detail.topic_detail .news{
+    margin-bottom: 5rem;
+}
+#news_detail.topic_detail .detail_inner .news_img{
+    max-width: 63rem;
+} */
+
+
+
+/*===== イベント詳細 =====*/
+/* #news_detail.event_detail .img_bg_1::before{
+    width: 32.9rem;
+    height: 19.8rem;
+    background-image: url(../image/event_detail_illest1.png);
+    top: -18rem;
+    left: -15vw;
+} */
+
+
+
+/*===== 個人情報保護方針 =====*/
+/* #news_detail.pp .content{
+    padding-top: 20.6rem;
+}
+#news_detail.pp .news{
+    margin-bottom: 0;
+    padding-top: 0;
+}
+#news_detail.pp .detail_title{
+    margin-top: 4.1rem;
+    padding-bottom: 4.2rem;
+}
+#news_detail.pp .detail_title h2{
+    font-size: 2.2rem;
+}
+#news_detail.pp .detail_inner{
+    line-height: 2.2rem;
+}
+#news_detail.pp .detail_inner .indent2{
+    text-indent: -2.2em;
+    padding-left: 2em;
+} */
+
+
+
+/*===== 個人情報保護規定 =====*/
+/* #news_detail.pp.r .detail_inner h2{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    letter-spacing: 0.6rem;
+    white-space: initial;
+}
+#news_detail.pp.r .detail_inner p{
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+    white-space: initial;
+    font-weight: normal;
+}
+#news_detail.pp.r .detail_inner p.fw-b{
+    font-weight: bold;
 }
 
+#news_detail.pp.r .detail_inner p a{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+#news_detail.pp.r .detail_inner p.ti_15{
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+}
+#news_detail.pp.r .detail_inner p.ti_2{
+    text-indent: -2em;
+    padding-left: 2em;
+}
+#news_detail.pp.r .detail_inner p.ti_25{
+    text-indent: -2.5em;
+    padding-left: 2.5em;
+}
+#news_detail.pp.r .detail_inner p.ti_3{
+    text-indent: -3em;
+    padding-left: 3em;
+}
+#news_detail.pp.r .detail_inner p.ti_35{
+    text-indent: -3.5em;
+    padding-left: 3.5em;
+}
+#news_detail.pp.r .detail_inner .fw-b{
+    font-weight: bold;
+}
+#news_detail.pp.r .detail_inner h2{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    letter-spacing: 0.6rem;
+    white-space: initial;
+}
+#news_detail.pp.r .detail_inner h3{
+	margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    letter-spacing: 0.6rem;
+}
+#news_detail.pp.r .detail_inner ol{
+    margin: 0 auto 2rem;
+	padding-left: 2em;
+}
+#news_detail.pp.r .detail_inner ol li{
+    list-style-type: decimal;
+	white-space: initial;
+	font-size: 1.4rem;
+    font-weight: normal;
+}
+#news_detail.pp.r .detail_inner table{
+	border: 1px solid #e5e5e5;
+	margin-top: 1rem;
+}
+#news_detail.pp.r .detail_inner table tr{
+	border-bottom: 1px solid #e5e5e5;
+}
+#news_detail.pp.r .detail_inner table th,
+#news_detail.pp.r .detail_inner table td{
+	padding: 1rem;
+}
+
+#news_detail.pp.r .detail_inner .policy_provision{
+	text-align: right;
+	margin-top: 8rem;
+}
+
+@media screen and (max-width: 767px){
+    #news_detail.pp .detail_inner{
+        width: 85%;
+        margin: 0 auto 10rem;
+    }
+}
+@media screen and (max-width: 372px){
+    #news_detail.pp .detail_inner .policy_provision{
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 320px){
+    #news_detail.pp .detail_inner .policy_provision{
+		font-size: 1.1rem;
+	}
+} */
 
 
 
+/*===== お問い合わせフォーム =====*/
+.contact .top_info{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+.contact table{
+    width: 100%;
+}
+.contact table th, .contact table td{
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #eee;
+}
+.contact table th{
+    width: 30%;
+    letter-spacing: 1px;
+}
+.contact .select{
+    position: relative;
+    width: 12.6rem;
+    height: 4.8rem;
+}
+.contact .select2{
+    width: 25.4rem;
+    height: 4.6rem;
+    position: relative;
+}
+.contact.confirm .select, .contact.confirm .select2{
+    height: auto;
+}
+.contact .select::before, .contact .select2::before{
+    position: absolute;
+    top: 18px;
+    right: 16px;
+    width: 0;
+    height: 0;
+    border-width: 10px 5px 0 5px;
+    border-style: solid;
+    border-color: #a9a9a9 transparent transparent transparent;
+    content: "";
+    pointer-events: none;
+}
+.contact.confirm .select::before, .contact.confirm .select2::before{
+    display: none;
+}
+.contact select, .contact textarea, .contact input[type="text"]{
+    padding: 1rem;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+}
+.contact select{
+    padding: 1rem 5rem 0.8rem 1rem;
+}
+.contact textarea{
+    width: 100%;
+}
+.contact input[type="text"].p-locality, .contact .c_mail input[type="text"]{
+    width: 100%;
+}
+.contact .c_OF_hidden{
+    overflow: hidden;
+}
+.c_left{
+    float: left;
+}
+.w_50{
+    width: 50%;
+}
+.c_bottom_wrap{
+    text-align: center;
+    margin: 5rem auto 4rem;
+}
+.contact input[type="submit"] {
+    background-color: #244D57;
+    color: #ffffff;
+    padding: 2rem 12rem;
+    line-height: 1;
+    border-radius: 4px;
+    font-size: 2.2rem;
+    margin-bottom: 5rem;
+}
+.contact .mw_wp_form .error{
+    font-weight: bold;
+    color: red;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
 
+.f-error{
+	display: none;
+    font-size: 1.6rem;
+	font-weight: bold;
+	margin-bottom: 3.5rem;
+	color: #E30000 !important;
+}
+.f-error.display{
+	display: inherit !important;
+}
+.f-er-n.display-n{
+	display: none;
+}
+.contact.confirm .dis_n{
+    display: none !important;
+}
+.contact .dis_i{
+    display: none;
+}
+.contact.confirm .dis_i{
+    display: inherit;
+}
+.contact.confirm input[type="submit"]{
+    margin-right: 6rem;
+}
+.contact.confirm input[type="submit"]:nth-child(2n){
+    margin-right: 0;
+}
+.contact.confirm input[type="submit"].back.pc{
+    display: inline-block !important;
+}
+.newspage .contact.confirm .vertical{
+    text-align: center;
+}
+
+@media screen and (max-width: 767px){
+    .contact .top_info {
+        min-width: 30rem;
+        width: 80%;
+        margin: 0 auto 3rem;
+    }
+    .contact .last td:last-child {
+        border-bottom: solid 1px #ccc;
+        width: 100%;
+    }
+    .contact table{
+        width: 100%;
+    }
+    .contact table th,
+    .contact table td {
+        border-bottom: none;
+        display: block;
+        width: 100%;
+    }
+    .contact table th{
+        padding: 3rem 0 1rem;
+    }
+    .contact table td {
+        padding: 0rem 0 2rem;
+    }
+    .contact .w_50{
+        /* width: 100%;
+        margin-bottom: 3rem; */
+    }
+    .contact .w_50:nth-child(2n){
+        margin-bottom: 0;
+    }
+    .contact textarea{
+        width: 100%;
+    }
+    .contact input[type="text"] {
+        width: 100%;
+    }
+    .contact .mwform-zip-field input[type="text"]{
+        width: 30%;
+    }
+    .contact .mwform-tel-field input[type="text"]{
+        width: 27%;
+    }
+    .f-error{
+        min-width: 30rem;
+        width: 80%;
+        margin: 0 auto 3rem;
+    }
+    .contact.confirm input[type="submit"]{
+        margin-right: 0;
+    }
+    .contact.confirm input[type="submit"].back.pc{
+        display: none !important;
+    }
+    .contact.confirm input[type="submit"].back.sp{
+        margin: 0 auto 7rem;
+    }
+}
