@@ -1264,6 +1264,7 @@
   .map .address p{
     white-space: inherit;
     margin: 0;
+    font-size: 1.6rem;
   }
 }
 
@@ -2291,6 +2292,77 @@
 }
 .access3{
   padding-top: 8rem;
+}
+@media screen and (max-width: 767px){
+  #access.subpage .top_fv{
+    height: 35rem !important;
+  }
+  #access.subpage .top_fv_movie .in{
+    padding-bottom: 35rem !important;
+  }
+  #access .pageinfo img{
+    padding-bottom: 22rem;
+  }
+  #access .img_bg_1::before{
+    width: 27rem;
+    height: 21.3rem;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    top: -28rem;
+  }
+  #access .map .address{
+    margin-bottom: 0;
+  }
+  #access .img_bg_2::before{
+    width: 24.9rem;
+    height: 14.4rem;
+    left: auto;
+    right: 2rem;
+    top: -20rem;
+  }
+  #access .float-r img.float-r_img1{
+    position: absolute;
+    width: 30rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 37rem;
+  }
+  #access .content .con_text-l h2{
+    text-align: center;
+  }
+  #access .content .con_text-r .text, #access .content .con_text-l .text{
+    line-height: 3.8rem;
+  }
+  .access_how{
+    width: 90%;
+    margin: 23rem auto 0;
+  }
+  #access .img_bg_3::before{
+    width: 25rem;
+    height: 21.3rem;
+    left: auto;
+    right: 2rem;
+    top: -26rem;
+  }
+  .access2{
+    padding-top: 18rem;
+    padding-bottom: 8rem;
+  }
+  #access .float-r img.float-r_img2{
+    position: absolute;
+    width: 30rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 34rem;
+  }
+  #access .content.access3 .float-r img{
+    width: 100%;
+    height: auto;
+  }
+  #access .content.access3 .text{
+    margin-bottom: -2rem;
+  }
 }
 
 
