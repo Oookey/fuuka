@@ -580,6 +580,7 @@ body{
     background-color: #fff;
     color: #292929;
     border-radius: 0;
+    white-space: nowrap;
 }
 #g-nav .nav_sns {
     font-family: 'Noto Sans JP', sans-serif;
