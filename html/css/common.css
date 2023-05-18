@@ -140,6 +140,15 @@ body{
 .flex {
     display: flex;
 }
+/* FV */
+.top_fv_movie .movie{
+    padding-top: 10rem;
+}
+@media screen and (max-width: 767px){
+    .top_fv_movie .movie{
+        padding-top: 8rem;
+    }  
+}
 
 /* ----- 左右レイアウト ----- */
 .content {
@@ -182,7 +191,6 @@ body{
 .content .con_text-r,.content .con_text-l{
   width: 50%;
   position: relative;
-  height: 61rem;
 }
 .content .con_text-r h2,.content .con_text-l h2{
   font-size: 3.4rem;
@@ -267,6 +275,7 @@ body{
         float: none;
         padding: 0;
         height: auto;
+        margin-bottom: 4.3rem;
     }
     .content .float-l img, .content .float-r img{
         height: 31rem;
@@ -288,7 +297,7 @@ body{
     .content .con_text-r .text, .content .con_text-l .text{
         font-size: 2rem;
         letter-spacing: 0;
-        line-height: 3rem;
+        line-height: 3.8rem;
     }
     .content .con_text-r a, .content .con_text-l a{
         margin: auto;
@@ -349,7 +358,6 @@ body{
 @media screen and (max-width: 1024px){
     .global_menu{
         justify-content: flex-start;
-        height: 8rem;
     }
     .global_menu_logo img{
         margin-right: 1.6rem;
@@ -359,6 +367,11 @@ body{
         font-size: 1.1rem;
         padding: 0;
         border: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .global_menu{
+        height: 8rem;
     }
 }
 /* ハンバーガーメニュー */
