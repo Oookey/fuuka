@@ -60,6 +60,7 @@
 }
 .top_fv_text p{
   writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
   background-color: #fff;
   color: var(--main-color);
   border-radius: 3rem;
