@@ -468,19 +468,30 @@
 }
 .special_contents_text{
   position: absolute;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: bold;
   color: #fff;
-  top: 52%;
+  top: 56%;
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 1rem;
   line-height: 3.7rem;
   text-align: center;
 }
+.special_contents_text h2 span{
+  font-size: 3.6rem;
+}
 .special_contents_text h2{
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.8rem;
   text-shadow: #000 0px 0px 12px;
+  white-space: nowrap;
+  line-height: 4.2rem;
+}
+.special_contents_text .btn{
+  float: none;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 1.5rem;
 }
 .special .special_contents_inner:last-child .btn{
   background-color: #3C2F09;
@@ -2831,11 +2842,66 @@ margin-top: 8rem;
 
 
 /* ----- お問い合わせ ----- */
-
-
-
+@media screen and (max-width: 767px){
+  .contact .pageinfo_inner{
+    padding-bottom: 2rem !important;
+  }
+}
 /* ----- まるごとおもてなし ----- */
-
-
+#hos {
+  padding-top: 10rem;
+}
+#hos .fv_menu{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  width: 10rem;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+#hos .pageinfo{
+  background: linear-gradient(116deg, #E4EFE1 40%, #E8F2FF 60%);
+  position: relative;
+}
+#hos .c_info_bg{
+  background-image: url(../image/hos_bg_photo1.png), url(../image/hos_bg_photo2.png);
+  background-size: 24rem auto, 25rem auto;
+  background-position: left calc(50% - 42rem) top 14rem, right calc(50% - 42rem) top 13rem;
+  background-repeat: no-repeat, no-repeat;
+}
+#hos .pageinfo_inner .title{
+  width: 46rem;
+  margin: 10rem auto 5rem;
+}
+#hos .pageinfo_inner p{
+  font-size: 2.2rem;
+  letter-spacing: 0.3rem;
+  padding-bottom: 0;
+}
+#hos .pageinfo_inner .illust img{
+  position: absolute;
+  z-index: 1;
+}
+#hos .pageinfo_inner .illust img:nth-of-type(1){
+  top: 36rem;
+  left: calc(50% - 70rem);
+}
+#hos .pageinfo_inner .illust img:nth-of-type(2){
+  top: 49rem;
+  left: calc(50% - 52rem);
+}
+#hos .pageinfo_inner .illust img:nth-of-type(3){
+  top: 44rem;
+  right: calc(50% - 53rem);
+}
+#hos .bg_wave.hos_c1{
+  background-image: url(../image/body_bg_top-hos.png), url(../image/body_bg_bottom.png);
+}
+#hos .special_contents{
+  max-width: 125rem;
+  margin: 0 auto;
+}
 
 /* ----- 周辺観光 ----- */

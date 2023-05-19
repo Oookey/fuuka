@@ -176,6 +176,16 @@ body{
         width: 15rem;
     }
 }
+/* 画像拡大 */
+.zoom{
+    overflow: hidden;
+}
+.zoom img{
+    transition: transform .6s ease;
+}
+.zoom:hover img{
+    transform: scale(1.03); /* 拡大 */
+}
 /* ローディング */
 #loader {
     position: fixed;
@@ -241,11 +251,13 @@ body{
   left: 10rem;
   top: 16rem;
 }
+.content .float-l,.content .float-r{
+    border-radius: 2.2rem;
+    object-fit: cover;
+}
 .content .float-l img,.content .float-r img{
-  width: 100%;
-  height: 61rem;
-  object-fit: cover;
-  border-radius: 2.2rem;
+    width: 100%;
+    height: 61rem;
 }
 .content .con_text-r{
   padding-left: 6rem;
