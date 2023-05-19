@@ -110,7 +110,7 @@ body{
     }
 }
 /* 矢印 */
-.arrow {
+/* .arrow {
     display: inline-block;
     vertical-align: middle;
     line-height: 1;
@@ -137,6 +137,16 @@ body{
     right: 0;
     bottom: 0;
     width: 0.08em;
+} */
+.arrow{
+    width: 3.6rem;
+    height: 6.1rem;
+}
+.arrow::before{
+    content: '';
+    background-image: url(../image/arrow_w.svg);
+    width: 3.6rem;
+    height: 6.1rem;
 }
 .flex {
     display: flex;
