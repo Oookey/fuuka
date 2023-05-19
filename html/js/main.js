@@ -1,3 +1,19 @@
+$(function testFunc(callback){
+  //読み込みが完了したら実行する
+  $(window).on('load',function(){
+  //ローディングアニメーションをフェードアウト
+  $('#loader').delay(600).fadeOut(600);
+});
+  //セットタイムアウトを使って、読み込み完了の0.8秒後にfadeIn実施
+  setTimeout(function(){
+      $('#loader').fadeOut(500);
+  },800);
+  setTimeout(function (){
+  var wHeight = $(document).height();
+  var scrollAmount = $(document).scrollTop();
+ },800);
+});
+
 // kirigirisu
 (function(d) {
   var config = {
