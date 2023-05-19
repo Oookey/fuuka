@@ -63,12 +63,13 @@
   background-color: #fff;
   color: var(--main-color);
   border-radius: 3rem;
-  padding: 3.5rem 1.2rem;
+  padding: 3.5rem 2.5rem;
   font-size: 2.4rem;
   letter-spacing: 0.7rem;
   margin-left: 2.4rem;
   height: fit-content;
   text-align: center;
+  line-height: 0;
 }
 .top_fv_text p:nth-of-type(2){
   margin-top: 7rem;
@@ -1729,7 +1730,7 @@
     margin-bottom: 3rem;
   }
   .meal_menu_text_inner{
-    padding:0 2rem;
+    padding:0 1rem;
   }
   .cuisine_content .kome{
     padding: 0 2.8rem 0 4.2rem;
