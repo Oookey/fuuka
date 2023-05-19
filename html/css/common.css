@@ -139,15 +139,19 @@ body{
     width: 0.08em;
 } */
 .arrow{
-    width: 3.6rem;
-    height: 6.1rem;
+    margin-right: 0.8rem;
 }
 .arrow::before{
     content: '';
     background-image: url(../image/arrow_w.svg);
-    width: 3.6rem;
-    height: 6.1rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    width: 0.6rem;
+    height: 1.1rem;
 }
+
 .flex {
     display: flex;
 }
@@ -366,6 +370,9 @@ body{
 }
 .global_menu_other .arrow{
     color: var(--main-color);
+}
+.global_menu_other .arrow::before{
+    background-image: url(../image/arrow_g.svg);
 }
 @media screen and (max-width: 1024px){
     .global_menu{
@@ -591,6 +598,9 @@ body{
     color: #292929;
     border-radius: 0;
     white-space: nowrap;
+}
+#g-nav .btn .arrow::before{
+    background-image: url(../image/arrow_b.svg);
 }
 #g-nav .nav_sns {
     font-family: 'Noto Sans JP', sans-serif;

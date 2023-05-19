@@ -392,6 +392,9 @@
   margin-left: 2rem;
   line-height: 2.7rem;
 }
+.top_news .arrow::before{
+  background-image: url(../image/arrow_g.svg);
+}
 /* まるごとおもてなし */
 .special .title{
   text-align: center;
