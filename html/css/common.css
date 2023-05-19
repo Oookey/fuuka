@@ -159,10 +159,22 @@ body{
 .top_fv_movie .movie{
     padding-top: 10rem;
 }
+.fv_text{
+    position: absolute;
+    right: 20rem;
+    top: 18rem;
+}
 @media screen and (max-width: 767px){
     .top_fv_movie .movie{
         padding-top: 8rem;
-    }  
+    } 
+    .fv_text{
+        right: 4rem;
+        top: 21rem;
+    }
+    .fv_text img{
+        width: 15rem;
+    }
 }
 
 /* ----- 左右レイアウト ----- */
