@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* サブページの共通部分 */
+/* .subpage .top_fv_movie .in{
+    padding-bottom: 90rem;
+}
+.subpage .top_fv_movie .movie{
+    padding-top: 10rem;
+}
+.subpage .top_fv{
+    height: 90rem;
+}
+.subpage .top_fv::before{
+    height: 15rem;
+}
+.pageinfo{
+    width: 100%;
+}
+.pageinfo_inner{
+    text-align: center;
+}
+.pageinfo_inner h2{
+    font-size: 3.2rem;
+    line-height: 4.6rem;
+    margin-bottom: 5rem;
+    letter-spacing: 9.6px;
+    padding-top: 9.9rem;
+}
+.pageinfo_inner p{
+    font-size: 2rem;
+    line-height: 3.8rem;
+    padding-bottom: 6rem;
+}
+.img_bg_1, .img_bg_2, .img_bg_3, .img_bg_4, .img_bg_5{
+    position: relative;
+}
+.img_bg_1::before, .img_bg_1::after, .img_bg_2::before, .img_bg_2::after,
+.img_bg_3::before, .img_bg_3::after, .img_bg_4::before, .img_bg_4::after,
+.img_bg_5::before, .img_bg_5::after{
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* #access .c_info_bg, #news .c_info_bg,
+#news_detail .c_info_bg, #topic_detail .c_info_bg,
+#news_detail.contact .c_info_bg{
+    background-image: none;
+}
+#news .pageinfo img, #news_detail .pageinfo img,
+#topic_detail .pageinfo img{
+    width: 26rem;
+    padding-top: 16rem;
+} */
+
+
+/*===== お食事 =====*/
+/*===== 客室のご案内 =====*/
+/*===== ホテルのご案内 =====*/
+/*===== アクセス =====*/
+/*===== お知らせ =====*/
+/*===== お知らせ詳細 =====*/
+/*===== Topic詳細 =====*/
+/*===== イベント詳細 =====*/
+/*===== 個人情報保護方針 =====*/
+/*===== 個人情報保護規定 =====*/
+
+/*===== お問い合わせフォーム =====*/
+.contact{
+    font-weight: normal;
+}
+#news_detail.contact .news{
+    margin-bottom: 0;
+}
+.contact .top_info{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+#news_detail.contact .detail{
+    border-bottom: 0.1rem solid var(--brown-color);
+    margin-bottom: 5rem;
+}
+.contact table{
+    width: 100%;
+    border-bottom: 3px solid var(--brown-color);
+}
+.contact table th, .contact table td{
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #eee;
+}
+.contact table th{
+    width: 30%;
+    letter-spacing: 1px;
+}
+.contact .select{
+    position: relative;
+    width: 12.6rem;
+    height: 4.8rem;
+}
+.contact .select2{
+    width: 25.4rem;
+    height: 4.6rem;
+    position: relative;
+}
+.contact.confirm .select, .contact.confirm .select2{
+    height: auto;
+}
+.contact .select::before, .contact .select2::before{
+    position: absolute;
+    top: 18px;
+    right: 16px;
+    width: 0;
+    height: 0;
+    border-width: 10px 5px 0 5px;
+    border-style: solid;
+    border-color: #a9a9a9 transparent transparent transparent;
+    content: "";
+    pointer-events: none;
+}
+.contact.confirm .select::before, .contact.confirm .select2::before{
+    display: none;
+}
+.contact select, .contact textarea, .contact input[type="text"]{
+    padding: 1rem;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+}
+.contact select{
+    padding: 1rem 5rem 0.8rem 1rem;
+}
+.contact textarea{
+    width: 100%;
+}
+.contact input[type="text"].p-locality, .contact .c_mail input[type="text"]{
+    width: 100%;
+}
+.contact .c_OF_hidden{
+    overflow: hidden;
+}
+.c_left{
+    float: left;
+}
+.w_50{
+    width: 50%;
+}
+.c_bottom_wrap{
+    text-align: center;
+    margin: 5rem auto 3.3rem;
+}
+.contact input[type="submit"] {
+    background-color: var(--brown-color);
+    color: #ffffff;
+    padding: 2rem 12rem;
+    line-height: 1;
+    border-radius: 100rem;
+    font-size: 1.6rem;
+    margin-bottom: 5rem;
+}
+.contact .mw_wp_form .error{
+    font-weight: bold;
+    color: red;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.f-error{
+	display: none;
+    font-size: 1.6rem;
+	font-weight: bold;
+	margin-bottom: 3.5rem;
+	color: #E30000 !important;
+}
+.f-error.display{
+	display: inherit !important;
+}
+.f-er-n.display-n{
+	display: none;
+}
+.contact.confirm .dis_n{
+    display: none !important;
+}
+.contact .dis_i{
+    display: none;
+}
+.contact.confirm .dis_i{
+    display: inherit;
+}
+.contact.confirm input[type="submit"]{
+    margin-right: 6rem;
+}
+.contact.confirm input[type="submit"]:nth-child(2n){
+    margin-right: 0;
+}
+.contact.confirm input[type="submit"].back.pc{
+    display: inline-block !important;
+}
+.newspage .contact.confirm .vertical{
+    text-align: center;
+}
+#news_detail.contact .arrow{
+    transform: translateX(-25%) rotate(-135deg);
+}
+
+@media screen and (max-width: 767px){
+    #news_detail.contact .news{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .contact .top_info {
+        min-width: 30rem;
+        width: 80%;
+        margin: 0 auto 3rem;
+    }
+    .contact .last td:last-child {
+        border-bottom: solid 1px #ccc;
+        width: 100%;
+    }
+    .contact table{
+        width: 100%;
+    }
+    .contact table th,
+    .contact table td {
+        border-bottom: none;
+        display: block;
+        width: 100%;
+    }
+    .contact table th{
+        padding: 3rem 0 1rem;
+    }
+    .contact table td {
+        padding: 0rem 0 2rem;
+    }
+    .contact .w_50{
+        width: 40%;
+        margin-right: 2rem;
+    }
+    .contact .w_50:nth-child(2n){
+        margin-bottom: 0;
+    }
+    .contact textarea{
+        width: 100%;
+    }
+    .contact input[type="text"] {
+        width: 100%;
+    }
+    .contact .mwform-zip-field input[type="text"]{
+        width: 30%;
+    }
+    .contact .mwform-tel-field input[type="text"]{
+        width: 27%;
+    }
+    .f-error{
+        min-width: 30rem;
+        width: 80%;
+        margin: 0 auto 3rem;
+    }
+    .contact.confirm input[type="submit"]{
+        margin-right: 0;
+    }
+    .contact.confirm input[type="submit"].back.pc{
+        display: none !important;
+    }
+    .contact.confirm input[type="submit"].back.sp{
+        margin: 0 auto 7rem;
+    }
+}
