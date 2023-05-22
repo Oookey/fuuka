@@ -2855,6 +2855,7 @@ margin-top: 8rem;
 /* ----- まるごとおもてなし ----- */
 #hos {
   padding-top: 10rem;
+  position: relative;
 }
 #hos .hos_bg-1{
   background-color: #E4EFE1;
@@ -2910,7 +2911,7 @@ margin-top: 8rem;
 }
 #hos .pageinfo_inner .illust img:nth-of-type(3){
   top: 44rem;
-  right: calc(50% - 53rem);
+  right: calc(50% - 51rem);
 }
 #hos .bg_wave.hos_link{
   background-image: url(../image/body_bg_top-hos.png), url(../image/hos_bg_top.png);
@@ -2954,11 +2955,21 @@ margin-top: 8rem;
 #hos .hos_c_title .special_contents_text h2 span{
   font-size: 4.8rem;
 }
-#hos .hos_c_title p{
+#hos .hos_c_title .text_tilt{
+  display: flex;
+  justify-content: center;
+}
+#hos .hos_c_title .text_tilt p{
   font-size: 2.6rem;
   transform: rotate(-2deg);
   color: var(--main-color);
   text-align: center;
+}
+#hos .hos_c_title .text_tilt p:first-child{
+  line-height: 1;
+}
+#hos .hos_c_title .text_tilt p:last-child{
+  line-height: 0;
 }
 #hos .content .float-l img,#hos .content .float-r img{
   object-fit: cover;
@@ -3086,9 +3097,15 @@ margin-top: 8rem;
 #hos .hos_c8 figure{
   float: right;
 }
- #hos .hos_c.hos_bg-2:last-child{
+#hos .hos_c.hos_bg-2:last-child{
   padding-bottom: 11vw;
- }
+}
+/* #hos_c,#hos_a{
+  padding-top: 15rem !important;
+}
+#hos_c .inner,#hos_a .inner{
+  margin-top: -10rem;
+} */
  @media screen and (max-width: 767px){
   #hos{
     padding-top: 8rem;
@@ -3127,6 +3144,10 @@ margin-top: 8rem;
   }
   #hos .bg_wave.hos_link{
     padding-top: 36rem;
+    padding-bottom: 20vw;
+  }
+  #hos.subpage .special_contents_text .btn{
+    font-size: 1rem;
   }
   #hos .hos_c_title .special_contents_inner figure{
     clip-path: url(#mask-special-sp);
@@ -3140,5 +3161,87 @@ margin-top: 8rem;
   #hos .hos_c figure:last-child{
     clip-path: url(#mask-hos_img2-sp);
   }
+  #hos .hos_c_title .text_tilt{
+    flex-direction: column;
+  }
+  #hos .hos_c_title .text_tilt p{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    max-width: 37rem;
+    width: 95%;
+    margin: 0 auto;
+  } 
+  #hos .hos_c_title .text_tilt p:first-child{
+    text-align: left;
+    line-height: 1.3;
+  }
+  #hos .hos_c_title .text_tilt p:last-child{
+    text-align: right;
+    line-height: 1.3;
+  }
+  #hos .hos_c_title .special_contents_text{
+    font-size: 1.9rem;
+  }
+  #hos .hos_c_title .special_contents_text h2 span{
+    font-size:2.6rem;
+  }
+  #hos .hos_c_title .special_contents_text h2{
+    line-height: 3.2rem;
+  }
+  #hos .hos_c_title .special_contents_inner{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #hos .hos_c_title .special_contents::after{
+    width: 21.5rem;
+    height: 19.5rem;
+  }
+  #hos .hos_bg-1,  #hos .hos_bg-2{
+    padding-bottom: 8rem;
+  }
+  #hos .content .con_text-r, #hos .content .con_text-l{
+    width: 100%;
+  }
+  #hos .content .con_text-r h2, #hos .content .con_text-l h2{
+    align-items: center;
+    font-size: 2.6rem;
+    text-align: center;
+  }
+  #hos .content .con_text-r .time, #hos .content .con_text-l .time{
+    text-align: center;
+    line-height: 2rem;
+  }
+  #hos .hos_c figure img{
+    height: 20.5rem;
+    width: 33rem;
+  }
+  #hos .content .con_mv{
+    max-width: 36rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #hos .hos_c figure:last-child img{
+    height: 10.6rem;
+    width: 16.4rem;
+  }
+  #hos .hos_c figure:last-child{
+    bottom: -3rem;
+  }
+  .subpage .content .con_text-r .text, .subpage .content .con_text-l .text{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #hos .hos_c.bg_wave{
+    padding-top: 32vw;
+    padding-bottom: 25vw;
+  }
+  #hos .hos_c.hos_bg-1, #hos .hos_c.hos_bg-2{
+    padding-top: 20vw;
+    padding-bottom: 10vw;
+  }
+  #hos .hos_c.hos_bg-2:last-child{
+    padding-bottom: 20vw;
+  }
  }
+ 
 /* ----- 周辺観光 ----- */
