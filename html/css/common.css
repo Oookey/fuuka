@@ -258,6 +258,7 @@ body{
 .content .float-l img,.content .float-r img{
     width: 100%;
     height: 61rem;
+    object-fit: cover;
 }
 .content .con_text-r{
   padding-left: 6rem;
