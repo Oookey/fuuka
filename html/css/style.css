@@ -634,7 +634,7 @@
 }
 /* next */
 .slick-next {
-  right: calc(0% - -4rem) !important;
+  right: calc(0% - 0rem) !important;
 }
 .slick-next::after {
   right: 3.2rem;
@@ -642,7 +642,7 @@
 }
 /* prev */
 .slick-prev {
-  left: calc(0% - -4rem) !important;
+  left: calc(0% - 0rem) !important;
 }
 .slick-prev::after {
   left: 3.2rem;
@@ -1392,7 +1392,7 @@
   }
   .subpage  .btn{
     font-size: 1.6rem;
-    margin: 0 auto;
+    margin: 4rem auto 0;
   }
   .subpage .content .con_text-r h2,.subpage .content .con_text-l h2{
     font-size: 2.6rem;
@@ -1422,8 +1422,8 @@
 /*===== お食事 =====*/
 .c_info_bg{
   background-image: url(../image/pagetitle_cuisine.png), url(../image/cuisine_bg_illest1.png);
-  background-size: 35.2rem auto, 26.6rem auto;
-  background-position: left 5.5rem, right 7rem top 7rem;
+  background-size: auto 19.2rem, 26.6rem auto;
+  background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
 }
 .menu_navi{
@@ -1438,13 +1438,16 @@
 .menu_navi p{
   font-size: 2rem;
   line-height: 3.8rem;
-  margin-bottom: 4.9rem;
+  margin-bottom: 0rem;
 }
 .menu_navi_inner{
   width: 100%;
   max-width: 102rem;
   overflow: hidden;
   margin: 0 auto 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .menu_navi_left{
   float: left;
@@ -1454,6 +1457,7 @@
   width: 46.2rem;
   height: 32.8rem;
   padding-top: 3rem;
+  margin: 5rem auto 0;
 }
 .menu_navi_left .arrow::before{
   background-image: url(../image/arrow_y.svg);
@@ -1499,6 +1503,7 @@
   width: 46.2rem;
   height: 32.8rem;
   padding-top: 3rem;
+  margin: 5rem auto 0;
 }
 .menu_navi_right .arrow::before{
   background-image: url(../image/arrow_g.svg);
@@ -1728,7 +1733,7 @@
     padding: 0 2.5rem;
   }
   #cuisine .cuisine_content .inner{
-    padding: 0 6rem 13rem;
+    padding: 0 0rem 13rem;
   }
   .content .con_title{
     margin: 0;
@@ -1801,8 +1806,8 @@
 /*===== 客室のご案内 =====*/
 #room .c_info_bg{
   background-image: url(../image/pagetitle_room.png), url(../image/room_bg_illest1.png);
-  background-size: 35.2rem auto, 26.6rem auto;
-  background-position: left 5.5rem, right 7rem top 7rem;
+  background-size: auto 19.2rem, 26.6rem auto;
+  background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -1963,7 +1968,8 @@
     padding-bottom: 10rem;
   }
   #room .content .inner{
-    padding-top: 0;
+    /* padding-top: 0; */
+    padding: 0;
   }
   #room .img_bg_1::before,
   #room .img_bg_2::before,
@@ -2058,8 +2064,8 @@
 /* ----- ホテルのご案内 ----- */
 #about .c_info_bg{
   background-image: url(../image/pagetitle_about.png), url(../image/about_bg_illest1.png);
-  background-size: 35.2rem auto, 26.6rem auto;
-  background-position: left 5.5rem, right 7rem top 7rem;
+  background-size: auto 19.2rem, 26.6rem auto;
+  background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -2311,7 +2317,8 @@
   text-align: right;
 }
 #access .content .float-r img{
-  width: 60rem;
+  max-width: 60rem;
+  width: 100%;
   height: 40rem;
   margin-top: 6rem;
 }
@@ -2654,7 +2661,7 @@
   }
   #news_detail .detail{
       min-width: 30rem;
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
   }
   #news_detail .detail_title h2{
@@ -3251,8 +3258,8 @@ margin-top: 8rem;
  /* 体験宿泊プラン */
  #activity .c_info_bg {
   background-image: url(../image/pagetitle_activity.png), url(../image/hos_bg_illust2.svg);
-  background-size: 35.2rem auto, 26.6rem auto;
-  background-position: left 5.5rem, right 7rem top 7rem;
+  background-size: auto 19.2rem, 26.6rem auto;
+  background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
 }
 .content .con_text-r h2, .content .con_text-l h2,
@@ -3282,9 +3289,30 @@ margin-top: 8rem;
   #activity .about1:nth-child(odd){
     padding-top: 27vw;
     padding-bottom: 30vw;
-  }#activity .about1:nth-child(even){
+  }
+  #activity .about1:nth-child(even){
     padding-top: 15vw;
     padding-bottom: 16vw;
+  }
+  #activity .con-sp-fv{
+    padding: 0;
+  }
+  #activity.subpage .content .con_mv{
+    text-align: center;
+  }
+  /* #activity.subpage .content .con_text-r,#activity.subpage .content .con_text-l{
+    padding: 0 2.5rem;
+  } */
+  #activity.subpage .content .con_title{
+    padding: 0 2.5rem;
+  }
+  #activity .content .float-l img,#activity  .content .float-r img{
+    margin: 0 2.5rem;
+    width: 89%;
+  }
+  #activity .slick li img{
+    margin: 0 1rem 0.5rem !important;
+    width: 21rem !important;
   }
 }
  
