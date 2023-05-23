@@ -1203,6 +1203,12 @@
   .room.content{
     padding-bottom: 12rem;
   }
+  #top .about.content .illust-r{
+    top: 98rem;
+  }
+  #top .bath.content .illust-l{
+    top: 96rem;
+  }
   /* 体験宿泊プラン */
   .plan.bg_wave{
     padding-top: 16rem;
@@ -2730,6 +2736,10 @@
 #news_detail.pp .detail_inner .indent2{
   text-indent: -2.2em;
   padding-left: 2em;
+}
+#news_detail.pp a{
+  display: inline;
+  border-bottom: solid 0.1rem #292929;
 }
 
 /*===== 個人情報保護規定 =====*/
