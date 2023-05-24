@@ -1,6 +1,6 @@
 <!-- グローバルメニュー -->
 <div class="global_menu">
-    <a href="./index.html"class="global_menu_logo"><img src="./image/logo.svg" alt=""></a>
+    <a href="<?php bloginfo('url'); ?>/"class="global_menu_logo"><img src="<?php bloginfo('template_directory'); ?>/image/logo.svg" alt=""></a>
     <ul class="global_menu_inner pc">
         <li>
             <a href="">お食事のご案内</a>
@@ -46,7 +46,7 @@
             <div class="nav_inner">
                 <div class="nav_bg"></div>
                 <div class="nav_access">
-                    <a href="./index.html"><img src="./image/logo.svg" alt=""></a>
+                    <a href="<?php bloginfo('url'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/image/logo.svg" alt=""></a>
                     <p>
                         <span>八ヶ岳ホテル風か</span>
                         <br><br>
@@ -141,7 +141,7 @@
                                 <p class="fs14">公式SNS</p>
                                 <div class="insta_icon">
                                     <a href="" target="_blank" rel="noopener">
-                                        <img src="./image/icon_instagram.svg">
+                                        <img src="<?php bloginfo('template_directory'); ?>/image/icon_instagram.svg">
                                         <p class="fs08">Instagram</p>
                                     </a>
                                 </div>

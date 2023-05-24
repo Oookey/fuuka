@@ -3,7 +3,7 @@
         <div class="sns_menu_inner">
             <div class="insta_icon">
                 <a href="" target="_blank" rel="noopener">
-                    <img src="./image/icon_instagram_w.svg">
+                    <img src="<?php bloginfo('template_directory'); ?>/image/icon_instagram_w.svg">
                 </a>
             </div>
         </div>
@@ -43,7 +43,7 @@
         <div class="sns_menu_inner">
             <div class="insta_icon">
                 <a href="" target="_blank" rel="noopener">
-                    <img src="./image/icon_instagram.svg">
+                    <img src="<?php bloginfo('template_directory'); ?>/image/icon_instagram.svg">
                 </a>
             </div>
         </div>

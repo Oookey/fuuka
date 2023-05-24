@@ -50,7 +50,7 @@ get_header(); ?>
                         </div>
 
                     </div>
-                    <a href="<?php bloginfo('url'); ?>"><span class="arrow"></span>トップページへ戻る</a>
+                    <a href="<?php bloginfo('url'); ?>/"><span class="arrow"></span>トップページへ戻る</a>
 
                 </div>
             </div>
