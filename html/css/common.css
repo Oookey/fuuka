@@ -596,17 +596,19 @@ body{
     font-size: 1.5rem;
     width: 22%;
 }
+#g-nav .nav_access span{
+    font-size: 2rem;
+}
 .nav_btn a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 #g-nav .nav_access img {
-    width: 28rem;
+    width: 25rem;
     height: auto;
     margin-bottom: 3.5rem;
     mix-blend-mode: multiply;
-    margin-left: -4rem;
 }
 #g-nav .nav_content {
     position: absolute;
@@ -705,6 +707,7 @@ body{
     color: #292929;
     border-radius: 0;
     white-space: nowrap;
+    border-radius: 0.8rem;
 }
 #g-nav .btn .arrow::before{
     background-image: url(../image/arrow_b.svg);
