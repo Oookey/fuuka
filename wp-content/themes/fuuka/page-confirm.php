@@ -46,7 +46,7 @@ get_header(); ?>
                         <!-- フォーム -->
                         <div class="content_wrap form_wrap">
                             <div class="form_inner">
-                                <?php echo do_shortcode('[mwform_formkey key="211"]'); ?>
+                                <?php echo do_shortcode('[mwform_formkey key="15"]'); ?>
                             </div>
                         </div>
 
