@@ -22,13 +22,27 @@ get_header(); ?>
     </header>
     <!-- ↑↑↑ HEADER ↑↑↑ -->
 
-            <div class="news contact complete">
-                <div class="title">
-                    <h2 class="vertical">お問い合わせ<br class="sp">完了</h2>
+    <!-- ↓↓↓ MAIN ↓↓↓ -->
+    <main id="news_detail" class="subpage contact">
+        <!-- ページタイトル -->
+        <div class="pageinfo bg_b_c">
+            <div class="c_info_bg inner">
+                <div class="pageinfo_inner">
+                    <img src="<?php bloginfo('template_directory'); ?>/image/pagetitle_contact.png" alt="">
                 </div>
-                <div>
+            </div>
+        </div>
+
+        <!-- お問い合わせフォーム -->
+        <div class="content bg_wave confirm">
+            <div class="news">
+                <div class="inner">
+
+                    <div class="title">
+                        <h2>お問い合わせ<br class="sp">完了</h2>
+                    </div>
+
                     <div class="detail">
-                        
                         <div class="detail_title">
                             <h2>お問い合わせをいただきまして<br>誠にありがとうございます。</h2>
                             <br>
@@ -37,11 +51,13 @@ get_header(); ?>
 
                     </div>
                     <a href="<?php bloginfo('url'); ?>"><span class="arrow"></span>トップページへ戻る</a>
+
                 </div>
             </div>
-
         </div>
-    </div>
 
-<!------------- FOOTER ------------->
-<?php get_footer(); ?>
+        </main>
+    <!-- ↑↑↑ MAIN ↑↑↑ -->
+
+    <!-- ↓↓↓ FOOTER ↓↓↓ -->
+    <?php get_footer(); ?>

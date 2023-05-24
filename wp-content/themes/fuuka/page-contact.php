@@ -33,7 +33,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- ニュース詳細 -->
+        <!-- お問い合わせフォーム -->
         <div class="content bg_wave">
             <div class="news">
                 <div class="inner">

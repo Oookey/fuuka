@@ -1,11 +1,11 @@
 <footer>
     <div class="footer_img">
-        <img src="./image/footer_img.png">
+        <img src="<?php bloginfo('template_directory'); ?>/image/footer_img.png">
     </div>
     <div class="footer1">
         <div class="footer1_inner flex">
             <div class="adress">
-                <img src="./image/logo_white.svg">
+                <img src="<?php bloginfo('template_directory'); ?>/image/logo_white.svg">
                 <p class="fs14">八ヶ岳ホテル風か<br>〒408-0044<br>山梨県北杜市小淵沢町字上の原<br>3989-1</p>
                 <p class="fs14">TEL:<span>0551-36-6414</span></p>
             </div>
@@ -112,10 +112,10 @@
     <div class="footer2 bg_b_c">
         <div class="footer2_inner">
             <a href="https://www.oyadonet.com/" class="footer2_title pc" target="_blank" rel="noopener">
-                <img src="./image/hotel_net_logo.svg">
+                <img src="<?php bloginfo('template_directory'); ?>/image/hotel_net_logo.svg">
             </a>
             <a href="https://www.oyadonet.com/" class="footer2_title sp" target="_blank" rel="noopener">
-                <img src="./image/hotel_net_logo.svg">
+                <img src="<?php bloginfo('template_directory'); ?>/image/hotel_net_logo.svg">
             </a>
             <div class="accordion meal_menu sp">
                 <div class="option">
@@ -226,10 +226,10 @@
 <!-- ↑↑↑ FOOTER ↑↑↑ -->
 
 <!-- ↓↓↓ etc. ↓↓↓ -->
-<script src="./js/swiper-bundle.min.js"></script>
-<script src="./js/slick.min.js"></script>
-<script src="./js/lightbox.min.js"></script>
-<script src="./js/main.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/swiper-bundle.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/slick.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/lightbox.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
 <!-- ↑↑↑ etc. ↑↑↑ -->
 
 <?php wp_footer(); ?>
