@@ -791,11 +791,11 @@
   z-index: 1;
 }
 .tourism .illust:nth-of-type(2){
-  left: 15rem;
+  left: 12rem;
   top: 4rem;
 }
 .tourism .illust:nth-of-type(3){
-  right: 15rem;
+  right: 12rem;
   top: 6rem;
 }
 .tourism .slick_tourism{
