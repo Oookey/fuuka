@@ -2703,6 +2703,7 @@
 
 
 /*===== イベント詳細 =====*/
+#news.event .img_bg_1::before,
 #news_detail.event_detail .img_bg_1::before{
   width: 32.9rem;
   height: 19.8rem;
@@ -2711,6 +2712,7 @@
   left: -15vw;
 }
 @media screen and (max-width: 767px){
+  #news.event .img_bg_1::before,
   #news_detail.event_detail .img_bg_1::before{
     width: 26.3rem;
     height: 15.5rem;
