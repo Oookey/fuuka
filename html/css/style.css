@@ -2243,6 +2243,7 @@
     width: 10rem;
     left: -2rem;
     bottom: -3rem;
+    border-radius: 2.2rem;
   }
   .about6 .about_point_wrap{
     width: auto;
@@ -2284,8 +2285,9 @@
   right: -10rem;
   background-color: #fff;
   width: 10rem;
-  height: 58.4rem;
+  height: 64.4rem;
   padding: 2.5rem 0;
+  z-index: 1;
 }
 #access .pageinfo img{
   width: 26rem;
