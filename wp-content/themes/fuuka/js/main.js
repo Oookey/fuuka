@@ -1,17 +1,23 @@
+// ローディング
 $(function testFunc(callback){
-  //読み込みが完了したら実行する
   $(window).on('load',function(){
-  //ローディングアニメーションをフェードアウト
   $('#loader').delay(600).fadeOut(600);
-});
-  //セットタイムアウトを使って、読み込み完了の0.8秒後にfadeIn実施
+}); 
   setTimeout(function(){
-      $('#loader').fadeOut(500);
-  },800);
-  setTimeout(function (){
-  var wHeight = $(document).height();
-  var scrollAmount = $(document).scrollTop();
- },800);
+    $('#loader').fadeOut(500);
+      },800);
+    setTimeout(function (){
+    var wHeight = $(document).height();
+    var scrollAmount = $(document).scrollTop();
+    // フェードインアニメーション
+    $('.fv_fadein').each(function () {
+        var targetPosition = $(this).offset().top;
+        console.log(targetPosition);
+        if(scrollAmount > targetPosition - wHeight + 200) {
+            $(this).addClass("fv_is-fadein");
+        }
+      });
+    },800);
 });
 
 // kirigirisu
@@ -23,6 +29,19 @@ $(function testFunc(callback){
   },
   h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 })(document);
+
+// フェードイン
+$(window).on('scroll',function () {
+  const windowHeight = $(window).height();
+  const scroll = $(window).scrollTop();
+
+  $('.fadein').each(function () {
+  const targetPosition = $(this).offset().top;
+  if (scroll > targetPosition - windowHeight + 0) {
+      $(this).addClass("is-fadein");
+  }
+  });
+}).trigger('scoll');
 
 // main.js
 // スムーススクロール
