@@ -1361,7 +1361,7 @@
 }
 #access .c_info_bg, #news .c_info_bg,
 #news_detail .c_info_bg, #topic_detail .c_info_bg,
-#news_detail.contact .c_info_bg{
+#news_detail.contact .c_info_bg,#tourism .c_info_bg{
     background-image: none;
 }
 #news .pageinfo img, #news_detail .pageinfo img,
@@ -2270,26 +2270,31 @@
 
 
 /* ----- アクセス ----- */
-#access.subpage .top_fv_movie .movie{
+#access.subpage .top_fv_movie .movie,
+#tourism.subpage .top_fv_movie .movie{
   object-position: top;
 }
-#access.subpage .top_fv{
+#access.subpage .top_fv,
+#tourism.subpage .top_fv{
   background-color: var(--bg-brown-color);
   height: 46rem;
 }
-#access.subpage .top_fv_movie .in {
+#access.subpage .top_fv_movie .in,
+#tourism.subpage .top_fv_movie .in {
   padding-bottom: 46rem;
 }
-#access .fv_menu{
-  top: 12rem;
+#access .fv_menu,
+#tourism .fv_menu{
+  top: 10rem;
   right: -10rem;
   background-color: #fff;
   width: 10rem;
   height: 64.4rem;
-  padding: 2.5rem 0;
+  padding: 4.5rem 0;
   z-index: 1;
 }
-#access .pageinfo img{
+#access .pageinfo img,
+#tourism .pageinfo img{
   width: 26rem;
   padding-top: 6.4rem;
 }
@@ -3321,3 +3326,17 @@ margin-top: 8rem;
 }
  
 /* ----- 周辺観光 ----- */
+#tourism .c_info_bg{
+  position: relative;
+}
+#tourism .inner{
+  position: relative;
+}
+#tourism .content .illust{
+  width: auto;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  right: 6rem;
+  top: -35rem;
+}
