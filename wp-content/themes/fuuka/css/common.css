@@ -83,7 +83,7 @@ body{
     max-width: 148rem;
     margin: 0 auto;
     position: relative;
-    padding: 0 1rem;
+    padding: 0 6rem;
 }
 .btn {
     color: #fff;
@@ -155,6 +155,30 @@ body{
 .flex {
     display: flex;
 }
+/* フェードイン */
+.fadein {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(7rem);
+    transition: opacity 0.5s, visibility 0.7s, transform 0.7s;
+}
+.is-fadein {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+/* fvフェードイン */
+.fv_fadein {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(1rem);
+    transition: opacity 0.5s, visibility 0.7s, transform 0.7s;
+}
+.fv_is-fadein {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
 /* FV */
 .top_fv_movie .movie{
     padding-top: 10rem;
@@ -181,10 +205,10 @@ body{
     overflow: hidden;
 }
 .zoom img{
-    transition: transform .6s ease;
+    transition: transform .4s ease;
 }
 .zoom:hover img{
-    transform: scale(1.03); /* 拡大 */
+    transform: scale(1.05); /* 拡大 */
 }
 /* ローディング */
 #loader {
@@ -225,6 +249,25 @@ body{
         transform: translateY(0);
     }
 }
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        display: none;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+@media screen and (max-width: 767px){
+    #loader_logo img {
+        width: 25rem;
+    }
+}
+/* 読み込み完了後に「loaded」を付与する */
+#loader.loaded {
+    animation: fadeOut 3s forwards;
+}
 /* ----- 左右レイアウト ----- */
 .content {
   display: flex;
@@ -245,7 +288,7 @@ body{
 }
 .content .illust-r{
   right: 10rem;
-  top: 20rem;
+  top: 17rem;
 }
 .content .illust-l{
   left: 10rem;
@@ -258,6 +301,8 @@ body{
 .content .float-l img,.content .float-r img{
     width: 100%;
     height: 61rem;
+    object-fit: cover;
+    border-radius: 3.8rem;
 }
 .content .con_text-r{
   padding-left: 6rem;
@@ -270,7 +315,7 @@ body{
   position: relative;
 }
 .content .con_text-r h2,.content .con_text-l h2{
-  font-size: 3.4rem;
+  font-size: 3rem;
   letter-spacing: 1.3rem;
   line-height: 4.6rem;
   margin-bottom: 3.4rem;
@@ -298,7 +343,7 @@ body{
   width:21rem !important;
   height:14rem!important;
   object-fit: cover;
-  border-radius: 2.2rem;
+  border-radius: 2.2rem !important;
   margin: 0 1rem 2.3rem;
 }
 .slick-dots li button:before{
@@ -420,7 +465,7 @@ body{
     display: flex;
 }
 .global_menu_inner li{
-    margin-right: 2rem;
+    margin-right: 2.8rem;
 }
 .global_menu_other li{
     border: solid 0.1rem var(--main-color);
@@ -519,6 +564,7 @@ body{
     background: #fff;
     transition: all 0.6s;
     animation-name: fadein;
+    line-height: 2.6rem;
 }
 #g-nav.panelactive #g-nav-list {
     animation-name: fadeInAnime;
@@ -529,7 +575,6 @@ body{
     width: 100%;
     height: 100%;
     overflow: auto;
-    line-height: 2.6rem;
 }
 #g-nav.panelactive {
     right: 0;
@@ -551,17 +596,19 @@ body{
     font-size: 1.5rem;
     width: 22%;
 }
+#g-nav .nav_access span{
+    font-size: 2rem;
+}
 .nav_btn a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 #g-nav .nav_access img {
-    width: 28rem;
+    width: 25rem;
     height: auto;
     margin-bottom: 3.5rem;
     mix-blend-mode: multiply;
-    margin-left: -4rem;
 }
 #g-nav .nav_content {
     position: absolute;
@@ -660,6 +707,7 @@ body{
     color: #292929;
     border-radius: 0;
     white-space: nowrap;
+    border-radius: 0.8rem;
 }
 #g-nav .btn .arrow::before{
     background-image: url(../image/arrow_b.svg);
@@ -709,7 +757,7 @@ body{
     }
     #g-nav .nav_access {
         white-space: nowrap;
-        top: 105rem;
+        top: 110rem;
         bottom: auto;
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
@@ -719,7 +767,7 @@ body{
     }
     #g-nav .nav_access img {
         position: absolute;
-        top: -99rem;
+        top: -104rem;
         width: 19rem;
         margin-left: 0rem;
     }
@@ -1343,7 +1391,7 @@ footer .personal_information a:last-child {
     text-align: center;
 }
 .footer2_title.pc img,.footer2_title.sp img {
-    max-width: 35rem;
+    max-width: 30rem;
     width: 90%;
 }
 footer .option {
@@ -1390,7 +1438,7 @@ footer .hotel_net {
 footer .hotel_net p {
     line-height: 3.2rem;
     letter-spacing: 0.11rem;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     width: 18rem;
 }
 .footer2 .flex {
@@ -1565,6 +1613,9 @@ footer .hotel_net p {
     }
     footer .accordion_title::after {
         transform: rotate(90deg);
+    }
+    footer .hotel_net p {
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 375px){

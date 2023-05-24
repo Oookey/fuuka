@@ -634,7 +634,7 @@
 }
 /* next */
 .slick-next {
-  right: calc(0% - -4rem) !important;
+  right: calc(0% - 0rem) !important;
 }
 .slick-next::after {
   right: 3.2rem;
@@ -642,7 +642,7 @@
 }
 /* prev */
 .slick-prev {
-  left: calc(0% - -4rem) !important;
+  left: calc(0% - 0rem) !important;
 }
 .slick-prev::after {
   left: 3.2rem;
@@ -791,11 +791,11 @@
   z-index: 1;
 }
 .tourism .illust:nth-of-type(2){
-  left: 15rem;
+  left: 12rem;
   top: 4rem;
 }
 .tourism .illust:nth-of-type(3){
-  right: 15rem;
+  right: 12rem;
   top: 6rem;
 }
 .tourism .slick_tourism{
@@ -1127,18 +1127,23 @@
     height: 18.8rem;
   }
   .special_contents_text h2{
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 3.2rem;
   }
   .special_contents_text{
     font-size: 1.9rem;
     line-height: 2.6rem;
     letter-spacing: 0.5rem;
   }
+  .special_contents_text h2 span{
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+  }
   .special_contents_text .btn{
     font-size: 1rem;
     padding: 0.5rem 2.5rem !important;
-    margin: 0 !important;
-    width: auto !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
   }
   .special .concept{
     flex-wrap: wrap;
@@ -1197,6 +1202,12 @@
   }
   .room.content{
     padding-bottom: 12rem;
+  }
+  #top .about.content .illust-r{
+    top: 98rem;
+  }
+  #top .bath.content .illust-l{
+    top: 96rem;
   }
   /* 体験宿泊プラン */
   .plan.bg_wave{
@@ -1381,7 +1392,7 @@
   }
   .subpage  .btn{
     font-size: 1.6rem;
-    margin: 0 auto;
+    margin: 4rem auto 0;
   }
   .subpage .content .con_text-r h2,.subpage .content .con_text-l h2{
     font-size: 2.6rem;
@@ -1411,8 +1422,8 @@
 /*===== お食事 =====*/
 .c_info_bg{
   background-image: url(../image/pagetitle_cuisine.png), url(../image/cuisine_bg_illest1.png);
-  background-size: 35.2rem auto, 26.6rem auto;
-  background-position: left 5.5rem, right 7rem top 7rem;
+  background-size: auto 19.2rem, 26.6rem auto;
+  background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
 }
 .menu_navi{
@@ -1427,13 +1438,16 @@
 .menu_navi p{
   font-size: 2rem;
   line-height: 3.8rem;
-  margin-bottom: 4.9rem;
+  margin-bottom: 0rem;
 }
 .menu_navi_inner{
   width: 100%;
   max-width: 102rem;
   overflow: hidden;
   margin: 0 auto 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .menu_navi_left{
   float: left;
@@ -1443,6 +1457,7 @@
   width: 46.2rem;
   height: 32.8rem;
   padding-top: 3rem;
+  margin: 5rem auto 0;
 }
 .menu_navi_left .arrow::before{
   background-image: url(../image/arrow_y.svg);
@@ -1488,6 +1503,7 @@
   width: 46.2rem;
   height: 32.8rem;
   padding-top: 3rem;
+  margin: 5rem auto 0;
 }
 .menu_navi_right .arrow::before{
   background-image: url(../image/arrow_g.svg);
@@ -1521,7 +1537,7 @@
 }
 
 #cuisine .cuisine_content .inner{
-  padding:7rem 1rem;
+  padding:7rem 6rem;
 }
 #cuisine .cuisine_content .inner.img_bg_2{
   padding-top: 12rem;
@@ -1717,7 +1733,7 @@
     padding: 0 2.5rem;
   }
   #cuisine .cuisine_content .inner{
-    padding: 0 0 13rem;
+    padding: 0 0rem 13rem;
   }
   .content .con_title{
     margin: 0;
@@ -1790,13 +1806,13 @@
 /*===== 客室のご案内 =====*/
 #room .c_info_bg{
   background-image: url(../image/pagetitle_room.png), url(../image/room_bg_illest1.png);
-  background-size: 35.2rem auto, 26.6rem auto;
-  background-position: left 5.5rem, right 7rem top 7rem;
+  background-size: auto 19.2rem, 26.6rem auto;
+  background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
 }
 
 #room .content .inner{
-  padding: 7.8rem 0 1rem;
+  padding: 7.8rem 6rem 1rem;
 }
 #room .content .inner.img_bg_2{
   padding-top: 9rem;
@@ -1952,7 +1968,8 @@
     padding-bottom: 10rem;
   }
   #room .content .inner{
-    padding-top: 0;
+    /* padding-top: 0; */
+    padding: 0;
   }
   #room .img_bg_1::before,
   #room .img_bg_2::before,
@@ -2047,8 +2064,8 @@
 /* ----- ホテルのご案内 ----- */
 #about .c_info_bg{
   background-image: url(../image/pagetitle_about.png), url(../image/about_bg_illest1.png);
-  background-size: 35.2rem auto, 26.6rem auto;
-  background-position: left 5.5rem, right 7rem top 7rem;
+  background-size: auto 19.2rem, 26.6rem auto;
+  background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -2060,7 +2077,7 @@
   position: relative;
 }
 #about .content .inner{
-  padding: 8rem 0 10rem;
+  padding: 8rem 6rem 10rem;
 }
 #about .content .con_text-r .con_title p, #about .content .con_text-l .con_title p{
   letter-spacing: 0.3rem;
@@ -2300,7 +2317,8 @@
   text-align: right;
 }
 #access .content .float-r img{
-  width: 60rem;
+  max-width: 60rem;
+  width: 100%;
   height: 40rem;
   margin-top: 6rem;
 }
@@ -2643,7 +2661,7 @@
   }
   #news_detail .detail{
       min-width: 30rem;
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
   }
   #news_detail .detail_title h2{
@@ -2725,6 +2743,10 @@
 #news_detail.pp .detail_inner .indent2{
   text-indent: -2.2em;
   padding-left: 2em;
+}
+#news_detail.pp a{
+  display: inline;
+  border-bottom: solid 0.1rem #292929;
 }
 
 /*===== 個人情報保護規定 =====*/
@@ -2850,6 +2872,17 @@ margin-top: 8rem;
 /* ----- まるごとおもてなし ----- */
 #hos {
   padding-top: 10rem;
+  position: relative;
+}
+#hos .hos_bg-1{
+  background-color: #E4EFE1;
+  padding-bottom: 0;
+  padding-top: 5rem;
+}
+#hos .hos_bg-2{
+  background-color: #E8F2FF;
+  padding-bottom: 0;
+  padding-top: 5rem;
 }
 #hos .fv_menu{
   position: absolute;
@@ -2860,6 +2893,7 @@ margin-top: 8rem;
   width: 10rem;
   padding-top: 17rem;
   padding-bottom: 10rem;
+  z-index: 2;
 }
 #hos .pageinfo{
   background: linear-gradient(116deg, #E4EFE1 40%, #E8F2FF 60%);
@@ -2894,14 +2928,392 @@ margin-top: 8rem;
 }
 #hos .pageinfo_inner .illust img:nth-of-type(3){
   top: 44rem;
-  right: calc(50% - 53rem);
+  right: calc(50% - 51rem);
 }
-#hos .bg_wave.hos_c1{
-  background-image: url(../image/body_bg_top-hos.png), url(../image/body_bg_bottom.png);
+#hos .bg_wave.hos_link{
+  background-image: url(../image/body_bg_top-hos.png), url(../image/hos_bg_top.png);
 }
 #hos .special_contents{
   max-width: 125rem;
   margin: 0 auto;
 }
+#hos .hos_c_title .special_contents::after{
+  content: '';
+  background-image: url(../image/hos_start.svg);
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  width: 24.5rem;
+  height: 21.5rem;
+  z-index: 1;
+}
+#hos .hos_c_title .special_contents{
+  padding-top: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -17rem;
+}
+#hos .hos_c_title .special_contents_inner{
+  max-width: 77.6rem;
+}
+#hos .hos_c_title .special_contents_inner figure{
+  clip-path: url(#mask-hos-title);
+  height: 40.2rem;
+  width: 100%;
+}
+#hos .hos_c_title .special_contents_text{
+  font-size: 3.4rem;
+}
+#hos .hos_c_title .special_contents_text h2{
+  line-height: 5.2rem;
+}
+#hos .hos_c_title .special_contents_text h2 span{
+  font-size: 4.8rem;
+}
+#hos .hos_c_title .text_tilt{
+  display: flex;
+  justify-content: center;
+}
+#hos .hos_c_title .text_tilt p{
+  font-size: 2.6rem;
+  transform: rotate(-2deg);
+  color: var(--main-color);
+  text-align: center;
+}
+#hos .hos_c_title .text_tilt p:first-child{
+  line-height: 1;
+}
+#hos .hos_c_title .text_tilt p:last-child{
+  line-height: 0;
+}
+#hos .content .float-l img,#hos .content .float-r img{
+  object-fit: cover;
+}
+#hos .hos_c.bg_wave{
+  background-image: url(../image/hos_bg_bottom.png),url(../image/hos_bg_top.png);
+}
+#hos .hos_a.bg_wave{
+  background-image: url(../image/hos_bg_top-2.png),url(../image/hos_bg_bottom-2.png);
+}
+#hos .hos_c.bg_wave{
+  padding-top: 13vw;
+  padding-bottom: 13vw;
+}
+#hos .hos_c.hos_bg-1,#hos .hos_c.hos_bg-2{
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+#hos .hos_c .inner{
+  max-width: 113.5rem;
+}
+#hos .content .con_mv{
+  width: 60%;
+}
+#hos .content .con_text-r,#hos .content .con_text-l{
+  width: 40%;
+}
+#hos .hos_c figure{
+  clip-path: url(#mask-hos_img1);
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+#hos .hos_c figure img{
+  height: 35rem;
+  width: 56.5rem;
+}
+#hos .hos_c figure:last-child{
+  clip-path: url(#mask-hos_img2);
+  height: auto;
+  width: auto;
+  position: absolute;
+  right: 0rem;
+  bottom: -5rem;
+}
+#hos .hos_c figure:last-child img{
+  height: 18.2rem;
+  width: 28.1rem;
+}
+#hos .content .con_text-r h2,#hos .content .con_text-l h2{
+  font-size: 3.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 4.6rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+#hos .content .con_text-r h2::before,#hos .content .con_text-l h2::before{
+  content: '';
+  background-image: url(../image/hos_no1.svg);
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  width: 17.4rem;
+  height: 9rem;
+  margin-left: -1rem;
+  margin-bottom: 1rem;
+}
+#hos .content.hos_c2 .con_text-r h2::before{
+  background-image: url(../image/hos_no2.svg);
+}
+#hos .content.hos_c3 .con_text-l h2::before{
+  background-image: url(../image/hos_no3.svg);
+}
+#hos .content.hos_c4 .con_text-r h2::before{
+  background-image: url(../image/hos_no4.svg);
+}
+#hos .content.hos_c5 .con_text-l h2::before{
+  background-image: url(../image/hos_no5.svg);
+}
+#hos .content.hos_c6 .con_text-r h2::before{
+  background-image: url(../image/hos_no6.svg);
+}
+#hos .content.hos_c7 .con_text-l h2::before{
+  background-image: url(../image/hos_no7.svg);
+}
+#hos .content.hos_c8 .con_text-r h2::before{
+  background-image: url(../image/hos_no8.svg);
+}
+#hos .content.hos_c9 .con_text-l h2::before{
+  background-image: url(../image/hos_no9.svg);
+}
+#hos .content .con_text-r .time,#hos .content .con_text-l .time{
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: normal;
+  margin-top: 1.8rem;
+  margin-bottom: 2rem;
+}
+#hos .content .con_text-r .time::before,#hos .content .con_text-l .time::before{
+  content: '';
+  background-image: url(../image/hos_time.svg);
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-right: 2rem;
+}
+#hos .hos_c9.bg_wave{
+  background-image: url(../image/hos_bg_bottom.png),url(../image/hos_bg_bottom-2.png);
+}
+#hos .hos_c2 figure:last-child,
+#hos .hos_c4 figure:last-child,
+#hos .hos_c6 figure:last-child,
+#hos .hos_c8 figure:last-child{
+  right: auto;
+  left: 0;
+}
+#hos .hos_c2 figure,
+#hos .hos_c4 figure,
+#hos .hos_c6 figure,
+#hos .hos_c8 figure{
+  float: right;
+}
+#hos .hos_c.hos_bg-2:last-child{
+  padding-bottom: 11vw;
+}
+ @media screen and (max-width: 767px){
+  #hos{
+    padding-top: 8rem;
+  }
+  #hos .c_info_bg{
+    background-image: none;
+    padding-bottom: 3rem;
+  }
+  #hos .pageinfo_inner .title{
+    width: 26.4rem;
+    margin:auto;
+    padding-top: 6.2rem;
+  }
+  #hos .pageinfo_inner p{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    top: 46rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 100%;
+    line-height: 3rem;
+  }
+  #hos .pageinfo_inner .illust img:nth-of-type(2){
+    top: 31rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 21.7rem;
+  }
+  #hos .pageinfo_inner .illust img:nth-of-type(3){
+    top: 63rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15.5rem;
+  }
+  #hos .bg_wave.hos_link{
+    padding-top: 36rem;
+    padding-bottom: 20vw;
+  }
+  #hos.subpage .special_contents_text .btn{
+    font-size: 1rem;
+  }
+  #hos .hos_c_title .special_contents_inner figure{
+    clip-path: url(#mask-special-sp);
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #hos .hos_c figure{
+    clip-path: url(#mask-hos_img1-sp);
+  }
+  #hos .hos_c figure:last-child{
+    clip-path: url(#mask-hos_img2-sp);
+  }
+  #hos .hos_c_title .text_tilt{
+    flex-direction: column;
+  }
+  #hos .hos_c_title .text_tilt p{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    max-width: 37rem;
+    width: 95%;
+    margin: 0 auto;
+  } 
+  #hos .hos_c_title .text_tilt p:first-child{
+    text-align: left;
+    line-height: 1.3;
+  }
+  #hos .hos_c_title .text_tilt p:last-child{
+    text-align: right;
+    line-height: 1.3;
+  }
+  #hos .hos_c_title .special_contents_text{
+    font-size: 1.9rem;
+  }
+  #hos .hos_c_title .special_contents_text h2 span{
+    font-size:2.6rem;
+  }
+  #hos .hos_c_title .special_contents_text h2{
+    line-height: 3.2rem;
+  }
+  #hos .hos_c_title .special_contents_inner{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #hos .hos_c_title .special_contents::after{
+    width: 21.5rem;
+    height: 19.5rem;
+  }
+  #hos .hos_bg-1,  #hos .hos_bg-2{
+    padding-bottom: 8rem;
+  }
+  #hos .content .con_text-r, #hos .content .con_text-l{
+    width: 100%;
+  }
+  #hos .content .con_text-r h2, #hos .content .con_text-l h2{
+    align-items: center;
+    font-size: 2.6rem;
+    text-align: center;
+  }
+  #hos .content .con_text-r .time, #hos .content .con_text-l .time{
+    text-align: center;
+    line-height: 2rem;
+  }
+  #hos .hos_c figure img{
+    height: 20.5rem;
+    width: 33rem;
+  }
+  #hos .content .con_mv{
+    max-width: 36rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #hos .hos_c figure:last-child img{
+    height: 10.6rem;
+    width: 16.4rem;
+  }
+  #hos .hos_c figure:last-child{
+    bottom: -3rem;
+  }
+  .subpage .content .con_text-r .text, .subpage .content .con_text-l .text{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #hos .hos_c.bg_wave{
+    padding-top: 32vw;
+    padding-bottom: 25vw;
+  }
+  #hos .hos_c.hos_bg-1, #hos .hos_c.hos_bg-2{
+    padding-top: 20vw;
+    padding-bottom: 10vw;
+  }
+  #hos .hos_c.hos_bg-2:last-child{
+    padding-bottom: 20vw;
+  }
+ }
 
+ /* 体験宿泊プラン */
+ #activity .c_info_bg {
+  background-image: url(../image/pagetitle_activity.png), url(../image/hos_bg_illust2.svg);
+  background-size: auto 19.2rem, 26.6rem auto;
+  background-position: left 4rem top 5.5rem, right 7rem top 7rem;
+  background-repeat: no-repeat, no-repeat;
+}
+.content .con_text-r h2, .content .con_text-l h2,
+#activity .con_title p{
+  letter-spacing: 0.3rem;
+}
+#activity .pageinfo_inner h2{
+  white-space: nowrap;
+}
+#activity .bg_wave:last-child{
+  background-image: url(../image/body_bg_top.png);
+}
+#activity .about1:nth-child(odd){
+  padding-top: 13vw;
+  padding-bottom: 12vw;
+}#activity .about1:nth-child(even){
+  padding-top: 6vw;
+  padding-bottom: 3vw;
+}
+@media screen and (max-width: 767px){
+  .content .con_text-r h2, .content .con_text-l h2{
+    letter-spacing: 0.1rem;
+  }
+  #activity.subpage .btn{
+    margin-top: 4rem;
+  }
+  #activity .about1:nth-child(odd){
+    padding-top: 27vw;
+    padding-bottom: 30vw;
+  }
+  #activity .about1:nth-child(even){
+    padding-top: 15vw;
+    padding-bottom: 16vw;
+  }
+  #activity .con-sp-fv{
+    padding: 0;
+  }
+  #activity.subpage .content .con_mv{
+    text-align: center;
+  }
+  /* #activity.subpage .content .con_text-r,#activity.subpage .content .con_text-l{
+    padding: 0 2.5rem;
+  } */
+  #activity.subpage .content .con_title{
+    padding: 0 2.5rem;
+  }
+  #activity .content .float-l img,#activity  .content .float-r img{
+    margin: 0 2.5rem;
+    width: 89%;
+  }
+  #activity .slick li img{
+    margin: 0 1rem 0.5rem !important;
+    width: 21rem !important;
+  }
+}
+ 
 /* ----- 周辺観光 ----- */
