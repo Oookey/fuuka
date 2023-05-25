@@ -2,6 +2,9 @@
 /* CSS Document */
 
 /*===== ニュース詳細追加CSS =====*/
+#news_detail .detail_inner .news_detail p{
+    line-height: 1.6;
+}
 #news_detail .news .news_detail a{
     display: inline-block;
 }
