@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*===== ニュース詳細追加CSS =====*/
-#news_detail .news_detail .news a{
+#news_detail .news .news_detail a{
     display: inline-block;
 }
 
