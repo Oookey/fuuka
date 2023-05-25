@@ -3433,6 +3433,9 @@ margin-top: 8rem;
   align-items: center;
   border-radius: 5rem;
 } */
+#tourism .content .con_text-r a{
+  width: fit-content;
+}
 #tourism .content:nth-of-type(odd){
   padding-top: 14vw;
   padding-bottom: 12vw;
