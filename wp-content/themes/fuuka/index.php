@@ -134,7 +134,7 @@
         <div class="special bg_wave">
             <div class="inner">
                 <div class="title fadein">
-                    <h2><span>Special</span><br>風かの<br class="sp">”まるごとおもてなし&reg;”</h2>
+                    <h2><span>Special</span><br>風かの<br class="sp">”まるごとおもてなし<font size="4">&reg;</font>”</h2>
                 </div>
                 <div class="flex special_contents fadein">
                     <a href="" class="special_contents_inner zoom">
@@ -199,8 +199,8 @@
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <p>まるごとおもてなし&reg;</p>
-                            <h2>大人も子供も楽しめるオールインクルーシブ。<br>追加料金なしで楽しめるたくさんの「まるごとおもてなし&reg;」をどうぞ</h2>
+                            <p>まるごとおもてなし<font size="2">&reg;</font></p>
+                            <h2>大人も子供も楽しめるオールインクルーシブ。<br>追加料金なしで楽しめるたくさんの「まるごとおもてなし<font size="2">&reg;</font>」をどうぞ</h2>
                         </div>
                     </div>
                 </div>

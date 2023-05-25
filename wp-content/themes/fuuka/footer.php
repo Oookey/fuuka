@@ -16,7 +16,7 @@
                         <li>
                             <a href="" class="flex page_btn">
                                 <div class="circle_btn"></div>
-                                <p>まるごとおもてなし&reg;</p>
+                                <p>まるごとおもてなし<font size="1">&reg;</font></p>
                             </a>
                         </li>
                         <li>

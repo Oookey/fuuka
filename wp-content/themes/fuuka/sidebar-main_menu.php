@@ -9,7 +9,7 @@
             <a href="">10趣のお部屋</a>
         </li>
         <li>
-            <a href="">まるごとおもてなし&reg;</a>
+            <a href="">まるごとおもてなし<font size="1">&reg;</font></a>
         </li>
         <li>
             <a href="">施設案内</a>
@@ -66,7 +66,7 @@
                                 <a href="">
                                     <div class="horiz_text">
                                     <span class="text_line_h"></span>
-                                    <h2 class="">まるごとおもてなし&reg;</h2>
+                                    <h2 class="">まるごとおもてなし<font size="3">&reg;</font></h2>
                                     <p></p>
                                     </div>
                                 </a>
