@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*===== ニュース詳細追加CSS =====*/
+#news_detail .news_detail .news a{
+    display: inline-block;
+}
+
+
+
+
 /*===== お問い合わせフォーム =====*/
 .contact{
     font-weight: normal;
@@ -204,4 +212,3 @@
 }
 
 
-/*===== お問い合わせフォーム（確認画面） =====*/
