@@ -57,7 +57,7 @@ get_header(); ?>
 
 
         <?php
-        if (have_posts()) : query_posts('post_type=news&posts_per_page=10&paged='.$paged);
+        if (have_posts()) : query_posts('post_type=sightseeing&posts_per_page=99&paged='.$paged);
         while (have_posts()) : the_post();
         ?>
 
