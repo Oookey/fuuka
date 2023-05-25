@@ -61,7 +61,7 @@ get_header(); ?>
         while (have_posts()) : the_post();
         ?>
 
-        <div class="content roop_bg">
+        <div class="content roop_bg" id="a<?php the_ID(); ?>">
             <div class="inner">
             <?php if ($wp_query->current_post == 0) : ?>
                 <div class="illust fv_fadein"><img src="<?php bloginfo('template_directory'); ?>/image/tourism_fv_illust.svg" alt=""></div>

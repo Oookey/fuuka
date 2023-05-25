@@ -74,7 +74,7 @@ get_header(); ?>
         while (have_posts()) : the_post();
         ?>
 
-        <div class="content roop_bg about1">
+        <div class="content roop_bg about1" id="a<?php the_ID(); ?>">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">

@@ -59,56 +59,26 @@
                         <div class="l-inner">
                         <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                             <div class="swiper-wrapper" id="swiper-wrapper-264345ba8ce2e194" aria-live="polite" style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
-                                <a href="#" class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10" style="margin-right: 32px;">
-                                    <article class="slide">
-                                        <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/topics-1.png" alt=""></div>
-                                        <div class="slide-content">
-                                            <h2 class="slide-title">アワード三冠受賞</h2>
-                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
-                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
-                                        </div>
-                                    </article>
-                                </a>
-                                <a href="#" class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 10" style="margin-right: 32px;">
-                                    <article class="slide">
-                                        <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/topics-2.png" alt=""></div>
-                                        <div class="slide-content">
-                                            <h2 class="slide-title">アワード三冠受賞</h2>
-                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
-                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
-                                        </div>
-                                    </article>
-                                </a>
-                                <a href="#" class="swiper-slide" role="group" aria-label="3 / 10" style="margin-right: 32px;">
-                                    <article class="slide">
-                                        <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/topics-3.png" alt=""></div>
-                                        <div class="slide-content">
-                                            <h2 class="slide-title">いちご狩り体験</h2>
-                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
-                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
-                                        </div>
-                                    </article>
-                                </a>
-                                <a href="#" class="swiper-slide" role="group" aria-label="4 / 10" style="margin-right: 32px;">
-                                    <article class="slide">
-                                        <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/topics-4.png" alt=""></div>
-                                        <div class="slide-content">
-                                            <h2 class="slide-title">入笠山トレッキング</h2>
-                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
-                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
-                                        </div>
-                                    </article>
-                                </a>
-                                <a href="#" class="swiper-slide" role="group" aria-label="5 / 10" style="margin-right: 32px;">
-                                    <article class="slide">
-                                        <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/topics-5.png" alt=""></div>
-                                        <div class="slide-content">
-                                            <h2 class="slide-title">八ヶ岳周辺観光</h2>
-                                            <time class="slide-date" datetime="2023-06-17">2023.06.17</time>
-                                            <p class="slide-detail">標高1000Mの山岳迫る、天空のリゾート地で八ヶ岳のプライベート空間をひとりじめ</p>
-                                        </div>
-                                    </article>
-                                </a>
+
+                                <?php
+                                query_posts('post_type=cuisine_detail&posts_per_page=10');
+                                while (have_posts()) : the_post();
+                                ?>
+
+                                    <a href="<?php echo get_permalink(); ?>" class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10" style="margin-right: 32px;">
+                                        <article class="slide">
+                                            <div class="slide-media img-cover"><img src="<?php the_field('topic_detail_toppage_img'); ?>" alt=""></div>
+                                            <div class="slide-content">
+                                                <h2 class="slide-title"><?php the_title(); ?></h2>
+                                                <time class="slide-date" datetime="<?php the_time('Y.m.d'); ?>"><?php the_time('Y.m.d'); ?></time>
+                                                <p class="slide-detail"><?php the_field('topic_detail_toppage_info'); ?></p>
+                                            </div>
+                                        </article>
+                                    </a>
+
+                                <?php endwhile; ?>
+                                <?php wp_reset_query(); ?>
+
                             </div><!-- /swiper-wrapper -->
                         </div>
                     </div>
@@ -120,14 +90,20 @@
                 </div><!-- /wrapper -->
             </div>
             <!-- news -->
-            <div class="top_news shadow fadein">
-                <h2>お知らせ</h2>
-                <dl>
-                    <dt>2023/4/1</dt>
-                    <dd><a href="">八ヶ岳ホテル風か　ウェブサイトをリニューアルしました。</a></dd>
-                    <dd><a href=""><span class="arrow"></span>お知らせ一覧へ</a></dd>
-                </dl>
-            </div>
+            <?php
+            query_posts('post_type=news&posts_per_page=1');
+            while (have_posts()) : the_post();
+            ?>
+                <div class="top_news shadow fadein">
+                    <h2>お知らせ</h2>
+                    <dl>
+                        <dt><?php the_time('Y.m.d'); ?></dt>
+                        <dd><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></dd>
+                        <dd><a href="<?php echo get_permalink(); ?>"><span class="arrow"></span>お知らせ一覧へ</a></dd>
+                    </dl>
+                </div>
+            <?php endwhile; ?>
+            <?php wp_reset_query(); ?>
         </div>
 
         <!-- special -->
@@ -323,29 +299,35 @@
             <div class="plan">
                 <h2 class="title fadein">体験宿泊プラン</h2>
                 <ul class="slick_exp fadein">
+
+                    <?php
+                    query_posts(array(
+                        'post_type' => 'activity',
+                        'taxonomy' => 'activity_top_display',
+                        'term' => 'act_top',
+                        'posts_per_page' => 3,
+                        'orderby' => 'date',
+                        'order' => 'DESC'
+                        )
+                    );
+                    while (have_posts()) : the_post();
+                    ?>
+
                     <li class="slick_exp_li">
-                        <a href="">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/plan_slider-1.png" alt="">
-                            <h2>【八ヶ岳エナジーファーム】イチゴ狩り体験</h2>
-                            <p>2021年9月に新規オープンした、１年中楽しめるイチゴ狩農園です。</p>
+                        <a href="<?php bloginfo('url'); ?>/activity/#a<?php the_ID(); ?>">
+                            <img src="<?php the_field('act_mv'); ?>" alt="">
+                            <h2><?php the_title(); ?></h2>
+                            <p><?php the_field('act_detail'); ?></p>
                         </a>
                     </li>
-                    <li class="slick_exp_li">
-                        <a href="">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/plan_slider-2.png" alt="">
-                            <h2>ぶどう狩り体験</h2>
-                            <p>団体お断りのアットホームなぶどう園です。最大約30種類（時期により異なります）の食べ比べをお楽しみください。</p>
-                        </a>
-                    </li>
-                    <li class="slick_exp_li">
-                        <a href="">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/plan_slider-3.png" alt="">
-                            <h2>ニジマス釣り体験</h2>
-                            <p>八ヶ岳南麓の清澄な湧水池で、ニジマス釣りがお楽しみいただけます。釣った魚はお持ち帰りできます。別料金で炭火で塩焼きにし召し上がれます。</p>
-                        </a>
-                    </li>
+
+                    <?php endwhile; ?>
+                    <?php
+                    wp_reset_query();
+                    ?>
+
                 </ul>
-                <a href="" class="flex fadein">
+                <a href="<?php bloginfo('url'); ?>/activity/" class="flex fadein">
                     <p class="btn"><span class="arrow"></span>全ての体験はこちら</p>
                 </a>
             </div>
@@ -355,33 +337,23 @@
                 <div class="inner fadein">
                     <h2 class="title">お知らせ</h2>
                     <dl class="">
-                        <dt>2022.11.12</dt>
-                        <dd><a href="">
-                            <h2>【10/10まで延長！】お一人様最大5,000円割引「やまなしグリーン・ゾーン宿泊割」</h2>
-                            <p>2022年10月1日より「やまなしグリーン・ゾーン宿泊割り」が延長となりました。安心・安全に当館をご利用いただけるとともに、専用プランにて大変お得にご宿泊いただけます。</p>
-                        </a></dd>
-                        <dt>2022.11.12</dt>
-                        <dd><a href="">
-                            <h2>【冬の八ヶ岳を満喫】選べる体験プログラム宿泊プラン♪連泊するほどお得！</h2>
-                            <p>八ヶ岳のお好きな体験プログラムがインクルーシブされたお得な宿泊プランです。連泊数によって下記の特典が付与されます。お好きな体験プログラムをお選びください。</p>
-                        </a></dd>
-                        <dt>2022.11.12</dt>
-                        <dd><a href="">
-                            <h2>【冬の八ヶ岳を満喫】選べる体験プログラム宿泊プラン♪連泊するほどお得！</h2>
-                            <p>八ヶ岳のお好きな体験プログラムがインクルーシブされたお得な宿泊プランです。連泊数によって下記の特典が付与されます。お好きな体験プログラムをお選びください。</p>
-                        </a></dd>
-                        <dt>2022.11.12</dt>
-                        <dd><a href="">
-                            <h2>【冬の八ヶ岳を満喫】選べる体験プログラム宿泊プラン♪連泊するほどお得！</h2>
-                            <p>八ヶ岳のお好きな体験プログラムがインクルーシブされたお得な宿泊プランです。連泊数によって下記の特典が付与されます。お好きな体験プログラムをお選びください。</p>
-                        </a></dd>
-                        <dt>2022.11.12</dt>
-                        <dd><a href="">
-                            <h2>【冬の八ヶ岳を満喫】選べる体験プログラム宿泊プラン♪連泊するほどお得！</h2>
-                            <p>八ヶ岳のお好きな体験プログラムがインクルーシブされたお得な宿泊プランです。連泊数によって下記の特典が付与されます。お好きな体験プログラムをお選びください。</p>
-                        </a></dd>
+                        <?php
+                        query_posts('post_type=news&posts_per_page=4');
+                        while (have_posts()) : the_post();
+                        ?>
+
+                            <dt><?php the_time('Y.m.d'); ?></dt>
+                            <dd><a href="<?php echo get_permalink(); ?>">
+                                <h2><?php the_title(); ?></h2>
+                                <p><?php the_field('news_info'); ?></p>
+                            </a></dd>
+
+                        <?php endwhile; ?>
+                        <?php wp_reset_query(); ?>
+                        <dt><?php the_time('Y.m.d'); ?></dt>
+                        
                     </dl>
-                    <a href="" class="flex">
+                    <a href="<?php bloginfo('url'); ?>/news/" class="flex">
                         <p class="btn"><span class="arrow"></span>全てのお知らせはこちら</p>
                     </a>
                 </div>
@@ -444,7 +416,7 @@
                         </a>
                     </li>
                 </ul>
-                <a href="" class="flex fadein">
+                <a href="<?php bloginfo('url'); ?>/about/" class="flex fadein">
                     <p class="btn"><span class="arrow"></span>ホテル案内</p>
                 </a>
             </div>
@@ -460,41 +432,33 @@
             <img class="illust pc fadein" src="<?php bloginfo('template_directory'); ?>/image/tourism_illust.svg" alt="">
             <img class="illust pc fadein" src="<?php bloginfo('template_directory'); ?>/image/tourism_illust_2.svg" alt="">
             <ul class="slick_tourism fadein">
+
+                <?php
+                query_posts(array(
+                    'post_type' => 'sightseeing',
+                    'taxonomy' => 'sightseeing_top_display',
+                    'term' => 'ss_top',
+                    'posts_per_page' => 6,
+                    'orderby' => 'date',
+                    'order' => 'DESC'
+                    )
+                );
+                while (have_posts()) : the_post();
+                ?>
+
                 <li>
-                    <a href="">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/tourism_slider_1.png" alt="">
-                        <h2>サントリー白州蒸留所</h2>
-                        <p>南アルプス甲斐駒ヶ岳の麓、白州の豊かな森のなかに立つ施設。ウイスキーやサントリー、南アルプス天然水の製造過程の見学後は、無料で製品の試飲もできる。</p>
+                    <a href="<?php bloginfo('url'); ?>/sightseeing/#a<?php the_ID(); ?>">
+                        <img src="<?php the_field('ss_mv'); ?>" alt="">
+                        <h2><?php the_title(); ?></h2>
+                        <p><?php the_field('ss_detail'); ?></p>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/tourism_slider_2.png" alt="">
-                        <h2>サントリー白州蒸留所</h2>
-                        <p>南アルプス甲斐駒ヶ岳の麓、白州の豊かな森のなかに立つ施設。ウイスキーやサントリー、南アルプス天然水の製造過程の見学後は、無料で製品の試飲もできる。</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/tourism_slider_3.png" alt="">
-                        <h2>サントリー白州蒸留所</h2>
-                        <p>南アルプス甲斐駒ヶ岳の麓、白州の豊かな森のなかに立つ施設。ウイスキーやサントリー、南アルプス天然水の製造過程の見学後は、無料で製品の試飲もできる。</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/tourism_slider_4.png" alt="">
-                        <h2>七賢（しちけん）</h2>
-                        <p>白州の尾白川近く”酒の七賢”として知られる山梨銘利き酒が出来る場所があり、1人150円でほとんどの種類のお酒が楽しめます。</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/tourism_slider_5.png" alt="">
-                        <h2>サントリー白州蒸留所</h2>
-                        <p>南アルプス甲斐駒ヶ岳の麓、白州の豊かな森のなかに立つ施設。ウイスキーやサントリー、南アルプス天然水の製造過程の見学後は、無料で製品の試飲もできる。</p>
-                    </a>
-                </li>
+
+                <?php endwhile; ?>
+                <?php
+                wp_reset_query();
+                ?>
+
             </ul>
         </div>
 
