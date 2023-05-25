@@ -350,7 +350,6 @@
 
                         <?php endwhile; ?>
                         <?php wp_reset_query(); ?>
-                        <dt><?php the_time('Y.m.d'); ?></dt>
                         
                     </dl>
                     <a href="<?php bloginfo('url'); ?>/news/" class="flex">
