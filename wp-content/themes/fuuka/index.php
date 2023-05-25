@@ -61,7 +61,7 @@
                             <div class="swiper-wrapper" id="swiper-wrapper-264345ba8ce2e194" aria-live="polite" style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
 
                                 <?php
-                                query_posts('post_type=cuisine_detail&posts_per_page=10');
+                                query_posts('post_type=topic&posts_per_page=10');
                                 while (have_posts()) : the_post();
                                 ?>
 
