@@ -67,41 +67,60 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- 【清里テラス　パノラマリフト券付】 -->
+
+
+        <?php
+        if (have_posts()) : query_posts('post_type=activity&posts_per_page=99&paged='.$paged);
+        while (have_posts()) : the_post();
+        ?>
+
         <div class="content bg_wave about1">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/activity_photo_main1.png" alt="">
+                            <img src="<?php the_field('act_mv'); ?>" alt="">
                         </div>
                         <ul class="slick">
-                            <li><img src="<?php bloginfo('template_directory'); ?>/image/activity_photo_1_1.png"></li>
-                            <li><img src="<?php bloginfo('template_directory'); ?>/image/activity_photo_1_2.png"></li>
-                            <li><img src="<?php bloginfo('template_directory'); ?>/image/activity_photo_1_3.png"></li>
+                            <?php if( get_field('act_photo1') ) { ?>
+                                <li><img src="<?php the_field('act_photo1'); ?>"></li>
+                            <?php } ?>
+                            <?php if( get_field('act_photo2') ) { ?>
+                                <li><img src="<?php the_field('act_photo2'); ?>"></li>
+                            <?php } ?>
+                            <?php if( get_field('act_photo3') ) { ?>
+                                <li><img src="<?php the_field('act_photo3'); ?>"></li>
+                            <?php } ?>
                         </ul>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
                             <h2>
-                                【清里テラス　パノラマリフト券付】<br>
-                                フレンチWメイン＜香＞と美食オールインクルーシブ 
+                                <?php the_title(); ?>
                             </h2>
-                            <p>18,500円 ～</p>
+                            <p><?php the_field('act_price'); ?></p>
                         </div>
                     </div>
                 </div>
                 <div class="float-r con_text-r fadein">
-                    <p class="text">
-                        サンメドウズ清里の「清里テラスパノラマリフト券」と風か宿泊＜夕食：スタンダード香＞がセットになったお得な宿泊プランです。<br>
-                        標高1900ｍのテラス席でゆったりと流れる「八ヶ岳時間」に癒されてください。
-                    </p>
-                    <a href="" class="flex">
+                    <?php if( get_field('act_detail') ) { ?>
+                        <p class="text"><?php the_field('act_detail'); ?></p>
+                    <?php } ?>
+                    <a href="<?php the_field('act_plan_url'); ?>" class="flex">
                         <p class="btn"><span class="arrow"></span>このプランを予約する</p>
                     </a>
                 </div>                
             </div>
         </div>
+
+        <?php endwhile; ?>
+        <?php endif; ?>
+        <?php
+        wp_reset_query();
+        ?>
+
+
+
 
         <!-- 【八ヶ岳エナジーファームのイチゴ狩り体験付】 -->
         <div class="content bg_b_c about1">
