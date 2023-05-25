@@ -2,6 +2,9 @@
 /* CSS Document */
 
 /*===== ニュース詳細追加CSS =====*/
+.detail_inner .news_subtitle{
+    font-size: 1.8rem;
+}
 #news_detail .detail_inner .news_detail p{
     line-height: 1.6;
 }
