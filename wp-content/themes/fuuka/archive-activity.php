@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: 宿泊体験プラン
+* Template Name: 体験宿泊プラン
 */
 get_header(); ?>
 <!------------- HEADER ------------->
@@ -81,17 +81,19 @@ get_header(); ?>
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php the_field('act_mv'); ?>" alt="">
                         </div>
-                        <ul class="slick">
-                            <?php if( get_field('act_photo1') ) { ?>
-                                <li><img src="<?php the_field('act_photo1'); ?>"></li>
-                            <?php } ?>
-                            <?php if( get_field('act_photo2') ) { ?>
-                                <li><img src="<?php the_field('act_photo2'); ?>"></li>
-                            <?php } ?>
-                            <?php if( get_field('act_photo3') ) { ?>
-                                <li><img src="<?php the_field('act_photo3'); ?>"></li>
-                            <?php } ?>
-                        </ul>
+                        <?php if( get_field('act_photo1') ) { ?>
+                            <ul class="slick">
+                                <?php if( get_field('act_photo1') ) { ?>
+                                    <li><img src="<?php the_field('act_photo1'); ?>"></li>
+                                <?php } ?>
+                                <?php if( get_field('act_photo2') ) { ?>
+                                    <li><img src="<?php the_field('act_photo2'); ?>"></li>
+                                <?php } ?>
+                                <?php if( get_field('act_photo3') ) { ?>
+                                    <li><img src="<?php the_field('act_photo3'); ?>"></li>
+                                <?php } ?>
+                            </ul>
+                        <?php } ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
