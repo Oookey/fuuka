@@ -36,7 +36,7 @@ function validation_rule($validation, $data, $Data) {
     $validation->set_rule('メールアドレス', 'noempty', array('message' => 'メールアドレスを入力してください'));
     return $validation;
 }
-add_filter('mwform_validation_mw-wp-form-211', 'validation_rule', 10, 3);
+add_filter('mwform_validation_mw-wp-form-15', 'validation_rule', 10, 3);
 
 // ============================================
 // mw-wp-form UTF-8
@@ -44,7 +44,7 @@ function my_mwform_csv_encoding($encode)
 {
 	return 'utf-8';
 }
-add_filter('mwform_csv_encoding-mwf_211', 'my_mwform_csv_encoding');
+add_filter('mwform_csv_encoding-mwf_15', 'my_mwform_csv_encoding');
 
 // ============================================
 // mw-wp-form CSV
@@ -65,7 +65,7 @@ function contact_mwform_inquiry_data_columns( $columns ) {
     );
     return $columns;
 }
-add_filter( 'mwform_inquiry_data_columns-mwf_211', 'contact_mwform_inquiry_data_columns' );
+add_filter( 'mwform_inquiry_data_columns-mwf_15', 'contact_mwform_inquiry_data_columns' );
 
 // ============================================
 // mw-wp-form 郵便番号から住所を自動入力、Yubinbangoライブラリの読込

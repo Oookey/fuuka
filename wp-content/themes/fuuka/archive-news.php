@@ -62,7 +62,6 @@ get_header(); ?>
                             </div>
                             <a href="<?php echo get_permalink(); ?>"><p><span class="arrow"></span>詳しく見る</p></a>
                         </dd>
-
                         <?php endwhile; ?>
                         <?php endif; ?>
                         <?php
