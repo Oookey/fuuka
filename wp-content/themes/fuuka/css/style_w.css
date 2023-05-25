@@ -218,3 +218,29 @@
 }
 
 
+
+/*===== 動的ページ用背景スタイル =====*/
+.roop_bg{
+    position: relative;
+    padding-top: 9vw;
+    padding-bottom: 9vw;
+    background-image: url(../image/body_bg_top.png), url(../image/body_bg_bottom.png);
+    background-position: 0 0, 0 100%;
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #fff;
+}
+@media screen and (max-width: 767px){
+    .roop_bg{
+        padding-top: 12vw;
+        padding-bottom: 12vw;
+        background-image: url(../image/body_bg_top-sp.png), url(../image/body_bg_bottom-sp.png);
+    }
+}
+.roop_bg:nth-child(2n), .roop_bg:last-child{
+    background-color: var(--bg-brown-color) !important;
+    background-image: none !important;
+}
+#tourism .roop_bg .illust.fv_fadein:nth-child(n+2){
+    display: none !important;
+}
