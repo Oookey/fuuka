@@ -29,7 +29,7 @@ get_header(); ?>
             <div class="top_fv_inner">
                 <div class="top_fv_movie">
                     <div class="in"> 
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_mv.jpg" alt="" class="movie">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_mv.jpg" alt="" class="movie">
                     </div>
                 </div>
                 <!-- <div class="top_fv_text">
@@ -38,14 +38,14 @@ get_header(); ?>
                     <p>八ヶ岳の大自然を満喫</p>
                 </div> -->
                 <div class="fv_text fv_fadein">
-                    <img src="<?php bloginfo('template_directory'); ?>/imagefv_text_about.svg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/image/fv_text_about.svg" alt="">
                 </div>
                 <div class="fv_menu pc fv_fadein">
                     <a href="https://www.instagram.com/hotel_fuka/?hl=ja" class="fv_menu_inner" target="_blank" rel="noopener">
-                        <img class="fv_menu_icon" src="<?php bloginfo('template_directory'); ?>/imageicon_instagram_fv.svg" alt="">
+                        <img class="fv_menu_icon" src="<?php bloginfo('template_directory'); ?>/image/icon_instagram_fv.svg" alt="">
                     </a>
                     <a href="<?php bloginfo('url'); ?>/#access" class="fv_menu_inner">
-                        <img class="fv_menu_icon" src="<?php bloginfo('template_directory'); ?>/imageicon_map_fv.svg" alt="">
+                        <img class="fv_menu_icon" src="<?php bloginfo('template_directory'); ?>/image/icon_map_fv.svg" alt="">
                     </a>
                 </div>
             </div>
@@ -74,7 +74,7 @@ get_header(); ?>
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main1.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main1.png" alt="">
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
@@ -90,9 +90,9 @@ get_header(); ?>
                         ヤギさんのお散歩体験や焼きマシュマロ体験などのイベントも随時実施しております。
                     </p>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_1_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_1_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_1_3.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_1_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_1_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_1_3.png"></li>
                     </ul>
                 </div>
                 
@@ -104,7 +104,7 @@ get_header(); ?>
             <div class="inner img_bg_1">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main2.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main2.png" alt="">
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
@@ -128,9 +128,9 @@ get_header(); ?>
                         </p>
                     </div>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_2_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_2_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_2_3.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_3.png"></li>
                     </ul>
                 </div>
             </div>
@@ -141,7 +141,7 @@ get_header(); ?>
             <div class="inner img_bg_2">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main3.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main3.png" alt="">
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
@@ -159,9 +159,9 @@ get_header(); ?>
                         お食事コースは最上級「風－かぜ－」、スタンダード「香－かおり－」。滋味豊かな、高原の風を感じるお料理を心ゆくまでご堪能ください。
                     </p>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_3_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_3_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_3_3.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_3_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_3_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_3_3.png"></li>
                     </ul>
                 </div>
             </div>
@@ -172,7 +172,7 @@ get_header(); ?>
             <div class="inner img_bg_3">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main4.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main4.png" alt="">
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
@@ -195,9 +195,9 @@ get_header(); ?>
                         </p>
                     </div>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_4_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_4_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_4_3.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_4_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_4_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_4_3.png"></li>
                     </ul>
                 </div>
             </div>
@@ -208,7 +208,7 @@ get_header(); ?>
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main5.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main5.png" alt="">
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
@@ -243,9 +243,9 @@ get_header(); ?>
                 <div class="con-sp-fv  fadein">
                     <div class="float-r con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
-                            <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main6.png" alt="">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main6.png" alt="">
                         </div>
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_6_float.png" alt="" class="about_photo_6_float">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_6_float.png" alt="" class="about_photo_6_float">
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
@@ -278,7 +278,7 @@ get_header(); ?>
             <div class="inner img_bg_4">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main7.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main7.png" alt="">
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
@@ -303,9 +303,9 @@ get_header(); ?>
                         </p>
                     </div>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_7_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_7_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_7_3.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_7_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_7_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_7_3.png"></li>
                     </ul>
                 </div>
             </div>
@@ -316,7 +316,7 @@ get_header(); ?>
             <div class="inner img_bg_5">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main8.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main8.png" alt="">
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
@@ -351,9 +351,9 @@ get_header(); ?>
                         </p>
                     </div>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_8_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_8_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_8_3.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_8_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_8_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_8_3.png"></li>
                     </ul>
                 </div>
             </div>
@@ -364,7 +364,7 @@ get_header(); ?>
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/imageabout_photo_main9.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main9.png" alt="">
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
