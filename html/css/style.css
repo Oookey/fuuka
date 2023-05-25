@@ -2291,7 +2291,7 @@
   width: 10rem;
   height: 64.4rem;
   padding: 4.5rem 0;
-  z-index: 1;
+  z-index: 2;
 }
 #access .pageinfo img,
 #tourism .pageinfo img{
@@ -2382,10 +2382,12 @@
   padding-top: 8rem;
 }
 @media screen and (max-width: 767px){
-  #access.subpage .top_fv{
+  #access.subpage .top_fv,
+  #tourism.subpage .top_fv{
     height: 35rem !important;
   }
-  #access.subpage .top_fv_movie .in{
+  #access.subpage .top_fv_movie .in,
+  #tourism.subpage .top_fv_movie .in{
     padding-bottom: 35rem !important;
   }
   #access .pageinfo img{
@@ -3337,6 +3339,84 @@ margin-top: 8rem;
   padding: 0;
   position: absolute;
   z-index: 1;
-  right: 6rem;
+  right: 9rem;
   top: -35rem;
+}
+#tourism .about_point_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 1.3;
+}
+#tourism .about_point_wrap dt{
+  width: 42%;
+  margin: 0.5rem 0;
+}
+#tourism .about_point_wrap dd{
+  width: 58%;
+  margin: 0.5rem 0;
+}
+#tourism .about_point_wrap a{
+  border-bottom: solid 0.1rem;
+}
+#tourism .btn{
+  text-align: left;
+  text-indent: -0.6rem;
+  padding-left: 4.4rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5rem;
+}
+#tourism .content:nth-of-type(odd){
+  padding-top: 11vw;
+  padding-bottom: 10vw;
+}
+#tourism .content:nth-of-type(even){
+  padding-top: 2vw;
+  padding-bottom: 0vw;
+}
+#tourism .content.bg_wave:last-child{
+  background-image: url(../image/body_bg_top.png);
+  padding-bottom: 10vw;
+}
+@media screen and (max-width: 767px){
+  #tourism .content .illust{
+    top: -26rem;
+    right: auto;
+    left: 53%;
+    transform: translateX(-50%);
+  }
+  #tourism .pageinfo img{
+    padding-bottom: 18rem;
+  }
+  #tourism .content .illust img{
+    width: 22rem;
+  }
+  #tourism .content:nth-of-type(odd){
+    padding-top: 24vw;
+    padding-bottom: 30vw;
+  }
+  #tourism .content:nth-of-type(even){
+    padding-top: 13vw;
+    padding-bottom: 18vw;
+  }
+  #tourism .btn{
+    margin: 0 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #tourism .about_point_wrap{
+    font-size: 1.4rem;
+    flex-direction: column;
+  }
+  #tourism .about_point_wrap dt,
+  #tourism .about_point_wrap dd{
+    width: 100%;
+  }
+  #tourism .about_point_wrap dt{
+    margin: 0.6rem 0 0.1rem;
+  }
+  #tourism .about_point_wrap dd{
+    margin: 0.1rem 0 0.6rem;
+  }
 }
