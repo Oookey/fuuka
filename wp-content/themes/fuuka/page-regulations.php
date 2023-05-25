@@ -22,21 +22,18 @@ get_header(); ?>
     </header>
     <!-- ↑↑↑ HEADER ↑↑↑ -->
 
-
-            <div class="guide policy">
-                <div class="body_inner">
-
-                    <div class="content_inner fv_fadein">
-                        <div class="mc_text page_title">
-                            <div class="horiz_text horiz_text_title">
-                                <span class="text_line_h"></span>
-                                <p class="policy_title">個人情報保護規定</p>
-                            </div>
+    <!-- ↓↓↓ MAIN ↓↓↓ -->
+    <main id="news_detail" class="subpage pp r">
+        
+        <!-- 個人情報保護規定 -->
+        <div class="content">
+            <div class="news">
+                <div class="inner">
+                    <div class="detail">
+                        <div class="detail_title">
+                            <h2>個人情報保護規定</h2>
                         </div>
-                    </div>
-
-                    <div class="main_content mc_2 fv_fadein">
-                        <div class="content_inner1">
+                        <div class="detail_inner">
                             <h2 style="margin-top: 1rem;">第1章 総則</h2>
 
                             <p class="fw-b">【目的】</p>
@@ -880,20 +877,14 @@ get_header(); ?>
                                 初版制定      2005 年 03 月 01 日<br>
                                 第2版制定    2021 年 10 月 01 日<br>
                             </p>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>
 
-
-
-
-
-
+    </main>
+    <!-- ↑↑↑ MAIN ↑↑↑ -->
 
     <!-- ↓↓↓ FOOTER ↓↓↓ -->
     <?php get_footer(); ?>

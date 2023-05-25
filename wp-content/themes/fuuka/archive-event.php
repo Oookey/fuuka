@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: お知らせ一覧ページ
+* Template Name: イベント情報一覧
 */
 get_header(); ?>
 <!------------- HEADER ------------->
@@ -23,12 +23,12 @@ get_header(); ?>
     <!-- ↑↑↑ HEADER ↑↑↑ -->
 
     <!-- ↓↓↓ MAIN ↓↓↓ -->
-    <main id="news" class="subpage">
+    <main id="news" class="subpage event">
         <!-- ページタイトル -->
         <div class="pageinfo bg_b_c">
             <div class="c_info_bg inner fv_fadein">
                 <div class="pageinfo_inner">
-                    <img src="<?php bloginfo('template_directory'); ?>/image/pagetitle_news.png" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/image/pagetitle_event.png" alt="">
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@ get_header(); ?>
 
                     <dl>
                         <?php
-                        if (have_posts()) : query_posts('post_type=news&posts_per_page=10&paged='.$paged);
+                        if (have_posts()) : query_posts('post_type=event&posts_per_page=10&paged='.$paged);
                         while (have_posts()) : the_post();
                         ?>
                         <dt><?php the_time('Y.m.d'); ?></dt>
@@ -87,8 +87,6 @@ get_header(); ?>
 
     </main>
     <!-- ↑↑↑ MAIN ↑↑↑ -->
-
-
 
     <!-- ↓↓↓ FOOTER ↓↓↓ -->
     <?php get_footer(); ?>
