@@ -68,6 +68,11 @@ get_header(); ?>
             </div>
         </div>
 
+        <?php
+        if (have_posts()) : query_posts('post_type=cuisine_detail&posts_per_page=1&paged='.$paged);
+        while (have_posts()) : the_post();
+        ?>
+
         <!-- <?php the_field('c_title_img_name'); ?> -->
         <div class="content bg_wave">
             <div class="inner img_bg_1">
@@ -282,6 +287,12 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+
+        <?php endwhile; ?>
+        <?php endif; ?>
+        <?php
+        wp_reset_query();
+        ?>
 
         <!-- 特別な夜に　特別な人と　特別なお酒を -->
         <div class="content bg_b_c cuisine_content">
