@@ -79,7 +79,7 @@ get_header(); ?>
                     </p>
                     <div class="menu_navi_inner fadein">
                         <div class="menu_navi_left">
-                            <p class="menu_navi_title">&nbsp;&nbsp;<?php the_field('c_menu1_name'); ?></p>
+                            <p class="menu_navi_title">&nbsp;&nbsp;<?php the_field('c_menu1_info_title'); ?></p>
                             <div class="menu_navi_line"></div>
                             <p class="menu_navi_info">
                                 <?php the_field('c_menu1_info'); ?>
@@ -89,7 +89,7 @@ get_header(); ?>
                             </a>
                         </div>
                         <div class="menu_navi_right">
-                            <p class="menu_navi_title">&nbsp;&nbsp;<?php the_field('c_menu2_name'); ?></p>
+                            <p class="menu_navi_title">&nbsp;&nbsp;<?php the_field('c_menu2_info_title'); ?></p>
                             <div class="menu_navi_line"></div>
                             <p class="menu_navi_info">
                                 <?php the_field('c_menu2_info'); ?>
