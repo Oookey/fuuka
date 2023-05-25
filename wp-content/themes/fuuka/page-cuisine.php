@@ -117,8 +117,8 @@ get_header(); ?>
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
-                            <p><?php the_field('c_menu1_name'); ?></p>
-                            <h2><?php the_field('c_menu1_midashi'); ?></h2>
+                            <p><?php the_field('c_menu1_midashi'); ?></p>
+                            <h2><?php the_field('c_menu1_name'); ?></h2>
                         </div>
                     </div>
                 </div>
@@ -208,8 +208,8 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <p><?php the_field('c_menu2_midashi'); ?></p>
-                            <h2><?php the_field('c_menu2_name'); ?></h2>
+                            <p><?php the_field('c_menu2_name'); ?></p>
+                            <h2><?php the_field('c_menu2_midashi'); ?></h2>
                         </div>
                     </div>
                 </div>
