@@ -68,38 +68,33 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- 春のメニュー2023 -->
+        <!-- <?php the_field('c_title_img_name'); ?> -->
         <div class="content bg_wave">
             <div class="inner img_bg_1">
                 <div class="menu_navi">
-                    <img src="<?php bloginfo('template_directory'); ?>/image/cuisine_subtitle.png" alt="春のメニュー2023" class="cuisine_subtitle fadein">
+                    <img src="<?php the_field('c_title_img'); ?>" alt="<?php the_field('c_title_img_name'); ?>" class="cuisine_subtitle fadein">
                     <p class="fadein">
                         肉と魚Ｗメインのお箸で食べる<br class="sp">カジュアルフレンチ。<br>
                         この春は女性の方に喜んでいただけるよう<br class="pc">デザートに特に力をいれております。
                     </p>
                     <div class="menu_navi_inner fadein">
                         <div class="menu_navi_left">
-                            <p class="menu_navi_title">&nbsp;&nbsp;最上級グレード【風】</p>
+                            <p class="menu_navi_title">&nbsp;&nbsp;<?php the_field('c_menu1_name'); ?></p>
                             <div class="menu_navi_line"></div>
                             <p class="menu_navi_info">
-                                「よりおいしい料理」をめざし、<br>
-                                Wメインにてご堪能いただけます。<br>
-                                どの季節にお越しいただいても、<br>
-                                ホテル風かの味でおもてなしいたします。
+                                <?php the_field('c_menu1_info'); ?>
                             </p>
-                            <a href="">
+                            <a href="#menu1">
                                 <p><span class="arrow"></span>メニューはこちら</p>
                             </a>
                         </div>
                         <div class="menu_navi_right">
-                            <p class="menu_navi_title">&nbsp;&nbsp;スタンダード【香】</p>
+                            <p class="menu_navi_title">&nbsp;&nbsp;<?php the_field('c_menu2_name'); ?></p>
                             <div class="menu_navi_line"></div>
                             <p class="menu_navi_info">
-                                「見た目にも美しく、味わい深い」<br>
-                                シェフのおもてなしがこもった<br>
-                                フレンチをお愉しみいただけます。<br><br>
+                                <?php the_field('c_menu2_info'); ?>
                             </p>
-                            <a href="">
+                            <a href="#menu2">
                                 <p><span class="arrow"></span>メニューはこちら</p>
                             </a>
                         </div>
@@ -109,38 +104,38 @@ get_header(); ?>
         </div>
 
         <!-- 風－かぜ－（春） -->
-        <div class="content bg_b_c cuisine_content">
+        <div class="content bg_b_c cuisine_content" id="menu1">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_main1.png" alt="">
+                        <img src="<?php the_field('c_menu1_mv'); ?>" alt="">
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
-                            <p>最上級グレード</p>
-                            <h2>風－かぜ－（春）</h2>
+                            <p><?php the_field('c_menu1_name'); ?></p>
+                            <h2><?php the_field('c_menu1_midashi'); ?></h2>
                         </div>
                     </div>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        肉と魚Ｗメインのお箸で食べるカジュアルフレンチ。<br>
-                        山梨県産ワインを中心とした約50種類のフリードリンクと<br class="pc">いっしょにお楽しみいただけます。
+                        <?php the_field('c_menu1_detail'); ?>
                     </p>
-                    <a href="" class="flex">
+                    <a href="<?php the_field('c_menu1_plan_url'); ?>" class="flex">
                         <p class="btn"><span class="arrow"></span>このお料理のプランはこちら</p>
                     </a>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_1_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_1_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_1_3.png"></li>
+                        <li><img src="<?php the_field('c_menu1_img1'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu1_img2'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu1_img3'); ?>"></li>
                     </ul>
                     <div class="accordion meal_menu fadein">
                         <div class="option">
                             <input type="checkbox" class="toggle" id="toggle1" >
                                 <label class="accordion_title" for="toggle1">お品書き</label>
                             <div class="fs18 meal_menu_text accordion_content">
-                                <div class="meal_menu_text_inner">
+                                <?php the_field('c_menu1_menu'); ?>
+                                <!-- <div class="meal_menu_text_inner">
                                     <p>＜冷前菜＞</p>
                                     <p class="pd-1">
                                         自家製八ヶ岳産野菜のキッシュ<br>
@@ -190,7 +185,7 @@ get_header(); ?>
                                     <p>本日のパン</p>
                                     <p class="pd-1">
                                         安曇野産こしひかり　香の物</p> 
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -200,38 +195,38 @@ get_header(); ?>
         </div>
 
         <!-- 香－かおり－（春） -->
-        <div class="dinner content bg_wave cuisine_content">
+        <div class="dinner content bg_wave cuisine_content" id="menu2">
             <div class="inner img_bg_2">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_main2.png" alt="">
+                        <img src="<?php the_field('c_menu2_mv'); ?>" alt="">
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <p>スタンダード</p>
-                            <h2>香－かおり－（春）</h2>
+                            <p><?php the_field('c_menu2_midashi'); ?></p>
+                            <h2><?php the_field('c_menu2_name'); ?></h2>
                         </div>
                     </div>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                        「見た目にも美しく、味わい深い」<br>
-                        シェフのおもてなしがこもったフレンチを<br class="pc">お愉しみいただけます。
+                        <?php the_field('c_menu2_detail'); ?>
                     </p>
-                    <a href="" class="flex">
+                    <a href="<?php the_field('c_menu2_plan_url'); ?>" class="flex">
                         <p class="btn"><span class="arrow"></span>このお料理のプランはこちら</p>
                     </a>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_2_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_2_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_2_3.png"></li>
+                        <li><img src="<?php the_field('c_menu2_img1'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu2_img2'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu2_img3'); ?>"></li>
                     </ul>
                     <div class="accordion meal_menu fadein">
                         <div class="option">
                             <input type="checkbox" class="toggle" id="toggle2" >
                                 <label class="accordion_title" for="toggle2">お品書き</label>
                             <div class="fs18 meal_menu_text accordion_content">
-                                <div class="meal_menu_text_inner">
+                                <?php the_field('c_menu2_menu'); ?>
+                                <!-- <div class="meal_menu_text_inner">
                                     <p>＜冷前菜＞</p>
                                     <p class="pd-1">
                                         自家製八ヶ岳産野菜のキッシュ<br>
@@ -280,7 +275,7 @@ get_header(); ?>
                                     <p>本日のパン</p>
                                     <p class="pd-1">
                                         安曇野産こしひかり　香の物</p> 
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
