@@ -63,7 +63,11 @@ get_header(); ?>
 
         <div class="content roop_bg">
             <div class="inner">
+            <?php if ($wp_query->current_post == 0) : ?>
                 <div class="illust fv_fadein"><img src="<?php bloginfo('template_directory'); ?>/image/tourism_fv_illust.svg" alt=""></div>
+            <?php else : ?>
+                <div></div>
+            <?php endif; ?>
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">

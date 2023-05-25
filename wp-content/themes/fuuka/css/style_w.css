@@ -241,6 +241,6 @@
     background-color: var(--bg-brown-color) !important;
     background-image: none !important;
 }
-#tourism .roop_bg:nth-child(n+2) .illust.fv_fadein{
+/* #tourism .roop_bg:nth-child(n+2) .illust.fv_fadein{
     display: none !important;
-}
+} */
