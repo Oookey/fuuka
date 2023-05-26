@@ -513,7 +513,7 @@
             
                 <div class="swiper swiper-b">
                     <div class="swiper-wrapper">
-                        <!--?php echo do_shortcode('[instagram-feed feed=1]'); ?-->
+                        <!?php echo do_shortcode('[instagram-feed feed=1]'); ?>
                         <!-- <a href="" class="swiper-slide">
                             <div class="slide">
                                 <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_8.png" alt=""></div>
