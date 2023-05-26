@@ -473,82 +473,11 @@
                 <div class="swiper swiper-a">
                     <!-- <div class="swiper-wrapper"> -->
                         <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
-                        <!-- <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_1.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_2.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_3.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_4.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_5.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_6.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_7.png" alt=""></div>
-                            </div>
-                        </a> -->
-                    <!-- </div>/swiper-wrapper -->
                 </div><!-- /swiper -->
             
                 <div class="swiper swiper-b">
                     <div class="swiper-wrapper">
                         <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
-                        <!-- <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_8.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_9.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_1.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_2.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_3.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_4.png" alt=""></div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="slide">
-                                <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_5.png" alt=""></div>
-                            </div>
-                        </a> -->
                     </div><!-- /swiper-wrapper -->
                 </div><!-- /swiper -->
                 
