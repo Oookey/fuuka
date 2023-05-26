@@ -152,7 +152,7 @@
                             大人だけでなくお子様も楽しめるオールインクルーシブリゾートホテルです。
                         </p>
                         <div>
-                            <a href="<?php bloginfo('url'); ?>/activity/">
+                            <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan">
                                 <p class="btn"><span class="arrow"></span>宿泊プラン一覧</p>
                             </a>
                         </div>
@@ -382,13 +382,13 @@
                         </a>
                     </li>
                     <li>
-                        <a href="<?php bloginfo('url'); ?>/about/#about4">
+                        <a href="<?php bloginfo('url'); ?>/about/#about6">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_4.png" alt="">
                             <h2>湯上り処サービス</h2>
                         </a>
                     </li>
                     <li>
-                        <a href="<?php bloginfo('url'); ?>/about/#about6">
+                        <a href="<?php bloginfo('url'); ?>/about/#about7">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_5.png" alt="">
                             <h2>ナイトバー</h2>
                         </a>

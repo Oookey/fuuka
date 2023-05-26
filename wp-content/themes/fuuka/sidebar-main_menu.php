@@ -113,7 +113,7 @@
                             </li>
                         </ul>
                         <ul class="nav_sub">
-                            <li><a href="<?php bloginfo('url'); ?>/#googlemap">・アクセスマップ</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/access/">・アクセスマップ</a></li>
                             <li><a href="<?php bloginfo('url'); ?>/contact/">・お問い合せ</a></li>
                             <!-- <li style="width: 18rem;"><a target="_blank" rel="noopener">・お問い合せ(調整中)</a></li> -->
                             <!-- <li><a href="">・特別プラン</a></li> -->

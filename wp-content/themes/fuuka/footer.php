@@ -74,13 +74,8 @@
                             <p class="fs13">宿泊プラン一覧</p>
                         </a>
                     </div>
-                    <!-- <div>
-                        <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/availability/daily" class="white_btn flex ">
-                            <p class="fs13 flex">空室情報</p>
-                        </a>
-                    </div> -->
                     <div>
-                        <a href="<?php bloginfo('url'); ?>/#googlemap" class="white_btn flex">
+                        <a href="<?php bloginfo('url'); ?>/access/" class="white_btn flex">
                             <p class="fs13 flex">アクセスマップ</p>
                         </a>
                     </div>
