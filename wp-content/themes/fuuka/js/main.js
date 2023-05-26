@@ -156,7 +156,7 @@ $(function(){
 });
 
 //インスタグラム
-const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-slide').length;
+const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi_item').length;
 
   const params = {
     slidesPerView: 'auto',
