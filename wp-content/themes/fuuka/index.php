@@ -474,7 +474,7 @@
             
                 <div class="swiper swiper-b">
                     <div class="swiper-wrapper">
-                        <!--?php echo do_shortcode('[instagram-feed feed=1]'); ?-->
+                        <?php echo do_shortcode('[instagram-feed feed=2]'); ?>
                     </div><!-- /swiper-wrapper -->
                 </div><!-- /swiper -->
                 
