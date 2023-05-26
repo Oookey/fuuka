@@ -55,14 +55,13 @@ get_header(); ?>
         <div class="pageinfo bg_b_c">
             <div class="c_info_bg inner">
                 <div class="pageinfo_inner">
-                    <h2 class="fv_fadein">美食フレンチと<br>
-                        オールインクルーシブの<br>
-                        マリアージュ
+                    <h2 class="fv_fadein">
+                        カジュアルフレンチと<br>オールインクルーシブ<br>ドリンクとのマリアージュ
                     </h2>
                     <p class="fadein">
-                        ご滞在は、美食オールインクルーシブをテーマにした自由で快適なステイ。<br class="pc">
-                        夕食時、バータイムはアルコールを含む約80種のお飲み物がフリードリンク。<br class="pc">
-                        お食事は、ここでしか味わえない逸品のフレンチでおもてなしいたします。
+                        ご夕食はお箸で食べるカジュアルフレンチです。<br class="pc">
+                        山梨県産ワインを中心とした約50種類のフリードリンクとのマリアージュをご堪能ください。<br class="pc">
+                        お子様連れでも気兼ねなくコース料理をお楽しみいただけます。
                     </p>
                 </div>
             </div>
@@ -140,57 +139,6 @@ get_header(); ?>
                                 <label class="accordion_title" for="toggle1">お品書き</label>
                             <div class="fs18 meal_menu_text accordion_content">
                                 <?php the_field('c_menu1_menu'); ?>
-                                <!-- <div class="meal_menu_text_inner">
-                                    <p>＜冷前菜＞</p>
-                                    <p class="pd-1">
-                                        自家製八ヶ岳産野菜のキッシュ<br>
-                                        大豆ムース<br>
-                                        国産鶏のガランティーヌ<br>
-                                        彩野菜のサラダ仕立て<br><br>
-                                    </p>
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜温前菜＞</p>
-                                    <p class="pd-1">
-                                        ノルウェーサーモンの低温調理 <br>
-                                        サフランソース<br><br>
-                                    </p>
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜スープ＞</p>
-                                    <p class="pd-1">
-                                        八ヶ岳産牛乳とエンドウ豆のポタージュ<br><br>
-                                    </p> 
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜魚メイン＞ </p>
-                                    <p class="pd-1">
-                                        帆立貝柱のプロヴァンス<br>
-                                        ヴァンブランソース<br>
-                                        ニンニククリームを添えて<br><br>
-                                    </p> 
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜肉メイン＞</p>
-                                    <p class="pd-1">
-                                        特選黒毛和牛ロースのプランチャ<br>
-                                        温野菜とジャガイモのポタジェ<br>
-                                        マデラーワインの香るソース<br><br>
-                                    </p>
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜デザート＞</p>
-                                    <p class="pd-1">
-                                        自家製ショコラブラウニー<br>
-                                        季節のフルーツ盛り合わせ<br>
-                                        アングレーズの香り<br><br>
-                                    </p>
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>本日のパン</p>
-                                    <p class="pd-1">
-                                        安曇野産こしひかり　香の物</p> 
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -231,56 +179,6 @@ get_header(); ?>
                                 <label class="accordion_title" for="toggle2">お品書き</label>
                             <div class="fs18 meal_menu_text accordion_content">
                                 <?php the_field('c_menu2_menu'); ?>
-                                <!-- <div class="meal_menu_text_inner">
-                                    <p>＜冷前菜＞</p>
-                                    <p class="pd-1">
-                                        自家製八ヶ岳産野菜のキッシュ<br>
-                                        自家製大豆ムース<br>
-                                        国産鶏のガランティーヌ<br>
-                                        彩野菜のサラダ仕立て<br><br>
-                                    </p>
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜温前菜＞</p>
-                                    <p class="pd-1">
-                                        ノルウェーサーモンの低温調理<br>
-                                        サフランソース<br><br>
-                                    </p>
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜スープ＞</p>
-                                    <p class="pd-1">
-                                        八ヶ岳産牛乳とエンドウ豆のポタージュ<br><br>
-                                    </p> 
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜魚メイン＞ </p>
-                                    <p class="pd-1">
-                                        真鯛のポワレ<br>
-                                        タプナードソース<br>
-                                        マイクロハーブを添えて<br><br>
-                                    </p> 
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜肉メイン＞</p>
-                                    <p class="pd-1">
-                                        国産牛ロースのプランチャ<br>
-                                        温野菜とジャガイモのポタジェ<br>
-                                        和風ペッパーソース<br><br>
-                                    </p>
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>＜デザート＞</p>
-                                    <p class="pd-1">
-                                        自家製レアチーズケーキ<br>
-                                        季節のフルーツ盛り合わせ<br><br>
-                                    </p>
-                                </div>
-                                <div class="meal_menu_text_inner">
-                                    <p>本日のパン</p>
-                                    <p class="pd-1">
-                                        安曇野産こしひかり　香の物</p> 
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -310,8 +208,7 @@ get_header(); ?>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        八ヶ岳ホテル風かでは、厳選した地元銘柄を中心に、約50種類<br class="pc">のお飲み物をフリードリンクにてお愉しみいただけます。<br>
-                        ご夕食後には、BARラウンジでも約30種類のお飲み物をご用意<br class="pc">しています。大切なあの人とぜひ一緒にお越しくださいませ。
+                    ご夕食時は山梨県産ワインを中心とした約50種類のアルコール飲料、ソフトドリンクをご用意しています。もちろんフリードリンク（一部プレミアムワイン等除く）です。
                     </p>
                     <ul class="slick">
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_3_1.png"></li>
@@ -371,11 +268,12 @@ get_header(); ?>
                     </div>
                     <p class="kome">※ 仕入れの都合により提供内容が変わる場合がございます。</p>
                     <p class="kome">※ お食事の補助器具として「Combiベビーラック」「ハイチェア」をご用意しております。</p>
-                    <ul class="slick">
+                    <p class="kome">※大人の方がコース料理をゆったり楽しめるようお子様が時間をつぶせる玩具をご用意しております。</p>
+                    <!-- <ul class="slick">
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_4_1.png"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_4_2.png"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_4_3.png"></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </div>
@@ -399,15 +297,21 @@ get_header(); ?>
                         ご朝食時間　7：30～9：00
                     </p>
                     <div class="cuisine_inline_menu">
-                        <p class="p1">ご朝食（一例）</p>
+                        <p class="p1">メインプレート</p>
                         <p>
-                            地元平飼い卵のスクランブルエッグと<br class="sp">ベーコン<br>
-                            高原野菜サラダ<br>
+                            スクランブルエッグ<br>
+                            季節のフルーツ<br>
+                            国産ポークウインナー<br>
+                            ハッシュドポテト<br><br>
+                        </p>
+                        <p class="p1">ハーフビュッフェ</p>
+                        <p>
+                            高原野菜のサラダ<br>
                             国産牛の特製カレー<br>
-                            野菜たっぷりミネストローネ<br>
-                            焼きたてパン<br>
-                            山梨県産季節のフルーツ<br>
-                            八ヶ岳高原ヨーグルト
+                            安曇野産コシヒカリ<br>
+                            本日のスープ<br>
+                            八ヶ岳高原ヨーグルト<br>
+                            モーニングドリンク
                         </p>
                     </div>
                     <p class="kome">※ 仕入れの都合により提供内容が変わる場合がございます。</p>

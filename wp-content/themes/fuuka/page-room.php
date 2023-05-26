@@ -105,7 +105,7 @@ get_header(); ?>
                             天然アロマの茶香炉、フリーWi-Fi、バスアメニティはロクシタン
                         </p>
                     </div>
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5804?_ga=2.88032920.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617417" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -134,7 +134,7 @@ get_header(); ?>
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main2.png" alt="">
                         </div>
                         <div class="pc room_point">
-                            <p>・ベッドルーム2部屋 + 和室6畳と広々ダイニング+ 星見ジャグジー風呂付</p>
+                            <p>・独立ベッドルーム1部屋（ベッド２台）＋広々リビング（ベッド２台）＋フラットな畳スペース＋星見ジャグジー風呂</p>
                             <p>・客室風呂は24時間入浴可能（温泉ではございません） </p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
@@ -159,7 +159,7 @@ get_header(); ?>
                             マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、アレクサ、フリーWi-Fi、バスアメニティはロクシタン
                         </p>
                     </div>
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/8671?_ga=2.102008833.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617418" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -176,7 +176,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- FUUKAジュニアスイート -->
+        <!-- 美容FUUKAジュニアスイート -->
         <div class="content bg_wave room3">
             <div class="inner img_bg_3">
                 <div class="con-sp-fv fadein">
@@ -195,23 +195,24 @@ get_header(); ?>
                             <p>プライベートバス付客室</p>
                             <h2>
                                 【プライベートバス付客室】<br>
-                                FUUKAジュニアスイート【禁煙】
+                                美容FUUKAジュニアスイート【禁煙】
                             </h2>
                         </div>
                     </div>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        全てのご利用シーンにあわせて、最適なプライベートバス付客室。<br>
-                        ベット２台、畳スペースには最大3枚までお布団を敷くことができ、<br class="pc">最大5名様までお泊りいただけます。<br><br>
+                    特に小さなお子様連れご家族や若いカップルにおすすめのお部屋。<br>
+                    ベット２台、畳スペースには最大3枚までお布団を敷くことができ、<br>
+                    最大5名様までお泊りいただけます。<br><br>
                         定員：2名～5名　／　広さ：50m&#178;
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、<br class="pc">カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、<br class="pc">バスアメニティはロクシタン、天然アロマの茶香炉、アレクサ、フリーWi-Fi
+                            マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、バスアメニティはロクシタン、天然アロマの茶香炉、アレクサ、フリーWi-Fi
                         </p>
                     </div>
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/8672?_ga=2.102008833.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617419" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -238,7 +239,6 @@ get_header(); ?>
                         </div>
                         <div class="pc room_point">
                             <p>・ツインベッド ＋ 畳スペース</p>
-                            <p>・洗浄機能付トイレ、洗面台付き</p>
                             <p>・バスなし　※大浴場をご利用ください</p>
                             <p>・100インチ超の大画面スクリーンをお楽しみいただけます</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
@@ -262,10 +262,10 @@ get_header(); ?>
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
+                            EPSON製超短視点プロジェクター（100インチスクリーン）、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
                         </p>
                     </div>
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5803?_ga=2.102008833.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617420" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -275,7 +275,6 @@ get_header(); ?>
                     </ul>
                     <div class="sp room_point">
                         <p>・ツインベッド ＋ 畳スペース</p>
-                        <p>・洗浄機能付トイレ、洗面台付き</p>
                         <p>・バスなし　※大浴場をご利用ください</p>
                         <p>・100インチ超の大画面スクリーンをお楽しみいただけます</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
@@ -295,6 +294,7 @@ get_header(); ?>
                         <div class="pc room_point">
                             <p>・ツインベッド（ベッド1200×2000）＋ 畳スペース</p>
                             <p>・プライベートバス付き</p>
+                            <p>・天然アロマの茶香炉</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
@@ -314,7 +314,7 @@ get_header(); ?>
                         プライベートを大切にできる広々としたお部屋は、<br class="pc">あらゆる世代の方に寛ぎの空間をお楽しみいただけます。<br><br>
                         定員：2名～5名　／　広さ：洋間＋和室10畳
                     </p>
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5802?_ga=2.123046283.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617423" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -325,6 +325,7 @@ get_header(); ?>
                     <div class="sp room_point">
                         <p>・ツインベッド（ベッド1200×2000）＋ 畳スペース</p>
                         <p>・プライベートバス付き</p>
+                        <p>・天然アロマの茶香炉</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
                 </div>
@@ -341,8 +342,8 @@ get_header(); ?>
                         </div>
                         <div class="pc room_point">
                             <p>・ツインベッド</p>
-                            <p>・洗浄機能付トイレ、洗面台付き</p>
                             <p>・バスなし　※大浴場をご利用ください</p>
+                            <p>・天然アロマの茶香炉</p>
                         </div>
                     </div>
                     <div class="float-r con_text-r">
@@ -367,7 +368,7 @@ get_header(); ?>
                             
                         </p>
                     </div> -->
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5798?_ga=2.123046283.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617421" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -377,8 +378,8 @@ get_header(); ?>
                     </ul>
                     <div class="sp room_point">
                         <p>・ツインベッド</p>
-                        <p>・洗浄機能付トイレ、洗面台付き</p>
                         <p>・バスなし　※大浴場をご利用ください</p>
+                        <p>・天然アロマの茶香炉</p>
                     </div>
                 </div>
             </div>
@@ -394,8 +395,8 @@ get_header(); ?>
                         </div>
                         <div class="pc room_point">
                             <p>・ダブルベッド（ベッド1600×2000）</p>
-                            <p>・洗浄機能付きトイレ、洗面台付</p>
                             <p>・バスなし　※大浴場をご利用ください</p>
+                            <p>・天然アロマの茶香炉</p>
                         </div>
                     </div>
                     <div class="float-l con_text-l">
@@ -414,7 +415,7 @@ get_header(); ?>
                         リラックスいただける癒しの空間は休息の1日を穏やかに演出します。<br><br>
                         定員：2名　／　広さ：21m&#178;
                     </p>
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5797?_ga=2.123046283.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617422" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -424,8 +425,8 @@ get_header(); ?>
                     </ul>
                     <div class="sp room_point">
                         <p>・ダブルベッド（ベッド1600×2000）</p>
-                        <p>・洗浄機能付きトイレ、洗面台付</p>
                         <p>・バスなし　※大浴場をご利用ください</p>
+                        <p>・天然アロマの茶香炉</p>
                     </div>
                 </div>
             </div>
@@ -442,7 +443,7 @@ get_header(); ?>
                         <div class="pc room_point">
                             <p>・ツインベッド（ベッド1600×2000） ＋ 畳スペース</p>
                             <p>・バスあり</p>
-                            <p>・洗浄機能付トイレ、洗面台付き</p>
+                            <p>・天然アロマの茶香炉</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
@@ -457,8 +458,8 @@ get_header(); ?>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                        広さは52㎡。和室8畳と洋間の広々としたお部屋。洋間にはベッドを2台配置。ベッドと畳、和と洋の過ごしやすさを追求した形。<br>
-                        ちょっと贅沢な滞在を叶えるワンランク上のお部屋です。和モダン和洋室と比較し、更に広々とした室内となります。<br><br>
+                        リニューアルしていないお部屋です。和室8畳と洋間の広々としたお部屋。洋間にはベッドを2台配置。ベッドと畳、和と洋の過ごしやすさを追求しました。<br>
+                        お部屋にユニットバスがありますので、小さなお子様連れのお客様におすすめのお部屋です。<br><br>
                         定員：2名～5名　／　広さ：52m&#178;
                     </p>
                     <!-- <div class="room_star_wrap">
@@ -466,7 +467,7 @@ get_header(); ?>
                             EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
                         </p>
                     </div> -->
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5801?_ga=2.123046283.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617424" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -477,7 +478,7 @@ get_header(); ?>
                     <div class="sp room_point">
                         <p>・ツインベッド（ベッド1600×2000） ＋ 畳スペース</p>
                         <p>・バスあり</p>
-                        <p>・洗浄機能付トイレ、洗面台付き</p>
+                        <p>・天然アロマの茶香炉</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
                 </div>
@@ -493,8 +494,8 @@ get_header(); ?>
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main9.jpg" alt="">
                         </div>
                         <div class="pc room_point">
-                            <p>・洗浄機能付トイレ、洗面台付き</p>
                             <p>・バスなし　※大浴場をご利用ください</p>
+                            <p>・天然アロマの茶香炉</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
@@ -509,12 +510,10 @@ get_header(); ?>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        落ち着いて高原ホテルの一日をお楽しみいただけるよう、和室もご用意してございます。<br>
-                        どこか懐かしく、快適でありながらゆったりとお過ごしいただけます。<br>
-                        窓の外には唐松林を眺めながら、和のくつろぎの時間をお過ごしください。一人旅、ご夫婦、カップルでのご利用にも最適な客室です。　<br><br>
+                    2022年冬に畳、室内壁紙を時代にあわせて抗ウイルス仕様にリニューアル。お子様連れファミリーに安心安全にご利用いただけるお部屋です。<br><br>
                         定員：1名～4名　／　広さ：和室10畳＋広縁
                     </p>
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5799?_ga=2.93078173.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617426" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -523,8 +522,8 @@ get_header(); ?>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_9_2.jpg"></li>
                     </ul>
                     <div class="sp room_point">
-                        <p>・洗浄機能付トイレ、洗面台付き</p>
                         <p>・バスなし　※大浴場をご利用ください</p>
+                        <p>・天然アロマの茶香炉</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
                 </div>
@@ -542,6 +541,7 @@ get_header(); ?>
                         <div class="pc room_point">
                             <p>・ツインベッド（ベッド1100×2000） ＋ 畳スペース</p>
                             <p>・バリアフリー対応のバス・トイレ付</p>
+                            <p>・天然アロマの茶香炉</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
@@ -556,16 +556,11 @@ get_header(); ?>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                        広さは73㎡。専用浴室・トイレを完備したバリアフリー対応のお部屋でございます。<br>
-                        専用トイレ、浴室も完備しておりますので快適にお過ごしいただけます。広々とした室内はグループさまでのご利用にもおすすめです。<br><br>
+                        未リニューアルのお部屋です。広さは73㎡と風か和洋室タイプのなかでもっとも広く、専用浴室・トイレを完備したバリアフリー対応のお部屋です。<br>
+                        お部屋にお風呂がございますので、車椅子の方のご利用だけでなく小さなお子様連れファミリーにもおすすめのお部屋です。<br><br>
                         定員：2名～5名　／　広さ：73m&#178;
                     </p>
-                    <!-- <div class="room_star_wrap">
-                        <p>
-                            EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
-                        </p>
-                    </div> -->
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5800?_ga=2.93078173.1222657142.1685063286-2061404858.1682388084" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617425" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -576,6 +571,7 @@ get_header(); ?>
                     <div class="sp room_point">
                         <p>・ツインベッド（ベッド1100×2000） ＋ 畳スペース</p>
                         <p>・バリアフリー対応のバス・トイレ付</p>
+                        <p>・天然アロマの茶香炉</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
                 </div>
@@ -607,8 +603,8 @@ get_header(); ?>
                     </div>
                 </div>
                 <p class="text room_ame_list">
-                    歯ブラシ／シャンプー／リンス／ボディソープ／ハンドソープ／ヘアブラシ／カミソリ／バスタオル／<br class="pc">
-                    フェイスタオル／シャワーキャップ／綿 棒／浴 衣／スリッパ
+                    シャンプー／リンス／ボディソープ（←お風呂があるお部屋のみ）<br>
+                    歯ブラシ／ハンドソープ／ヘアブラシ／カミソリ／バスタオル／フェイスタオル／シャワーキャップ／綿 棒／浴 衣／スリッパ
                 </p>
 
                 <div class="con_title marugoto">
