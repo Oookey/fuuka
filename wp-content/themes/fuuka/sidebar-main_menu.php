@@ -18,7 +18,7 @@
             <a href="<?php bloginfo('url'); ?>/sightseeing/">周辺観光</a>
         </li>
         <li>
-            <a href="<?php bloginfo('url'); ?>/access/">アクセス</a>
+            <a href="<?php bloginfo('url'); ?>/access/#access_way">アクセス</a>
         </li>
     </ul>
     <ul class="global_menu_other">

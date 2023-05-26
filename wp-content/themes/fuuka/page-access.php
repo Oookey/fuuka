@@ -36,7 +36,7 @@ get_header(); ?>
                     <a href="https://www.instagram.com/hotel_fuka/?hl=ja" class="fv_menu_inner fv_fadein" target="_blank" rel="noopener">
                         <img class="fv_menu_icon" src="<?php bloginfo('template_directory'); ?>/image/icon_instagram_fv.svg" alt="">
                     </a>
-                    <a href="<?php bloginfo('url'); ?>/#access" class="fv_menu_inner fv_fadein">
+                    <a href="<?php bloginfo('url'); ?>/access/" class="fv_menu_inner fv_fadein">
                         <img class="fv_menu_icon" src="<?php bloginfo('template_directory'); ?>/image/icon_map_fv.svg" alt="">
                     </a>
                 </div>
@@ -75,7 +75,7 @@ get_header(); ?>
         </div>
 
         <!-- 車でおこしの方 -->
-        <div class="content bg_b_c access1">
+        <div class="content bg_b_c access1" id="access_way">
             <div class="inner img_bg_2">
                 <div class="float-r con_mv fadein">
                     <img src="<?php bloginfo('template_directory'); ?>/image/access_illest3.png" alt="" class="float-r_img1">

@@ -44,7 +44,7 @@ get_header(); ?>
                     <a href="https://www.instagram.com/hotel_fuka/?hl=ja" class="fv_menu_inner" target="_blank" rel="noopener">
                         <img class="fv_menu_icon" src="<?php bloginfo('template_directory'); ?>/image/icon_instagram_fv.svg" alt="">
                     </a>
-                    <a href="<?php bloginfo('url'); ?>/#access" class="fv_menu_inner">
+                    <a href="<?php bloginfo('url'); ?>/access/" class="fv_menu_inner">
                         <img class="fv_menu_icon" src="<?php bloginfo('template_directory'); ?>/image/icon_map_fv.svg" alt="">
                     </a>
                 </div>
