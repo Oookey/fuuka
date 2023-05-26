@@ -113,7 +113,7 @@
                     <h2><span>Special</span><br>風かの<br class="sp">”まるごとおもてなし<font size="4">&reg;</font>”</h2>
                 </div>
                 <div class="flex special_contents fadein">
-                    <a href="" class="special_contents_inner zoom">
+                    <a href="<?php bloginfo('url'); ?>/omotenashi/#hos_c" class="special_contents_inner zoom">
                         <figure>
                             <img src="<?php bloginfo('template_directory'); ?>/image/special_img-1.png" alt="" class="img">
                         </figure>
@@ -124,7 +124,7 @@
                             </div>
                         </div>
 					</a>
-                    <a href="" class="special_contents_inner zoom">
+                    <a href="<?php bloginfo('url'); ?>/omotenashi/#hos_a" class="special_contents_inner zoom">
                         <figure>
                             <img src="<?php bloginfo('template_directory'); ?>/image/special_img-2.png" alt="" class="img">
                         </figure>
@@ -152,12 +152,9 @@
                             大人だけでなくお子様も楽しめるオールインクルーシブリゾートホテルです。
                         </p>
                         <div>
-                            <a href="">
+                            <a href="<?php bloginfo('url'); ?>/activity/">
                                 <p class="btn"><span class="arrow"></span>宿泊プラン一覧</p>
                             </a>
-                            <!-- <a href="">
-                                <p class="btn"><span class="arrow"></span>空室情報へ</p>
-                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -184,7 +181,7 @@
                     <p class="text">
                         大人が嬉しいアルコールフリードリンクはもちろん、お子様が楽しめるたくさんのおもてなしもたくさんご用意。窯焼きウエルカムピザ、ヤギさんお散歩体験、星見テラスの焚火BAR、焚火で焼きマシュマロなど風かでしか味わえない非日常のおもてなしをお楽しみください。
                     </p>
-                    <a href="" class="flex">
+                    <a href="<?php bloginfo('url'); ?>/about/" class="flex">
                         <p class="btn"><span class="arrow"></span>ホテルのご案内</p>
                     </a>
                     <ul class="slick">
@@ -217,7 +214,7 @@
                         ご夕食はお箸で食べるカジュアルフレンチと山梨県産ワインを中心とした約50種類のドリンクとのマリアージュをご堪能ください。<br>
                         お子様連れでも気兼ねなくコース料理をお楽しみいただけます。
                     </p>
-                    <a href="" class="flex">
+                    <a href="<?php bloginfo('url'); ?>/cuisine/" class="flex">
                         <p class="btn"><span class="arrow"></span>お食事のご案内</p>
                     </a>
                     <ul class="slick">
@@ -249,7 +246,7 @@
                     <p class="text">
                         檜温泉風呂付スイートルーム、100インチスクリーンシアターが楽しめるスーペリア和洋ルーム、抗ウイルス畳がお子様連れに安心な和室など、利用シーンに応じて選べる10種の趣の異なるお部屋タイプをご用意しています。
                     </p>
-                    <a href="" class="flex">
+                    <a href="<?php bloginfo('url'); ?>/room/" class="flex">
                         <p class="btn"><span class="arrow"></span>客室のご案内</p>
                     </a>
                     <ul class="slick">
@@ -281,7 +278,7 @@
                     <p class="text">
                         内湯の洗い場は畳敷きで冷たくなく柔らかでお子様、ご年配の方も安心にご利用いただけます。露天風呂は芹ケ沢温泉からの運び湯で天然温泉をお楽しみいただきます。湯あがり処には、無料で楽しめるアイスキャンディーとマッサージチェアをご用意しております。
                     </p>
-                    <a href="" class="flex">
+                    <a href="<?php bloginfo('url'); ?>/about/#about4" class="flex">
                         <p class="btn"><span class="arrow"></span>大浴場のご案内</p>
                     </a>
                     <ul class="slick">
@@ -367,49 +364,49 @@
                 <p class="about fadein">たくさんのおもてなしを楽しめる<br>オールインクルーシブ。</p>
                 <ul class="hotel_list fadein">
                     <li>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/about/#about1">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_1.png" alt="">
                             <h2>星見のテラス</h2>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/about/#about3">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_2.png" alt="">
                             <h2>レストラン－炙－</h2>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/about/#about4">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_3.png" alt="">
                             <h2>露天風呂・大浴場</h2>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/about/#about4">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_4.png" alt="">
                             <h2>湯上り処サービス</h2>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/about/#about6">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_5.png" alt="">
                             <h2>ナイトバー</h2>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/about/#about2">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_6.png" alt="">
                             <h2>フロント・売店・ロビー</h2>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/about/#about8">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_7.png" alt="">
                             <h2>キッズルーム&<br>暇つぶしコーナー</h2>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/about/#about9">
                             <img src="<?php bloginfo('template_directory'); ?>/image/hotel_8.png" alt="">
                             <h2>森のライブラリー</h2>
                         </a>
@@ -477,7 +474,7 @@
             
                 <div class="swiper swiper-b">
                     <div class="swiper-wrapper">
-                        <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+                        <!--?php echo do_shortcode('[instagram-feed feed=1]'); ?-->
                     </div><!-- /swiper-wrapper -->
                 </div><!-- /swiper -->
                 
@@ -485,7 +482,7 @@
         </div>
 
         <!-- マップ -->
-        <div class="map map_bg">
+        <div class="map map_bg" id="googlemap">
             <div class="inner">
                 <h2 class="title fadein">アクセスマップ</h2>
                 <div class="googlemap fadein">

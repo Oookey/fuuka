@@ -18,7 +18,7 @@ get_header(); ?>
         <?php get_sidebar('main_menu'); ?>
 
         <!-- fix menu -->
-        <?php get_sidebar('flex_menu'); ?>    
+        <?php get_sidebar('flex_menu'); ?>
     </header>
     <!-- ↑↑↑ HEADER ↑↑↑ -->
 

@@ -70,7 +70,7 @@ get_header(); ?>
         </div>
 
         <!-- 星見のテラス -->
-        <div class="content bg_wave about1">
+        <div class="content bg_wave about1" id="about1">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
@@ -100,7 +100,7 @@ get_header(); ?>
         </div>
 
         <!-- フロント・売店・ロビー -->
-        <div class="content bg_b_c about2">
+        <div class="content bg_b_c about2" id="about2">
             <div class="inner img_bg_1">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
@@ -137,7 +137,7 @@ get_header(); ?>
         </div>
 
         <!-- レストラン－炙－ -->
-        <div class="content bg_wave about3">
+        <div class="content bg_wave about3" id="about3">
             <div class="inner img_bg_2">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
@@ -168,7 +168,7 @@ get_header(); ?>
         </div>
 
         <!-- 露天風呂・大浴場 -->
-        <div class="content bg_b_c about4">
+        <div class="content bg_b_c about4" id="about4">
             <div class="inner img_bg_3">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
@@ -204,7 +204,7 @@ get_header(); ?>
         </div>
 
         <!-- 風香の湯 -->
-        <div class="content bg_b_c about5">
+        <div class="content bg_b_c about5" id="about5">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
@@ -238,7 +238,7 @@ get_header(); ?>
         </div>
 
         <!-- 【内湯】麗水備長炭風呂 -->
-        <div class="content bg_b_c about6">
+        <div class="content bg_b_c about6" id="about6">
             <div class="inner">
                 <div class="con-sp-fv  fadein">
                     <div class="float-r con_mv">
@@ -274,7 +274,7 @@ get_header(); ?>
         </div>
 
         <!-- ナイトバー -->
-        <div class="content bg_wave about7">
+        <div class="content bg_wave about7" id="about7">
             <div class="inner img_bg_4">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
@@ -312,7 +312,7 @@ get_header(); ?>
         </div>
 
         <!-- キッズルーム&暇つぶしコーナー -->
-        <div class="content bg_b_c about8">
+        <div class="content bg_b_c about8" id="about8">
             <div class="inner img_bg_5">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
@@ -360,7 +360,7 @@ get_header(); ?>
         </div>
 
         <!-- 森のライブラリー -->
-        <div class="content bg_wave about9">
+        <div class="content bg_wave about9" id="about9">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">

@@ -14,49 +14,49 @@
                 <div class="each_page flex">
                     <ul>
                         <li>
-                            <a href="" class="flex page_btn">
+                            <a href="<?php bloginfo('url'); ?>/omotenashi/" class="flex page_btn">
                                 <div class="circle_btn"></div>
                                 <p>まるごとおもてなし<font size="1">&reg;</font></p>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex page_btn">
+                            <a href="<?php bloginfo('url'); ?>/cuisine/" class="flex page_btn">
                                 <div class="circle_btn"></div>
                                 <p>お食事のご案内</p>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex page_btn">
+                            <a href="<?php bloginfo('url'); ?>/room/" class="flex page_btn">
                                 <div class="circle_btn"></div>
                                 <p>客室のご案内</p>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex page_btn">
+                            <a href="<?php bloginfo('url'); ?>/about/" class="flex page_btn">
                                 <div class="circle_btn"></div>
                                 <p>ホテル案内</p>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex page_btn">
+                            <a href="<?php bloginfo('url'); ?>/activity/" class="flex page_btn">
                                 <div class="circle_btn"></div>
                                 <p>宿泊体験プラン</p>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex page_btn">
+                            <a href="<?php bloginfo('url'); ?>/sightseeing/" class="flex page_btn">
                                 <div class="circle_btn"></div>
                                 <p>周辺観光</p>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex page_btn">
+                            <a href="<?php bloginfo('url'); ?>/access/" class="flex page_btn">
                                 <div class="circle_btn"></div>
                                 <p>アクセス</p>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex page_btn">
+                            <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan" class="flex page_btn">
                                 <div class="circle_btn"></div>
                                 <p>宿泊プラン一覧</p>
                             </a>
@@ -80,25 +80,25 @@
                         </a>
                     </div> -->
                     <div>
-                        <a href="" class="white_btn flex">
+                        <a href="<?php bloginfo('url'); ?>/#googlemap" class="white_btn flex">
                             <p class="fs13 flex">アクセスマップ</p>
                         </a>
                     </div>
                     <div>
-                        <a href="" class="white_btn flex">
+                        <a href="<?php bloginfo('url'); ?>/contact/" class="white_btn flex">
                             <p class="fs13 flex">お問い合せ</p>
                         </a>
                     </div>
                 </div>
                 <div class="">
                     <div class="personal_information flex">
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/privacy_policy/">
                             <p>・個人情報保護方針</p>
                         </a>
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/regulations/">
                             <p>・個人情報保護規定</p>
                         </a>
-                        <a href="">
+                        <a href="https://oyadonet.com/img/guideline20230508.pdf" target="_blank" rel="noopener">
                             <p>・新型コロナウィルス対応 ガイドライン<br>　(2023年5月8日改定）</p>
                         </a>
                     </div>

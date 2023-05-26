@@ -105,7 +105,7 @@ get_header(); ?>
                             天然アロマの茶香炉、フリーWi-Fi、バスアメニティはロクシタン
                         </p>
                     </div>
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5804?_ga=2.88032920.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -159,7 +159,7 @@ get_header(); ?>
                             マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、アレクサ、フリーWi-Fi、バスアメニティはロクシタン
                         </p>
                     </div>
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/8671?_ga=2.102008833.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -211,7 +211,7 @@ get_header(); ?>
                             マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、<br class="pc">カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、<br class="pc">バスアメニティはロクシタン、天然アロマの茶香炉、アレクサ、フリーWi-Fi
                         </p>
                     </div>
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/8672?_ga=2.102008833.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -265,7 +265,7 @@ get_header(); ?>
                             EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
                         </p>
                     </div>
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5803?_ga=2.102008833.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -314,7 +314,7 @@ get_header(); ?>
                         プライベートを大切にできる広々としたお部屋は、<br class="pc">あらゆる世代の方に寛ぎの空間をお楽しみいただけます。<br><br>
                         定員：2名～5名　／　広さ：洋間＋和室10畳
                     </p>
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5802?_ga=2.123046283.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -364,10 +364,10 @@ get_header(); ?>
                     </p>
                     <!-- <div class="room_star_wrap">
                         <p>
-                            EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
+                            
                         </p>
                     </div> -->
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5798?_ga=2.123046283.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -414,7 +414,7 @@ get_header(); ?>
                         リラックスいただける癒しの空間は休息の1日を穏やかに演出します。<br><br>
                         定員：2名　／　広さ：21m&#178;
                     </p>
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5797?_ga=2.123046283.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -466,7 +466,7 @@ get_header(); ?>
                             EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
                         </p>
                     </div> -->
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5801?_ga=2.123046283.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -514,7 +514,7 @@ get_header(); ?>
                         窓の外には唐松林を眺めながら、和のくつろぎの時間をお過ごしください。一人旅、ご夫婦、カップルでのご利用にも最適な客室です。　<br><br>
                         定員：1名～4名　／　広さ：和室10畳＋広縁
                     </p>
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5799?_ga=2.93078173.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -565,7 +565,7 @@ get_header(); ?>
                             EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
                         </p>
                     </div> -->
-                    <a href="" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/room/5800?_ga=2.93078173.1222657142.1685063286-2061404858.1682388084" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">

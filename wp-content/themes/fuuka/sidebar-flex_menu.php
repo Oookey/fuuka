@@ -2,7 +2,7 @@
     <div class="sns_menu flex difference">
         <div class="sns_menu_inner">
             <div class="insta_icon">
-                <a href="" target="_blank" rel="noopener">
+                <a href="https://www.instagram.com/hotel_fuka/" target="_blank" rel="noopener">
                     <img src="<?php bloginfo('template_directory'); ?>/image/icon_instagram_w.svg">
                 </a>
             </div>
@@ -42,7 +42,7 @@
     <div class="sns_menu flex">
         <div class="sns_menu_inner">
             <div class="insta_icon">
-                <a href="" target="_blank" rel="noopener">
+                <a href="https://www.instagram.com/hotel_fuka/" target="_blank" rel="noopener">
                     <img src="<?php bloginfo('template_directory'); ?>/image/icon_instagram.svg">
                 </a>
             </div>
@@ -59,7 +59,7 @@
             <p class="fs10">Search</p>
         </div>
         <nav class="hotel_reserve_inner_sp">
-            <div style="">
+            <div>
                 <div id="sp_nav_close" class="difference"></div>
             </div>
             <div class="box_search_489ban">
