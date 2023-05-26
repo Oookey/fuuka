@@ -155,8 +155,12 @@ $(function(){
   });
 });
 
+
+//インスタグラムクラス追加
+$(".sbi_item").addClass("swiper-slide");
+
 //インスタグラム
-const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-wrapper .sbi .sbi_images .sbi_item').length;
+const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-slide').length;
 
   const params = {
     slidesPerView: 'auto',
