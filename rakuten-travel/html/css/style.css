@@ -1601,7 +1601,7 @@
   width: 35.6rem;
   height: 26.7rem;
   background-image: url(../image/cuisine_illest3.png);
-  top: -24rem;
+  top: -29rem;
   /* left: 100rem; */
   right: 3rem;
 }
@@ -1611,26 +1611,27 @@
   background-image: url(../image/cuisine_illest4.png);
   bottom: 0rem;
   left: 13rem;
-  bottom: -11.5rem;
+  bottom: -9.5rem;
   /* left: 96rem; */
   right: 3rem;
 }
 #cuisine .img_bg_3::before{
-  width: 28.4rem;
-  height: 25.3rem;
+  width: 19.4rem;
+  height: 17.3rem;
   background-image: url(../image/cuisine_bg_photo1.png);
-  top: -18rem;
+  top: -19rem;
   /* left: 109rem; */
   right: 3rem;
 }
 #cuisine .img_bg_3::after{
-  width: 25.2rem;
-  height: 21.5rem;
+  width: 20.2rem;
+  height: 17.5rem;
   background-image: url(../image/cuisine_bg_photo2.png);
   bottom: 0rem;
   left: 13rem;
-  bottom: -11rem;
-  left: 25rem;
+  bottom: -16rem;
+  left: 22rem;
+  z-index: 1;
 }
 
 /*アコーディオンメニュー*/
@@ -1774,7 +1775,7 @@
     left: 3rem;
     width: 17rem;
     height: 14.5rem;
-    bottom: -12rem;
+    bottom: -8rem;
     z-index: 1;
   }
   .accordion{
@@ -1822,6 +1823,9 @@
     padding-top: 27vw;
     padding-bottom: 0vw;
   }
+  #cuisine.subpage .content .con_text-l .text {
+    margin: 0;
+}
 }
 /* ================ */
 
@@ -2114,7 +2118,7 @@
   background-color: #E6E1CF;
   border-radius: 2.2rem;
   margin: 3.8rem auto 4.4rem;
-  padding: 3rem 1.5rem 3rem 3.2rem;
+  padding: 3rem 3.2rem 3rem 3.2rem;
   position: relative;
 }
 /* #about .content .inner{
@@ -2163,10 +2167,11 @@
   overflow: hidden;
 }
 .about_kidroom_inner .float-l{
-  width: 19rem;
+  width: 47%;
 }
 .about_kidroom_inner .float-l:nth-child(2){
-  width: 23rem;
+  width: 47%;
+  margin-left: 2rem;
 }
 .about_kidroom_inner .float-l p{
   line-height: 2.6rem;
@@ -2243,6 +2248,9 @@
 #about .content.about5{
   padding-top: 6vw;
   padding-bottom: 5vw;
+}
+#about .content.about6{
+  padding-bottom: 20rem;
 }
 @media screen and (max-width: 767px){
   #about .content .inner{
