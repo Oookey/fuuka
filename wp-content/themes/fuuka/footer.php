@@ -55,12 +55,6 @@
                                 <p>アクセス</p>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan" class="flex page_btn">
-                                <div class="circle_btn"></div>
-                                <p>宿泊プラン一覧</p>
-                            </a>
-                        </li>
                     </ul>
                     
                 </div>
