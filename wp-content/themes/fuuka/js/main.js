@@ -157,7 +157,7 @@ $(function(){
 
 
 //インスタグラムクラス追加
-$("#sbi_image").addClass("swiper-wrapper");
+$("#sbi_images").addClass("swiper-wrapper");
 $(".sbi_item").addClass("swiper-slide");
 
 
