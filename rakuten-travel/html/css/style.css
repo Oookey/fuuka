@@ -839,6 +839,9 @@
   top: 4px;
   margin: 0 12px 0 0;
 }
+.instagram .title p{
+  font-size: 1.6rem;
+}
 .instagram .l-section {
   border-top: 1px solid #eee;
 }
@@ -1629,8 +1632,8 @@
   background-image: url(../image/cuisine_bg_photo2.png);
   bottom: 0rem;
   left: 13rem;
-  bottom: -16rem;
-  left: 22rem;
+  bottom: -19rem;
+  left: 18rem;
   z-index: 1;
 }
 
