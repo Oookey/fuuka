@@ -9,6 +9,7 @@ body {
 }
 .inner{
     max-width: 95rem !important;
+    padding: 0 3rem !important;
 }
 .global_menu{
     min-width: 90rem !important;
@@ -85,9 +86,42 @@ footer .hotel_net p{
     top: 26rem !important;
     width: 24rem !important;
 }
+.fv_menu{
+    top: 15rem !important;
+}
+.fv_menu a:nth-of-type(1) img{
+    width: 3.1rem !important;
+}
+.fv_menu a:nth-of-type(2) img{
+    width: 4.6rem !important;
+}
+.subpage .top_fv::before{
+    height: 4rem !important;
+}
+.fv_text{
+    right: 8rem !important;
+}
+.pageinfo_inner h2{
+    padding-top: 24rem !important;
+}
+.c_info_bg{
+    background-image: url(../image/pagetitle_cuisine.png) !important;
+    background-size: auto 16rem !important;
+    background-position: top 5rem left 50% !important;
+}
 
 /* ----- トップページ ----- */
-.top_fv::before{
+.top_fv{
+    height: 68rem !important;
+}
+.top_fv_movie .in{
+    padding-bottom: 68rem !important;
+}
+.top_fv_text{
+    right: 12rem !important;
+    top: 13rem !important;
+}
+#top .top_fv::before{
     content: none !important;
 }
 .special .concept .title img{
@@ -151,5 +185,216 @@ footer .hotel_net p{
     top: 1rem !important;
     width: 25rem !important;
 }
+.special.bg_wave{
+    padding-top: 3rem !important;
+}
+#top .room.content{
+    padding-bottom: 15rem !important;
+}
+.instagram{
+    padding-bottom: 45rem !important;
+}
 
-@media screen and (max-width: 767px){}
+/* お食事 */
+#cuisine .img_bg_1::before{
+    top: -11rem !important;
+    left: 2rem !important;
+    width: 23.7rem !important;
+    height: 8.1rem !important;
+}
+#cuisine .img_bg_2::before{
+    width: 25.6rem !important;
+    height: 18.7rem !important;
+    top: -17rem !important;
+}
+#cuisine .img_bg_2::after{
+    z-index: 1 !important;
+    bottom: -11.5rem !important;
+    height: 14rem !important;
+    left: 9rem !important;
+}
+#cuisine .img_bg_3::before{
+    width: 16.4rem !important;
+    height: 14.5rem !important;
+    top: -13rem !important;
+}
+#cuisine .img_bg_3::after{
+    bottom: -16rem !important;
+}
+/* 客室 */
+#room .c_info_bg{
+    background-image: url(../image/pagetitle_room.png) !important;
+}
+#room .fv_text{
+    top: 12rem !important;
+}
+#room .img_bg_1::before{
+    width: 20rem !important;
+    height: 18.6rem !important;
+    top: -21rem !important;
+    left: 3rem !important;
+}
+#room .img_bg_2::before{
+    width: 16.7rem !important;
+    height: 14.3rem !important;
+    top: -15rem !important;
+    right: 6rem !important;
+}
+#room .img_bg_3::before{
+    width: 18.8rem !important;
+    height: 14.4rem !important;
+    top: -17rem !important;
+    left: 16rem !important;
+}
+#room .img_bg_4::before{
+    width: 19.2rem !important;
+    height: 16.7rem !important;
+    top: -20rem !important;
+    right: 7rem !important;
+}
+/* まるごとおもてなし */
+#hos .c_info_bg{
+    background-image: none !important;
+}
+#hos .fv_menu{
+    top: 0 !important;
+}
+#hos .pageinfo_inner .title{
+    margin-top: 6rem !important;
+}
+#hos .pageinfo_inner .illust img:nth-of-type(1){
+    width: 25rem !important;
+    top: 5rem !important;
+    left: calc(50% - 46rem) !important;
+}
+#hos .pageinfo_inner .illust img:nth-of-type(2){
+    width: 27rem !important;
+    top: 29rem !important;
+    left: calc(50% - 44rem) !important;
+}
+#hos .pageinfo_inner .illust img:nth-of-type(3){
+    width: 20rem !important;
+    top: 25rem !important;
+    right: calc(50% - 36rem) !important;
+}
+#hos .hos_c_title .special_contents_inner figure{
+    clip-path: url(#mask-hos-title) !important;
+}
+#hos .special_contents{
+    max-width: 77rem !important;
+}
+#hos .hos_c figure{
+    clip-path: url(#mask-hos_img1-sp) !important;
+}
+#hos .hos_c figure img{
+    height: auto !important;
+    width: 33rem !important;
+}
+#hos #hos_c .special_contents_inner,
+#hos #hos_a .special_contents_inner{
+    width: 101% !important;
+    max-width: none !important;
+}
+#hos #hos_c .special_contents_inner figure>img,
+#hos #hos_a .special_contents_inner figure>img{
+    width: 78rem !important;
+    height: 40.8rem !important;
+}
+#hos .hos_c_title .special_contents_text{
+    font-size: 3.4rem !important;
+}
+#hos .hos_c_title .special_contents_text h2 span{
+    font-size: 4.8rem !important;
+}
+#hos .hos_c_title .special_contents_text h2{
+    line-height: 6.2rem !important;
+}
+#hos .special_contents_text{
+    top: 54% !important;
+}
+#hos .content .con_text-r,#hos .content .con_text-l,
+#hos .content .con_mv,#hos .content .con_text-r,#hos .content .con_text-l{
+    width: 50% !important;
+}
+#hos .hos_c figure:last-child{
+    clip-path: url(#mask-special-sp) !important;
+    bottom: -18rem !important;
+}
+#hos .hos_c.bg_wave {
+    padding-top: 16vw !important;
+    padding-bottom: 16vw !important;
+}
+#hos .hos_c.hos_bg-2:last-child {
+    padding-bottom: 18rem !important;
+}
+/* ホテル案内 */
+#about .fv_text{
+    top: 11rem !important;
+}
+#about .img_bg_1::before{
+    width: 27rem !important;
+    height: 15.3rem !important;
+    top: -18rem !important;
+    left: 10rem !important;
+}
+#about .img_bg_2::before{
+    width: 26.9rem !important;
+    height: 19rem !important;
+    top: -24rem !important;
+    right: 8rem !important;
+}
+#about .img_bg_3::before{
+    width: 23.9rem !important;
+    height: 20.5rem !important;
+    top: -23rem !important;
+    left: 9rem !important;
+}
+.content .float-r img.about_photo_6_float{
+    width: 19.2rem !important;
+    left: 19.4rem !important;
+    bottom: -8.2rem !important;
+}
+#about .img_bg_4::before{
+    width: 26.2rem !important;
+    height: 20rem !important;
+    top: -27rem !important;
+    right: 13rem !important;
+}
+#about .img_bg_5::before{
+    width: 27.1rem !important;
+    height: 19.6rem !important;
+    top: -25rem !important;
+    left: 13rem !important;
+}
+/* 体験宿泊 */
+#activity .fv_text{
+    top: 12rem !important;
+}
+#activity .c_info_bg{
+    background-image: url(../image/pagetitle_activity.png) !important;
+}
+/* アクセス */
+#access .fv_menu, #tourism .fv_menu{
+    top: 10.5rem !important;
+    height: 52.4rem !important;
+}
+#access .c_info_bg,#tourism .c_info_bg{
+    background-image: none !important;
+}
+#access .img_bg_1::before{
+    width: 24.5rem !important;
+    height: 19.4rem !important;
+    top: -20rem !important;
+    right: 4rem !important;
+}
+#access .map .address{
+    margin-bottom: 8rem !important;
+}
+/* 周辺観光 */
+#tourism .content .illust{
+    right: 8rem !important;
+    top: -27rem !important;
+}
+#tourism .content .illust img{
+    width: 20rem !important;
+}
