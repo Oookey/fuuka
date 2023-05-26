@@ -157,10 +157,13 @@ $(function(){
 
 
 //インスタグラムクラス追加
+$("#sb_instagram").addClass("insta_slide");
+$("#sbi_images").addClass("swiper-a");
 $(".sbi_item").addClass("swiper-slide");
 
+
 //インスタグラム
-const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-wrapper .sbi #sbi_images .swiper-slide').length;
+const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-slide').length;
 
   const params = {
     slidesPerView: 'auto',
@@ -180,7 +183,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-wr
   }
 
   const initSwiper = () => {
-    const mySwiper_a = new Swiper('.insta_slide .swiper-a .swiper-wrapper .sbi #sbi_images', {
+    const mySwiper_a = new Swiper('.insta_slide .swiper-a', {
       ...params,
       on: {
         touchEnd: (swiper) => {
@@ -189,7 +192,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .swiper-wr
       }
     });
 
-    const mySwiper_b = new Swiper('.insta_slide .swiper-b .swiper-wrapper .sbi #sbi_images', {
+    const mySwiper_b = new Swiper('.insta_slide .swiper-b', {
       ...params,
       autoplay: {
         ...params.autoplay,
