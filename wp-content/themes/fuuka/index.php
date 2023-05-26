@@ -468,9 +468,9 @@
                 <p>風か公式Instagramアカウント</p>
             </div>
 
-            <div class="l-section fadein"><!--insta_slide-->
+            <div class="insta_slide l-section fadein">
 
-                <div class="swiper"><!--swiper-a-->
+                <div class="swiper swiper-a">
                     <div class="swiper-wrapper">
                         <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
                         <!-- <a href="" class="swiper-slide">
