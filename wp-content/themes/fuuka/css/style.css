@@ -2572,6 +2572,7 @@
   background: var(--brown-color);
   color: #fff;
   padding-left: 0.25rem;
+  border-radius: 0.5rem;
 }
 .Pagination-Item-Link:not(.isActive):hover, .page-numbers:not(.current):hover {
   background:  var(--brown-color);
