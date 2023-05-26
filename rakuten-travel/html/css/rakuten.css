@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+/* * {
+	outline: 1px solid magenta;
+} */
+/* ----- 共通 ----- */
+body {
+    min-width: auto !important;
+}
+.inner{
+    max-width: 95rem !important;
+}
+.global_menu{
+    min-width: 90rem !important;
+}
+.global_menu_logo img{
+    width: 18.5rem !important;
+}
+
+#g-nav .nav_content .flex{
+    flex-wrap: wrap !important;
+}
+#g-nav .nav_content{
+    min-width: auto !important;
+    max-width: none !important;
+    width: 30rem !important;
+}
+#g-nav .nav_mc p{
+    white-space: inherit !important;
+}
+#g-nav .btn{
+    width: 100% !important;
+}
+#g-nav .nav_star h2{
+    left: 2rem !important;
+}
+#g-nav .nav_star p{
+    right: 1rem !important;
+}
+footer .adress {
+    width: 18rem !important;
+    margin-right: 10rem !important;
+}
+footer .each_page{
+    width: 38rem !important;
+    margin-top: 0 !important;
+}
+footer .personal_information a{
+    font-size: 1.4rem !important;
+}
+footer .adress img {
+    margin-bottom: 2rem !important;
+    width: 18rem !important;
+}
+footer .btn_box{
+    width: 53rem !important;
+}
+#TA_cdsratingsonlynarrow484{
+    top: 0rem !important;
+}
+footer .personal_information a:last-child{
+    line-height: 1.4 !important;
+}
+footer .hotel_net p{
+    font-size: 1.1rem !important;
+    width: 17rem;
+}
+.footer2 .title{
+    width: 87rem !important;
+}
+
+.content .con_mv, .content .con_text-r, .content .con_text-l{
+    width: 40% !important;
+}
+.content .con_text-r, .content .con_text-l{
+    width: 60% !important;
+}
+.content .illust-r {
+    right: 5rem !important;
+    top: 25rem !important;
+    width: 24rem !important;
+}
+.content .illust-l {
+    left: 5rem !important;
+    top: 26rem !important;
+    width: 24rem !important;
+}
+
+/* ----- トップページ ----- */
+.top_fv::before{
+    content: none !important;
+}
+.special .concept .title img{
+    width: 38rem !important;
+}
+.special.bg_wave{
+    background-image: url(../image/body_bg_bottom.png) !important;
+    background-position: bottom !important;
+}
+.special_contents_inner{
+    max-width: 31rem !important;
+}
+.special_contents_inner figure{
+    clip-path: url(#mask-special-sp) !important;
+    height: fit-content !important;
+    width: fit-content !important;
+}
+.special_contents_inner figure>img {
+    width: 31rem !important;
+    height: 18.8rem !important;
+}
+.special_contents_text {
+    font-size: 1.9rem !important;
+    line-height: 2.6rem !important;
+    letter-spacing: 0.5rem !important;
+}
+.special_contents_text h2 {
+    margin-bottom: 1rem !important;
+    line-height: 3.2rem !important;
+}
+.special_contents_text h2 span {
+    font-size: 2.6rem !important;
+    line-height: 3.2rem !important;
+}
+.special_contents_text .btn {
+    font-size: 1rem !important;
+    padding: 0.5rem 2.5rem !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+}
+.special .concept .title h2:nth-of-type(2){
+    font-size: 2.8rem !important;
+}
+.bath.content .illust {
+    bottom: -20.3rem !important;
+    right: 8rem !important;
+}
+.hotel .illust{
+    width: 28rem !important;
+}
+.hotel .hotel_list li{
+    max-width: 38rem !important;
+}
+.tourism .illust:nth-of-type(2) {
+    left: 6rem !important;
+    top: 0rem !important;
+    width: 21rem !important;
+}
+.tourism .illust:nth-of-type(3) {
+    right: 1rem !important;
+    top: 1rem !important;
+    width: 25rem !important;
+}
+
+@media screen and (max-width: 767px){}
