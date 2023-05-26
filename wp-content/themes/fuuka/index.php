@@ -471,7 +471,7 @@
             <div class="insta_slide l-section fadein">
 
                 <div class="swiper swiper-a">
-                    <div class="swiper-wrapper">
+                    <!-- <div class="swiper-wrapper"> -->
                         <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
                         <!-- <a href="" class="swiper-slide">
                             <div class="slide">
@@ -508,7 +508,7 @@
                                 <div class="slide-media img-cover"><img src="<?php bloginfo('template_directory'); ?>/image/insta_7.png" alt=""></div>
                             </div>
                         </a> -->
-                    </div><!-- /swiper-wrapper -->
+                    <!-- </div>/swiper-wrapper -->
                 </div><!-- /swiper -->
             
                 <div class="swiper swiper-b">
