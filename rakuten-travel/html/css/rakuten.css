@@ -110,6 +110,15 @@ footer .hotel_net p{
     background-position: top 5rem left 50% !important;
 }
 
+#cuisine .content .con_mv, .content .con_text-r, .content .con_text-l,
+#room .content .con_mv, .content .con_text-r, .content .con_text-l{
+    width: 50% !important;
+}
+#cuisine .content .con_text-r, .content .con_text-l,
+#room .content .con_text-r, .content .con_text-l{
+    width: 50% !important;
+}
+
 /* ----- トップページ ----- */
 .top_fv{
     height: 68rem !important;
