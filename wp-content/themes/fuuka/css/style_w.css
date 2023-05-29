@@ -261,4 +261,21 @@
 
 
 
+/*===== トップページのスタイル調整 =====*/
+.card02 .slide-detail{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.plan .slick_exp .slick_exp_li p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+
+
 

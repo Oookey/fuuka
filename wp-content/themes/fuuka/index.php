@@ -335,7 +335,7 @@
                     <h2 class="title">お知らせ</h2>
                     <dl class="">
                         <?php
-                        query_posts('post_type=news&posts_per_page=4');
+                        query_posts('post_type=news&posts_per_page=5');
                         while (have_posts()) : the_post();
                         ?>
 
