@@ -38,24 +38,24 @@ get_header(); ?>
                             <table class="tbl-r02_2 font14" style="margin-bottom: 2rem;">
                                 <tbody>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">予約受付開始</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem; width:16rem;">予約受付開始</th>
                                         <td><p class="ti_15" style="margin:0;">6ヶ月前の1日より</p></td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">チェックイン</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">チェックイン</th>
                                         <td><p class="ti_15" style="margin:0;">15：00～</p></td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">チェックアウトイン	</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">チェックアウト</th>
                                         <td><p class="ti_15" style="margin:0;">～11：00</p></td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">送　迎	</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">送　迎	</th>
                                         <td><p class="ti_15" style="margin:0;">最寄り駅からマイクロバス送迎有　要予約　※ 詳しくは「<a href="<?php bloginfo('url'); ?>/access/#free_pickup_car">アクセス</a>」をご覧ください</p></td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">ご使用可能カード</th>
-                                        <td><p class="ti_15" style="margin:0;">VISA　JCB　Ｄｉｎｅｒ'sClub　UC NICOS　UFJCard　UFJNICOS MasterCard　AmericanExpres</p></td>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">ご使用可能カード</th>
+                                        <td><p style="margin:0;">VISA　JCB　Dinner's Club　UC NICOS　UFJCard　UFJNICOS　MasterCard　AmericanExpres</p></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -64,12 +64,18 @@ get_header(); ?>
                             <table class="tbl-r02_2 font14" style="margin-bottom: 2rem;">
                                 <tbody>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">小学生</th>
-                                        <td><p class="ti_15" style="margin:0;">大人料金の70％<br>※小学生のご夕食は小学生料理、ご朝食はお子様朝食となります。</p></td>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem; width:12rem;">小学生</th>
+                                        <td>
+                                            <p class="ti_15" style="margin:0;">大人料金の70％</p>
+                                            <p class="ti_15" style="margin:0;">※小学生のご夕食は小学生料理、ご朝食はお子様朝食となります。</p>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">幼児（１歳以上）</th>
-                                        <td><p class="ti_15" style="margin:0;">大人料金の50％（食事・寝具あり）<br>※幼児のご夕食は幼児料理、ご朝食はお子様朝食となります。</p></td>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">幼児<br class="sp">（1歳以上）</th>
+                                        <td>
+                                            <p class="ti_15" style="margin:0;">大人料金の50％（食事・寝具あり）</p>
+                                            <p class="ti_15" style="margin:0;">※幼児のご夕食は幼児料理、ご朝食はお子様朝食となります。</p>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -79,19 +85,19 @@ get_header(); ?>
                             <table class="tbl-r02_2 font14" style="margin-bottom: 2rem;">
                                 <tbody>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">7～4日前</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">7～4日前</th>
                                         <td><p class="ti_15" style="margin:0;">10％</p></td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">3日～2日前</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">3日～2日前</th>
                                         <td><p class="ti_15" style="margin:0;">30％</p></td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">前日</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">前日</th>
                                         <td><p class="ti_15" style="margin:0;">50％</p></td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5;">当日・不泊</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">当日・不泊</th>
                                         <td><p class="ti_15" style="margin:0;">100％</p></td>
                                     </tr>
                                 </tbody>
