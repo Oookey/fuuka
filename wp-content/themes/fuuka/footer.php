@@ -87,6 +87,14 @@
                         <a href="<?php bloginfo('url'); ?>/regulations/">
                             <p>・個人情報保護規定</p>
                         </a>
+                        <a href="<?php bloginfo('url'); ?>/cancellation_policy/">
+                            <p>・宿泊規定・キャンセルポリシー</p>
+                        </a>
+                    </div>
+                    <div class="personal_information flex">
+                        <a href="<?php bloginfo('url'); ?>/pdf/syukuhakuyakkan.pdf">
+                            <p>・宿泊約款</p>
+                        </a>
                         <a href="https://oyadonet.com/img/guideline20230508.pdf" target="_blank" rel="noopener">
                             <p>・新型コロナウィルス対応 ガイドライン<br>　(2023年5月8日改定）</p>
                         </a>

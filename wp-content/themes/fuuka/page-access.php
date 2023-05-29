@@ -117,7 +117,7 @@ get_header(); ?>
         </div>
 
         <!-- 無料送迎車について -->
-        <div class="content bg_b_c access3">
+        <div class="content bg_b_c access3" id="free_pickup_car">
             <div class="inner access_free">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
