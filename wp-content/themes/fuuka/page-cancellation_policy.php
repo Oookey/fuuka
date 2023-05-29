@@ -71,7 +71,7 @@ get_header(); ?>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem;">幼児<br class="sp">（1歳以上）</th>
+                                        <th style="text-align: center;border-right: 1px solid #e5e5e5; font-size: 1.4rem; width: 15rem;">幼児<br class="sp">（1歳以上）</th>
                                         <td>
                                             <p class="ti_15" style="margin:0;">大人料金の50％（食事・寝具あり）</p>
                                             <p class="ti_15" style="margin:0;">※幼児のご夕食は幼児料理、ご朝食はお子様朝食となります。</p>
