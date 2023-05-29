@@ -394,6 +394,12 @@ footer .hotel_net p{
 #tourism.subpage .top_fv_movie .in{
     padding-bottom: 46rem !important;
 }
+#tourism.subpage .top_fv{
+    height: 46rem !important;
+}
+#tourism .fv_menu{
+    height: 65rem !important;
+}
 #tourism .content .illust{
     right: 8rem !important;
     top: -27rem !important;
