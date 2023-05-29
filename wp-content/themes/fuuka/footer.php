@@ -91,7 +91,7 @@
                             <p>・宿泊規定・キャンセルポリシー</p>
                         </a>
                     </div>
-                    <div class="personal_information flex">
+                    <div class="personal_information flex" style="margin-top: 0;">
                         <a href="<?php bloginfo('url'); ?>/pdf/syukuhakuyakkan.pdf">
                             <p>・宿泊約款</p>
                         </a>
