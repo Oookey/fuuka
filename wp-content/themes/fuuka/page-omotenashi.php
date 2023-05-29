@@ -183,7 +183,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-        <!-- No.4 ウェルカムドリンク -->
+        <!-- No.4 ウェルカムソフトドリンク -->
         <div class="content hos_c hos_bg-1 hos_c4">
             <div class="inner">
                 <div class="con-sp-fv fadein">
@@ -197,15 +197,15 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>ウェルカムドリンク</h2>
-                            <p class="time">15:00〜16:30</p>
+                            <h2>ウェルカムソフトドリンク</h2>
+                            <p class="time">15:00〜チェックアウトまで</p>
                         </div>
                     </div>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                        各種ソフトドリンク、温かいココアをご用意。<br>
-                        16:30までですが地元紅茶屋さんの紅茶も<br class="pc">お子様に人気があります。
+                    お子様むけウエルカムドリンクとして各種ソフトドリンク、ココア、カフェオレをご用意。<br>
+                    ロイヤルミルクティなどのプレミアムドリンクは16:30までです。
                     </p>
                 </div>
             </div>
@@ -280,10 +280,8 @@ get_header(); ?>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        お子様にはエビフライ、ハンバーグ<br class="pc">などお子様用プレートをご用意。<br>
-                        もちろんお子様もフリードリンク。<br class="pc">
-                        大人の方がゆったりコース料理を楽しめる様、<br class="pc">
-                        いろんなおもちゃもご用意しております。
+                    フレンチのホテルらしいお子様プレートをご用意。もちろんお子様もフリードリンク。<br>
+                    大人のかたがゆったりコース料理を楽しめるよういろんなおもちゃをご用意しております。
                     </p>
                 </div>
             </div>
@@ -332,16 +330,13 @@ get_header(); ?>
                     <div class="float-l con_text-l">
                         <div class="con_title">
                             <h2>八ヶ岳アクティビティ</h2>
-                            <p class="time">15:00〜16:30</p>
+                            <!-- <p class="time">15:00〜16:30</p> -->
                         </div>
                     </div>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        春になればイチゴ狩り、シイタケ狩り、<br class="pc">
-                        ニジマス釣り体験など八ヶ岳の自然を満喫できる<br class="pc">
-                        アクティビティが沢山！<br class="sp">アクティビティ付き<br class="pc">
-                        宿泊プランも多数ご用意しています。
+                    八ヶ岳エリアには通年で楽しめるイチゴ狩り、しいたけ狩り、ニジマス釣りなど都会ではなかなか体験できないアクティビティが多数あります。アクティビ体験付き宿泊プランも多数ご用意しています。
                     </p>
                 </div>
             </div>
@@ -380,15 +375,13 @@ get_header(); ?>
                     <div class="float-l con_text-l">
                         <div class="con_title">
                             <h2>ウェルカムドリンク</h2>
-                            <p class="time">チェックイン〜22:20</p>
+                            <p class="time">15:00〜22:30</p>
                         </div>
                     </div>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        チェックインの時間帯から<br class="pc">夜22:30までプレモルが飲み放題。<br>
-                        その他支配人レシピのアイスサングリア、<br class="pc">ロイヤルミルクティーもあります。<br>
-                        （こちらは16:30まで）
+                    大人の方向けにプレミアムモルツをご用意。もちろんフリードリンク。その他支配人レシピのアイスサングリア（こちらは16:30まで）をご用意しています。
                     </p>
                 </div>
             </div>
@@ -498,7 +491,7 @@ get_header(); ?>
                     <p class="text">
                         役50種類のドリンクをお楽しみにいただけます。<br>
                         ビール、ウイスキーもありますが、<br class="pc">
-                        特に山梨県さんワインを中心にワインが充実しています。
+                        特に山梨県産ワインを中心にワインが充実しています。
                     </p>
                 </div>
                 
@@ -519,14 +512,14 @@ get_header(); ?>
                     <div class="float-r con_text-r">
                         <div class="con_title">
                             <h2>ナイト BAR／フリードリンク</h2>
+                            <p class="time">21:00〜22:30</p>
                         </div>
                     </div>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                        役50種類のお飲み物をお楽しみいただけます。<br>
-                        ウイスキー、山梨県の地酒、焼酎が特に充実しています。<br>
-                        星見テラスで星空とほぼ尾を眺めながら楽しめます。
+                    約50種類のお飲み物をご用意。特にウイスキー、山梨県産の日本酒、焼酎が充実しています。星見テラスに持ち込むこともでき、焚火を囲んだ「たき火BAR」で星空を眺めながらお酒を楽しむこともできます。
+
                     </p>
                 </div>
             </div>
@@ -551,9 +544,7 @@ get_header(); ?>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        選べる色浴衣、電動アシスト付き自転車レンタル、<br class="pc">
-                        湯上り処のアイスキャンディも追加料金なく<br class="pc">
-                        お楽しみいただけます。
+                    選べる色浴衣、お部屋の茶香炉、電動アシスト付自転車レンタル、湯あがり処のマッサージ機、アイスキャンディなども追加料金なくお楽しみいただけます。
                     </p>
                 </div>
                 
