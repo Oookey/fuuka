@@ -1,0 +1,754 @@
+@charset "utf-8";
+/* CSS Document */
+.pc{display: inherit;}
+.sp{display: none;}
+@media screen and ( max-width:767px ){
+	.pc{display: none;}
+	.sp{display: inherit;}
+}
+/* html{font-size: 62.5%;} */
+body{
+	font-size:1.4em;
+	font-style: normal;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+@media (min-width: 768px) {
+    body {
+        min-width: 1024px;
+    }
+}
+@media only screen and (max-width: 767px){
+	html{font-size: calc( 1000vw / 430vw );}
+}
+
+/* reset.css */
+/*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+
+/* Reset box-model and set borders */
+/* ============================================ */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+}
+
+/* Document */
+/* ============================================ */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Remove gray overlay on links for iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-tap-highlight-color: transparent; /* 3*/
+}
+
+/* Sections */
+/* ============================================ */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/* Vertical rhythm */
+/* ============================================ */
+
+p,
+table,
+blockquote,
+address,
+pre,
+iframe,
+form,
+figure,
+dl {
+  margin: 0;
+}
+
+/* Headings */
+/* ============================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+/* Lists (enumeration) */
+/* ============================================ */
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Lists (definition) */
+/* ============================================ */
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+/* Grouping content */
+/* ============================================ */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+  border-top-width: 1px;
+  margin: 0;
+  clear: both;
+  color: inherit;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
+}
+
+address {
+  font-style: inherit;
+}
+
+/* Text-level semantics */
+/* ============================================ */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Replaced content */
+/* ============================================ */
+
+/**
+ * Prevent vertical alignment issues.
+ */
+
+svg,
+img,
+embed,
+object,
+iframe {
+  vertical-align: bottom;
+}
+
+/* Forms */
+/* ============================================ */
+
+/**
+ * Reset form fields to make them styleable.
+ * 1. Make form elements stylable across systems iOS especially.
+ * 2. Inherit text-transform from parent.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-appearance: none; /* 1 */
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  text-align: inherit;
+  text-transform: inherit; /* 2 */
+}
+
+/**
+ * Reset radio and checkbox appearance to preserve their look in iOS.
+ */
+
+[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  appearance: checkbox;
+}
+
+[type="radio"] {
+  -webkit-appearance: radio;
+  appearance: radio;
+}
+
+/**
+ * Correct cursors for clickable elements.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  cursor: pointer;
+}
+
+button:disabled,
+[type="button"]:disabled,
+[type="reset"]:disabled,
+[type="submit"]:disabled {
+  cursor: default;
+}
+
+/**
+ * Improve outlines for Firefox and unify style with input elements & buttons.
+ */
+
+:-moz-focusring {
+  outline: auto;
+}
+
+select:disabled {
+  opacity: inherit;
+}
+
+/**
+ * Remove padding
+ */
+
+option {
+  padding: 0;
+}
+
+/**
+ * Reset to invisible
+ */
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  outline-offset: -2px; /* 1 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Fix font inheritance.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Clickable labels
+ */
+
+label[for] {
+  cursor: pointer;
+}
+
+/* Interactive */
+/* ============================================ */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/*
+ * Remove outline for editable content.
+ */
+
+[contenteditable]:focus {
+  outline: auto;
+}
+
+/* Tables */
+/* ============================================ */
+
+/**
+1. Correct table border color inheritance in all Chrome and Safari.
+*/
+
+table {
+  border-color: inherit; /* 1 */
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+}
+
+td,
+th {
+  vertical-align: top;
+  padding: 0;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+/* 共通 ---------------------------------------------- */
+body {
+    font-size: 16px;
+    font-style: normal;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+    color: rgb(41, 41, 41);
+}
+.flex{
+    display: flex;
+}
+.fs13 {
+    font-size: 13px;
+}
+.fs14 {
+    font-size: 14px;
+}
+.fs18 {
+    font-size: 18px;
+}
+.c1 {
+    color: #fff;
+}
+.bg3 {
+    background-color: rgb(36, 77, 87);
+}
+.bg4 {
+    background-color: #F8F6F0;
+}
+.bold{
+    font-weight: bold;
+}
+/* 矢印 */
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    position: relative;
+    /* width: 0.45em;
+    height: 0.45em; */
+    width: 4.5px;
+    height: 4.5px;
+    transform: translateX(-25%) rotate(45deg);
+    margin-right: 10px;
+}
+.arrow::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    /* height: 0.08em; */
+    height: 0.8px;
+}
+.arrow::after {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* width: 0.08em; */
+    width: 0.8px;
+}
+.arrow::before, .arrow::after {
+    content: '';
+    position: absolute;
+    background: currentColor;
+    /* border-radius: 0.1em; */
+    border-radius: 10px;
+}
+/* ボタン */
+.nav_btn {
+    margin-top: 46px;
+    position: absolute;
+    right: 110px;
+    letter-spacing: 1px;
+}
+.nav_btn a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+/* PCヘッダー ---------------------------------------------- */
+.header {
+    width: 100%;
+    height: 275px;
+    justify-content: space-between;
+    background-size: cover;
+    position: relative;
+    padding: 0px 44px 0px 90px;
+    background-image: url(https://kumanoclub.jp/img489/header.png);
+    background-position: center;
+}
+.logo_icon {
+    width: 164px;
+    height: 152px;
+    object-fit: cover;
+}
+
+/* PCフッター ---------------------------------------------- */
+footer {
+    width: 100%;
+}
+.footer_img img{
+    width: 100%;
+}
+.footer1_inner {
+    justify-content: center;
+    padding-top: 57px;
+    padding-bottom: 80px;
+}
+.footer1 p {
+    color: #FFFFFF;
+}
+.adress {
+    width: 271px;
+    margin-right: 57px;
+}
+.adress img {
+    width: 191px;
+    margin-bottom: 42px;
+}
+.adress p {
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    font-size: 16px;
+}
+.adress p:last-child {
+    margin-top: 20px;
+}
+.adress span {
+    margin-left: 14px;
+}
+
+footer .each_page {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 720px;
+    margin-top: 20px;
+}
+.each_page ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.each_page li {
+    width: 230px;
+}
+.each_page a {
+    align-items: center;
+    margin-right: 0 !important;
+}
+.page_btn {
+    line-height: 42px;
+}
+
+.circle_btn {
+    border: 1px solid #FFFFFF;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 16px;
+}
+.circle_btn:before {
+    content: "";
+    left: 2.5px;
+    width: 5px;
+    height: 5px;
+    top: 3.5px;
+    border-top: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.btn_box {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 720px;
+}
+.white_btn:first-child {
+    margin-left: 0;
+}
+.white_btn {
+    width: 145px;
+    border: 1px solid #FFFFFF;
+    padding: 9px 0px;
+    justify-content: center;
+    margin-left: 40px;
+}
+.white_btn a {
+    color: #FFFFFF;
+}
+.white_btn p {
+    letter-spacing: 2.6px;
+    line-height: 25px;
+}
+
+.personal_information {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.personal_information a:first-child {
+    margin-right: 40px;
+}
+.personal_information a {
+    margin-top: 32px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.footer_c {
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+.footer2 {
+    padding-top: 66px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-bottom: 120px;
+}
+.footer2 .flex {
+    justify-content: center;
+}
+.footer2_inner {
+    width: 100%;
+    max-width: 1300px;
+    min-width: auto;
+    margin: 0 auto;
+}
+.option {
+    position: relative;
+}
+.toggle {
+    display: none;
+}
+.accordion_title {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 0;
+    letter-spacing: 3px;
+}
+.accordion_title, .accordion_content {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: all 0.3s;
+}
+.accordion_content {
+    max-height: 0;
+    overflow: hidden;
+}
+.meal_menu_text {
+    text-align: left;
+    border-bottom: 1px solid #BCBCBC;
+}
+.footer2 .title {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    max-width: 915px !important;
+    margin: 30px auto 0 !important;
+    display: block !important;
+    text-align: left !important;
+}
+.hotel_net {
+    margin: 12px 5px 0px 0px;
+    padding-bottom: 0px;
+    white-space: nowrap;
+}
+.hotel_net p {
+    line-height: 32px;
+    letter-spacing: 1.1px;
+    font-size: 11px;
+    width: 180px;
+}
+.hotel_net p:hover{
+  color: #292929;
+}
+.hotel_net a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1126px){
+    .each_page {
+        width: 510px !important;
+        font-size: 14px;
+    }
+    .btn_box {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 500px !important;
+        margin-top: 0 !important;
+    }
+    .white_btn {
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+}

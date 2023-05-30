@@ -236,7 +236,11 @@ footer .hotel_net p{
     top: -17rem !important;
 }
 #cuisine .img_bg_3::after{
-    bottom: -16rem !important;
+    width: 19.2rem !important;
+    height: 16.5rem !important;
+    bottom: -15rem !important;
+    z-index: 1 !important;
+    left: 16rem !important;
 }
 #cuisine .cuisine_inline_menu p.p1{
     font-size: 1.8rem !important;
