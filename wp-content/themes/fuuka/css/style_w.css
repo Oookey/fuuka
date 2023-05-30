@@ -283,3 +283,10 @@
 .instagram .swiper-b{
     margin-top: -0.6rem !important;
 }
+
+
+
+#hos .content .con_text-r .time, #hos .content .con_text-l .time{
+    text-indent: -6.5rem;
+    padding-left: 6.5rem;
+}

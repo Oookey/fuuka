@@ -225,7 +225,7 @@ get_header(); ?>
                     <div class="float-l con_text-l">
                         <div class="con_title">
                             <h2>キッズルーム</h2>
-                            <p class="time">14:00〜22:00 / 7:00〜11:00</p>
+                            <p class="time">14:00〜22:00 / <br>7:00〜11:00</p>
                         </div>
                     </div>
                 </div>
