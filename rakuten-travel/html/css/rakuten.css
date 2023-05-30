@@ -70,12 +70,12 @@ footer .hotel_net p{
     width: 87rem !important;
 }
 
-.content .con_mv, .content .con_text-r, .content .con_text-l{
+/* .content .con_mv, .content .con_text-r, .content .con_text-l{
     width: 40% !important;
 }
 .content .con_text-r, .content .con_text-l{
     width: 60% !important;
-}
+} */
 .content .illust-r {
     right: 5rem !important;
     top: 25rem !important;
@@ -110,14 +110,14 @@ footer .hotel_net p{
     background-position: top 5rem left 50% !important;
 }
 
-#cuisine .content .con_mv, .content .con_text-r, .content .con_text-l,
+/* #cuisine .content .con_mv, .content .con_text-r, .content .con_text-l,
 #room .content .con_mv, .content .con_text-r, .content .con_text-l{
     width: 50% !important;
 }
 #cuisine .content .con_text-r, .content .con_text-l,
 #room .content .con_text-r, .content .con_text-l{
     width: 50% !important;
-}
+} */
 
 /* ----- トップページ ----- */
 .top_fv{
@@ -225,10 +225,22 @@ footer .hotel_net p{
 #cuisine .img_bg_3::before{
     width: 16.4rem !important;
     height: 14.5rem !important;
-    top: -13rem !important;
+    top: -17rem !important;
 }
 #cuisine .img_bg_3::after{
     bottom: -16rem !important;
+}
+#cuisine .cuisine_inline_menu p.p1{
+    font-size: 1.8rem !important;
+}
+#cuisine .cuisine_inline_menu p{
+    font-size: 1.4rem !important;
+}
+#cuisine .cuisine_inline_menu .float-l, .cuisine_inline_menu .float-r{
+    width: 47% !important;
+}
+#cuisine .cuisine_content .kome{
+    font-size: 1.3rem !important;
 }
 /* 客室 */
 #room .c_info_bg{
@@ -260,6 +272,21 @@ footer .hotel_net p{
     height: 16.7rem !important;
     top: -20rem !important;
     right: 7rem !important;
+}
+#room .room_point{
+    font-size: 1.5rem !important;
+}
+.content .con_text-r .con_title p, .content .con_text-l .con_title p{
+    font-size: 1.9rem !important;
+}
+#room .content .con_text-r .con_title p, #room .content .con_text-l .con_title p{
+    letter-spacing: 0.2rem !important;
+}
+.room_fixtures_inner{
+    padding-left: 0 !important;
+}
+.room_ame_list{
+    padding-left: 0 !important;
 }
 /* まるごとおもてなし */
 #hos .c_info_bg{
