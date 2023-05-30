@@ -395,8 +395,9 @@ footer .hotel_net p{
 }
 .content .float-r img.about_photo_6_float{
     width: 19.2rem !important;
-    left: 19.4rem !important;
-    bottom: -8.2rem !important;
+    left: auto !important;
+    right: -2rem !important;
+    bottom: -10.2rem !important;
 }
 #about .img_bg_4::before{
     width: 26.2rem !important;
@@ -409,6 +410,9 @@ footer .hotel_net p{
     height: 19.6rem !important;
     top: -25rem !important;
     left: 13rem !important;
+}
+#about .about6 .about_point_wrap{
+    width: auto !important;
 }
 /* 体験宿泊 */
 #activity .fv_text{
