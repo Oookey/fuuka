@@ -3372,7 +3372,7 @@ margin-top: 8rem;
 
 @media screen and (max-width: 767px){
   .content .con_text-r h2, .content .con_text-l h2{
-    letter-spacing: 0.1rem;
+    letter-spacing: 0rem;
   }
   #activity.subpage .btn{
     margin-top: 4rem;
