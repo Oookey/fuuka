@@ -3,7 +3,7 @@
 Theme Name: fuuka
 */
 get_header(); ?>
-<body>
+<body id="page-top">
     <!-- ↓↓↓　本番時コメントアウトを外す　↓↓↓ -->
     <!-- Google Tag Manager (noscript) -->
     <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCVNXH8"
@@ -171,9 +171,9 @@ get_header(); ?>
                 <img class="title fadein" src="<?php bloginfo('template_directory'); ?>/image/top_about_title.svg" alt="">
                 <img class="illust illust-r fadein" src="<?php bloginfo('template_directory'); ?>/image/about_illust.svg" alt="">
                 <div class="con-sp-fv fadein">
-                    <div class="float-l con_mv zoom">
+                    <a href="<?php bloginfo('url'); ?>/about/" class="float-l con_mv zoom">
                         <img src="<?php bloginfo('template_directory'); ?>/image/top_about_mv.png" alt="">
-                    </div>
+                    </a>
                     <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>まるごとおもてなし<font size="2">&reg;</font></p>
@@ -203,9 +203,9 @@ get_header(); ?>
                 <img class="title fadein" src="<?php bloginfo('template_directory'); ?>/image/top_dinner_title.svg" alt="">
                 <img class="illust illust-r fadein" src="<?php bloginfo('template_directory'); ?>/image/dinner_illust.svg" alt="">
                 <div class="con-sp-fv fadein">
-                    <div class="float-l con_mv zoom">
+                    <a href="<?php bloginfo('url'); ?>/cuisine/" class="float-l con_mv zoom">
                         <img src="<?php bloginfo('template_directory'); ?>/image/top_dinner_mv.png" alt="">
-                    </div>
+                    </a>
                     <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>カジュアルフレンチ</p>
@@ -236,9 +236,9 @@ get_header(); ?>
                 <img class="title fadein" src="<?php bloginfo('template_directory'); ?>/image/top_room_title.svg" alt="">
                 <img class="illust illust-l fadein" src="<?php bloginfo('template_directory'); ?>/image/room_illust.svg" alt="">
                 <div class="con-sp-fv fadein">
-                    <div class="float-r con_mv zoom">
+                    <a href="<?php bloginfo('url'); ?>/room/" class="float-r con_mv zoom">
                         <img src="<?php bloginfo('template_directory'); ?>/image/top_room_mv.png" alt="">
-                    </div>
+                    </a>
                     <div class="float-l con_text-l">
                         <div class="con_title">
                             <p>お部屋の中でも森林浴を</p>
@@ -268,9 +268,9 @@ get_header(); ?>
                 <img class="title fadein" src="<?php bloginfo('template_directory'); ?>/image/top_bath_title.svg" alt="">
                 <img class="illust illust-l fadein" src="<?php bloginfo('template_directory'); ?>/image/bath_illust.svg" alt="">
                 <div class="con-sp-fv fadein">
-                    <div class="float-r con_mv zoom">
+                    <a href="<?php bloginfo('url'); ?>/about/#about4" class="float-r con_mv zoom">
                         <img src="<?php bloginfo('template_directory'); ?>/image/top_bath_mv.png" alt="">
-                    </div>
+                    </a>
                     <div class="float-l con_text-l">
                         <div class="con_title">
                             <p>八ヶ岳の自然を眺めながら<br>のんびり浸かる露天風呂</p>

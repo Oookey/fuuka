@@ -12,7 +12,7 @@
         <div class="flex page-top_reserve_btn">
                 
             <div class="page-top"  id="page-top">
-                <a href="#top"></a>
+                <a href="#page-top"></a>
             </div>
             
             <div class="hotel_reserve">
@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="page-top" id="page-top-sp">
-            <a href="#top"></a>
+            <a href="#page-top"></a>
         </div>
     </div>
 </div>
