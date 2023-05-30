@@ -203,6 +203,9 @@ footer .hotel_net p{
 .instagram{
     padding-bottom: 45rem !important;
 }
+#top .map .address{
+    margin-bottom: 0 !important;
+}
 
 /* お食事 */
 #cuisine .img_bg_1::before{
@@ -234,10 +237,12 @@ footer .hotel_net p{
     font-size: 1.8rem !important;
 }
 #cuisine .cuisine_inline_menu p{
-    font-size: 1.4rem !important;
+    font-size: 1.35rem !important;
+    letter-spacing: 0 !important;
+    white-space: nowrap !important;
 }
 #cuisine .cuisine_inline_menu .float-l, .cuisine_inline_menu .float-r{
-    width: 47% !important;
+    width: 49.5% !important;
 }
 #cuisine .cuisine_content .kome{
     font-size: 1.3rem !important;
