@@ -99,7 +99,7 @@
                     <dl>
                         <dt><?php the_time('Y.m.d'); ?></dt>
                         <dd><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></dd>
-                        <dd><a href="<?php echo get_permalink(); ?>"><span class="arrow"></span>お知らせ一覧へ</a></dd>
+                        <dd><a href="<?php bloginfo('url'); ?>/news/"><span class="arrow"></span>お知らせ一覧へ</a></dd>
                     </dl>
                 </div>
             <?php endwhile; ?>
