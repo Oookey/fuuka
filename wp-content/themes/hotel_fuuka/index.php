@@ -1,6 +1,5 @@
 <?php 
 /*
-Template: hotel_fuuka
 Theme Name: hotel_fuuka
 */
 get_header(); ?>

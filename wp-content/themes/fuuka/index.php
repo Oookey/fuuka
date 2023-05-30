@@ -1,6 +1,5 @@
 <?php 
 /*
-Template: fuuka
 Theme Name: fuuka
 */
 get_header(); ?>
