@@ -535,7 +535,7 @@ body{
     top: 0;
 }
 .openbtn span:nth-of-type(2){
-    top: 49%;
+    top: 47%;
 }
 .openbtn span:nth-of-type(3){
     bottom: 0;
@@ -745,12 +745,13 @@ body{
 }
 @media screen and (max-width: 767px){
     .hamburger{
-        width: 9rem;
-        height: 9rem;
+        width: 8.6rem;
+        height: 8.6rem;
     }
     .openbtn{
-        top: 3.1rem;
-        right: 2.4rem;
+        top: 2.7rem;
+        right: 2.1rem;
+        width: 3.6rem;
     }
     #g-nav .nav_bg {
         width: 8rem;
