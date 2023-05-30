@@ -206,6 +206,11 @@ footer .hotel_net p{
 #top .map .address{
     margin-bottom: 0 !important;
 }
+#top .special .concept a:last-of-type .btn{
+    margin-left: 0 !important;
+    margin-top: 4rem !important;
+    margin-bottom: 3rem !important;
+}
 
 /* お食事 */
 #cuisine .img_bg_1::before{
