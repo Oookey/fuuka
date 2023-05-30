@@ -585,6 +585,8 @@
 }
 .plan .btn{
   margin: 4rem auto 0;
+  float: none;
+  width: fit-content;
 }
 /* 矢印 */
 /*矢印の設定*/
@@ -718,6 +720,7 @@
   margin: 7rem auto 0;
   background-color: var(--brown-color);
 }
+#top .news 
 /* ホテル施設 */
 .hotel{
   padding-top: 3rem;
@@ -767,6 +770,8 @@
 .hotel .btn{
   margin: 3rem auto 0;
   background-color: var(--brown-color);
+  float: none;
+  width: fit-content;
 }
 /* 八ヶ岳周辺観光 */
 .tourism.bg_wave{

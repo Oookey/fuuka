@@ -324,8 +324,8 @@
                     ?>
 
                 </ul>
-                <a href="<?php bloginfo('url'); ?>/activity/" class="flex fadein">
-                    <p class="btn"><span class="arrow"></span>全ての体験はこちら</p>
+                <a href="<?php bloginfo('url'); ?>/activity/" class="flex fadein btn">
+                    <p class=""><span class="arrow"></span>全ての体験はこちら</p>
                 </a>
             </div>
 
@@ -349,8 +349,8 @@
                         <?php wp_reset_query(); ?>
                         
                     </dl>
-                    <a href="<?php bloginfo('url'); ?>/news/" class="flex">
-                        <p class="btn"><span class="arrow"></span>全てのお知らせはこちら</p>
+                    <a href="<?php bloginfo('url'); ?>/news/" class="flex btn">
+                        <p class=""><span class="arrow"></span>全てのお知らせはこちら</p>
                     </a>
                 </div>
             </div>
@@ -412,8 +412,8 @@
                         </a>
                     </li>
                 </ul>
-                <a href="<?php bloginfo('url'); ?>/about/" class="flex fadein">
-                    <p class="btn"><span class="arrow"></span>ホテル案内</p>
+                <a href="<?php bloginfo('url'); ?>/about/" class="flex fadein btn">
+                    <p class=""><span class="arrow"></span>ホテル案内</p>
                 </a>
             </div>
         </div>
