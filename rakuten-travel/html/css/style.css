@@ -587,6 +587,7 @@
   margin: 4rem auto 0;
   float: none;
   width: fit-content;
+  justify-content: center;
 }
 /* 矢印 */
 /*矢印の設定*/
@@ -771,6 +772,7 @@
   background-color: var(--brown-color);
   float: none;
   width: fit-content;
+  justify-content: center;
 }
 /* 八ヶ岳周辺観光 */
 .tourism.bg_wave{
