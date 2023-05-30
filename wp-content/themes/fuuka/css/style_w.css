@@ -276,6 +276,10 @@
     overflow: hidden;
 }
 
+.swiper-a #sb_instagram{
+    padding-bottom: 0 !important;
+}
 
-
-
+.instagram .swiper-b{
+    margin-top: -0.6rem !important;
+}
