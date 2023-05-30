@@ -123,7 +123,9 @@ get_header(); ?>
                     </p>
                     <div class="about_point_wrap">
                         <p>
-                            営業時間<br class="sp">　フロント	7：00～22：00　／　売店　8：00～21：00
+                            営業時間<br>
+                            フロント　7：00～22：00<br>
+                            売　　店　8：00～21：00
                         </p>
                     </div>
                     <ul class="slick">
@@ -144,7 +146,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <p>高原の風を感じるお料理を心ゆくまで</p>
+                            <p>高原の風を感じるお料理を<br class="sp">心ゆくまで</p>
                             <h2>
                                 レストラン－炙－
                             </h2>
@@ -158,10 +160,17 @@ get_header(); ?>
                         朝ご飯は洋風の八ヶ岳高原朝食をご用意します。
                     </p>
                     <div class="about_point_wrap">
-                        <p>
+                        <p class="pc">
                             レストラン営業時間<br>
                             夕食　　17：30～　19：30～　の二部制（完全予約制）<br>
                             朝食　　7：30～9：00（完全予約制）
+                        </p>
+                        <p class="sp">
+                            レストラン営業時間<br>
+                            夕食　　17：30～　19：30～<br>
+                            　　　　の二部制（完全予約制）<br>
+                            朝食　　7：30～9：00<br>
+                            　　　　（完全予約制）
                         </p>
                     </div>
                     <ul class="slick">
@@ -182,7 +191,7 @@ get_header(); ?>
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
-                            <p>八ヶ岳の稜線を眺めながら、のんびりと浸かる露天風呂。</p>
+                            <p>八ヶ岳の稜線を眺めながら、<br class="sp">のんびりと浸かる露天風呂。</p>
                             <h2>
                                 露天風呂・大浴場
                             </h2>
@@ -197,7 +206,8 @@ get_header(); ?>
                     </p>
                     <div class="about_point_wrap">
                         <p>
-                            ご利用時間：6：00～10：00　　15：00～24：00
+                            ご利用時間<br>
+                            6：00～10：00　　<br class="sp">15：00～24：00
                         </p>
                     </div>
                     <ul class="slick">
@@ -218,9 +228,9 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <p>信玄の隠し湯とも言われる、蓼科源泉のひとつ</p>
+                            <p>信玄の隠し湯とも言われる、<br class="sp">蓼科源泉のひとつ</p>
                             <h2>
-                                【露天風呂　風香の湯】<br>芹ケ沢温泉につかり過ごす極上の休日
+                                【露天風呂　風香の湯】<br>芹ケ沢温泉につかり過ごす<br class="pc">極上の休日
                             </h2>
                         </div>
                     </div>
@@ -228,12 +238,12 @@ get_header(); ?>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
                         信玄の隠し湯とも言われる、蓼科源泉のひとつ<br>
-                        いつもと違った旅にでかけ、温泉につかりながら、木々の葉ずれの音に耳を傾ける。<br>
+                        いつもと違った旅にでかけ、温泉につかりながら、<br class="pc">木々の葉ずれの音に耳を傾ける。<br>
                         喧騒とは無縁の地、八ヶ岳で心身をじっくり癒す、癒しのひと時をお過ごし<br class="pc">くださいませ。
                     </p>
                     <div class="about_point_wrap">
                         <p>
-                            <span>芹ヶ沢温泉</span><br class="sp">　ーせりがさわおんせんー<br><br>
+                            <span>芹ヶ沢温泉</span>　<br class="sp">ーせりがさわおんせんー<br><br>
                         </p>
                         <p class="indent3">湧出：長野県茅野市北山</p>
                         <p class="indent3">泉質：アルカリ性単純温泉（アルカリ性低張性高温泉）</p>
@@ -271,7 +281,7 @@ get_header(); ?>
                         <p>
                             <span>-湯上り処-</span><br><br>
                             ご入浴後のご休憩に湯上がり処をご利用ください。<br><br>
-                            湯上り処では、インクルーシブサービスとしてアイスキャンディーマッサージチェアをご用意しております。
+                            湯上り処では、インクルーシブサービスとしてアイスキャンディー、<br class="sp">マッサージチェアをご用意しております。
                         </p>
                     </div>
                 </div>
@@ -287,8 +297,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <p>ご夕食後のひとときは「ナイトバー」で<br class="pc">
-                                ゆったりと過ごしませんか?</p>
+                            <p>ご夕食後のひとときは<br class="sp">「ナイトバー」で<br class="pc">ゆったりと<br class="sp">過ごしませんか?</p>
                             <h2>
                                 ナイトバー
                             </h2>
@@ -303,7 +312,8 @@ get_header(); ?>
                     </p>
                     <div class="about_point_wrap">
                         <p>
-                            ご利用時間：21：00～22：30
+                            ご利用時間<br>
+                            21：00～22：30
                         </p>
                     </div>
                     <ul class="slick">
@@ -326,7 +336,7 @@ get_header(); ?>
                         <div class="con_title">
                             <p>みんなで遊べる楽しい空間</p>
                             <h2>
-                                キッズルーム&暇つぶしコーナー
+                                キッズルーム<br class="sp">&暇つぶしコーナー
                             </h2>
                         </div>
                     </div>
@@ -351,8 +361,8 @@ get_header(); ?>
                     </div>
                     <div class="about_point_wrap">
                         <p>
-                            営業時間：
-                            15：00～22：30
+                            営業時間<br>
+                            15：00～22：30<br>
                             翌朝7：00～11：00
                         </p>
                     </div>

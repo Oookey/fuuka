@@ -285,8 +285,17 @@
 }
 
 
-
+/*===== 第2階層追加調整 =====*/
 #hos .content .con_text-r .time, #hos .content .con_text-l .time{
     text-indent: -6.5rem;
     padding-left: 6.5rem;
+}
+
+#about .content#about6{
+    padding-bottom: 23rem;
+}
+@media screen and (max-width: 767px){
+    #about .content#about6{
+        padding-bottom: 7rem;
+    }
 }
