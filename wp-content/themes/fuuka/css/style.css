@@ -1579,6 +1579,9 @@
   padding-left: 1.4em;
   line-height: 2.6rem;
 }
+#cuisine .content .con_text-r a, #cuisine .content .con_text-l a{
+  width: 31.7rem;
+}
 
 #cuisine .img_bg_1::before{
   width: 26.7rem;
@@ -1853,6 +1856,7 @@
 }
 #room .content .inner a{
   margin-top: 4.4rem;
+  width: 31.7rem;
 }
 /* #room .content .inner .float-r .room_point{
   margin-bottom: 18rem;
@@ -3350,10 +3354,16 @@ margin-top: 8rem;
 #activity .about1:nth-child(odd){
   padding-top: 13vw;
   padding-bottom: 12vw;
-}#activity .about1:nth-child(even){
+}
+#activity .about1:nth-child(even){
   padding-top: 6vw;
   padding-bottom: 3vw;
 }
+#activity .content .con_text-r a, #activity .content .con_text-l a{
+  width: 26rem;
+}
+
+
 @media screen and (max-width: 767px){
   .content .con_text-r h2, .content .con_text-l h2{
     letter-spacing: 0.1rem;

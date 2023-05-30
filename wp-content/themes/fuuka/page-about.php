@@ -92,7 +92,7 @@ get_header(); ?>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_1_1.png"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_1_2.png"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_1_3.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_1_4.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_1_4.jpg"></li>
                     </ul>
                 </div>
                 
