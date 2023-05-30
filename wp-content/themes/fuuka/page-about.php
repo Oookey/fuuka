@@ -384,7 +384,6 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <!-- <p>最もリーズナブルに利用できる</p> -->
                             <h2>
                                 森のライブラリー
                             </h2>
