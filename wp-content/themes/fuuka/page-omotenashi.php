@@ -116,7 +116,7 @@ get_header(); ?>
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
-                            <h2>ヤギさん親子お散歩体験</h2>
+                            <h2 style="white-space: nowrap;">ヤギさん親子お散歩体験</h2>
                             <p class="time">15:00〜16:30</p>
                         </div>
                     </div>
@@ -143,7 +143,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>たき火で焼きマシュマロ</h2>
+                            <h2 style="white-space: nowrap;">たき火で焼きマシュマロ</h2>
                             <p class="time">15:00〜16:30</p>
                         </div>
                     </div>
@@ -197,7 +197,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>ウェルカムソフトドリンク</h2>
+                            <h2 style="white-space: nowrap;">ウェルカムソフトドリンク</h2>
                             <p class="time">15:00〜チェックアウトまで</p>
                         </div>
                     </div>
@@ -250,7 +250,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>駄菓子がもらえる<br class="sp">キーワード宝探し<br>／湯上り処のアイスキャンディ</h2>
+                            <h2>駄菓子がもらえる<br>キーワード宝探し<br>／湯上り処のアイス<br>キャンディ</h2>
                             <p class="time">15:00〜チェックアウトまで</p>
                         </div>
                     </div>
@@ -300,7 +300,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>ナイト BAR／星見テラス</h2>
+                            <h2>ナイト BAR／<br class="pc">星見テラス</h2>
                             <p class="time">21:00〜22:30</p>
                         </div>
                     </div>
@@ -455,7 +455,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>夕食はフレンチのコース</h2>
+                            <h2 style="white-space: nowrap;">夕食はフレンチのコース</h2>
                         </div>
                     </div>
                 </div>
@@ -511,7 +511,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>ナイト BAR／フリードリンク</h2>
+                            <h2>ナイト BAR／<br>フリードリンク</h2>
                             <p class="time">21:00〜22:30</p>
                         </div>
                     </div>
@@ -538,7 +538,7 @@ get_header(); ?>
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
-                            <h2>大人に嬉しいおもてなし</h2>
+                            <h2 style="white-space: nowrap;">大人に嬉しいおもてなし</h2>
                         </div>
                     </div>
                 </div>
