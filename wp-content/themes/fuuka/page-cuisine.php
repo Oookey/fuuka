@@ -5,7 +5,7 @@
 get_header(); ?>
 <!------------- HEADER ------------->
 
-<body>
+<body id="page-top">
     <!-- ↓↓↓　本番時コメントアウトを外す　↓↓↓ -->
     <!-- Google Tag Manager (noscript) -->
     <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCVNXH8"
