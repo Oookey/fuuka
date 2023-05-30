@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+/*
+Template: hotel_fuuka
+Theme Name: hotel_fuuka
+*/
+get_header(); ?>
 <body>
     <!-- ↓↓↓　本番時コメントアウトを外す　↓↓↓ -->
     <!-- Google Tag Manager (noscript) -->
