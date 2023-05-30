@@ -91,7 +91,7 @@
             </div>
             <!-- news -->
             <?php
-            query_posts('post_type=news&posts_per_page=1');
+            query_posts('post_type=news&posts_per_page=1&orderby=date&order=DESC');
             while (have_posts()) : the_post();
             ?>
                 <div class="top_news shadow fadein">
@@ -335,7 +335,7 @@
                     <h2 class="title">お知らせ</h2>
                     <dl class="">
                         <?php
-                        query_posts('post_type=news&posts_per_page=5');
+                        query_posts('post_type=news&posts_per_page=5&orderby=date&order=DESC');
                         while (have_posts()) : the_post();
                         ?>
 
