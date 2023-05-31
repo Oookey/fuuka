@@ -2367,9 +2367,14 @@
   right: -10rem;
   background-color: #fff;
   width: 10rem;
-  height: 64.4rem;
   padding: 4.5rem 0;
   z-index: 2;
+}
+#access .fv_menu{
+  height: 62rem;
+}
+#tourism .fv_menu{
+  height: 59.4rem;
 }
 #access .pageinfo img,
 #tourism .pageinfo img{
