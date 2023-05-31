@@ -992,9 +992,16 @@
   /* FV */
   .top_fv{
     padding-right: 0rem;
-    height: 58rem !important;
+    height: 70rem !important;
   }
   .top_fv_movie .in{
+    padding-bottom: 70rem !important;
+  }
+  .subpage .top_fv{
+    padding-right: 0rem;
+    height: 58rem !important;
+  }
+  .subpage .top_fv_movie .in{
     padding-bottom: 58rem !important;
   }
   .subpage .top_fv::before {
@@ -1197,6 +1204,7 @@
   #top .content .con_title{
     /* margin-bottom: 25rem; */
     margin: 0 auto 25rem;
+    width: fit-content;
   }
   .content .illust-r,.content .illust-l{
     height: 18rem;
