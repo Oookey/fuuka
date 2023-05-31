@@ -177,7 +177,7 @@ get_header(); ?>
                     <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>まるごとおもてなし<font size="2">&reg;</font></p>
-                            <h2>大人も子供も楽しめるオールインクルーシブ。<br>追加料金なしで楽しめるたくさんの「まるごとおもてなし<font size="2">&reg;</font>」をどうぞ</h2>
+                            <h2>大人も子供も楽しめる<br class="sp">オールインクルーシブ。<br>追加料金なしで楽しめる<br class="sp">たくさんの「まるごと<br class="sp">おもてなし<font size="2">&reg;</font>」をどうぞ</h2>
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@ get_header(); ?>
                     <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>カジュアルフレンチ</p>
-                            <h2>カジュアルフレンチと<br>オールインクルーシブドリンクとのマリアージュ</h2>
+                            <h2>カジュアルフレンチと<br>オールインクルーシブド<br class="sp">リンクとのマリアージュ</h2>
                         </div>
                     </div>
                 </div>
@@ -274,7 +274,7 @@ get_header(); ?>
                     <div class="float-l con_text-l">
                         <div class="con_title">
                             <p>八ヶ岳の自然を眺めながら<br>のんびり浸かる露天風呂</p>
-                            <h2>【風かの湯】露天風呂は蓼科源泉のひとつ芹ケ沢温泉、内湯は畳敷きでお子様も安心</h2>
+                            <h2>【風かの湯】露天風呂は<br class="sp">蓼科源泉のひとつ芹ケ沢<br class="sp">温泉、内湯は畳敷きで<br class="sp">お子様も安心</h2>
                         </div>
                     </div>
                 </div>
