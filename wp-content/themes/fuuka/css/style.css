@@ -991,7 +991,7 @@
     padding-bottom: 58rem !important;
   }
   .subpage .top_fv::before {
-    height: 7rem;
+    height: 7rem !important;
   }
   .top_fv_text{
     right: 5rem;
