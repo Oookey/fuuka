@@ -47,6 +47,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
+    z-index: 2;
+    padding-bottom: 4rem;
 }
 .fv_menu a:nth-of-type(2){
     margin-top: 4rem;
@@ -2977,7 +2980,7 @@ margin-top: 8rem;
   z-index: 1;
   width: 10rem;
   padding-top: 17rem;
-  padding-bottom: 10rem;
+  padding-bottom: 4rem;
   z-index: 2;
 }
 #hos .pageinfo{
@@ -2991,7 +2994,7 @@ margin-top: 8rem;
   background-repeat: no-repeat, no-repeat;
 }
 #hos .pageinfo_inner .title{
-  width: 46rem;
+  width: 52rem;
   margin: 10rem auto 5rem;
 }
 #hos .pageinfo_inner p{
