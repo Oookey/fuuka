@@ -86,7 +86,8 @@
 #top .con_title p{
   margin-top: 3rem;
 }
-#top .content .con_text-r h2{
+#top .content .con_text-r h2,
+#top .content .con_text-l h2{
   white-space: nowrap;
 }
 /* .top_fv_text p span{
@@ -1194,7 +1195,8 @@
   }
   /* main content */
   #top .content .con_title{
-    margin-bottom: 25rem;
+    /* margin-bottom: 25rem; */
+    margin: 0 auto 25rem;
   }
   .content .illust-r,.content .illust-l{
     height: 18rem;

@@ -209,7 +209,7 @@ get_header(); ?>
                     <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>カジュアルフレンチ</p>
-                            <h2>カジュアルフレンチと<br>オールインクルーシブド<br class="sp">リンクとのマリアージュ</h2>
+                            <h2>カジュアルフレンチと<br>オールインクルーシブ<br class="sp">ドリンクとのマリアージュ</h2>
                         </div>
                     </div>
                 </div>
