@@ -985,10 +985,13 @@
   /* FV */
   .top_fv{
     padding-right: 0rem;
-    height: 72rem !important;
+    height: 58rem !important;
   }
   .top_fv_movie .in{
-    padding-bottom: 72rem !important;
+    padding-bottom: 58rem !important;
+  }
+  .subpage .top_fv::before {
+    height: 7rem;
   }
   .top_fv_text{
     right: 5rem;
@@ -2368,7 +2371,7 @@
   background-color: #fff;
   width: 10rem;
   padding: 4.5rem 0;
-  z-index: 1;
+  z-index: 2;
 }
 #access .fv_menu{
   height: 62rem;
