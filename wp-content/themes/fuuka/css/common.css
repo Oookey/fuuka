@@ -186,7 +186,7 @@ body{
 .fv_text{
     position: absolute;
     right: 20rem;
-    top: 18rem;
+    top: 16rem;
 }
 @media screen and (max-width: 767px){
     .top_fv_movie .movie{
