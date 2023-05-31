@@ -460,7 +460,7 @@ body{
 }
 .global_menu_logo img{
     width: 18rem;
-    margin-right: 2.5rem;
+    margin-right: 7rem;
 }
 .global_menu_inner,.global_menu_other{
     display: flex;
