@@ -7,10 +7,10 @@
 	.sp{display: inherit;}
 }
 /* html{font-size: 62.5%;} */
-body{
+/* body{
 	font-size:1.4em;
 	font-style: normal;
-}
+} */
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box
@@ -447,104 +447,86 @@ th {
   font-weight: bold;
 }
 
-/* 共通 -------------------------------------------------------------------------------------- */
+/* 共通 ---------------------------------------------- */
 body {
-    font-size: 16px;
-    font-style: normal;
-    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
-    color: rgb(41, 41, 41);
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #292929;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+:root {
+--main-color:#306E1D;
+  --bg-brown-color:#F2EEE1;
+--brown-color:#64562F;
 }
 .flex{
-    display: flex;
+  display: flex;
 }
-.fs13 {
-    font-size: 13px;
+.fs08{
+font-size: 8px;
 }
-.fs14 {
-    font-size: 14px;
+.fs14{
+font-size: 14px;
 }
-.fs18 {
-    font-size: 18px;
-}
-.c1 {
-    color: #fff;
-}
-.bg3 {
-    background-color: rgb(36, 77, 87);
-}
-.bg4 {
-    background-color: #F8F6F0;
+.fs18{
+font-size: 18px;
 }
 .bold{
-    font-weight: bold;
+font-weight: bold;
 }
-/* 矢印 */
-.arrow {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 1;
-    position: relative;
-    width: 4.5px;
-    height: 4.5px;
-    transform: translateX(-25%) rotate(45deg);
-    margin-right: 10px;
-}
-.arrow::before {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 0.08em;
-}
-.arrow::after {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 0.08em;
-}
-.arrow::before, .arrow::after {
-    content: '';
-    position: absolute;
-    background: currentColor;
-    border-radius: 0.1em;
-}
+.c1{color: var(--main-color) !important;}
+.bg_b_c{background-color: var(--bg-brown-color) !important;}
+.red{color: #E30A0A;}
+.shadow{box-shadow: 0px 0px 12px rgba( 0, 0, 0, 0.16);}
+
 /* ボタン */
-.nav_btn {
-    margin-top: 46px;
-    position: absolute;
-    right: 110px;
-    letter-spacing: 1px;
-}
-.nav_btn a {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 .btn {
-    width: 150px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px;
+color: #fff;
+font-size: 16px;
+background-color: var(--main-color);
+border-radius: 30px;
+padding: 12px 28px;
+letter-spacing: 3px;
+line-height: 30px;
+float: left;
+text-align: center;
+}
+
+/* 矢印 */
+.arrow{
+margin-right: 8px;
+}
+.arrow::before{
+content: '';
+background-image: url(../img489/arrow_g.svg);
+background-repeat: no-repeat;
+display: inline-block;
+background-size: contain;
+vertical-align: middle;
+width: 6px;
+height: 11px;
 }
 
 /* SPヘッダー ---------------------------------------------- */
 .header {
-  background-image: url(https://kumanoclub.jp/img489/header.png);
   width: 100%;
-  height: 88px;
-  padding: 0 0 0 28px;
-  justify-content: space-between;
-  background-position: 80% 20%;
-  background-size: cover;
-  position: relative;
+  height: 80px;
+  padding: 0 0 0 20px;
+  position: fixed;
+  background-color: #fff;
+  align-items: center;
+  box-shadow: 0px 0px 12px rgba( 0, 0, 0, 0.16);
 }
 .logo_icon{
-  width: 69px;
-  height: 152px;
+  width: 125px;
+  height: auto;
   z-index: 4;
+  margin-right: 5.7vw;
 }
 .logo_icon img{
-  width: 69px;
+  width: 125px;
 }
 .nav_btn{
   margin-top: 46px;
@@ -557,7 +539,10 @@ body {
   justify-content: flex-start;
   align-items: center;
 }
-
+.header_plan{
+  font-size: 11px;
+  color: var(--main-color);
+}
 
 /* ハンバーガー部分 */
 .menu-btn {
@@ -607,28 +592,29 @@ body {
 
 
 .ic{
-  width: 40px;
-  height: 15px;
+  width: 36px;
+  height: 30px;
   position: absolute;
   display: inline-block;
   position: absolute;
   cursor: pointer;
+  top: 27px;
+  right: 21px;
 }
 .ic > span{
   display: inline-block;
   position: absolute;
-  height: 2px;
-  width: 30px;
-  background: #000;
-  left: 50%;
-  transform: translateX(-50%);
+  height: 3px;
+  width: 100%;
+  background: #fff;
   transition: all 0.6s ease;
+  border-radius: 2px;
 }
 .ic > span:nth-of-type(1){
   top: 0;
 }
 .ic > span:nth-of-type(2){
-  top: 50%;
+  top: 47%;
 }
 .ic > span:nth-of-type(3){
   bottom: 0;
@@ -665,7 +651,7 @@ body {
   z-index: 999;
 }
 #g-nav .nav_bg{
-  background-image: url(https://kumanoclub.jp/img489/menu_bg.png);
+  background-image: url(../img489/menu_bg.png);
   width: 80px;
   height: 100%;
   background-position: center;
@@ -676,7 +662,7 @@ body {
   position: absolute;
   color: #292929;
   white-space: nowrap;
-  top: 1440px;
+  top: 1100px;
   bottom: auto;
   font-size: 15px;
   letter-spacing: 2px;
@@ -691,11 +677,10 @@ body {
 }
 #g-nav .nav_access img{
   position: absolute;
-  top: -1413px;
-  width: 150px;
+  top: -1040px;
+  width: 190px;
   height: auto;
-  margin-left: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   mix-blend-mode: multiply;
 }
 #g-nav .nav_access p{
@@ -706,12 +691,15 @@ body {
   width: 200px;
   padding-bottom: 100px;
 }
+#g-nav .nav_access span {
+  font-size: 20px;
+}
 #g-nav .nav_content{
   position: absolute;
   color: #292929;
   max-width: 530px;
   width: 240px;
-  top: 170px;
+  top: 140px;
   left: 110px;
   min-width: auto;
   line-height: 26px;
@@ -756,10 +744,10 @@ body {
   letter-spacing: 0px;
 }
 #g-nav .nav_mc p{
-  margin-top: 0;
+  margin-top: 5px;
   font-size: 11px;
   margin-left: 42px;
-  line-height: 26px;
+  line-height: 15px;
 }
 #g-nav .nav_sub{
   margin-bottom: 20px;
@@ -777,13 +765,14 @@ body {
   margin-bottom: 10px;
 }
 #g-nav .nav_star{
-  background-image: url(https://kumanoclub.jp/img489/menu_star.png);
+  background-image: url(../img489/menu_star.png);
   height: 83px;
   width: 100%;
   background-position: center;
   background-size: cover;
   color: #fff;
   position: relative;
+  border-radius: 8px;
 }
 #g-nav .nav_star h2{
   font-size: 20px;
@@ -803,6 +792,9 @@ body {
   text-shadow: 0 0 5px rgb(0 0 0);
   position: absolute;
 }
+#g-nav .nav_star p .arrow::before{
+  background-image: url(../img489/arrow_w.svg);
+}
 #g-nav .btn{
   width: 100%;
   margin-top: 20px;
@@ -813,6 +805,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 8px;
+  background-color: initial;
+  color: #292929;
+}
+#g-nav .btn .arrow::before{
+  background-image: url(../img489/arrow_b.svg);
 }
 #g-nav .nav_sns{
   width: auto;
@@ -856,7 +854,6 @@ body {
 #g-nav .nav_sns .nav_photo{
   margin-left: 0;
   margin-top: 30px;
-  font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
   border-bottom: 1px solid #292929;
   margin-bottom: 28px;
   width: auto;
@@ -870,6 +867,9 @@ footer {
     width: 100%;
     height: 330px;
     object-fit: cover;
+}
+.footer1{
+  background-color: var(--main-color);
 }
 .footer1_inner {
     justify-content: center;
@@ -885,17 +885,12 @@ footer {
     width: auto;
 }
 .adress img {
-    width: 191px;
     margin-bottom: 42px;
     margin-right: 0;
 }
 .adress p {
     line-height: 26px;
     letter-spacing: 1.4px;
-    font-size: 16px;
-}
-.adress p:last-child {
-    margin-top: 35px;
 }
 .adress span {
     margin-left: 14px;
@@ -932,6 +927,7 @@ footer .each_page {
 }
 .circle_btn {
     border: 1px solid #FFFFFF;
+    background-color: #fff;
     width: 14px;
     height: 14px;
     border-radius: 50%;
@@ -944,8 +940,8 @@ footer .each_page {
     width: 5px;
     height: 5px;
     top: 3.5px;
-    border-top: 1px solid #FFFFFF;
-    border-right: 1px solid #FFFFFF;
+    border-top: 1px solid var(--main-color);
+    border-right: 1px solid var(--main-color);
     transform: rotate(45deg);
     position: absolute;
 }
@@ -956,7 +952,6 @@ footer .each_page {
 .btn_box {
     flex-direction: column;
     align-items: center;
-    width: 47%!important;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -965,13 +960,15 @@ footer .each_page {
     margin-left: 0;
 }
 .white_btn {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     width: 191px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     padding: 9px 0px;
     justify-content: center;
     margin-left: 0;
     margin-top: 20px;
+    border-radius: 8px;
+    font-size: 13px;
 }
 .white_btn a {
     color: #FFFFFF;
@@ -983,12 +980,17 @@ footer .each_page {
 
 .personal_information {
     font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    margin: 40px auto 0;
+    width: 92%;
+    max-width: 330px;
 }
 .personal_information a {
-    margin: 30px 5px 0;
-    font-size: 15px;
     line-height: 32px;
     letter-spacing: 2px;
+}
+.personal_information a p{
+  margin-top: 10px;
 }
 .personal_information.flex{
   flex-direction: inherit;
@@ -1001,13 +1003,14 @@ footer .each_page {
     letter-spacing: 1px;
     line-height: 32px;
     width: 100%;
-    font-size: 11px;
+    font-weight: 400
 }
 
 .footer2 {
     font-family: 'Noto Sans JP', sans-serif;
     padding-top: 64px;
     padding-bottom: 159px;
+    background-color: var(--bg-brown-color);
 }
 .footer2 .flex {
     justify-content: center;
@@ -1029,7 +1032,7 @@ footer .meal_menu{
     max-width: 100%;
     margin: 35px auto 0;
     padding-bottom: 0;
-    border-top: 1px solid #BCBCBC;
+    border-top: 2px solid var(--main-color);
 }
 .option {
     position: relative;
@@ -1072,6 +1075,7 @@ footer .meal_menu{
     margin: 0 auto;
     text-align: left;
     /* border-bottom: 1px solid #BCBCBC; */
+    color: #292929;
 }
 .footer2 .title {
     font-size: 18px !important;
@@ -1082,7 +1086,7 @@ footer .meal_menu{
     padding-left: 14px;
 }
 .footer2 .title p{
-    font-size: 15px !important;
+    font-size: 18px !important;
 }
 .hotel_net {
     margin: 10px 40px 0 0;
@@ -1097,7 +1101,7 @@ footer .meal_menu{
 .hotel_net p {
     line-height: 32px;
     letter-spacing: 1.1px;
-    font-size: 11px;
+    font-size: 12px;
     width: 180px;
 }
 .hotel_net p:hover{
@@ -1116,9 +1120,14 @@ footer .meal_menu{
 .menu {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   outline: none;
   z-index: 100;
+  background-color: var(--main-color);
+  width: 86px;
+  height: 86px;
+  border-radius: 0 0 0 20px;
+  box-shadow: 0px 0px 12px rgba( 0, 0, 0, 0.16);
 }
 .menu-ul {
   position: fixed;
@@ -1173,49 +1182,48 @@ a:focus  {
   -webkit-box-pack: center;
   justify-content: center;
 }
-.ic{
-  width: 40px;
+/* .ic{
+  width: 36px;
   height: 30px;
   position: absolute;
   display: inline-block;
   position: absolute;
   cursor: pointer;
-  right: -92vw;
-  top: 30px;
+  top: 2.7rem;
+  right: 2.1rem;
 }
 .ic > span{
   display: inline-block;
   position: absolute;
-  height: 2px;
-  width: 40px;
-  background: #000;
-  left: 50%;
+  height: 3px;
+  background-color: #fff;
   transform: translateX(-50%);
   transition: all 0.6s ease;
+  border-radius: 2px;
 }
 .ic > span:nth-of-type(1){
   top: 0;
 }
 .ic > span:nth-of-type(2){
-  top: 50%;
+  top: 47%;
 }
 .ic > span:nth-of-type(3){
   bottom: 0;
-}
+} */
 /* 閉じる */
 .menu_close{
   position: absolute;
   z-index: 999;
-  width: 40px;
+  width: 36px;
   height: 30px;
-  top: 30px;
-  right: 30px;
+  top: 27px;
+  right: 21px;
 }
 .menu_close span{
   display: inline-block;
   transition: all .4s;
   position: absolute;
-  height: 2px;
+  height: 3px;
   border-radius: 2px;
 }
 .menu_close span:nth-of-type(1){
@@ -1234,9 +1242,11 @@ a:focus  {
 /* OYADONET */
 details {
   /* border: 1px solid #aaa; */
-  border-bottom: 1px solid  #BCBCBC;
+  border-bottom: 2px solid  var(--main-color);
   padding: 5px 5px 0;
   font-family: 'Noto Sans JP', sans-serif;
+  color: var(--main-color);
+  font-weight: 400;
 }
 
 summary {
@@ -1249,7 +1259,7 @@ summary {
 summary:before {
   content: "＋";
   float: right;
-  color: #999;
+  color: var(--main-color);
 }
 details[open] summary:before,
 summary details[open] summary:before {
