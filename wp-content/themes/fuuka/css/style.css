@@ -2028,9 +2028,11 @@
 }
 .room_mask{
   position: absolute;
-  right: -1rem;
-  bottom: -10rem;
   z-index: 1;
+}
+.room_mask2{
+  right: 11rem;
+  bottom: -16rem;
 }
 @media screen and (max-width: 767px){
   #room .content {
