@@ -500,7 +500,7 @@ body {
 }
 .arrow::before{
   content: '';
-  background-image: url(../img489/arrow_g.svg);
+  background-image: url(https://hotel-fuuka.jp/img489/arrow_g.svg);
   background-repeat: no-repeat;
   display: inline-block;
   background-size: contain;
@@ -515,7 +515,7 @@ body {
     height: 275px;
     background-size: cover;
     position: relative;
-    background-image: url(../img489/header_bg.png);
+    background-image: url(https://hotel-fuuka.jp/img489/header_bg.png);
     background-position: center;
 }
 
@@ -557,7 +557,7 @@ body {
   color: var(--main-color);
 }
 .global_menu_other .arrow::before{
-  background-image: url(../img489/arrow_g.svg);
+  background-image: url(https://hotel-fuuka.jp/img489/arrow_g.svg);
 }
 
 /* PCフッター ---------------------------------------------- */

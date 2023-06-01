@@ -500,7 +500,7 @@ margin-right: 8px;
 }
 .arrow::before{
 content: '';
-background-image: url(../img489/arrow_g.svg);
+background-image: url(https://hotel-fuuka.jp/img489/arrow_g.svg);
 background-repeat: no-repeat;
 display: inline-block;
 background-size: contain;
@@ -651,7 +651,7 @@ height: 11px;
   z-index: 999;
 }
 #g-nav .nav_bg{
-  background-image: url(../img489/menu_bg.png);
+  background-image: url(https://hotel-fuuka.jp/img489/menu_bg.png);
   width: 80px;
   height: 100%;
   background-position: center;
@@ -765,7 +765,7 @@ height: 11px;
   margin-bottom: 10px;
 }
 #g-nav .nav_star{
-  background-image: url(../img489/menu_star.png);
+  background-image: url(https://hotel-fuuka.jp/img489/menu_star.png);
   height: 83px;
   width: 100%;
   background-position: center;
@@ -793,7 +793,7 @@ height: 11px;
   position: absolute;
 }
 #g-nav .nav_star p .arrow::before{
-  background-image: url(../img489/arrow_w.svg);
+  background-image: url(https://hotel-fuuka.jp/img489/arrow_w.svg);
 }
 #g-nav .btn{
   width: 100%;
@@ -810,7 +810,7 @@ height: 11px;
   color: #292929;
 }
 #g-nav .btn .arrow::before{
-  background-image: url(../img489/arrow_b.svg);
+  background-image: url(https://hotel-fuuka.jp/img489/arrow_b.svg);
 }
 #g-nav .nav_sns{
   width: auto;
