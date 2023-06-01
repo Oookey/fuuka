@@ -86,10 +86,6 @@
 #top .con_title p{
   margin-top: 3rem;
 }
-#top .content .con_text-r h2,
-#top .content .con_text-l h2{
-  white-space: nowrap;
-}
 /* .top_fv_text p span{
   display: block;
   padding-right:  4.6rem;
@@ -346,6 +342,12 @@
 @media screen and (max-width: 1024px){
   .card02 .swiper-controller{
     width: 100vw;
+  }
+}
+@media screen and (max-width: 767px){
+  #top .content .con_text-r h2,
+  #top .content .con_text-l h2{
+    white-space: nowrap;
   }
 }
 
