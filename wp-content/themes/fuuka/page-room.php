@@ -214,7 +214,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- 美容FUUKAジュニアスイート -->
+        <!-- 美容FUUKAジュニアスイート --> 
         <div class="content bg_wave room3">
             <div class="inner img_bg_3">
                 <div class="con-sp-fv fadein">
