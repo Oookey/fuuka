@@ -2026,24 +2026,27 @@
 .room_ame_inner li img{
   width: 100%;
 }
+#room .img_bg_1::before,#room .img_bg_2::before,#room .img_bg_3::before,#room .img_bg_4::before,#room .img_bg_5::before{
+  content: none;
+}
 .room_mask{
   position: absolute;
   z-index: 1;
 }
 .room_mask1{
-  left: 0rem;
-  bottom: 0rem;
+  left: 9rem;
+  bottom: -15vw;
 }
 .room_mask2{
-  left: 3rem;
+  right: 3rem;
   bottom: -14vw;
 }
 .room_mask3{
-  right: 3rem;
-  bottom: -14vw;
+  left: 11rem;
+  bottom: -16vw;
 }
 .room_mask4{
-  right: 3rem;
+  right: 7rem;
   bottom: -14vw;
 }
 @media screen and (max-width: 767px){
