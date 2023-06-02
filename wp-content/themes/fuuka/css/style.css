@@ -1873,6 +1873,18 @@
     padding-top: 27vw;
     padding-bottom: 0vw;
   }
+  /* アニメーション */
+  .cuisine_mask{
+    width: 22rem;
+  }
+  .cuisine_mask1{
+    right: 0rem;
+    top: -55vw;
+  }
+  .cuisine_mask2{
+    left: 0rem;
+    top: -58vw;
+  }
 }
 /* ================ */
 
