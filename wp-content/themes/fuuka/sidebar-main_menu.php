@@ -3,16 +3,16 @@
     <a href="<?php bloginfo('url'); ?>/"class="global_menu_logo"><img src="<?php bloginfo('template_directory'); ?>/image/logo.svg" alt=""></a>
     <ul class="global_menu_inner pc">
         <li>
-            <a href="<?php bloginfo('url'); ?>/cuisine/">お食事のご案内</a>
-        </li>
-        <li>
-            <a href="<?php bloginfo('url'); ?>/room/">10趣のお部屋</a>
-        </li>
-        <li>
             <a href="<?php bloginfo('url'); ?>/omotenashi/">まるごとおもてなし<font size="1">&reg;</font></a>
         </li>
         <li>
-            <a href="<?php bloginfo('url'); ?>/about/">施設案内</a>
+            <a href="<?php bloginfo('url'); ?>/cuisine/">お食事のご案内</a>
+        </li>
+        <li>
+            <a href="<?php bloginfo('url'); ?>/room/">客室のご案内</a>
+        </li>
+        <li>
+            <a href="<?php bloginfo('url'); ?>/about/">ホテルのご案内</a>
         </li>
         <li>
             <a href="<?php bloginfo('url'); ?>/sightseeing/">周辺観光</a>
@@ -88,7 +88,7 @@
                                 <a href="<?php bloginfo('url'); ?>/about/">
                                     <div class="horiz_text">
                                     <span class="text_line_h"></span>
-                                    <h2 class="">ホテル案内</h2>
+                                    <h2 class="">ホテルのご案内</h2>
                                     <p></p>
                                     </div>
                                 </a>
@@ -97,7 +97,7 @@
                                 <a href="<?php bloginfo('url'); ?>/activity/">
                                     <div class="horiz_text">
                                     <span class="text_line_h"></span>
-                                    <h2 class="">宿泊体験プラン</h2>
+                                    <h2 class="">体験宿泊プラン</h2>
                                     <p>～Yatsugatake Inclusive<br class="sp">　泊まって楽しむ八ヶ岳～</p>
                                     </div>
                                 </a>
@@ -111,9 +111,18 @@
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="<?php bloginfo('url'); ?>/access/">
+                                    <div class="horiz_text">
+                                    <span class="text_line_h"></span>
+                                    <h2 class="">アクセス</h2>
+                                    <p></p>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                         <ul class="nav_sub">
-                            <li><a href="<?php bloginfo('url'); ?>/access/">・アクセスマップ</a></li>
+                            <!-- <li><a href="<?php bloginfo('url'); ?>/access/">・アクセスマップ</a></li> -->
                             <li><a href="<?php bloginfo('url'); ?>/contact/">・お問い合せ</a></li>
                             <!-- <li style="width: 18rem;"><a target="_blank" rel="noopener">・お問い合せ(調整中)</a></li> -->
                             <!-- <li><a href="">・特別プラン</a></li> -->
