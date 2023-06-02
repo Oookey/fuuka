@@ -2033,6 +2033,8 @@
 .room_mask{
   position: absolute;
   z-index: 1;
+  width: 28rem;
+  height: auto;
 }
 .room_mask1{
   left: 9rem;
