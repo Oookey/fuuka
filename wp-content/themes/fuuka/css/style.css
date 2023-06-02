@@ -2160,6 +2160,26 @@
   #room .content .inner a{
     margin-top: 0;
   }
+
+  .room_mask{
+    width: 20rem;
+  }
+  .room_mask1{
+    left: 1rem;
+    bottom: -30vw;
+  }
+  .room_mask2{
+    right: 1rem;
+    bottom: -52vw;
+  }
+  .room_mask3{
+    left: 1rem;
+    bottom: -54vw;
+  }
+  .room_mask4{
+    right: 1rem;
+    bottom: -55vw;
+  }
 }
 
 
