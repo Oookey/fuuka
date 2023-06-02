@@ -88,7 +88,7 @@
                             <p>・個人情報保護規定</p>
                         </a>
                         <a href="<?php bloginfo('url'); ?>/cancellation_policy/">
-                            <p>・宿泊規定・キャンセルポリシー</p>
+                            <p>・宿泊規定/キャンセルポリシー</p>
                         </a>
                     </div>
                     <div class="personal_information flex" style="margin-top: 0;">
