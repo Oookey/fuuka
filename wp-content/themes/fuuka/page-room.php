@@ -77,7 +77,8 @@ get_header(); ?>
                     <image clip-path="url(#clip)" width="280px" height="260px" preserveAspectRatio=”xMidYMid slice” xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="<?php bloginfo('template_directory'); ?>/image/mask_room1.png"></image>
                 </svg> -->
 
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" style="opacity: 1;width: 20rem;" transform="rotate(0)"><image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_room1.png" preserveAspectRatio="none" class="room_mask room_mask1"/>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" style="opacity: 1;width: 20rem;" transform="rotate(0)" class="room_mask room_mask1">
+                    <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_room1.png" preserveAspectRatio="none"/>
                     <defs>
                         <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                             <stop offset="0%" style="stop-color: rgb(238, 205, 163);"/>
