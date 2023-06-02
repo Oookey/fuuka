@@ -2029,6 +2029,7 @@
 #room .img_bg_1::before,#room .img_bg_2::before,#room .img_bg_3::before,#room .img_bg_4::before,#room .img_bg_5::before{
   content: none;
 }
+
 .room_mask{
   position: absolute;
   z-index: 1;
@@ -2049,6 +2050,7 @@
   right: 7rem;
   bottom: -14vw;
 }
+
 @media screen and (max-width: 767px){
   #room .content {
     padding-top: 12rem;
