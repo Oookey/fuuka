@@ -1729,6 +1729,21 @@
 .toggle:checked + .accordion_title::before {
   transform: rotate(90deg) !important;
 }
+/* アニメーション */
+.cuisine_mask{
+  position: absolute;
+  z-index: 1;
+  width: 28rem;
+  height: auto;
+}
+.cuisine_mask1{
+  right: 9rem;
+  bottom: -15vw;
+}
+.cuisine_mask2{
+  left: 3rem;
+  bottom: -14vw;
+}
 @media screen and (max-width: 767px){
   .cuisine_subtitle{
     margin-bottom: 3rem;
