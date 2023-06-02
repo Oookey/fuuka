@@ -542,6 +542,28 @@
 .room.content{
   padding-bottom: 30rem;
 }
+.room_mask {
+  position: absolute;
+  z-index: 1;
+  width: 23rem;
+  height: auto;
+}
+.room_mask1 {
+  left: 1rem;
+  bottom: -14vw;
+}
+.room_mask2 {
+  right: 1rem;
+  bottom: -14vw;
+}
+.room_mask3 {
+  left: 1rem;
+  bottom: -16vw;
+}
+.room_mask4 {
+  right: 1rem;
+  bottom: -14vw;
+}
 /* 露天風呂 */
 .bath.content .illust{
   bottom: -27.3rem;
