@@ -1736,18 +1736,16 @@
 .cuisine_mask{
   position: absolute;
   z-index: 1;
+  width: 30rem;
+  height: auto;
 }
 .cuisine_mask1{
   right: 0rem;
   top: -17vw;
-  width: 35rem;
-  height: auto;
 }
 .cuisine_mask2{
   left: 14rem;
-  bottom: -15vw;
-  width: 30rem;
-  height: auto;
+  top: -15vw;
 }
 @media screen and (max-width: 767px){
   .cuisine_subtitle{
