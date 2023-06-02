@@ -1730,19 +1730,24 @@
   transform: rotate(90deg) !important;
 }
 /* アニメーション */
+#cuisine .img_bg_3::before,#cuisine .img_bg_3::after{
+  content: none;
+}
 .cuisine_mask{
   position: absolute;
   z-index: 1;
-  width: 28rem;
-  height: auto;
 }
 .cuisine_mask1{
-  right: 9rem;
-  bottom: -15vw;
+  right: 0rem;
+  top: -17vw;
+  width: 35rem;
+  height: auto;
 }
 .cuisine_mask2{
-  left: 3rem;
-  bottom: -14vw;
+  left: 14rem;
+  bottom: -15vw;
+  width: 30rem;
+  height: auto;
 }
 @media screen and (max-width: 767px){
   .cuisine_subtitle{
