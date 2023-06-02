@@ -466,7 +466,7 @@ body{
     display: flex;
 }
 .global_menu_inner li{
-    margin-right: 2.8rem;
+    margin-right: 2.5rem;
 }
 .global_menu_other li{
     border: solid 0.1rem var(--main-color);
