@@ -266,6 +266,8 @@
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  height: auto;
+  border-radius: 2rem;
 }
 .card02 .slide {
   overflow: hidden;
@@ -273,6 +275,7 @@
   border-radius: 2.2rem;
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
+  background-color: #fff;
 }
 .card02 .slide-media {
   padding-top: 20rem;

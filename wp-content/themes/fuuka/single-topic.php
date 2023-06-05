@@ -50,11 +50,11 @@ get_header(); ?>
 								<?php while(have_rows('topic_detail_inner')): the_row(); ?>
 
                                 <?php if( get_sub_field('topic_detail_subtitle') ) { ?>
-                                    <h4 class="news_detail_subtitle"><?php the_sub_field('topic_detail_subtitle'); ?></h4>
+                                    <h4 class="news_subtitle"><?php the_sub_field('topic_detail_subtitle'); ?></h4>
                                 <?php } ?>
 
                                 <?php if( get_sub_field('topic_detail_img') ) { ?>
-                                    <div class="news_detail_img">
+                                    <div class="news_img">
                                         <img src="<?php the_sub_field('topic_detail_img'); ?>">
                                         <a href="<?php the_sub_field('topic_detail_img'); ?>" data-lightbox="img" data-title="<?php the_sub_field('topic_detail_img_info'); ?>" class="topic_detail_img_size">
                                             <p>画像を拡大</p>
