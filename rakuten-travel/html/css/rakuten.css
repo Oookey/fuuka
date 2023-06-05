@@ -262,16 +262,16 @@ footer .hotel_net p{
 .cuisine_mask{
   position: absolute;
   z-index: 1;
-  width: 30rem;
+  width: 21rem;
   height: auto;
 }
 .cuisine_mask1{
   right: 0rem;
-  top: -17vw;
+  top: -22vw;
 }
 .cuisine_mask2{
   left: 14rem;
-  top: -15vw;
+  top: -18vw;
 }
 /* 客室 */
 #room .c_info_bg{
