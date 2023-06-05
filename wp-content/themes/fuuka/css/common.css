@@ -862,6 +862,10 @@ body{
 }
 
 /* ----- Fix menu ----- */
+/*  Windows */
+.win .sns_menu{
+    font-family: 'Noto Sans JP', sans-serif;
+}
 .nav_btn{
     margin-top:4.6rem;
     position:absolute;

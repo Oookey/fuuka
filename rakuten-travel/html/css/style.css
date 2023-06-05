@@ -1,5 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
+/*  Windows */
+.win .btn,.win .text,
+.win .plan .slick_exp .slick_exp_li p,
+.win #top .tourism li p,
+.win #top .instagram .title p,
+.win .accordion_content,
+.win .cuisine_inline_menu p:nth-child(even),
+.win .kome,.win .room_star_wrap,.win .room_point,
+.win .room_fixtures_inner,.win .room_ame_list,
+.win .room_ame_inner,.win .about_point_wrap,
+.win .about_kidroom_inner,.win .contact
+{
+  font-family: 'Noto Sans JP', sans-serif;
+}
 
 /* ----- トップページ ----- */
 /* FV */
@@ -613,10 +627,6 @@
   float: none;
   width: fit-content;
   justify-content: center;
-}
-/*  Windows */
-.win .plan .slick_exp .slick_exp_li p{
-  font-family: 'Noto Sans JP', sans-serif;
 }
 /* 矢印 */
 /*矢印の設定*/
