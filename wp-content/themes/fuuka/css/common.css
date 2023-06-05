@@ -1623,3 +1623,7 @@ footer .hotel_net p {
 @media screen and (max-width: 375px){
 
 }
+/* Windows */
+.win {
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+}

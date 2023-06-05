@@ -231,6 +231,7 @@
 <script src="<?php bloginfo('template_directory'); ?>/js/swiper-bundle.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/slick.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/lightbox.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/css_browser_selector.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
 <!-- ↑↑↑ etc. ↑↑↑ -->
 
