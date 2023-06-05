@@ -336,6 +336,7 @@ body{
 .content .con_text-r .slick,.content .con_text-l .slick{
   margin-top: 6rem;
 }
+/*  Windows */
 .win .content .con_text-r .text,.win .content .con_text-l .text{
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -1497,6 +1498,10 @@ footer .hotel_net p {
 }
 .cdsROW .cdsLocName a{
     color: #292929;
+}
+/* Windows---- */
+.win footer{
+    font-family: 'Noto Sans JP', sans-serif;
 }
 @media screen and (max-width: 1126px){
     .each_page {

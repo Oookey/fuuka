@@ -612,6 +612,10 @@
   width: fit-content;
   justify-content: center;
 }
+/*  Windows */
+.win .plan .slick_exp .slick_exp_li p{
+  font-family: 'Noto Sans JP', sans-serif;
+}
 /* 矢印 */
 /*矢印の設定*/
 .slick-arrow {
