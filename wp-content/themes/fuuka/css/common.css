@@ -33,7 +33,6 @@ body{
 @media only screen and (max-width: 767px){
 	html{font-size: calc( 1000vw / 430vw );}
 }
-
 :root {
 	--main-color:#306E1D;
     --bg-brown-color:#F2EEE1;
