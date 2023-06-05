@@ -149,10 +149,8 @@ get_header(); ?>
                     <div class="float-r fadein">
                         <p>
                             1000Mのおもてなし<br>
-                            ご家族、恋人、お友達との「思い出旅」は風かにおまかせ。<br>
-                            標高1000ｍの天空のリゾート地、自然豊かな八ヶ岳にあるホテル風かでしか体験できないたくさんのおもてなしを満喫していただき、大切な方との一生の思い出を紡いでください。<br>
-                            ご滞在は基本オールインクルーシブで自由で快適なステイ。<br>
-                            お食事はお子様連れでも気兼ねなく楽しめるカジュアルフレンチ。<br>
+                            ご家族、恋人、お友達との「思い出旅」は風かにおまかせ。標高1000ｍの天空リゾート、自然豊かな八ヶ岳にあるホテル風かでしか体験できないたくさんのおもてなしを満喫していただき、大切な方との一生の思い出を紡いでください。<br>
+                            ご滞在は基本オールインクルーシブで自由で快適なステイ。お食事はお子様連れでも気兼ねなく楽しめるカジュアルフレンチ。<br>
                             大人だけでなくお子様も楽しめるオールインクルーシブリゾートホテルです。
                         </p>
                         <div>
@@ -183,7 +181,7 @@ get_header(); ?>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                        大人が嬉しいアルコールフリードリンクはもちろん、お子様が楽しめるたくさんのおもてなしもたくさんご用意。窯焼きウエルカムピザ、ヤギさんお散歩体験、星見テラスの焚火BAR、焚火で焼きマシュマロなど風かでしか味わえない非日常のおもてなしをお楽しみください。
+                        大人が嬉しいアルコールフリードリンクはもちろん、お子様が楽しめるおもてなしもたくさんご用意。窯焼きウエルカムピザ、ヤギさんお散歩体験、星見テラスの焚火BAR、焚火で焼きマシュマロなど風かでしか味わえない非日常のおもてなしをお楽しみください。
                     </p>
                     <a href="<?php bloginfo('url'); ?>/about/" class="flex">
                         <p class="btn"><span class="arrow"></span>ホテルのご案内</p>
@@ -237,7 +235,7 @@ get_header(); ?>
                 <img class="illust illust-l fadein" src="<?php bloginfo('template_directory'); ?>/image/room_illust.svg" alt="">
                 <div class="con-sp-fv fadein">
                     <a href="<?php bloginfo('url'); ?>/room/" class="float-r con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/top_room_mv.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/top_room_mv.jpg" alt="">
                     </a>
                     <div class="float-l con_text-l">
                         <div class="con_title">
@@ -257,6 +255,7 @@ get_header(); ?>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_slider-1.png"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_slider-2.png"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_slider-3.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_slider-4.png"></li>
                     </ul>
                 </div>
             </div>
@@ -273,14 +272,14 @@ get_header(); ?>
                     </a>
                     <div class="float-l con_text-l">
                         <div class="con_title">
-                            <p>八ヶ岳の自然を眺めながら<br>のんびり浸かる露天風呂</p>
+                            <p>八ヶ岳の自然を眺めながら<br>のんびり浸かる大浴場</p>
                             <h2>【風かの湯】露天風呂は<br class="sp">蓼科源泉のひとつ芹ケ沢<br class="sp">温泉、内湯は畳敷きで<br class="sp">お子様も安心</h2>
                         </div>
                     </div>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        内湯の洗い場は畳敷きで冷たくなく柔らかでお子様、ご年配の方も安心にご利用いただけます。露天風呂は芹ケ沢温泉からの運び湯で天然温泉をお楽しみいただきます。湯あがり処には、無料で楽しめるアイスキャンディーとマッサージチェアをご用意しております。
+                        内湯の洗い場は畳敷きで冷たくなく柔らかでお子様、ご年配の方も安心にご利用いただけます。露天風呂は芹ケ沢温泉からの運び湯で天然温泉をお楽しみいただけます。湯あがり処には、無料で楽しめるアイスキャンディーとマッサージチェアをご用意しております。2022年にリニューアルしたドライサウナもあります。
                     </p>
                     <a href="<?php bloginfo('url'); ?>/about/#about4" class="flex">
                         <p class="btn"><span class="arrow"></span>大浴場のご案内</p>
