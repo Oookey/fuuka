@@ -273,6 +273,7 @@ footer .hotel_net p{
   left: 14rem;
   top: -18vw;
 }
+
 /* 客室 */
 #room .c_info_bg{
     background-image: url(../image/pagetitle_room.png) !important;
