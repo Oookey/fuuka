@@ -345,6 +345,7 @@ get_header(); ?>
                         </p>
                     </div>
                     <p class="kome">※ 仕入れの都合により提供内容が変わる場合がございます。</p>
+                    <p class="kome">※ 写真はイメージです。</p>
                     <ul class="slick">
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_5_1.png"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_5_2.png"></li>

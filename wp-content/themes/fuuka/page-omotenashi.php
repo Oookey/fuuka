@@ -561,7 +561,7 @@ get_header(); ?>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                        大浴場は畳敷でフルでも冷たくありません。<br class="pc">
+                        大浴場は畳敷で冬でも冷たくありません。<br class="pc">
                         露天風呂は芹ヶ沢温泉から運んだ天然温泉です。ドライサウナも2022年冬にリニューアルしました。
                     </p>
                 </div>
