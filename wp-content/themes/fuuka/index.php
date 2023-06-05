@@ -305,7 +305,7 @@ get_header(); ?>
                         'post_type' => 'activity',
                         'taxonomy' => 'activity_top_display',
                         'term' => 'act_top',
-                        'posts_per_page' => 3,
+                        'posts_per_page' => 6,
                         'orderby' => 'date',
                         'order' => 'DESC'
                         )
