@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
     <!-- slick -->
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/slick.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/slick-theme.css">

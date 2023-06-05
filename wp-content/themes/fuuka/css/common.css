@@ -16,10 +16,6 @@ body{
     letter-spacing: 0.1rem;
     font-weight: bold;
 }
-/* Windows---- */
-.win body{
-    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
-}
 /* ---------- */
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -340,6 +336,9 @@ body{
 .content .con_text-r .slick,.content .con_text-l .slick{
   margin-top: 6rem;
 }
+.win .content .con_text-r .text,.win .content .con_text-l .text{
+    font-family: 'Noto Sans JP', sans-serif;
+}
 /* スライダー */
 .slick{
   margin-top: 5rem;
@@ -485,6 +484,10 @@ body{
 }
 .global_menu_other .arrow::before{
     background-image: url(../image/arrow_g.svg);
+}
+/* Windows---- */
+.win .global_menu{
+    font-family: 'Noto Sans JP', sans-serif;
 }
 @media screen and (max-width: 1024px){
     .global_menu{
@@ -747,6 +750,10 @@ body{
     margin-bottom: 2.8rem;
     margin-left: 7rem;
     width: auto;
+}
+/* Windows---- */
+.win #g-nav .nav_mc p,.win #g-nav .nav_access{
+    font-family: 'Noto Sans JP', sans-serif;
 }
 @media screen and (max-width: 767px){
     .hamburger{
