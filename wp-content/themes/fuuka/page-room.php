@@ -96,7 +96,7 @@ get_header(); ?>
                             <p>・ベッドルーム2部屋（ベッド各2台）+和室8畳と広々ダイニング+温泉檜風呂</p>
                             <p>・檜風呂は24時間入浴可能</p>
                             <p>・檜風呂の温泉の泉質　ナトリウム塩化物、炭酸水素塩、硫酸塩温泉（中性性低張性高温泉）</p>
-                            <p>・源泉温度：66.8℃ お湯の色：無色透明 </p>
+                            <p>・お湯の色：無色透明 </p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ get_header(); ?>
                     <div class="room_star_wrap">
                         <p>
                             マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、
-                            天然アロマの茶香炉、フリーWi-Fi、バスアメニティはロクシタン
+                            天然アロマの茶香炉、フリーWi-Fi、バスアメニティはロクシタン、加湿機能付空気清浄機
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617417" class="flex">
@@ -132,7 +132,7 @@ get_header(); ?>
                         <p>・ベッドルーム2部屋（ベッド各2台）+和室8畳と広々ダイニング+温泉檜風呂</p>
                         <p>・檜風呂は24時間入浴可能</p>
                         <p>・檜風呂の温泉の泉質　ナトリウム塩化物、炭酸水素塩、硫酸塩温泉（中性性低張性高温泉）</p>
-                        <p>・源泉温度：66.8℃ お湯の色：無色透明 </p>
+                        <p>・お湯の色：無色透明 </p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
                 </div>
@@ -185,7 +185,7 @@ get_header(); ?>
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、アレクサ、フリーWi-Fi、バスアメニティはロクシタン
+                            マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、アレクサ、フリーWi-Fi、バスアメニティはロクシタン、加湿機能付空気清浄機
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617418" class="flex">
@@ -197,7 +197,7 @@ get_header(); ?>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_2_3.png"></li>
                     </ul>
                     <div class="sp room_point">
-                        <p>・ベッドルーム2部屋 + 和室6畳と広々ダイニング+ 星見ジャグジー風呂付</p>
+                        <p>・ベッドルーム2部屋 + フラットな畳スペースと広々ダイニング+ 星見ジャグジー風呂付</p>
                         <p>・客室風呂は24時間入浴可能（温泉ではございません） </p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
@@ -246,14 +246,13 @@ get_header(); ?>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                    特に小さなお子様連れご家族や若いカップルにおすすめのお部屋。<br>
-                    ベット２台、畳スペースには最大3枚までお布団を敷くことができ、<br>
-                    最大5名様までお泊りいただけます。<br><br>
+                    2020年新設の新しいおしゃれなバス付のお部屋。美容グッズもとりそろえています。<br>
+                    女性グループやカップルでのご利用に特におすすめです。<br><br>
                         定員：2名～5名　／　広さ：50m&#178;
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、バスアメニティはロクシタン、天然アロマの茶香炉、アレクサ、フリーWi-Fi
+                            マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、バスアメニティはロクシタン、天然アロマの茶香炉、アレクサ、フリーWi-Fi、加湿機能付空気清浄機
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617419" class="flex">
@@ -297,7 +296,7 @@ get_header(); ?>
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main4.png" alt="">
                         </div>
                         <div class="pc room_point">
-                            <p>・ツインベッド ＋ 畳スペース</p>
+                            <p>・ツインベッド（ベッド1200×2000）＋ 畳スペース</p>
                             <p>・バスなし　※大浴場をご利用ください</p>
                             <p>・100インチ超の大画面スクリーンをお楽しみいただけます</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
@@ -321,7 +320,7 @@ get_header(); ?>
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            EPSON製超短視点プロジェクター（100インチスクリーン）、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
+                            EPSON製超短視点プロジェクター（100インチスクリーン）、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi、加湿機能付空気清浄機
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617420" class="flex">
@@ -333,7 +332,7 @@ get_header(); ?>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_4_3.png"></li>
                     </ul>
                     <div class="sp room_point">
-                        <p>・ツインベッド ＋ 畳スペース</p>
+                        <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
                         <p>・バスなし　※大浴場をご利用ください</p>
                         <p>・100インチ超の大画面スクリーンをお楽しみいただけます</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
@@ -352,8 +351,9 @@ get_header(); ?>
                         </div>
                         <div class="pc room_point">
                             <p>・ツインベッド（ベッド1200×2000）＋ 畳スペース</p>
-                            <p>・プライベートバス付き</p>
+                            <p>・バスなし　※大浴場をご利用ください</p>
                             <p>・天然アロマの茶香炉</p>
+                            <p>・加湿機能付空気清浄機</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
@@ -383,8 +383,9 @@ get_header(); ?>
                     </ul>
                     <div class="sp room_point">
                         <p>・ツインベッド（ベッド1200×2000）＋ 畳スペース</p>
-                        <p>・プライベートバス付き</p>
+                        <p>・バスなし　※大浴場をご利用ください</p>
                         <p>・天然アロマの茶香炉</p>
+                        <p>・加湿機能付空気清浄機</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
                 </div>
@@ -400,9 +401,10 @@ get_header(); ?>
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main6.jpg" alt="">
                         </div>
                         <div class="pc room_point">
-                            <p>・ツインベッド</p>
+                            <p>・ツインベッド（ベッド1200×2000）</p>
                             <p>・バスなし　※大浴場をご利用ください</p>
                             <p>・天然アロマの茶香炉</p>
+                            <p>・加湿機能付空気清浄機</p>
                         </div>
                     </div>
                     <div class="float-r con_text-r">
@@ -436,9 +438,10 @@ get_header(); ?>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_6_3.jpg"></li>
                     </ul>
                     <div class="sp room_point">
-                        <p>・ツインベッド</p>
+                        <p>・ツインベッド（ベッド1200×2000）</p>
                         <p>・バスなし　※大浴場をご利用ください</p>
                         <p>・天然アロマの茶香炉</p>
+                        <p>・加湿機能付空気清浄機</p>
                     </div>
                 </div>
             </div>
@@ -456,6 +459,7 @@ get_header(); ?>
                             <p>・ダブルベッド（ベッド1600×2000）</p>
                             <p>・バスなし　※大浴場をご利用ください</p>
                             <p>・天然アロマの茶香炉</p>
+                            <p>・加湿機能付空気清浄機</p>
                         </div>
                     </div>
                     <div class="float-l con_text-l">
@@ -486,69 +490,17 @@ get_header(); ?>
                         <p>・ダブルベッド（ベッド1600×2000）</p>
                         <p>・バスなし　※大浴場をご利用ください</p>
                         <p>・天然アロマの茶香炉</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ファミリールーム -->
-        <div class="content bg_b_c room8">
-            <div class="inner">
-                <div class="con-sp-fv fadein">
-                    <div class="float-l con_mv">
-                        <div class="zoom" style="border-radius: 3.8rem;">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main8.png" alt="">
-                        </div>
-                        <div class="pc room_point">
-                            <p>・ツインベッド（ベッド1600×2000） ＋ 畳スペース</p>
-                            <p>・バスあり</p>
-                            <p>・天然アロマの茶香炉</p>
-                            <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
-                        </div>
-                    </div>
-                    <div class="float-r con_text-r">
-                        <div class="con_title">
-                            <p>お子様連れにおすすめ</p>
-                            <h2>
-                                ファミリールーム
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="float-r con_text-r fadein">
-                    <p class="text">
-                        リニューアルしていないお部屋です。和室8畳と洋間の広々としたお部屋。洋間にはベッドを2台配置。ベッドと畳、和と洋の過ごしやすさを追求しました。<br>
-                        お部屋にユニットバスがありますので、小さなお子様連れのお客様におすすめのお部屋です。<br><br>
-                        定員：2名～5名　／　広さ：52m&#178;
-                    </p>
-                    <!-- <div class="room_star_wrap">
-                        <p>
-                            EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
-                        </p>
-                    </div> -->
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617424" class="flex">
-                        <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
-                    </a>
-                    <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_8_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_8_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_8_3.png"></li>
-                    </ul>
-                    <div class="sp room_point">
-                        <p>・ツインベッド（ベッド1600×2000） ＋ 畳スペース</p>
-                        <p>・バスあり</p>
-                        <p>・天然アロマの茶香炉</p>
-                        <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
+                        <p>・加湿機能付空気清浄機</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- 和室10畳 -->
-        <div class="content bg_wave room9">
+        <div class="content bg_b_c room8">
             <div class="inner">
                 <div class="con-sp-fv fadein">
-                    <div class="float-r con_mv">
+                    <div class="float-l con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main9.jpg" alt="">
                         </div>
@@ -558,7 +510,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-l con_text-l">
+                    <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>最もリーズナブルに利用できる</p>
                             <h2>
@@ -567,9 +519,9 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-l con_text-l fadein">
+                <div class="float-r con_text-r fadein">
                     <p class="text">
-                    2022年冬に畳、室内壁紙を時代にあわせて抗ウイルス仕様にリニューアル。お子様連れファミリーに安心安全にご利用いただけるお部屋です。<br><br>
+                    2023年冬に畳、室内壁クロス、障子、襖紙を時代の流れにあわせて抗ウイルス仕様に改修しました。お部屋にお風呂はありませんが、お子様連れのファミリー利用に特におすすめです。<br><br>
                         定員：1名～4名　／　広さ：和室10畳＋広縁
                     </p>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617426" class="flex">
@@ -589,6 +541,61 @@ get_header(); ?>
             </div>
         </div>
 
+        <!-- ファミリールーム -->
+        <div class="content bg_wave room9">
+            <div class="inner">
+                <div class="con-sp-fv fadein">
+                    <div class="float-r con_mv">
+                        <div class="zoom" style="border-radius: 3.8rem;">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main8.png" alt="">
+                        </div>
+                        <div class="pc room_point">
+                            <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
+                            <p>・ユニットバス　付</p>
+                            <p>・天然アロマの茶香炉</p>
+                            <p>・加湿機能付空気清浄機</p>
+                            <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
+                        </div>
+                    </div>
+                    <div class="float-l con_text-l">
+                        <div class="con_title">
+                            <p>お子様連れにおすすめ</p>
+                            <h2>
+                                ファミリールーム
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-l con_text-l fadein">
+                    <p class="text">
+                    広さは52㎡。和室8畳と洋間の広々としたお部屋。洋間にはベッドを2台あります。お部屋にユニットバスがあり、小さなお子様連れのご家族にとくにおすすめです。こちらは未リニューアルのお部屋です。<br><br>
+                        定員：2名～5名　／　広さ：52m&#178;
+                    </p>
+                    <!-- <div class="room_star_wrap">
+                        <p>
+                            EPSON製超短視点プロジェクター、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、フリーWi-Fi
+                        </p>
+                    </div> -->
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617424" class="flex">
+                        <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
+                    </a>
+                    <ul class="slick">
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_8_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_8_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_8_3.png"></li>
+                    </ul>
+                    <div class="sp room_point">
+                        <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
+                        <p>・ユニットバス　付</p>
+                        <p>・天然アロマの茶香炉</p>
+                        <p>・加湿機能付空気清浄機</p>
+                        <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         <!-- ユニバーサルルーム -->
         <div class="content bg_b_c room10">
             <div class="inner">
@@ -598,7 +605,7 @@ get_header(); ?>
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main10.png" alt="">
                         </div>
                         <div class="pc room_point">
-                            <p>・ツインベッド（ベッド1100×2000） ＋ 畳スペース</p>
+                            <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
                             <p>・バリアフリー対応のバス・トイレ付</p>
                             <p>・天然アロマの茶香炉</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
@@ -615,8 +622,8 @@ get_header(); ?>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                        未リニューアルのお部屋です。広さは73㎡と風か和洋室タイプのなかでもっとも広く、専用浴室・トイレを完備したバリアフリー対応のお部屋です。<br>
-                        お部屋にお風呂がございますので、車椅子の方のご利用だけでなく小さなお子様連れファミリーにもおすすめのお部屋です。<br><br>
+                    広さ73㎡と風かでもっとも広い和洋室タイプのお部屋です。車椅子ではいれる広々した脱衣場、手すり付お風呂、トイレがあります。<br>
+                    お部屋にお風呂がありますので、車椅子の方だけでなく小さなお子様連れのファミリー利用にもおすすめします。こちらは未リニューアルのお部屋です。<br><br>
                         定員：2名～5名　／　広さ：73m&#178;
                     </p>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617425" class="flex">
@@ -628,7 +635,7 @@ get_header(); ?>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_3.png"></li>
                     </ul>
                     <div class="sp room_point">
-                        <p>・ツインベッド（ベッド1100×2000） ＋ 畳スペース</p>
+                        <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
                         <p>・バリアフリー対応のバス・トイレ付</p>
                         <p>・天然アロマの茶香炉</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
