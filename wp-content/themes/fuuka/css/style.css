@@ -275,6 +275,7 @@
   border-radius: 2.2rem;
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
+  height: 100%;
   background-color: #fff;
 }
 .card02 .slide-media {
