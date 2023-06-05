@@ -56,7 +56,7 @@ get_header(); ?>
                                 <?php if( get_sub_field('topic_detail_img') ) { ?>
                                     <div class="news_img">
                                         <img src="<?php the_sub_field('topic_detail_img'); ?>">
-                                        <a href="<?php the_sub_field('topic_detail_img'); ?>" data-lightbox="img" data-title="<?php the_sub_field('topic_detail_img_info'); ?>" class="topic_detail_img_size">
+                                        <a href="<?php the_sub_field('topic_detail_img'); ?>" data-lightbox="img" data-title="<?php the_sub_field('topic_detail_img_info'); ?>" class="news_img_size">
                                             <p>画像を拡大</p>
                                         </a>
                                     </div>
