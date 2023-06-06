@@ -319,6 +319,15 @@
   display: block;
   color: #868686;
   font-weight: 400;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  min-height: 0;
+  padding-bottom: 0;
+  max-height: 7.1rem;
+  opacity: 1 !important;
 }
 .card02 .slide-detail {
   line-height: 2.4rem;
@@ -621,6 +630,15 @@
   margin-top: 0.8rem;
   letter-spacing: 0.2rem;
   line-height: 2.3rem;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  min-height: 0;
+  padding-bottom: 0;
+  max-height: 7.1rem;
+  opacity: 1 !important;
 }
 .plan .btn{
   margin: 4rem auto 0;
