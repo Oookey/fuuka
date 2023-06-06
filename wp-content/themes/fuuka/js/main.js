@@ -208,3 +208,14 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   window.addEventListener('load', function(){
     initSwiper();
   }); 
+
+  // 文字数制限
+  const applyTextLimit = () => {
+    let maxLength = 50; //上限文字数
+    let limitedText = document.getElementById('topic_text');
+    let originalText = limitedText.innerText;
+    if (originalText.length > maxLength) {
+      limitedText.innerText = originalText.substr(0, maxLength) + '…続きを読む';
+    }
+  }
+  applyTextLimit();
