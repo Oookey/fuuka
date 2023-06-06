@@ -339,10 +339,10 @@
             transform: scale(1.2);
   }
   .top_topic .l-wrapper{
-    height: 60rem;
+    height: 49rem;
   }
   .card02{
-    height: 59rem;
+    height: 49rem;
   }
   .card02 .slide {
     -webkit-transition: var(--transition);
