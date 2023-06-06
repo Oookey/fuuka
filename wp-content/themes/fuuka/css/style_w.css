@@ -262,6 +262,9 @@
 
 
 /*===== トップページのスタイル調整 =====*/
+*{
+    min-height: 0vw; /* Safari clamp関数対策 */
+}
 .card02 .slide-detail{
     display: -webkit-box;
     -webkit-box-orient: vertical;
