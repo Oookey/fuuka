@@ -317,7 +317,8 @@ get_header(); ?>
                         <a href="<?php bloginfo('url'); ?>/activity/#a<?php the_ID(); ?>">
                             <img src="<?php the_field('act_mv'); ?>" alt="">
                             <h2><?php the_title(); ?></h2>
-                            <p class="plan_text"><?php the_field('act_detail'); ?></p>
+                            <p class="plan_text_pc"><?php the_field('act_detail'); ?></p>
+                            <p class="plan_text_sp"><?php the_field('act_detail'); ?></p>
                         </a>
                     </li>
 

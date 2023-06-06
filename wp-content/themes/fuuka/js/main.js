@@ -209,15 +209,9 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   }); 
 
   // 文字数制限
-  // const el = document.getElementById('topic_text');
-  // const str = el.textContent;
-  // const len = 46;
-  // if(str.length > len){
-  //     el.textContent = str.substring(0, len)+'…続きを読む';
-  // }
   $(function() {
     var count = 42;
-  $('.slide-detail,.plan_text').each(function() {
+  $('.slide-detail').each(function() {
       var thisText = $(this).text();
        var textLength = thisText.length;
         if (textLength > count) {
@@ -225,5 +219,31 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
            var insertText = showText += '…続きを読む';
            $(this).html(insertText);
        };
-   });
- });
+    });
+  });
+
+  $(function() {
+  var count = 111;
+  $('.plan_text_pc').each(function() {
+    var thisText = $(this).text();
+     var textLength = thisText.length;
+      if (textLength > count) {
+         var showText = thisText.substring(0, count);
+         var insertText = showText += '…続きを読む';
+         $(this).html(insertText);
+      };
+    });
+  });
+
+  $(function() {
+    var count = 45;
+    $('.plan_text_sp').each(function() {
+      var thisText = $(this).text();
+       var textLength = thisText.length;
+        if (textLength > count) {
+           var showText = thisText.substring(0, count);
+           var insertText = showText += '…続きを読む';
+           $(this).html(insertText);
+        };
+      });
+    });
