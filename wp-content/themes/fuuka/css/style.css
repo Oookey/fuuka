@@ -2076,9 +2076,11 @@
 .room_ame_inner li{
   width: 32.1rem;
   text-align: center;
+  margin-right: 3rem;
 }
 .room_ame_inner li img{
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 #room .img_bg_1::before,#room .img_bg_2::before,#room .img_bg_3::before,#room .img_bg_4::before,#room .img_bg_5::before{
   content: none;
@@ -2195,6 +2197,7 @@
   }
   .room_ame_inner li img{
     border-radius: 3.8rem;
+    margin-bottom: 1rem;
   }
   .room_ame_inner{
     flex-wrap: wrap;
@@ -2202,6 +2205,7 @@
   .room_ame_inner li{
     width: 47%;
     margin-bottom: 2rem;
+    margin-right: 0;
   }
   #room .content:nth-of-type(odd){
     padding-top: 33vw;

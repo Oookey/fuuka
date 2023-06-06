@@ -2037,9 +2037,11 @@
 .room_ame_inner li{
   width: 32.1rem;
   text-align: center;
+  margin-right: 3rem;
 }
 .room_ame_inner li img{
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 @media screen and (max-width: 767px){
   #room .content {
