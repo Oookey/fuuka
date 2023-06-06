@@ -599,7 +599,7 @@
 .plan .slick_exp{
   margin-top: 5.1rem;
   margin-bottom: 0 !important;
-  max-height: 48rem;
+  max-height: 48rem; 
 }
 .plan .slick_exp .slick_exp_li{
   width: 67rem;
