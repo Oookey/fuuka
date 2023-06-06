@@ -270,7 +270,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    min-height: 7.2rem;
+    min-height: 0;
     padding-bottom: 0;
 }
 
@@ -279,6 +279,8 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+    min-height: 0;
+    padding-bottom: 0;
 }
 
 .swiper-a #sb_instagram{
