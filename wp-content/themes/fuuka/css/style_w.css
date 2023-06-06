@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+*{
+    min-height: 0vw; /* Safari clamp関数対策 */
+}
 /*===== ニュース詳細追加CSS =====*/
 .detail_inner .news_subtitle{
     font-size: 1.8rem;
@@ -262,9 +264,6 @@
 
 
 /*===== トップページのスタイル調整 =====*/
-*{
-    min-height: 0vw; /* Safari clamp関数対策 */
-}
 .card02 .slide-detail{
     display: -webkit-box;
     -webkit-box-orient: vertical;
