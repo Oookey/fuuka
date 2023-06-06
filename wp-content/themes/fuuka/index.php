@@ -75,10 +75,10 @@ get_header(); ?>
                                             <div class="slide-content">
                                                 <h2 class="slide-title"><?php the_title(); ?></h2>
                                                 <time class="slide-date" datetime="<?php the_time('Y.m.d'); ?>"><?php the_time('Y.m.d'); ?></time>
-                                                <p class="slide-detail"><?php the_field('topic_detail_toppage_info'); ?><span></span></p>
+                                                <span><p class="slide-detail"><?php the_field('topic_detail_toppage_info'); ?></p></span>
                                             </div>
                                         </article>
-                                    </a> 
+                                    </a>
 
                                 <?php endwhile; ?>
                                 <?php wp_reset_query(); ?>
