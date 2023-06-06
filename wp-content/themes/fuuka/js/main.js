@@ -209,9 +209,21 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   }); 
 
   // 文字数制限
-  const el = document.getElementById('topic_text,plan_text');
-  const str = el.textContent;
-  const len = 46;
-  if(str.length > len){
-      el.textContent = str.substring(0, len)+'…続きを読む';
-  }
+  // const el = document.getElementById('topic_text');
+  // const str = el.textContent;
+  // const len = 46;
+  // if(str.length > len){
+  //     el.textContent = str.substring(0, len)+'…続きを読む';
+  // }
+  $(function() {
+    var count = 46;
+  $('topic_text').each(function() {
+      var thisText = $(this).text();
+       var textLength = thisText.length;
+        if (textLength > count) {
+           var showText = thisText.substring(0, count);
+           var insertText = showText += '…続きを読む';
+           $(this).html(insertText);
+       };
+   });
+ });
