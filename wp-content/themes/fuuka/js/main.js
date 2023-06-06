@@ -223,7 +223,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   });
 
   $(function() {
-  var count = 111;
+  var count = 114;
   $('.plan_text_pc').each(function() {
     var thisText = $(this).text();
      var textLength = thisText.length;
