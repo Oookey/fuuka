@@ -267,7 +267,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    min-height: 7.2rem;
+    /* min-height: 7.2rem; */
 }
 
 .plan .slick_exp .slick_exp_li p{
