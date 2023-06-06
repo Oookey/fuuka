@@ -78,7 +78,7 @@ get_header(); ?>
                                                 <p class="slide-detail"><?php the_field('topic_detail_toppage_info'); ?></p>
                                             </div>
                                         </article>
-                                    </a>
+                                    </a> 
 
                                 <?php endwhile; ?>
                                 <?php wp_reset_query(); ?>
