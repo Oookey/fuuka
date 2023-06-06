@@ -204,7 +204,6 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
       }
     });
   };
-
   window.addEventListener('load', function(){
     initSwiper();
   }); 
