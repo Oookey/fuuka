@@ -249,6 +249,6 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   });
 
   $(function() {
-      $("li:contains('…続きを読む')").css("color", "868686");
+      $("p:contains('…続きを読む')").css("color", "868686");
   });
     
