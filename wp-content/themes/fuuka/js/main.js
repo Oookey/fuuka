@@ -245,5 +245,5 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
            var insertText = showText += '…続きを読む';
            $(this).html(insertText);
         };
-      });
     });
+  });
