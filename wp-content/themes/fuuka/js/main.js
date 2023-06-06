@@ -217,7 +217,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   // }
   $(function() {
     var count = 46;
-  $('topic_text').each(function() {
+  $('.slide-detail').each(function() {
       var thisText = $(this).text();
        var textLength = thisText.length;
         if (textLength > count) {
