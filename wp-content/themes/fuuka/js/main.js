@@ -218,6 +218,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
            var showText = thisText.substring(0, count);
            var insertText = showText += '…続きを読む';
            $(this).html(insertText);
+           $(this).css("color","#868686");
        };
     });
   });
