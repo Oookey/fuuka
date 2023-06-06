@@ -210,12 +210,12 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   }); 
 
   // 文字数制限
-  const el = document.getElementById('topic_text');
-  const str = el.textContent;
-  const len = 46;
-  if(str.length > len){
-      el.textContent = str.substring(0, len)+'…続きを読む';
-  }
+  // const el = document.getElementById('topic_text');
+  // const str = el.textContent;
+  // const len = 46;
+  // if(str.length > len){
+  //     el.textContent = str.substring(0, len)+'…続きを読む';
+  // }
 
 
 let contents = document.getElementById('topic_text');
