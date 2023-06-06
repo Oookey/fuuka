@@ -210,10 +210,9 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   }); 
 
   // 文字数制限
-  const limit = document.querySelector(".slide-detail");
-  const str = limit.textContent;
-  const len = 35; // 半角50字（全角約25字）
-  if (str.length > len) {
-    limit.textContent = str.substring(0, len) + "…続きを読む";
+  const el = document.getElementById('topic_text');
+  const str = el.textContent;
+  const len = 45;
+  if(str.length > len){
+      el.textContent = str.substring(0, len)+'…続きを読む';
   }
-  
