@@ -268,6 +268,7 @@
     -webkit-line-clamp: 3;
     overflow: hidden;
     min-height: 7.2rem;
+    padding-bottom: 0;
 }
 
 .plan .slick_exp .slick_exp_li p{
