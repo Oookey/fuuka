@@ -70,14 +70,16 @@ get_header(); ?>
                                 ?>
 
                                     <a href="<?php echo get_permalink(); ?>" class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10" style="margin-right: 32px;">
-                                        <article class="slide">
-                                            <div class="slide-media img-cover"><img src="<?php the_field('topic_detail_toppage_img'); ?>" alt=""></div>
-                                            <div class="slide-content">
-                                                <h2 class="slide-title"><?php the_title(); ?></h2>
-                                                <time class="slide-date" datetime="<?php the_time('Y.m.d'); ?>"><?php the_time('Y.m.d'); ?></time>
-                                                <p class="slide-detail"><?php the_field('topic_detail_toppage_info'); ?></p>
-                                            </div>
-                                        </article>
+                                        <span>
+                                            <article class="slide">
+                                                <div class="slide-media img-cover"><img src="<?php the_field('topic_detail_toppage_img'); ?>" alt=""></div>
+                                                <div class="slide-content">
+                                                    <h2 class="slide-title"><?php the_title(); ?></h2>
+                                                    <time class="slide-date" datetime="<?php the_time('Y.m.d'); ?>"><?php the_time('Y.m.d'); ?></time>
+                                                    <p class="slide-detail"><?php the_field('topic_detail_toppage_info'); ?></p>
+                                                </div>
+                                            </article>
+                                        </span>
                                     </a>
 
                                 <?php endwhile; ?>
