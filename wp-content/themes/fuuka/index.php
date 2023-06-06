@@ -75,7 +75,7 @@ get_header(); ?>
                                             <div class="slide-content">
                                                 <h2 class="slide-title"><?php the_title(); ?></h2>
                                                 <time class="slide-date" datetime="<?php the_time('Y.m.d'); ?>"><?php the_time('Y.m.d'); ?></time>
-                                                <p class="slide-detail" id="topic_text"><?php the_field('topic_detail_toppage_info'); ?></p>
+                                                <p class="slide-detail"><?php the_field('topic_detail_toppage_info'); ?></p>
                                             </div>
                                         </article>
                                     </a> 
@@ -317,7 +317,7 @@ get_header(); ?>
                         <a href="<?php bloginfo('url'); ?>/activity/#a<?php the_ID(); ?>">
                             <img src="<?php the_field('act_mv'); ?>" alt="">
                             <h2><?php the_title(); ?></h2>
-                            <p><?php the_field('act_detail'); ?></p>
+                            <p class="plan_text"><?php the_field('act_detail'); ?></p>
                         </a>
                     </li>
 

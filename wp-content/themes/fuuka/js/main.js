@@ -216,8 +216,8 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   //     el.textContent = str.substring(0, len)+'…続きを読む';
   // }
   $(function() {
-    var count = 46;
-  $('.slide-detail').each(function() {
+    var count = 42;
+  $('.slide-detail,.plan_text').each(function() {
       var thisText = $(this).text();
        var textLength = thisText.length;
         if (textLength > count) {
