@@ -216,3 +216,4 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   if (str.length > len) {
     limit.textContent = str.substring(0, len) + "…続きを読む";
   }
+  
