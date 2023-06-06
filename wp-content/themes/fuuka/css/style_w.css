@@ -272,6 +272,7 @@
     overflow: hidden;
     min-height: 0;
     padding-bottom: 0;
+    max-height: 7.1rem;
 }
 
 .plan .slick_exp .slick_exp_li p{
@@ -281,6 +282,7 @@
     overflow: hidden;
     min-height: 0;
     padding-bottom: 0;
+    max-height: 7.1rem;
 }
 
 .swiper-a #sb_instagram{
