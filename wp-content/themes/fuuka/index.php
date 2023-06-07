@@ -27,16 +27,16 @@ get_header(); ?>
             <div class="top_fv_inner">
                 <div class="top_fv_movie">
                     <div class="in"> 
-                        <img src="<?php bloginfo('template_directory'); ?>/image/top_mv.png" alt="" class="movie">
-                        <!-- <video class="movie" src="<?php //bloginfo('template_directory'); ?>/movie/fuuka_mv.mp4" autoplay="" muted="" loop="" playsinline=""></video> -->
+                        <!-- <img src="<?php bloginfo('template_directory'); ?>/image/top_mv.png" alt="" class="movie"> -->
+                        <video class="movie" src="<?php //bloginfo('template_directory'); ?>/movie/index_movie.mp4" autoplay="" muted="" loop="" playsinline=""></video>
                     </div>
                 </div>
                 <!-- ↓↓↓　動画に差し替え時コメントアウト　↓↓↓ -->
-                <div class="top_fv_text fv_fadein">
+                <!-- <div class="top_fv_text fv_fadein">
                     <p><span>大人も子供も楽しめる</span></p>
                     <p><span>オールインクルーシブ</span></p>
                     <p><span>大切な人との思い出旅へ</span></p>
-                </div>
+                </div> -->
                 <!-- --------- -->
                 <div class="fv_menu pc">
                     <a href="https://www.instagram.com/hotel_fuka/?hl=ja" class="fv_menu_inner fv_fadein" target="_blank" rel="noopener">
