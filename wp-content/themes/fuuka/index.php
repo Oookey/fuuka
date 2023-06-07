@@ -28,7 +28,7 @@ get_header(); ?>
                 <div class="top_fv_movie">
                     <div class="in"> 
                         <!-- <img src="<?php bloginfo('template_directory'); ?>/image/top_mv.png" alt="" class="movie"> -->
-                        <video class="movie" src="<?php //bloginfo('template_directory'); ?>/movie/index_movie.mp4" autoplay="" muted="" loop="" playsinline=""></video>
+                        <video class="movie" src="<?php bloginfo('template_directory'); ?>/movie/index_movie.mp4" autoplay="" muted="" loop="" playsinline=""></video>
                     </div>
                 </div>
                 <!-- ↓↓↓　動画に差し替え時コメントアウト　↓↓↓ -->
