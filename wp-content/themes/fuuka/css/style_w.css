@@ -316,12 +316,12 @@
 @media screen and (max-width: 767px){
     .top_fv_movie .movie{
         z-index: 1; /* safari用 */
+        width: 137rem;
     }
 }
 @media screen and (max-width: 414px){
     .top_fv_movie .movie{
         width: 131rem;
-        z-index: 1; /* safari用 */
     }
 }
 @media screen and (max-width: 390px){
