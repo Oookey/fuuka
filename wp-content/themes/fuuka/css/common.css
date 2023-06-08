@@ -1473,7 +1473,7 @@ footer .hotel_net p {
 }
 .cdsROW.narrow{
     width: 17rem !important;
-    height: 14.5rem;
+    height: 10rem;
     border-radius: 1.2rem;
     position: relative;
 }
@@ -1487,18 +1487,21 @@ footer .hotel_net p {
     padding: 0 !important;
 }
 .cdsROW.narrow .logo{
-    top: 1.8rem;
+    top: 0.7rem;
+}
+.cdsROW.cx_brand_refresh .logo img{
+    width: 9rem;
 }
 .cdsROW.narrow .cdsLocName{
-    top: 5.8rem;
-    font-size: 1.6rem;
+    top: 3.9rem;
+    font-size: 1.5rem;
     white-space: nowrap;
 }
 .cdsROW.narrow .cdsRating{
-    top: 9.2rem;
+    top: 6.4rem;
 }
 .ui_bubble_rating:before{
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
 .cdsROW .cdsLocName a{
     color: #292929;
@@ -1507,9 +1510,12 @@ footer .hotel_net p {
 .cakejp{
     position: absolute;
     right: 0;
+    top: 13rem;
 }
 .cakejp img{
     width: 17rem;
+    height: auto;
+    border-radius: 1.2rem;
 }
 /* Windows---- */
 .win footer{
