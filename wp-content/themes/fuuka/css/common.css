@@ -1653,6 +1653,10 @@ footer .hotel_net p {
     footer .hotel_net p {
         font-size: 1.2rem;
     }
+    /* banner */
+    .footer_banner{
+        display: flex;
+    }
     /* tripadviser */
     #TA_cdsratingsonlynarrow484{
         top: auto;
