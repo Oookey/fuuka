@@ -309,3 +309,27 @@
         padding-bottom: 7rem;
     }
 }
+
+
+
+/*===== トップMVムービースマホ表示調整 =====*/
+@media screen and (max-width: 414px){
+    .top_fv_movie .movie{
+        width: 131rem;
+    }
+}
+@media screen and (max-width: 390px){
+    .top_fv_movie .movie{
+        width: 123rem;
+    }
+}
+@media screen and (max-width: 375px){
+    .top_fv_movie .movie{
+        width: 119rem;
+    }
+}
+
+
+
+
+
