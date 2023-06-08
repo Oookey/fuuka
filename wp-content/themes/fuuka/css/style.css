@@ -2916,9 +2916,13 @@
 }
 #news_detail.topic_detail .news{
   margin-bottom: 5rem;
+  padding: 0;
 }
 #news_detail.topic_detail .detail_inner .news_img{
   max-width: 63rem;
+}
+#news_detail.topic_detail .detail{
+  width: 90%;
 }
 @media screen and (max-width: 767px){
   #news_detail.topic_detail .img_bg_1::before{

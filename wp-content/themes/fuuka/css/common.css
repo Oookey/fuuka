@@ -1490,7 +1490,7 @@ footer .hotel_net p {
     top: 0.7rem;
 }
 .cdsROW.cx_brand_refresh .logo img{
-    width: 9rem;
+    width: 9rem !important;
 }
 .cdsROW.narrow .cdsLocName{
     top: 3.9rem;
