@@ -1026,6 +1026,7 @@
   .top_fv_movie .in{
     padding-bottom: 70rem !important;
     border-radius: 0 0 7.7rem 0;
+    z-index: 1; /* safari用 */
   }
   .subpage .top_fv{
     padding-right: 0rem;

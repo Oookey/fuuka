@@ -313,9 +313,15 @@
 
 
 /*===== トップMVムービースマホ表示調整 =====*/
+@media screen and (max-width: 767px){
+    .top_fv_movie .movie{
+        z-index: 1; /* safari用 */
+    }
+}
 @media screen and (max-width: 414px){
     .top_fv_movie .movie{
         width: 131rem;
+        z-index: 1; /* safari用 */
     }
 }
 @media screen and (max-width: 390px){
@@ -328,8 +334,3 @@
         width: 119rem;
     }
 }
-
-
-
-
-

@@ -2,23 +2,32 @@
 <!------------- HEADER ------------->
 
 <!-- ↓↓↓ MAIN ↓↓↓ -->
-<main id="news_detail" class="subpage contact">
-        <!-- ページタイトル -->
-        <div class="pageinfo bg_b_c">
-            <div class="c_info_bg inner">
-                <div class="pageinfo_inner" style="text-align: center;">
-                    <p style="margin:10rem auto 3rem; font-size:1.8rem;">
-                        お探しのページは見つかりませんでした
-                    </p>
-
-                    <a href="<?php bloginfo('url'); ?>/" class="flex">
-                        <p class="btn"><span class="arrow"></span>トップページへ戻る</p>
-                    </a>
+<main id="news_detail" class="subpage pp">
+        
+        <!-- 404 -->
+        <div class="content">
+            <div class="news">
+                <div class="inner">
+                    <div class="detail">
+                        <div class="detail_title">
+                            <h2>指定したページが見つかりませんでした</h2>
+                        </div>
+                        <div class="detail_inner">
+                            <p class="news_info">
+                                ページが移動または削除されたか、URLの入力間違いの可能性があります。
+                            </p>
+                            <div>
+                                <a href="<?php bloginfo('url'); ?>/">
+                                    <p class="btn"><span class="arrow"></span>トップページへ</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        </main>
+    </main>
     <!-- ↑↑↑ MAIN ↑↑↑ -->
 
 
