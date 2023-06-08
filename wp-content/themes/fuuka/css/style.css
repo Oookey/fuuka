@@ -36,12 +36,13 @@
     position: relative;
 }
 .top_fv_movie{
-    overflow: hidden;
     height: 100%;
     border-radius: 0 0 77px 0;
     -webkit-border-radius: 0 0 77px 0;
     -moz-border-radius: 0 0 77px 0;
     -khtml-border-radius: 0 0 77px 0;
+    clip-path: content-box;
+    overflow: hidden;
 }
 .top_fv_movie .in{
     position: relative;
