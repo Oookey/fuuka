@@ -35,6 +35,7 @@
 .top_fv,.top_fv_inner{
     position: relative;
 }
+
 .top_fv_movie{
     height: 100%;
     border-radius: 0 0 77px 0;
@@ -44,6 +45,7 @@
     clip-path: content-box;
     overflow: hidden;
 }
+
 .top_fv_movie .in{
     position: relative;
     padding-bottom: 83rem;
