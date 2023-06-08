@@ -39,6 +39,7 @@
     overflow: hidden;
     border-radius: 0 0 7.7rem 0;
     height: 100%;
+    z-index: 1; /* safari用 */
 }
 .top_fv_movie .in{
     position: relative;
@@ -1026,7 +1027,6 @@
   .top_fv_movie .in{
     padding-bottom: 70rem !important;
     border-radius: 0 0 7.7rem 0;
-    z-index: 1; /* safari用 */
   }
   .subpage .top_fv{
     padding-right: 0rem;
