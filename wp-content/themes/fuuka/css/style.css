@@ -38,10 +38,10 @@
 .top_fv_movie{
     overflow: hidden;
     height: 100%;
-    border-radius: 0 0 7.7rem 0;
-    -webkit-border-radius: 0 0 7.7rem 0;
-    -moz-border-radius: 0 0 7.7rem 0;
-    -khtml-border-radius: 0 0 7.7rem 0;
+    border-radius: 0 0 77px 0;
+    -webkit-border-radius: 0 0 77px 0;
+    -moz-border-radius: 0 0 77px 0;
+    -khtml-border-radius: 0 0 77px 0;
 }
 .top_fv_movie .in{
     position: relative;
