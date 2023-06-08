@@ -2921,9 +2921,6 @@
 #news_detail.topic_detail .detail_inner .news_img{
   max-width: 63rem;
 }
-#news_detail.topic_detail .detail{
-  width: 90%;
-}
 @media screen and (max-width: 767px){
   #news_detail.topic_detail .img_bg_1::before{
     width: 18.3rem;
@@ -2931,6 +2928,9 @@
     left: 50%;
     transform: translateX(-50%);
     top: -23rem;
+  }
+  #news_detail.topic_detail .detail{
+    width: 90%;
   }
 }
 
