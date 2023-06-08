@@ -37,9 +37,11 @@
 }
 .top_fv_movie{
     overflow: hidden;
-    border-radius: 0 0 7.7rem 0;
     height: 100%;
-    z-index: 1; /* safari用 */
+    border-radius: 0 0 7.7rem 0;
+    -webkit-border-radius: 0 0 7.7rem 0;
+    -moz-border-radius: 0 0 7.7rem 0;
+    -khtml-border-radius: 0 0 7.7rem 0;
 }
 .top_fv_movie .in{
     position: relative;
