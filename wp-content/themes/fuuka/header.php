@@ -11,12 +11,7 @@
     <meta name="author" content="1000Mのおもてなし 八ヶ岳ホテル風か" />
     <link rel="shortcut icon" href="<?php bloginfo('template_url');?>/image/favicon.ico">
     <link rel="apple-touch-icon" href="<?php bloginfo('template_url');?>/image/webclip.png" />
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/reset.css?ver=<?php echo date('YmdHis'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/common.css?ver=<?php echo date('YmdHis'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/style.css?ver=<?php echo date('YmdHis'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/style_w.css?ver=<?php echo date('YmdHis'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lightbox.css?ver=<?php echo date('YmdHis'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/clearfix.css?ver=<?php echo date('YmdHis'); ?>">
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/master.css?ver=<?php echo date('YmdHis'); ?>">
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
