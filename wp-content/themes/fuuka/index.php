@@ -28,13 +28,14 @@ get_header(); ?>
                 <div class="top_fv_movie">
                     <div class="in"> 
                         <!-- <img src="<?php bloginfo('template_directory'); ?>/image/top_mv.png" alt="" class="movie"> -->
+
                         <video class="movie pc" src="<?php bloginfo('template_directory'); ?>/movie/index_movie.mp4" autoplay="" muted="" loop="" playsinline=""></video>
 
                         <video class="movie sp" src="<?php bloginfo('template_directory'); ?>/movie/index_movie_sp.mp4" autoplay="" muted="" loop="" playsinline=""></video>
                         
                     </div>
                 </div>
-                <!-- ↓↓↓　動画に差し替え時コメントアウト　↓↓↓ -->
+                <!-- ↓↓↓　動画に差し替え時 コメントアウト　↓↓↓ -->
                 <!-- <div class="top_fv_text fv_fadein">
                     <p><span>大人も子供も楽しめる</span></p>
                     <p><span>オールインクルーシブ</span></p>
