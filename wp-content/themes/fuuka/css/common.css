@@ -1541,7 +1541,7 @@ footer .hotel_net p {
     }
     .footer1_inner {
         flex-direction: column;
-        padding-bottom: 5.9rem;
+        padding-bottom: 18rem;
     }
     footer .adress {
         margin: 0 auto;
@@ -1652,6 +1652,19 @@ footer .hotel_net p {
     }
     footer .hotel_net p {
         font-size: 1.2rem;
+    }
+    /* tripadviser */
+    #TA_cdsratingsonlynarrow484{
+        top: auto;
+        bottom: -14rem;
+        right: auto;
+        left: calc(50% - 17.5rem);
+    }
+    /* cake.jp */
+    .cakejp{
+        top: auto;
+        bottom: -14rem;
+        right: calc(50% - 17.5rem);
     }
 }
 @media screen and (max-width: 375px){
