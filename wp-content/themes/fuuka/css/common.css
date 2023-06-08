@@ -1503,6 +1503,14 @@ footer .hotel_net p {
 .cdsROW .cdsLocName a{
     color: #292929;
 }
+/* cake.jp */
+.cakejp{
+    position: absolute;
+    right: 0;
+}
+.cakejp img{
+    width: 17rem;
+}
 /* Windows---- */
 .win footer{
     font-family: 'Noto Sans JP', sans-serif;

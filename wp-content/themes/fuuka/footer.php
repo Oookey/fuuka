@@ -61,6 +61,10 @@
                 <!-- tripadvisor -->
                 <div id="TA_cdsratingsonlynarrow484" class="TA_cdsratingsonlynarrow pc"><div id="CDSRATINGWIDGET484" class="cdsROW white   border   narrow   cx_brand_refresh "> <div id="CDSROWCONTAINER484" class="cdsROWContainer"> <div id="CDSROWLOC484" class="cdsComponent cdsLocName"> <a href="http://www.tripadvisor.jp/Hotel_Review-g1122381-d1127266-Reviews-Yatsugatake_Hotel_Fuka-Hokuto_Yamanashi_Prefecture_Koshinetsu_Chubu-m18034.html" target="_blank" onclick="ta.cds.handleTALink(18034, this); return true;" rel="nofollow"> 八ヶ岳ホテル 風か </a> </div> <div id="CDSROWRATING484" class="cdsComponent cdsRating"> <span class="ui_bubble_rating bubble_45"></span> <br> <span> 249件の口コミ </span> </div> <div id="CDSROWLOGO484" class="cdsComponent logo"> <a target="_blank" href="https://www.tripadvisor.jp/"><img src="https://www.tripadvisor.jp/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-18034-2.svg" alt="Tripadvisor"></a> </div> </div> </div>  </div>
                 <script src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=484&amp;locationId=1127266&amp;lang=ja&amp;border=true&amp;display_version=2"></script>
+                <!-- cake.jp -->
+                <a href="https://cake.jp/inn/cart/hotel-fuuka/&r=1/" class="cakejp">
+                    <img src="<?php bloginfo('template_directory'); ?>/image/cakejp.jpg" alt="">
+                </a>
 
                 <div class="btn_box flex">
                     <!-- <div>
