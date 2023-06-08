@@ -312,7 +312,7 @@
 
 
 
-/*===== トップMVムービースマホ表示調整 =====*/
+/*===== トップ MVムービースマホ表示調整 =====*/
 @media screen and (max-width: 767px){
     .top_fv_movie .movie{
         z-index: 1; /* safari用 */
