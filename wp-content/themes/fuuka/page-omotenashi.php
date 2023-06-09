@@ -335,6 +335,33 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+        <!-- No.10 記念日旅行も風かにおまかせ！ -->
+        <div class="content hos_c hos_bg-1 hos_c8">
+            <div class="inner">
+                <div class="con-sp-fv fadein">
+                    <div class="float-l con_mv">
+                        <figure class="zoom">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/hos_c_img10-1.png" alt="" class="img">
+                        </figure>
+                        <figure>
+                            <img src="<?php bloginfo('template_directory'); ?>/image/hos_c_img10-2.png" alt="" class="img">
+                        </figure>
+                    </div>
+                    <div class="float-r con_text-r">
+                        <div class="con_title">
+                            <h2>記念日旅行も風かにおまかせ！<br class="pc">記念日のおもてなし</h2>
+                            <p class="time"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-r con_text-r fadein">
+                    <p class="text">
+                    \ 記念日旅行は風かで決まり/<br>お誕生日、結婚記念日、還暦のお祝い、、、などなど記念日のお祝いでたくさんのお客様にお泊りいただいております。<br>事前予約が必要ですのでお気軽にお電話、メールでお申し付けくださいね。
+                    </p>
+                    <a class="btnhttps://mms.oookey.io/fuuka/topic/anniversary/">詳細はこちら</a>
+                </div>
+            </div>
+        </div>
         <!-- 大人の方におすすめのおもてなし-->
         <div id="hos_a" class="content hos_bg-2 hos_c_title">
             <div class="inner">
