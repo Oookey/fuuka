@@ -400,7 +400,7 @@ get_header(); ?>
 
         <!-- RELAXZATION　和（なごみ） -->
         <div class="content bg_b_c about10" id="about10">
-            <div class="inner img_bg_1">
+            <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
                         <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main10.jpg" alt="">
@@ -409,7 +409,7 @@ get_header(); ?>
                         <div class="con_title">
                             <p>整体マッサージで心も身体もリフレッシュしませんか</p>
                             <h2>
-                            RELAXZATION　和（なごみ）
+                            RELAXZATION<br>和(なごみ)
                             </h2>
                         </div>
                     </div>
@@ -417,8 +417,8 @@ get_header(); ?>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
                         整体マッサージが6月より始まりました。<br><br>
-                        場所　　ホテル内２階施術室（施術者は男性）<br><br>
-                        受付終了　20：00/／<br class="sp">最終スタート　21：00
+                        場所　<br class="sp">ホテル内２階施術室(施術者は男性)<br>
+                        受付終了　20：00／<br class="sp">最終スタート　21：00
                     </p>
                     <div class="about_point_wrap">
                         <p>料金</p>
