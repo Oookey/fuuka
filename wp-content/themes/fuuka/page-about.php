@@ -408,7 +408,7 @@ get_header(); ?>
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
-                            <p>整体マッサージで心も身体もリフレッシュしませんか</p>
+                            <p>整体マッサージで心も身体もリフレッシュしませんか？</p>
                             <h2>
                             RELAXZATION<br>和(なごみ)
                             </h2>
@@ -418,9 +418,9 @@ get_header(); ?>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
                         整体マッサージが6月より始まりました。<br><br>
-                        事前にご予約される場合は<br><a href="tel:0551366414">0551-36-6414</a><span>（電話受付時間9：00～21：00）</span>までご予約ください。<br class="pc">当日も受付ておりますが、事前にご予約されることをお勧めします｡<br><br>
+                        事前にご予約される場合は<br><a href="tel:0551366414">0551-36-6414</a><span>（電話受付時間9：00～21：00）</span>までお電話ください。<br class="pc">当日も受付ておりますが、前日までにご予約されることをお勧めします｡<br><br>
                         場所　<br class="sp">ホテル内２階施術室<br class="sp">(施術者は男性)<br>
-                        受付終了　20：00／<br class="sp">最終スタート　21：00
+                        当日受付終了　20：00／<br class="sp">最終スタート　21：00
                     </p>
                     <div class="about_point_wrap">
                         <p>料金</p>
