@@ -2278,10 +2278,10 @@
   padding-bottom: 5rem;
 } */
 .bg_wave.about9{
-  background-image: url(../image/body_bg_top.png);
+  /* background-image: url(../image/body_bg_top.png);
   background-position: 0 0;
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 #about .content:nth-of-type(odd){
   padding-top: 15vw;
