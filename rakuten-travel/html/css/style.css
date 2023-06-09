@@ -3260,6 +3260,10 @@ margin-top: 8rem;
 .content.hos_c10 .con_text-r a{
   margin-top: 2rem;
 }
+.hos_c10 h2{
+  font-size: 2.8rem;
+  line-height: 1.3;
+}
  @media screen and (max-width: 767px){
   #hos{
     padding-top: 8rem;
