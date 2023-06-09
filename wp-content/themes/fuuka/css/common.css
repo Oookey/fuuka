@@ -1541,7 +1541,7 @@ footer .hotel_net p {
     }
     .footer1_inner {
         flex-direction: column;
-        padding-bottom: 18rem;
+        /* padding-bottom: 18rem; */
     }
     footer .adress {
         margin: 0 auto;
@@ -1656,19 +1656,21 @@ footer .hotel_net p {
     /* banner */
     .footer_banner{
         display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 2rem;
     }
     /* tripadviser */
     #TA_cdsratingsonlynarrow484{
-        top: auto;
-        bottom: -14rem;
-        right: auto;
-        left: calc(50% - 17.5rem);
+        position: static;
+        margin: 0.5rem;
     }
     /* cake.jp */
     .cakejp{
-        top: auto;
-        bottom: -14rem;
-        right: calc(50% - 17.5rem);
+        position: static;
+        margin: 0.5rem;
     }
 }
 @media screen and (max-width: 375px){
