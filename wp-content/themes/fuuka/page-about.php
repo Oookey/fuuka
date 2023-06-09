@@ -398,6 +398,53 @@ get_header(); ?>
             </div>
         </div>
 
+        <!-- RELAXZATION　和（なごみ） -->
+        <div class="content bg_b_c about10" id="about10">
+            <div class="inner img_bg_1">
+                <div class="con-sp-fv fadein">
+                    <div class="float-r con_mv zoom">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/about_photo_main10.jpg" alt="">
+                    </div>
+                    <div class="float-l con_text-l">
+                        <div class="con_title">
+                            <p>整体マッサージで心も身体もリフレッシュしませんか</p>
+                            <h2>
+                            RELAXZATION　和（なごみ）
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-l con_text-l fadein">
+                    <p class="text">
+                        整体マッサージが6月より始まりました。<br><br>
+                        場所　　ホテル内２階施術室（施術者は男性）<br><br>
+                        受付終了　20：00/／<br class="sp">最終スタート　21：00
+                    </p>
+                    <div class="about_point_wrap">
+                        <p>料金</p>
+                        <div class="flex">
+                            <p>
+                                全身コース<br>
+                                40分　6000円<br>
+                                60分　7500円<br>
+                                80分　9000円
+                            </p>
+                            <p style="margin-left: 5%;">
+                                足つぼコース<br>
+                                40分　6000円<br>
+                                60分　7500円
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <ul class="slick">
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_3.png"></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+
     </main>
     <!-- ↑↑↑ MAIN ↑↑↑ -->
 

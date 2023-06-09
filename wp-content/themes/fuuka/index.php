@@ -56,7 +56,7 @@ get_header(); ?>
         <!-- topic & news -->
         <div class="top_topic_news">
             <!-- topics -->
-            <div class="top_topic fadein">
+            <div class="top_topic fv_fadein">
                 <div class="topics_title">
                     <h2>Topic<br class="pc"><span>-特集-</span></h2>
                     <img src="<?php bloginfo('template_directory'); ?>/image/topics_illust.svg" alt="">
