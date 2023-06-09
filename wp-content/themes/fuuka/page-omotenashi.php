@@ -358,7 +358,7 @@ get_header(); ?>
                     <p class="text">
                     \ 記念日旅行は風かで決まり/<br>お誕生日、結婚記念日、還暦のお祝い、、、などなど記念日のお祝いでたくさんのお客様にお泊りいただいております。<br>事前予約が必要ですのでお気軽にお電話、メールでお申し付けくださいね。
                     </p>
-                    <a class="btnhttps://mms.oookey.io/fuuka/topic/anniversary/">詳細はこちら</a>
+                    <a class="btn" href="<?php bloginfo('template_directory'); ?>/topic/anniversary/"><span class="arrow"></span>詳細はこちら</a>
                 </div>
             </div>
         </div>

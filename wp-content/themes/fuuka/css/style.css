@@ -2603,6 +2603,9 @@
 .access3{
   padding-top: 8rem;
 }
+#about10 .about_point_wrap .flex p:last-child{
+  margin-left: 4rem;
+}
 @media screen and (max-width: 767px){
   #access.subpage .top_fv,
   #tourism.subpage .top_fv{
@@ -2674,6 +2677,15 @@
   }
   #access .content.access3 .text{
     margin-bottom: -2rem;
+  }
+  #about10 .about_point_wrap .flex{
+    flex-direction: column;
+  }
+  #about10 .about_point_wrap .flex p:last-child{
+    margin-left: 0;
+  }
+  #about10 .about_point_wrap .flex p{
+    margin-top: 1rem;
   }
 }
 
@@ -3316,7 +3328,7 @@ margin-top: 8rem;
 #hos .content.hos_c9 .con_text-l h2::before{
   background-image: url(../image/hos_no9.svg);
 }
-#hos .content.hos_c10 .con_text-l h2::before{
+#hos .content.hos_c10 .con_text-r h2::before{
   background-image: url(../image/hos_no10.svg);
 }
 #hos .content .con_text-r .time,#hos .content .con_text-l .time{
@@ -3356,10 +3368,13 @@ margin-top: 8rem;
 #hos .hos_c.hos_bg-2:last-child{
   padding-bottom: 11vw;
 }
+.hos_c10{
+  padding-bottom: 10vw;
+}
 .bg-a{
   width: 100%;
   position: absolute;
-  top: -10rem;
+  top: -9vw;
 }
  @media screen and (max-width: 767px){
   #hos{
@@ -3496,6 +3511,9 @@ margin-top: 8rem;
   }
   #hos .hos_c.hos_bg-2:last-child{
     padding-bottom: 20vw;
+  }
+  .hos_c10{
+    padding-bottom: 23vw;
   }
  }
 

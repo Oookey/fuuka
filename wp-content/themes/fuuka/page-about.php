@@ -419,7 +419,7 @@ get_header(); ?>
                     <p class="text">
                         整体マッサージが6月より始まりました。<br><br>
                         事前にご予約される場合は<br><a href="tel:0551366414">0551-36-6414</a><span style="font-size: 1.6rem;">（9：00～21：00）</span>までご予約ください。<br class="pc">当日も受付ておりますが、事前にご予約されることをお勧めします｡<br><br>
-                        場所　<br class="sp">ホテル内２階施術室(施術者は男性)<br>
+                        場所　<br class="sp">ホテル内２階施術室<br class="sp">(施術者は男性)<br>
                         受付終了　20：00／<br class="sp">最終スタート　21：00
                     </p>
                     <div class="about_point_wrap">
