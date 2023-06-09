@@ -336,15 +336,15 @@ get_header(); ?>
             </div>
         </div>
         <!-- No.10 記念日旅行も風かにおまかせ！ -->
-        <div class="content hos_c hos_bg-1 hos_c8">
+        <div class="content hos_c hos_bg-1 hos_c10">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
                         <figure class="zoom">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/hos_c_img10-1.png" alt="" class="img">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/hos_c_img10-1.jpeg" alt="" class="img">
                         </figure>
                         <figure>
-                            <img src="<?php bloginfo('template_directory'); ?>/image/hos_c_img10-2.png" alt="" class="img">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/hos_c_img10-2.jpeg" alt="" class="img">
                         </figure>
                     </div>
                     <div class="float-r con_text-r">
@@ -364,6 +364,7 @@ get_header(); ?>
         </div>
         <!-- 大人の方におすすめのおもてなし-->
         <div id="hos_a" class="content hos_bg-2 hos_c_title">
+            <img src="<?php bloginfo('template_directory'); ?>/image/hos_bg_bottom-2.png" alt="" class="bg-a">
             <div class="inner">
                 <div class="text_tilt fadein">
                     <p>\ 大人の方も大満足間違いなし！</p>

@@ -3316,6 +3316,9 @@ margin-top: 8rem;
 #hos .content.hos_c9 .con_text-l h2::before{
   background-image: url(../image/hos_no9.svg);
 }
+#hos .content.hos_c10 .con_text-l h2::before{
+  background-image: url(../image/hos_no10.svg);
+}
 #hos .content .con_text-r .time,#hos .content .con_text-l .time{
   font-size: 2rem;
   letter-spacing: 0.1rem;
@@ -3335,7 +3338,7 @@ margin-top: 8rem;
   margin-right: 2rem;
 }
 #hos .hos_c9.bg_wave{
-  background-image: url(../image/hos_bg_bottom.png),url(../image/hos_bg_bottom-2.png);
+  /* background-image: url(../image/hos_bg_bottom.png),url(../image/hos_bg_bottom-2.png); */
 }
 #hos .hos_c2 figure:last-child,
 #hos .hos_c4 figure:last-child,
@@ -3352,6 +3355,11 @@ margin-top: 8rem;
 }
 #hos .hos_c.hos_bg-2:last-child{
   padding-bottom: 11vw;
+}
+.bg-a{
+  width: 100%;
+  position: absolute;
+  top: -10rem;
 }
  @media screen and (max-width: 767px){
   #hos{
