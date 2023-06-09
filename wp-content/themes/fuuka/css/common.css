@@ -155,6 +155,9 @@ body{
 .flex {
     display: flex;
 }
+.text_limit{
+    color: #868686;
+}
 /* フェードイン */
 .fadein {
     opacity: 0;
