@@ -437,11 +437,6 @@ get_header(); ?>
                             </p>
                         </div>
                     </div>
-                    <!-- <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/about_photo_2_3.png"></li>
-                    </ul> -->
                 </div>
             </div>
         </div>
