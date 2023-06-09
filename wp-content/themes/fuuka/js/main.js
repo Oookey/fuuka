@@ -225,7 +225,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   $(function() {
   var count = 114;
   $('.plan_text_pc').each(function() {
-    var thisText = $(this).text();
+    var thisText = $('.text_limit').text();
      var textLength = thisText.length;
       if (textLength > count) {
          var showText = thisText.substring(0, count);
