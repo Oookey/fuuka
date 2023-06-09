@@ -3362,7 +3362,8 @@ margin-top: 8rem;
 #hos .hos_c2 figure,
 #hos .hos_c4 figure,
 #hos .hos_c6 figure,
-#hos .hos_c8 figure{
+#hos .hos_c8 figure,
+#hos .hos_c10 figure{
   float: right;
 }
 #hos .hos_c.hos_bg-2:last-child{
@@ -3502,6 +3503,7 @@ margin-top: 8rem;
   }
   #hos .hos_c figure:last-child{
     bottom: -3rem;
+    display: none;
   }
   .subpage .content .con_text-r .text, .subpage .content .con_text-l .text{
     width: fit-content;
@@ -3527,6 +3529,16 @@ margin-top: 8rem;
   .content.hos_c10 .con_text-r a{
     margin: 3rem auto 0;
     display: block;
+  }
+  #hos .hos_c1 figure,
+  #hos .hos_c3 figure,
+  #hos .hos_c5 figure,
+  #hos .hos_c7 figure,
+  #hos .hos_c9 figure{
+    float: right;
+  }
+  #hos.subpage .con-sp-fv{
+    margin-bottom: 1rem;
   }
  }
 
