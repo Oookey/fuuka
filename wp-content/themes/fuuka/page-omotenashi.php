@@ -349,14 +349,14 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>記念日旅行も風かにおまかせ！<br class="pc">記念日のおもてなし</h2>
-                            <p class="time"></p>
+                            <h2>記念日旅行も風かに<br>おまかせ！<br>記念日のおもてなし</h2>
+                            <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                    \ 記念日旅行は風かで決まり/<br>お誕生日、結婚記念日、還暦のお祝い、、、などなど記念日のお祝いでたくさんのお客様にお泊りいただいております。<br>事前予約が必要ですのでお気軽にお電話、メールでお申し付けくださいね。
+                    \ 記念日旅行は風かで決まり/<br>お誕生日、結婚記念日、還暦のお祝い、、、などなど記念日のお祝いでたくさんのお客様にお泊りいただいております。事前予約が必要ですのでお気軽にお電話、メールでお申し付けくださいね。
                     </p>
                     <a class="btn" href="<?php bloginfo('template_directory'); ?>/topic/anniversary/"><span class="arrow"></span>詳細はこちら</a>
                 </div>

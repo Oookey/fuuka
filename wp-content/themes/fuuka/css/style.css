@@ -3376,6 +3376,12 @@ margin-top: 8rem;
   position: absolute;
   top: -9vw;
 }
+#hos .hos_c.hos_bg-1.hos_c10{
+  padding-bottom: 11vw;
+}
+.content.hos_c10 .con_text-r a{
+  margin-top: 2rem;
+}
  @media screen and (max-width: 767px){
   #hos{
     padding-top: 8rem;
@@ -3514,6 +3520,13 @@ margin-top: 8rem;
   }
   .hos_c10{
     padding-bottom: 23vw;
+  }
+  #hos .hos_c.hos_bg-1.hos_c10{
+    padding-bottom: 25vw;
+  }
+  .content.hos_c10 .con_text-r a{
+    margin: 3rem auto 0;
+    display: block;
   }
  }
 
