@@ -238,13 +238,13 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
   $(function() {
     var count = 45;
     $('.plan_text_sp').each(function() {
-      var thisText = $(this).text();
+      var thisText = $(text_limit).text();
        var textLength = thisText.length;
         if (textLength > count) {
            var showText = thisText.substring(0, count);
            var insertText = showText += '…続きを読む';
-           $(this).html(insertText);
-           insertText.style.color ="868686";
+           $(text_limit).html(insertText);
+           $(text_limit).style.color ="868686";
         };
     });
   });
