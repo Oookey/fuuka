@@ -244,11 +244,8 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
            var showText = thisText.substring(0, count);
            var insertText = showText += '…続きを読む';
            $(this).html(insertText);
+           insertText.style.color ="868686";
         };
     });
-  });
-
-  $(function() {
-      $("p:contains('創設以来')").css("color", "868686");
   });
     
