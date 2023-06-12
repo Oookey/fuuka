@@ -1027,10 +1027,10 @@
   /* FV */
   .top_fv{
     padding-right: 0rem;
-    height: 70rem !important;
+    height: 155.5vw !important;
   }
   .top_fv_movie .in{
-    padding-bottom: 70rem !important;
+    padding-bottom: 155.5vw !important;
     border-radius: 0 0 7.7rem 0;
   }
   .subpage .top_fv{
@@ -1188,7 +1188,7 @@
   }
   .special_contents_inner figure>img{
     width: 32rem;
-    height: 18.8rem;
+    height: 19.4rem;
   }
   .special_contents_text h2{
     margin-bottom: 1rem;
