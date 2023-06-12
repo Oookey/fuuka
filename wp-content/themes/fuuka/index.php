@@ -69,7 +69,19 @@ get_header(); ?>
                             <div class="swiper-wrapper" id="swiper-wrapper-264345ba8ce2e194" aria-live="polite" style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
 
                                 <?php
-                                query_posts('post_type=topic&posts_per_page=10');
+                                // query_posts('post_type=topic&posts_per_page=10');
+                                // while (have_posts()) : the_post();
+                                ?>
+                                <?php
+                                query_posts(array(
+                                    'post_type' => 'topic',
+                                    'taxonomy' => 'topic_top_display',
+                                    'term' => 'topic_top',
+                                    'posts_per_page' => 6,
+                                    'orderby' => 'date',
+                                    'order' => 'DESC'
+                                    )
+                                );
                                 while (have_posts()) : the_post();
                                 ?>
 
