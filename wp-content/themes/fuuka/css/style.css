@@ -1187,7 +1187,7 @@
     margin: 0 auto;
   }
   .special_contents_inner figure>img{
-    width: 31rem;
+    width: 32rem;
     height: 18.8rem;
   }
   .special_contents_text h2{
@@ -3414,10 +3414,10 @@ margin-top: 8rem;
     width: 21.7rem;
   }
   #hos .pageinfo_inner .illust img:nth-of-type(3){
-    top: 63rem;
+    top: 62rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 15.5rem;
+    width: 13.5rem;
   }
   #hos .bg_wave.hos_link{
     padding-top: 36rem;
