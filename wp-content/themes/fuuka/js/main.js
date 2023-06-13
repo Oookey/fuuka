@@ -216,7 +216,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
        var textLength = thisText.length;
         if (textLength > count) {
            var showText = thisText.substring(0, count);
-           var insertText = showText += '…続きを読む';
+           var insertText = showText += '<span style="color:#868686;">…続きを読む</span>';
            $(this).html(insertText);
        };
     });
@@ -229,7 +229,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
      var textLength = thisText.length;
       if (textLength > count) {
          var showText = thisText.substring(0, count);
-         var insertText = showText += '…続きを読む';
+         var insertText = showText += '<span style="color:#868686;">…続きを読む</span>';
          $('.text_limit').html(insertText);
       };
     });
@@ -242,9 +242,8 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
        var textLength = thisText.length;
         if (textLength > count) {
            var showText = thisText.substring(0, count);
-           var insertText = showText += '…続きを読む';
+           var insertText = showText += '<span style="color:#868686;">…続きを読む</span>';
            $(text_limit).html(insertText);
-           $(text_limit).style.color ="868686";
         };
     });
   });
