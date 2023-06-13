@@ -30,7 +30,7 @@
     bottom: 0;
     height: 7rem;
     width: 100%;
-    background: url(../image/fv_bg.png);
+    background: url(https://hotel-fuuka.jp/rakuten/image/fv_bg.png);
 }
 .top_fv,.top_fv_inner{
     position: relative;
@@ -201,7 +201,7 @@
   width: 2.6rem;
   height: 1.7rem;
   content: "";
-  background-image: url(../image/topics_arrow.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/topics_arrow.svg);
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -407,7 +407,7 @@
   line-height: 2.7rem;
 }
 .top_news .arrow::before{
-  background-image: url(../image/arrow_g.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/arrow_g.svg);
 }
 /* まるごとおもてなし */
 .special .title{
@@ -424,7 +424,7 @@
 }
 .special .title span::before,
 .special .title span::after{
-  content: url(../image/title_line.svg);
+  content: url(https://hotel-fuuka.jp/rakuten/image/title_line.svg);
 }
 .special .title span::before{
   margin-right: 3rem;
@@ -879,7 +879,7 @@
   margin-bottom: 3.5rem;
 }
 .instagram .title h2::before{
-  content: url(../image/icon_instagram.svg);
+  content: url(https://hotel-fuuka.jp/rakuten/image/icon_instagram.svg);
   position: relative;
   top: 4px;
   margin: 0 12px 0 0;
@@ -943,7 +943,7 @@
   position: relative;
   padding-top: 1vw;
   padding-bottom: 60rem;
-  background-image: url(../image/body_bg_top.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/body_bg_top.png);
   background-position: 0 0, 0 100%;
   background-size: contain, contain;
   background-repeat: no-repeat, no-repeat;
@@ -1144,7 +1144,7 @@
   }
   .special .title span::before, .special .title span::after {
     content: '';
-    background-image: url(../image/title_line.svg);
+    background-image: url(https://hotel-fuuka.jp/rakuten/image/title_line.svg);
     width: 7rem;
     height: 0.7rem;
     display: inline-block;
@@ -1466,7 +1466,7 @@
 
 /*===== お食事 =====*/
 .c_info_bg{
-  background-image: url(../image/pagetitle_cuisine.png), url(../image/cuisine_bg_illest1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/pagetitle_cuisine.png), url(https://hotel-fuuka.jp/rakuten/image/cuisine_bg_illest1.png);
   background-size: auto 19.2rem, 26.6rem auto;
   background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
@@ -1496,7 +1496,7 @@
 }
 .menu_navi_left{
   float: left;
-  background-image: url(../image/cuisine_bg_wrap1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/cuisine_bg_wrap1.png);
   background-size: cover;
   background-position: center;
   width: 46.2rem;
@@ -1505,7 +1505,7 @@
   margin: 5rem auto 0;
 }
 .menu_navi_left .arrow::before{
-  background-image: url(../image/arrow_y.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/arrow_y.svg);
   width: 1rem;
   height: 1.8rem;
   margin-right: 1rem;
@@ -1542,7 +1542,7 @@
 
 .menu_navi_right{
   float: right;
-  background-image: url(../image/cuisine_bg_wrap2.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/cuisine_bg_wrap2.png);
   background-size: cover;
   background-position: center;
   width: 46.2rem;
@@ -1551,7 +1551,7 @@
   margin: 5rem auto 0;
 }
 .menu_navi_right .arrow::before{
-  background-image: url(../image/arrow_g.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/arrow_g.svg);
   width: 1rem;
   height: 1.8rem;
   margin-right: 1rem;
@@ -1631,14 +1631,14 @@
 #cuisine .img_bg_1::before{
   width: 26.7rem;
   height: 9.1rem;
-  background-image: url(../image/cuisine_illest1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/cuisine_illest1.png);
   top: -8rem;
   left: 13rem;
 }
 #cuisine .img_bg_1::after{
   width: 21.4rem;
   height: 13.8rem;
-  background-image: url(../image/cuisine_illest2.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/cuisine_illest2.png);
   bottom: 0rem;
   /* left: 13rem; */
   bottom: -10rem;
@@ -1648,7 +1648,7 @@
 #cuisine .img_bg_2::before{
   width: 35.6rem;
   height: 26.7rem;
-  background-image: url(../image/cuisine_illest3.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/cuisine_illest3.png);
   top: -24rem;
   /* left: 100rem; */
   right: 3rem;
@@ -1656,7 +1656,7 @@
 #cuisine .img_bg_2::after{
   width: 8.5rem;
   height: 13.8rem;
-  background-image: url(../image/cuisine_illest4.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/cuisine_illest4.png);
   bottom: 0rem;
   left: 13rem;
   bottom: -11.5rem;
@@ -1666,7 +1666,7 @@
 #cuisine .img_bg_3::before{
   width: 28.4rem;
   height: 25.3rem;
-  background-image: url(../image/cuisine_bg_photo1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/cuisine_bg_photo1.png);
   top: -18rem;
   /* left: 109rem; */
   right: 3rem;
@@ -1674,7 +1674,7 @@
 #cuisine .img_bg_3::after{
   width: 25.2rem;
   height: 21.5rem;
-  background-image: url(../image/cuisine_bg_photo2.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/cuisine_bg_photo2.png);
   bottom: 0rem;
   left: 13rem;
   bottom: -11rem;
@@ -1875,7 +1875,7 @@
 
 /*===== 客室のご案内 =====*/
 #room .c_info_bg{
-  background-image: url(../image/pagetitle_room.png), url(../image/room_bg_illest1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/pagetitle_room.png), url(https://hotel-fuuka.jp/rakuten/image/room_bg_illest1.png);
   background-size: auto 19.2rem, 26.6rem auto;
   background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
@@ -1923,7 +1923,7 @@
 }
 .room_star_wrap::before{
   content: "プレミアム設備";
-  background: var(--brown-color) url(../image/icon_star.png) no-repeat 2rem 0.5rem;
+  background: var(--brown-color) url(https://hotel-fuuka.jp/rakuten/image/icon_star.png) no-repeat 2rem 0.5rem;
   background-size: 2.6rem;
   padding: 1rem 2.5rem 1rem 4.4rem;
   border-radius: 100rem;
@@ -1939,28 +1939,28 @@
 #room .img_bg_1::before{
   width: 23rem;
   height: 20.6rem;
-  background-image: url(../image/room_bg_photo1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/room_bg_photo1.png);
   top: -23rem;
   left: 20rem;
 }
 #room .img_bg_2::before{
   width: 25.7rem;
   height: 21.3rem;
-  background-image: url(../image/room_bg_photo2.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/room_bg_photo2.png);
   top: -26rem;
   right: 13rem;
 }
 #room .img_bg_3::before{
   width: 24.8rem;
   height: 19.4rem;
-  background-image: url(../image/room_bg_photo3.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/room_bg_photo3.png);
   top: -26rem;
   left: 15rem;
 }
 #room .img_bg_4::before{
   width: 24.2rem;
   height: 19.7rem;
-  background-image: url(../image/room_bg_photo4.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/room_bg_photo4.png);
   top: -24rem;
   right: 12rem;
 }
@@ -1994,7 +1994,7 @@
   padding-bottom: 2vw;
 }
 .bg_wave.room11{
-  background-image: url(../image/body_bg_top-sp.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/body_bg_top-sp.png);
   background-position: 0 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2155,7 +2155,7 @@
 
 /* ----- ホテルのご案内 ----- */
 #about .c_info_bg{
-  background-image: url(../image/pagetitle_about.png), url(../image/about_bg_illest1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/pagetitle_about.png), url(https://hotel-fuuka.jp/rakuten/image/about_bg_illest1.png);
   background-size: auto 19.2rem, 26.6rem auto;
   background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
@@ -2226,35 +2226,35 @@
 #about .img_bg_1::before{
   width: 37rem;
   height: 22.3rem;
-  background-image: url(../image/about_bg_illest2.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/about_bg_illest2.png);
   top: -26rem;
   left: 12rem;
 }
 #about .img_bg_2::before{
   width: 34.9rem;
   height: 25rem;
-  background-image: url(../image/about_bg_illest3.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/about_bg_illest3.png);
   top: -32rem;
   right: 10rem;
 }
 #about .img_bg_3::before{
   width: 31.9rem;
   height: 26.5rem;
-  background-image: url(../image/about_bg_illest4.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/about_bg_illest4.png);
   top: -30rem;
   left: 17rem;
 }
 #about .img_bg_4::before{
   width: 29.2rem;
   height: 22.8rem;
-  background-image: url(../image/about_bg_illest5.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/about_bg_illest5.png);
   top: -32rem;
   right: 22rem;
 }
 #about .img_bg_5::before{
   width: 32.1rem;
   height: 25.6rem;
-  background-image: url(../image/about_bg_illest6.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/about_bg_illest6.png);
   top: -32rem;
   left: 15rem;
 }
@@ -2278,7 +2278,7 @@
   padding-bottom: 5rem;
 } */
 .bg_wave.about9{
-  /* background-image: url(../image/body_bg_top.png);
+  /* background-image: url(https://hotel-fuuka.jp/rakuten/image/body_bg_top.png);
   background-position: 0 0;
   background-size: contain;
   background-repeat: no-repeat; */
@@ -2469,21 +2469,21 @@
 #access .img_bg_1::before{
   width: 31.5rem;
   height: 24.8rem;
-  background-image: url(../image/access_illest1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/access_illest1.png);
   top: -29rem;
   right: 9rem;
 }
 #access .img_bg_2::before{
   width: 28.9rem;
   height: 16.9rem;
-  background-image: url(../image/access_illest2.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/access_illest2.png);
   top: -23rem;
   left: 27rem;
 }
 #access .img_bg_3::before{
   width: 29rem;
   height: 25.3rem;
-  background-image: url(../image/access_illest4.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/access_illest4.png);
   top: -31rem;
   left: 28rem;
 }
@@ -2578,7 +2578,7 @@
   margin: 0 auto;
 }
 #news .bg_wave, #news_detail .bg_wave{
-  background-image: url(../image/body_bg_top.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/body_bg_top.png);
   background-position: 0 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2586,7 +2586,7 @@
 #news .img_bg_1::before, #news_detail .img_bg_1::before{
   width: 24.9rem;
   height: 24.7rem;
-  background-image: url(../image/news_illest1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/news_illest1.png);
   top: -24rem;
   left: -15vw;
 }
@@ -2730,7 +2730,7 @@
   width: 2.1rem;
   height: 2.1rem;
   margin-right: 0.7rem;
-  background-image: url(../image/lightbox/expansion_btn.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/lightbox/expansion_btn.svg);
   background-repeat: no-repeat;
   background-size: cover;
   vertical-align: middle;
@@ -2803,7 +2803,7 @@
 #news_detail.topic_detail .img_bg_1::before{
   width: 23rem;
   height: 24.1rem;
-  background-image: url(../image/topic_detail_illest1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/topic_detail_illest1.png);
   top: -22rem;
   left: -15vw;
 }
@@ -2831,7 +2831,7 @@
 #news_detail.event_detail .img_bg_1::before{
   width: 32.9rem;
   height: 19.8rem;
-  background-image: url(../image/event_detail_illest1.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/event_detail_illest1.png);
   top: -18rem;
   left: -15vw;
 }
@@ -3026,7 +3026,7 @@ margin-top: 8rem;
   position: relative;
 }
 #hos .c_info_bg{
-  background-image: url(../image/hos_bg_photo1.png), url(../image/hos_bg_photo2.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_bg_photo1.png), url(https://hotel-fuuka.jp/rakuten/image/hos_bg_photo2.png);
   background-size: 24rem auto, 25rem auto;
   background-position: left calc(50% - 42rem) top 14rem, right calc(50% - 42rem) top 13rem;
   background-repeat: no-repeat, no-repeat;
@@ -3057,7 +3057,7 @@ margin-top: 8rem;
   right: calc(50% - 51rem);
 }
 #hos .bg_wave.hos_link{
-  background-image: url(../image/body_bg_top-hos.png), url(../image/hos_bg_top.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/body_bg_top-hos.png), url(https://hotel-fuuka.jp/rakuten/image/hos_bg_top.png);
 }
 #hos .special_contents{
   max-width: 125rem;
@@ -3065,7 +3065,7 @@ margin-top: 8rem;
 }
 #hos .hos_c_title .special_contents::after{
   content: '';
-  background-image: url(../image/hos_start.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_start.svg);
   display: inline-block;
   background-size: contain;
   vertical-align: middle;
@@ -3118,10 +3118,10 @@ margin-top: 8rem;
   object-fit: cover;
 }
 #hos .hos_c.bg_wave{
-  background-image: url(../image/hos_bg_bottom.png),url(../image/hos_bg_top.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_bg_bottom.png),url(https://hotel-fuuka.jp/rakuten/image/hos_bg_top.png);
 }
 #hos .hos_a.bg_wave{
-  background-image: url(../image/hos_bg_top-2.png),url(../image/hos_bg_bottom-2.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_bg_top-2.png),url(https://hotel-fuuka.jp/rakuten/image/hos_bg_bottom-2.png);
 }
 #hos .hos_c.bg_wave{
   padding-top: 13vw;
@@ -3172,7 +3172,7 @@ margin-top: 8rem;
 }
 #hos .content .con_text-r h2::before,#hos .content .con_text-l h2::before{
   content: '';
-  background-image: url(../image/hos_no1.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no1.svg);
   display: inline-block;
   background-size: contain;
   vertical-align: middle;
@@ -3183,31 +3183,31 @@ margin-top: 8rem;
   margin-bottom: 1rem;
 }
 #hos .content.hos_c2 .con_text-r h2::before{
-  background-image: url(../image/hos_no2.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no2.svg);
 }
 #hos .content.hos_c3 .con_text-l h2::before{
-  background-image: url(../image/hos_no3.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no3.svg);
 }
 #hos .content.hos_c4 .con_text-r h2::before{
-  background-image: url(../image/hos_no4.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no4.svg);
 }
 #hos .content.hos_c5 .con_text-l h2::before{
-  background-image: url(../image/hos_no5.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no5.svg);
 }
 #hos .content.hos_c6 .con_text-r h2::before{
-  background-image: url(../image/hos_no6.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no6.svg);
 }
 #hos .content.hos_c7 .con_text-l h2::before{
-  background-image: url(../image/hos_no7.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no7.svg);
 }
 #hos .content.hos_c8 .con_text-r h2::before{
-  background-image: url(../image/hos_no8.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no8.svg);
 }
 #hos .content.hos_c9 .con_text-l h2::before{
-  background-image: url(../image/hos_no9.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no9.svg);
 }
 #hos .content.hos_c10 .con_text-r h2::before{
-  background-image: url(../image/hos_no10.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_no10.svg);
 }
 #hos .content .con_text-r .time,#hos .content .con_text-l .time{
   font-size: 2rem;
@@ -3218,7 +3218,7 @@ margin-top: 8rem;
 }
 #hos .content .con_text-r .time::before,#hos .content .con_text-l .time::before{
   content: '';
-  background-image: url(../image/hos_time.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_time.svg);
   display: inline-block;
   background-size: contain;
   vertical-align: middle;
@@ -3228,7 +3228,7 @@ margin-top: 8rem;
   margin-right: 2rem;
 }
 #hos .hos_c9.bg_wave{
-  /* background-image: url(../image/hos_bg_bottom.png),url(../image/hos_bg_bottom-2.png); */
+  /* background-image: url(https://hotel-fuuka.jp/rakuten/image/hos_bg_bottom.png),url(https://hotel-fuuka.jp/rakuten/image/hos_bg_bottom-2.png); */
 }
 #hos .hos_c2 figure:last-child,
 #hos .hos_c4 figure:last-child,
@@ -3404,7 +3404,7 @@ margin-top: 8rem;
 
  /* 体験宿泊プラン */
  #activity .c_info_bg {
-  background-image: url(../image/pagetitle_activity.png), url(../image/hos_bg_illust2.svg);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/pagetitle_activity.png), url(https://hotel-fuuka.jp/rakuten/image/hos_bg_illust2.svg);
   background-size: auto 19.2rem, 26.6rem auto;
   background-position: left 4rem top 5.5rem, right 7rem top 7rem;
   background-repeat: no-repeat, no-repeat;
@@ -3417,7 +3417,7 @@ margin-top: 8rem;
   white-space: nowrap;
 }
 #activity .bg_wave:last-child{
-  background-image: url(../image/body_bg_top.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/body_bg_top.png);
 }
 #activity .about1:nth-child(odd){
   padding-top: 13vw;
@@ -3522,7 +3522,7 @@ margin-top: 8rem;
   padding-bottom: 2vw;
 }
 #tourism .content.bg_wave:last-child{
-  background-image: url(../image/body_bg_top.png);
+  background-image: url(https://hotel-fuuka.jp/rakuten/image/body_bg_top.png);
   padding-bottom: 10vw;
 }
 #tourism .content:last-child{

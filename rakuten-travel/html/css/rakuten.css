@@ -105,7 +105,7 @@ footer .hotel_net p{
     padding-top: 24rem !important;
 }
 .c_info_bg{
-    background-image: url(../image/pagetitle_cuisine.png) !important;
+    background-image: url(https://hotel-fuuka.jp/rakuten/image/pagetitle_cuisine.png) !important;
     background-size: auto 16rem !important;
     background-position: top 5rem left 50% !important;
 }
@@ -137,7 +137,7 @@ footer .hotel_net p{
     width: 38rem !important;
 }
 .special.bg_wave{
-    background-image: url(../image/body_bg_bottom.png) !important;
+    background-image: url(https://hotel-fuuka.jp/rakuten/image/body_bg_bottom.png) !important;
     background-position: bottom !important;
 }
 .special_contents_inner{
@@ -276,7 +276,7 @@ footer .hotel_net p{
 
 /* 客室 */
 #room .c_info_bg{
-    background-image: url(../image/pagetitle_room.png) !important;
+    background-image: url(https://hotel-fuuka.jp/rakuten/image/pagetitle_room.png) !important;
 }
 #room .fv_text{
     top: 12rem !important;
@@ -397,7 +397,7 @@ footer .hotel_net p{
 }
 /* ホテル案内 */
 #about .c_info_bg{
-    background-image: url(../image/pagetitle_about.png) !important;
+    background-image: url(https://hotel-fuuka.jp/rakuten/image/pagetitle_about.png) !important;
 }
 #about .fv_text{
     top: 11rem !important;
@@ -446,7 +446,7 @@ footer .hotel_net p{
     top: 12rem !important;
 }
 #activity .c_info_bg{
-    background-image: url(../image/pagetitle_activity.png) !important;
+    background-image: url(https://hotel-fuuka.jp/rakuten/image/pagetitle_activity.png) !important;
 }
 /* アクセス */
 #access .fv_menu, #tourism .fv_menu{
