@@ -682,7 +682,7 @@
 }
 /* next */
 .slick-next {
-  right: calc(0% - 1rem) !important;
+  right: calc(0% - 0.5rem) !important;
 }
 .slick-next::after {
   right: 3.2rem;
@@ -690,7 +690,7 @@
 }
 /* prev */
 .slick-prev {
-  left: calc(0% - 1rem) !important;
+  left: calc(0% - 0.5rem) !important;
 }
 .slick-prev::after {
   left: 3.2rem;
