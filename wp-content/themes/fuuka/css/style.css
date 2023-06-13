@@ -410,7 +410,7 @@
 .top_news dl{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: left;
   background-color: #fff;
   height: 7.7rem;
   border-radius: 0rem 2.2rem 2.2rem 0rem;
@@ -435,6 +435,9 @@
 .top_news dd{
   margin-left: 2rem;
   line-height: 2.7rem;
+}
+.top_news dd.dd1{
+  width: 100%;
 }
 .top_news .arrow::before{
   background-image: url(../image/arrow_g.svg);
