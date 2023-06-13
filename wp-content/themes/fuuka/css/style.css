@@ -682,7 +682,7 @@
 }
 /* next */
 .slick-next {
-  right: calc(0% - 0rem) !important;
+  right: calc(0% - 1rem) !important;
 }
 .slick-next::after {
   right: 3.2rem;
@@ -690,7 +690,7 @@
 }
 /* prev */
 .slick-prev {
-  left: calc(0% - 0rem) !important;
+  left: calc(0% - 1rem) !important;
 }
 .slick-prev::after {
   left: 3.2rem;
@@ -1281,7 +1281,7 @@
   }
   .plan .slick_exp .slick_exp_li{
     width: 30rem;
-    margin: 0 1rem;
+    margin: 0 1.25rem;
   }
   .plan .slick_exp .slick_exp_li img{
     width: 30rem;
