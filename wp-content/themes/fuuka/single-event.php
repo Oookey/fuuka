@@ -5,23 +5,6 @@
 get_header(); ?>
 <!------------- HEADER ------------->
 
-<body id="page-top">
-    <!-- ↓↓↓　本番時コメントアウトを外す　↓↓↓ -->
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCVNXH8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- ↓↓↓ HEADER ↓↓↓ -->
-    <header>
-        <!-- main menu -->
-        <?php get_sidebar('main_menu'); ?>
-
-        <!-- fix menu -->
-        <?php get_sidebar('flex_menu'); ?>    
-    </header>
-    <!-- ↑↑↑ HEADER ↑↑↑ -->
-
     <!-- ↓↓↓ MAIN ↓↓↓ -->
     <main id="news_detail" class="subpage event_detail">
         <!-- ページタイトル -->
