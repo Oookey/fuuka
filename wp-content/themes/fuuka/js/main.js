@@ -248,3 +248,18 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
     });
   });
     
+
+  // 右下のインスタアイコンのフェイドイン
+  $(function () {
+    $(window).scroll(function () {
+      const windowHeight = $(window).height();
+      const scroll = $(window).scrollTop();
+  
+      $('.insta_icon').each(function () {
+        const targetPosition = $(this).offset().top;
+        if (scroll > targetPosition - windowHeight + 100) {
+          $(this).addClass("is-fadein");
+        }
+      });
+    });
+  });
