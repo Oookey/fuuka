@@ -312,7 +312,7 @@
 
 
 /*===== 右下のインスタアイコンのフェイドイン =====*/
-.insta_icon{
+.insta_icon_pc{
     opacity: 0;
   visibility: hidden;
   transition: opacity 1s, visibility 1s;

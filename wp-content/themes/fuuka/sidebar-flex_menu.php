@@ -1,7 +1,7 @@
 <div class="pc">
     <div class="sns_menu flex difference">
         <div class="sns_menu_inner">
-            <div class="insta_icon">
+            <div class="insta_icon insta_icon_pc">
                 <a href="https://www.instagram.com/hotel_fuka/" target="_blank" rel="noopener">
                     <img src="<?php bloginfo('template_directory'); ?>/image/icon_instagram_w.svg">
                 </a>

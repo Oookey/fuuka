@@ -255,7 +255,7 @@ const slideLength = document.querySelectorAll('.insta_slide .swiper-a .sbi .swip
       const windowHeight = $(window).height();
       const scroll = $(window).scrollTop();
   
-      $('.insta_icon').each(function () {
+      $('.insta_icon_pc').each(function () {
         const targetPosition = $(this).offset().top;
         if (scroll > targetPosition - windowHeight + 100) {
           $(this).addClass("is-fadein");
