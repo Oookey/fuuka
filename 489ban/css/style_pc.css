@@ -748,3 +748,13 @@ footer .hotel_net p {
 .footer2 .flex {
   justify-content: center;
 }
+.cakejp {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.cakejp img {
+  width: 170px;
+  height: auto;
+  border-radius: 12px;
+}
