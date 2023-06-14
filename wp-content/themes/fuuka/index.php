@@ -61,9 +61,7 @@ get_header(); ?>
                                     'post_type' => 'topic',
                                     'taxonomy' => 'topic_top_display',
                                     'term' => 'topic_top',
-                                    'posts_per_page' => 10,
-                                    'orderby' => 'date',
-                                    'order' => 'DESC'
+                                    'posts_per_page' => 10
                                     )
                                 );
                                 while (have_posts()) : the_post();
@@ -305,9 +303,7 @@ get_header(); ?>
                         'post_type' => 'activity',
                         'taxonomy' => 'activity_top_display',
                         'term' => 'act_top',
-                        'posts_per_page' => 6,
-                        'orderby' => 'date',
-                        'order' => 'DESC'
+                        'posts_per_page' => 6
                         )
                     );
                     while (have_posts()) : the_post();
@@ -438,9 +434,7 @@ get_header(); ?>
                     'post_type' => 'sightseeing',
                     'taxonomy' => 'sightseeing_top_display',
                     'term' => 'ss_top',
-                    'posts_per_page' => 6,
-                    'orderby' => 'date',
-                    'order' => 'DESC'
+                    'posts_per_page' => 6
                     )
                 );
                 while (have_posts()) : the_post();
