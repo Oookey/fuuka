@@ -524,7 +524,7 @@
   color: #fff;
   top: 56%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) !important;
   letter-spacing: 1rem;
   line-height: 3.7rem;
   text-align: center;
