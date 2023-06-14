@@ -10,7 +10,8 @@
 .win .kome,.win .room_star_wrap,.win .room_point,
 .win .room_fixtures_inner,.win .room_ame_list,
 .win .room_ame_inner,.win .about_point_wrap,
-.win .about_kidroom_inner,.win .contact,#g-nav .nav_sub,#g-nav .nav_mc p
+.win .about_kidroom_inner,.win .contact,
+.win #g-nav .nav_sub,.win #g-nav .nav_mc p
 {
   font-family: 'Noto Sans JP', sans-serif;
 }
