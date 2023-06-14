@@ -61,7 +61,7 @@ get_header(); ?>
                                     'post_type' => 'topic',
                                     'taxonomy' => 'topic_top_display',
                                     'term' => 'topic_top',
-                                    'posts_per_page' => 6,
+                                    'posts_per_page' => 10,
                                     'orderby' => 'date',
                                     'order' => 'DESC'
                                     )
