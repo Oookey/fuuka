@@ -388,10 +388,12 @@
   display: flex;
   align-items: center;
   background-color: #fff;
+  background-color: var(--main-color);
   border-radius: 2.2rem;
   max-width: 100rem;
   width: 80%;
-  height: 7.7rem;
+  min-height: 7.7rem;
+  height: auto;
   margin: 4.5rem auto 0;
   z-index: 1;
   position: relative;
@@ -400,7 +402,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
   color: #fff;
   height: 7.7rem;
   width: 14rem;
@@ -412,11 +414,13 @@
   align-items: center;
   justify-content: left;
   background-color: #fff;
-  height: 7.7rem;
+  height: auto;
+  min-height: 7.7rem;
   border-radius: 0rem 2.2rem 2.2rem 0rem;
   color: var(--main-color);
   font-size: 1.8rem;
   width: 86%;
+  padding: 1.2rem 0;
 }
 .top_news dl a{
   font-size: 1.6rem;
@@ -1106,6 +1110,7 @@
     margin-top: 13.5rem;
     height: auto;
     border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+    background-color: transparent;
   }
   .top_news h2{
     position: absolute;

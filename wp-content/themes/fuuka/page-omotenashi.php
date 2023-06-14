@@ -106,7 +106,7 @@ get_header(); ?>
                 </div>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
-                        ヤギさん親子ハナちゃん、ユキちゃんと<br class="pc">お散歩、餌やり体験が出来ます。<br>
+                        ヤギさん親子ハナちゃん、ユキちゃんと姪っ子ふうちゃんと<br class="pc">お散歩、餌やり体験が出来ます。<br>
                         お子様だけでなく大人の方にも大人気です。
                     </p>
                 </div>
