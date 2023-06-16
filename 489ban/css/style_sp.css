@@ -449,6 +449,21 @@ th {
 }
 
 /* 共通 ---------------------------------------------- */
+header .header a{
+  color: var(--main-color) !important;
+}
+header .nav_content a{
+  color: inherit !important; 
+}
+footer .footer1 a, footer .footer2 a,
+header .nav_content a{
+  color: inherit !important; 
+}
+header .header a, footer .footer1 a,
+header .nav_content a, footer .each_page a,
+footer .footer2 a{
+  text-decoration: none !important;
+}
 body {
   font-size: 16px;
   font-style: normal;
@@ -515,7 +530,7 @@ height: 11px;
   width: 100%;
   height: 80px;
   padding: 0 0 0 20px;
-  position: fixed;
+  /* position: fixed; */
   background-color: #fff;
   align-items: center;
   box-shadow: 0px 0px 12px rgba( 0, 0, 0, 0.16);
