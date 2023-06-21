@@ -449,6 +449,11 @@ th {
 }
 
 /* 共通 ---------------------------------------------- */
+header .header,
+footer .footer1,
+footer .footer2{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 header .header a{
   color: var(--main-color) !important;
 }
@@ -467,7 +472,6 @@ footer .footer2 a{
 body {
   font-size: 16px;
   font-style: normal;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #292929;
   letter-spacing: 1px;
   font-weight: bold;
