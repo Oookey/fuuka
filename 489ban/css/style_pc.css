@@ -454,9 +454,19 @@ th {
 
 /* 共通 ---------------------------------------------- */
 header .header,
-footer .footer1,
+footer .footer1{
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  color: #292929;
+  letter-spacing: 1px;
+}
 footer .footer2{
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: #292929;
+  letter-spacing: 1px;
 }
 header .global_menu a{
   color: var(--main-color) !important;
@@ -466,13 +476,6 @@ footer .footer1 a,footer .footer2 a{
 }
 header .global_menu a,footer .footer1 a,footer .footer2 a{
   text-decoration: none !important;
-}
-body {
-    font-size: 16px;
-    font-style: normal;
-    color: #292929;
-    letter-spacing: 1px;
-    font-weight: bold;
 }
 :root {
 	--main-color:#306E1D;

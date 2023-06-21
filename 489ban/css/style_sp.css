@@ -450,9 +450,20 @@ th {
 
 /* 共通 ---------------------------------------------- */
 header .header,
-footer .footer1,
-footer .footer2{
+footer .footer1{
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: #292929;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+footer .footer2{
+  font-size: 16px;
+  font-style: normal;
+  color: #292929;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 header .header a{
   color: var(--main-color) !important;
@@ -468,13 +479,6 @@ header .header a, footer .footer1 a,
 header .nav_content a, footer .each_page a,
 footer .footer2 a{
   text-decoration: none !important;
-}
-body {
-  font-size: 16px;
-  font-style: normal;
-  color: #292929;
-  letter-spacing: 1px;
-  font-weight: bold;
 }
 :root {
 --main-color:#306E1D;
