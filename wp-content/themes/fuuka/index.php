@@ -40,7 +40,7 @@ get_header(); ?>
         <!-- topic & news -->
         <div class="top_topic_news">
             <!-- banner -->
-            <a href="<?php bloginfo('url'); ?>/topic/official_coupon/" class="sp">
+            <a href="<?php bloginfo('url'); ?>/topic/official_coupon/" class="sp coupon_banner">
                 <img src="<?php bloginfo('template_directory'); ?>/image/banner_coupon.png" alt="">
             </a>
             <!-- topics -->
