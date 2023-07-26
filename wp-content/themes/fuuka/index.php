@@ -39,6 +39,10 @@ get_header(); ?>
 
         <!-- topic & news -->
         <div class="top_topic_news">
+            <!-- banner -->
+            <a href="<?php bloginfo('url'); ?>/topic/official_coupon/" class="sp">
+                <img src="<?php bloginfo('template_directory'); ?>/image/banner_coupon.png" alt="">
+            </a>
             <!-- topics -->
             <div class="top_topic fv_fadein">
                 <div class="topics_title">
