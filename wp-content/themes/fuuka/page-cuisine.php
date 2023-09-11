@@ -115,6 +115,9 @@ get_header(); ?>
                         <li><img src="<?php the_field('c_menu1_img1'); ?>"></li>
                         <li><img src="<?php the_field('c_menu1_img2'); ?>"></li>
                         <li><img src="<?php the_field('c_menu1_img3'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu1_img4'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu1_img5'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu1_img6'); ?>"></li>
                     </ul>
                     <div class="accordion meal_menu fadein">
                         <div class="option">
@@ -155,6 +158,9 @@ get_header(); ?>
                         <li><img src="<?php the_field('c_menu2_img1'); ?>"></li>
                         <li><img src="<?php the_field('c_menu2_img2'); ?>"></li>
                         <li><img src="<?php the_field('c_menu2_img3'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu2_img4'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu2_img5'); ?>"></li>
+                        <li><img src="<?php the_field('c_menu2_img6'); ?>"></li>
                     </ul>
                     <div class="accordion meal_menu fadein">
                         <div class="option">
