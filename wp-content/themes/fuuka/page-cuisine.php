@@ -62,7 +62,7 @@ get_header(); ?>
                     <img src="<?php the_field('c_title_img'); ?>" alt="<?php the_field('c_title_img_name'); ?>" class="cuisine_subtitle fadein">
                     <p class="fadein">
                         肉と魚Ｗメインのお箸で食べる<br class="sp">カジュアルフレンチ。<br>
-                        この春は女性の方に喜んでいただけるよう<br class="pc">デザートに特に力をいれております。
+                        皆様浴衣、作務衣姿で<br class="sp">くつろぎながら<br class="sp">お召し上がりいただけます。
                     </p>
                     <div class="menu_navi_inner fadein">
                         <div class="menu_navi_left">
