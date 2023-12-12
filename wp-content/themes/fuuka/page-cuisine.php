@@ -90,7 +90,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- 風－かぜ－（春） -->
+        <!-- 風－かぜ－（季節） -->
         <div class="content bg_b_c cuisine_content" id="menu1">
             <div class="inner">
                 <div class="con-sp-fv fadein">
@@ -133,7 +133,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- 香－かおり－（春） -->
+        <!-- 香－かおり－（季節） -->
         <div class="dinner content bg_wave cuisine_content" id="menu2">
             <div class="inner img_bg_2">
                 <div class="con-sp-fv fadein">
