@@ -119,17 +119,6 @@ get_header(); ?>
                     <h2><span>Special</span><br>風かの<br class="sp">”まるごとおもてなし<font size="4">&reg;</font>”</h2>
                 </div>
                 <div class="flex special_contents fadein">
-                    <a href="<?php bloginfo('url'); ?>/omotenashi/#hos_c" class="special_contents_inner zoom">
-                        <figure>
-                            <img src="<?php bloginfo('template_directory'); ?>/image/special_img-1.png" alt="" class="img">
-                        </figure>
-                        <div class="special_contents_text">
-                            <h2>お子様へおすすめの<br><span>“おもてなし”</span></h2>
-                            <div>
-                                <p class="btn"><span class="arrow"></span>詳しくはこちら</p>
-                            </div>
-                        </div>
-					</a>
                     <a href="<?php bloginfo('url'); ?>/omotenashi/#hos_a" class="special_contents_inner zoom">
                         <figure>
                             <img src="<?php bloginfo('template_directory'); ?>/image/special_img-2.png" alt="" class="img">
@@ -141,6 +130,17 @@ get_header(); ?>
                             </div>
 						</div>
                     </a>
+                    <a href="<?php bloginfo('url'); ?>/omotenashi/#hos_c" class="special_contents_inner zoom">
+                        <figure>
+                            <img src="<?php bloginfo('template_directory'); ?>/image/special_img-1.png" alt="" class="img">
+                        </figure>
+                        <div class="special_contents_text">
+                            <h2>お子様へおすすめの<br><span>“おもてなし”</span></h2>
+                            <div>
+                                <p class="btn"><span class="arrow"></span>詳しくはこちら</p>
+                            </div>
+                        </div>
+					</a>
                 </div>
                 <div class="concept">
                     <div class="float-l title fadein">
