@@ -3181,11 +3181,11 @@ margin-top: 8rem;
 }
 #hos .pageinfo_inner .illust img:nth-of-type(2){
   top: 49rem;
-  right: calc(50% - 52rem);
+  right: calc(50% - 50rem);
 }
 #hos .pageinfo_inner .illust img:nth-of-type(3){
   top: 44rem;
-  left: calc(50% - 51rem);
+  left: calc(50% - 53rem);
 }
 #hos .bg_wave.hos_link{
   background-image: url(../image/body_bg_top-hos.png), url(../image/hos_bg_top.png);
