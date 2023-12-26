@@ -41,23 +41,23 @@ get_header(); ?>
         <div class="pageinfo-2 bg_wave hos_link">
             <div class="inner">
                 <div class="flex special_contents fv_fadein">
-                    <a href="#hos_c" class="special_contents_inner zoom">
-                        <figure>
-                            <img src="<?php bloginfo('template_directory'); ?>/image/special_img-1.png" alt="" class="img">
-                        </figure>
-                        <div class="special_contents_text">
-                            <h2>お子様へおすすめの<br><span>“おもてなし”</span></h2>
-                            <div>
-                                <p class="btn"><span class="arrow"></span>詳しくはこちら</p>
-                            </div>
-                        </div>
-                    </a>
                     <a href="#hos_a" class="special_contents_inner zoom">
                         <figure>
                             <img src="<?php bloginfo('template_directory'); ?>/image/special_img-2.png" alt="" class="img">
                         </figure>
                         <div class="special_contents_text">
                             <h2>大人の方へおすすめの<br><span>“おもてなし”</span></h2>
+                            <div>
+                                <p class="btn"><span class="arrow"></span>詳しくはこちら</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#hos_c" class="special_contents_inner zoom">
+                        <figure>
+                            <img src="<?php bloginfo('template_directory'); ?>/image/special_img-1.png" alt="" class="img">
+                        </figure>
+                        <div class="special_contents_text">
+                            <h2>お子様へおすすめの<br><span>“おもてなし”</span></h2>
                             <div>
                                 <p class="btn"><span class="arrow"></span>詳しくはこちら</p>
                             </div>
