@@ -3188,7 +3188,7 @@ margin-top: 8rem;
   left: calc(50% - 53rem);
 }
 #hos .bg_wave.hos_link{
-  background-image: url(../image/body_bg_top-hos.png), url(../image/hos_bg_top.png);
+  background-image: url(../image/body_bg_top-hos.png), url(../image/hos_bg_bottom-2.png);
 }
 #hos .special_contents{
   max-width: 125rem;
