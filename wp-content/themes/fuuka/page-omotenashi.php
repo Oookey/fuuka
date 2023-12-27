@@ -513,7 +513,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>ナイト BAR／<br class="pc">星見テラス</h2>
+                            <h2>ナイト BAR／星見テラス</h2>
                             <p class="time">21:00〜22:30</p>
                         </div>
                     </div>
@@ -565,7 +565,7 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <h2>記念日旅行も風かに<br>おまかせ！<br>記念日のおもてなし</h2>
+                            <h2>記念日旅行も風かにおまかせ！記念日のおもてなし</h2>
                             <p></p>
                         </div>
                     </div>
