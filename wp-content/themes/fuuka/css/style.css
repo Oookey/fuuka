@@ -3386,8 +3386,11 @@ margin-top: 8rem;
   position: absolute;
   top: -9vw;
 }
-#hos .hos_a.hos_bg-1.hos_c8{
-  padding-bottom: 11vw;
+#hos .hos_a.hos_c8{
+  padding-bottom: 13vw;
+}
+#hos .hos_c.hos_c10{
+  padding-bottom: 8vw;
 }
 .content.hos_c10 .con_text-r a{
   margin-top: 2rem;
@@ -3548,6 +3551,13 @@ margin-top: 8rem;
   }
   #hos.subpage .con-sp-fv{
     margin-bottom: 1rem;
+  }
+
+  #hos .hos_a.hos_c8{
+    padding-bottom: 20vw;
+  }
+  #hos .hos_c.hos_c10{
+    padding-bottom: 30vw;
   }
  }
 
