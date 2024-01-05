@@ -301,7 +301,7 @@ get_header(); ?>
         </div>
         <!-- お子様におすすめのおもてなし-->
         <div id="hos_c" class="content hos_bg-1 hos_c_title">
-             <img src="<?php bloginfo('template_directory'); ?>/image/hos_bg_top.png" alt="" class="bg-a">
+            <img src="<?php bloginfo('template_directory'); ?>/image/hos_bg_top.png" alt="" class="bg-a">
             <div class="inner">
                 <div class="text_tilt fadein">
                     <p>\ お子様の笑顔間違いなし！</p>
