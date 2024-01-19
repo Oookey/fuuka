@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>八ヶ岳ホテル風か</title>
+    <title>八ヶ岳ホテル風か【公式】</title>
     <meta name="description" content="ご家族、恋人、お友達との「思い出旅」は風かにおまかせ。ご滞在は基本オールインクルーシブで自由で快適なステイ。お食事はお子様連れでも気兼ねなく楽しめるカジュアルフレンチ。大人だけでなくお子様も楽しめるオールインクルーシブリゾートホテルです。" />
     <meta name="keywords" content="八ヶ岳,ホテル,風か,小淵沢,宿泊,八ヶ岳,アウトレット,自然,リゾート" />
     <meta name="author" content="1000Mのおもてなし 八ヶ岳ホテル風か" />
