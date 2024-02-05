@@ -325,10 +325,10 @@ get_header(); ?>
         </div>
 
         <!-- ハートフルファミリールーム(ユニバーサルルーム) -->
-        <div class="content bg_b_c room10">
+        <div class="content bg_b_c room5">
             <div class="inner">
                 <div class="con-sp-fv fadein">
-                    <div class="float-l con_mv">
+                    <div class="float-r con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main10.png" alt="">
                         </div>
@@ -339,7 +339,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-r con_text-r">
+                    <div class="float-l con_text-r">
                         <div class="con_title">
                             <p>バストイレ付の広々ファミリールーム</p>
                             <h2>
@@ -373,10 +373,10 @@ get_header(); ?>
         </div>
 
         <!-- スタンダード和洋ルーム -->
-        <div class="content bg_wave room5">
+        <div class="content bg_wave room6">
             <div class="inner">
                 <div class="con-sp-fv fadein">
-                    <div class="float-r con_mv">
+                    <div class="float-l con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main5.png" alt="">
                         </div>
@@ -388,7 +388,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-l con_text-l">
+                    <div class="float-r con_text-l">
                         <div class="con_title">
                             <p>扉を開いた瞬間、“ほっ”とする和の心。</p>
                             <h2>
@@ -398,7 +398,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-l con_text-l fadein">
+                <div class="float-r con_text-r fadein">
                     <p class="text">
                         開放感のあるお部屋はベッドと畳、和と洋の過ごしやすさを追求した客室です。<br>
                         プライベートを大切にできる広々としたお部屋は、<br class="pc">あらゆる世代の方に寛ぎの空間をお楽しみいただけます。<br><br>
@@ -424,10 +424,10 @@ get_header(); ?>
         </div>
 
         <!-- 洋室ツイン -->
-        <div class="content bg_b_c room6">
+        <div class="content bg_b_c room7">
             <div class="inner">
                 <div class="con-sp-fv fadein">
-                    <div class="float-l con_mv">
+                    <div class="float-r con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main6.jpg" alt="">
                         </div>
@@ -438,7 +438,7 @@ get_header(); ?>
                             <p>・加湿機能付空気清浄機</p>
                         </div>
                     </div>
-                    <div class="float-r con_text-r">
+                    <div class="float-l con_text-r">
                         <div class="con_title">
                             <p>天然木でしつらえた和モダンな洋室</p>
                             <h2>
@@ -448,7 +448,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-r con_text-r fadein">
+                <div class="float-l con_text-l fadein">
                     <p class="text">
                         2名様でのご利用に最適な和モダンのツインルーム。<br>
                         ウッドデッキ調の客室はお部屋全体が木のぬくもりに包まれた、まさに寛ぎの空間です。<br>
@@ -479,10 +479,10 @@ get_header(); ?>
         </div>
 
         <!-- 洋室ダブル -->
-        <div class="content bg_wave room7">
+        <div class="content bg_wave room8">
             <div class="inner">
                 <div class="con-sp-fv fadein">
-                    <div class="float-r con_mv">
+                    <div class="float-l con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main7.jpg" alt="">
                         </div>
@@ -493,7 +493,7 @@ get_header(); ?>
                             <p>・加湿機能付空気清浄機</p>
                         </div>
                     </div>
-                    <div class="float-l con_text-l">
+                    <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>天然木でしつらえた和モダンな洋室</p>
                             <h2>
@@ -503,7 +503,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-l con_text-l fadein">
+                <div class="float-r con_text-r fadein">
                     <p class="text">
                         ダブルルームタイプは、クイーンサイズのベッドをご用意。大人の一人旅、ご夫婦、カップルでのご利用にも最適です。 <br>
                         リラックスいただける癒しの空間は休息の1日を穏やかに演出します。<br><br>
@@ -528,10 +528,10 @@ get_header(); ?>
         </div>
 
         <!-- 和室10畳 -->
-        <div class="content bg_b_c room8">
+        <div class="content bg_b_c room9">
             <div class="inner">
                 <div class="con-sp-fv fadein">
-                    <div class="float-l con_mv">
+                    <div class="float-r con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main9.jpg" alt="">
                         </div>
@@ -541,7 +541,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-r con_text-r">
+                    <div class="float-l con_text-l">
                         <div class="con_title">
                             <p>最もリーズナブルに利用できる</p>
                             <h2>
@@ -550,7 +550,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-r con_text-r fadein">
+                <div class="float-l con_text-l fadein">
                     <p class="text">
                     2023年冬に畳、室内壁クロス、障子、襖紙を時代の流れにあわせて抗ウイルス仕様に改修しました。お部屋にお風呂はありませんが、お子様連れのファミリー利用に特におすすめです。<br><br>
                         定員：1名～4名　／　広さ：和室10畳＋広縁
@@ -573,10 +573,10 @@ get_header(); ?>
         </div>
 
         <!-- スタンダードファミリールーム -->
-        <div class="content bg_wave room9">
+        <div class="content bg_wave room10">
             <div class="inner">
                 <div class="con-sp-fv fadein">
-                    <div class="float-r con_mv">
+                    <div class="float-l con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main8.png" alt="">
                         </div>
@@ -588,7 +588,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-l con_text-l">
+                    <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>お子様連れにおすすめ</p>
                             <h2>
@@ -597,7 +597,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-l con_text-l fadein">
+                <div class="float-r con_text-r fadein">
                     <p class="text">
                     広さは52㎡。和室8畳と洋間の広々としたお部屋。洋間にはベッドを2台あります。お部屋にユニットバスがあり、小さなお子様連れのご家族にとくにおすすめです。こちらは未リニューアルのお部屋です。<br><br>
                         定員：2名～5名　／　広さ：52m&#178;
