@@ -325,7 +325,7 @@ get_header(); ?>
         </div>
 
         <!-- ハートフルファミリールーム(ユニバーサルルーム) -->
-        <div class="content bg_b_c room5">
+        <div class="content bg_wave room5">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
@@ -373,7 +373,7 @@ get_header(); ?>
         </div>
 
         <!-- スタンダード和洋ルーム -->
-        <div class="content bg_wave room6">
+        <div class="content bg_b_c room6">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
@@ -424,7 +424,7 @@ get_header(); ?>
         </div>
 
         <!-- 洋室ツイン -->
-        <div class="content bg_b_c room7">
+        <div class="content bg_wave room7">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
@@ -479,7 +479,7 @@ get_header(); ?>
         </div>
 
         <!-- 洋室ダブル -->
-        <div class="content bg_wave room8">
+        <div class="content bg_b_c room8">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
@@ -528,7 +528,7 @@ get_header(); ?>
         </div>
 
         <!-- 和室10畳 -->
-        <div class="content bg_b_c room9">
+        <div class="content bg_wave room9">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
@@ -573,7 +573,7 @@ get_header(); ?>
         </div>
 
         <!-- スタンダードファミリールーム -->
-        <div class="content bg_wave room10">
+        <div class="content bg_b_c room10">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
