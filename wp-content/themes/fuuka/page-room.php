@@ -524,7 +524,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- ファミリールーム -->
+        <!-- スタンダードファミリールーム -->
         <div class="content bg_wave room9">
             <div class="inner">
                 <div class="con-sp-fv fadein">
@@ -544,7 +544,7 @@ get_header(); ?>
                         <div class="con_title">
                             <p>お子様連れにおすすめ</p>
                             <h2>
-                                ファミリールーム
+                                スタンダードファミリールーム
                             </h2>
                         </div>
                     </div>
@@ -579,7 +579,7 @@ get_header(); ?>
 
         </div>
 
-        <!-- ユニバーサルルーム -->
+        <!-- ハートフルファミリールーム(ユニバーサルルーム) -->
         <div class="content bg_b_c room10">
             <div class="inner">
                 <div class="con-sp-fv fadein">
@@ -596,17 +596,17 @@ get_header(); ?>
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
-                            <p>車椅子でも利用できる広々和洋ルーム</p>
+                            <p>バストイレ付の広々ファミリールーム</p>
                             <h2>
-                                ユニバーサルルーム
+                                ハートフルファミリールーム
                             </h2>
                         </div>
                     </div>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                    広さ73㎡と風かでもっとも広い和洋室タイプのお部屋です。車椅子ではいれる広々した脱衣場、手すり付お風呂、トイレがあります。<br>
-                    お部屋にお風呂がありますので、車椅子の方だけでなく小さなお子様連れのファミリー利用にもおすすめします。こちらは未リニューアルのお部屋です。<br><br>
+                        72㎡の広々和洋室です。2024年にお風呂、カーペット、畳など一部リニューアルしました。<br>
+                        お子様連れのご家族だけでなく、広々脱衣場、手すり付きお風呂、トイレなど車椅子でのご利用にも適したお部屋です。<br><br>
                         定員：2名～5名　／　広さ：73m&#178;
                     </p>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617425" class="flex">
