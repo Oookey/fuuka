@@ -324,6 +324,54 @@ get_header(); ?>
             </div>
         </div>
 
+        <!-- ハートフルファミリールーム(ユニバーサルルーム) -->
+        <div class="content bg_b_c room10">
+            <div class="inner">
+                <div class="con-sp-fv fadein">
+                    <div class="float-l con_mv">
+                        <div class="zoom" style="border-radius: 3.8rem;">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main10.png" alt="">
+                        </div>
+                        <div class="pc room_point">
+                            <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
+                            <p>・バリアフリー対応のバス・トイレ付</p>
+                            <p>・天然アロマの茶香炉</p>
+                            <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
+                        </div>
+                    </div>
+                    <div class="float-r con_text-r">
+                        <div class="con_title">
+                            <p>バストイレ付の広々ファミリールーム</p>
+                            <h2>
+                                ハートフルファミリールーム
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-r con_text-r fadein">
+                    <p class="text">
+                        72㎡の広々和洋室です。2024年にお風呂、カーペット、畳など一部リニューアルしました。<br>
+                        お子様連れのご家族だけでなく、広々脱衣場、手すり付きお風呂、トイレなど車椅子でのご利用にも適したお部屋です。<br><br>
+                        定員：2名～5名　／　広さ：73m&#178;
+                    </p>
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617425" class="flex">
+                        <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
+                    </a>
+                    <ul class="slick">
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_1.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_2.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_3.png"></li>
+                    </ul>
+                    <div class="sp room_point">
+                        <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
+                        <p>・バリアフリー対応のバス・トイレ付</p>
+                        <p>・天然アロマの茶香炉</p>
+                        <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- スタンダード和洋ルーム -->
         <div class="content bg_wave room5">
             <div class="inner">
@@ -577,54 +625,6 @@ get_header(); ?>
                 </div>
             </div>
 
-        </div>
-
-        <!-- ハートフルファミリールーム(ユニバーサルルーム) -->
-        <div class="content bg_b_c room10">
-            <div class="inner">
-                <div class="con-sp-fv fadein">
-                    <div class="float-l con_mv">
-                        <div class="zoom" style="border-radius: 3.8rem;">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main10.png" alt="">
-                        </div>
-                        <div class="pc room_point">
-                            <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
-                            <p>・バリアフリー対応のバス・トイレ付</p>
-                            <p>・天然アロマの茶香炉</p>
-                            <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
-                        </div>
-                    </div>
-                    <div class="float-r con_text-r">
-                        <div class="con_title">
-                            <p>バストイレ付の広々ファミリールーム</p>
-                            <h2>
-                                ハートフルファミリールーム
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="float-r con_text-r fadein">
-                    <p class="text">
-                        72㎡の広々和洋室です。2024年にお風呂、カーペット、畳など一部リニューアルしました。<br>
-                        お子様連れのご家族だけでなく、広々脱衣場、手すり付きお風呂、トイレなど車椅子でのご利用にも適したお部屋です。<br><br>
-                        定員：2名～5名　／　広さ：73m&#178;
-                    </p>
-                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617425" class="flex">
-                        <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
-                    </a>
-                    <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_3.png"></li>
-                    </ul>
-                    <div class="sp room_point">
-                        <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
-                        <p>・バリアフリー対応のバス・トイレ付</p>
-                        <p>・天然アロマの茶香炉</p>
-                        <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <!-- 設備・備品 -->
