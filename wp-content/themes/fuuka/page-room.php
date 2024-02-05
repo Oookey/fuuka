@@ -339,7 +339,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-l con_text-r">
+                    <div class="float-l con_text-l">
                         <div class="con_title">
                             <p>バストイレ付の広々ファミリールーム</p>
                             <h2>
@@ -348,7 +348,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-r con_text-r fadein">
+                <div class="float-l con_text-l fadein">
                     <p class="text">
                         72㎡の広々和洋室です。2024年にお風呂、カーペット、畳など一部リニューアルしました。<br>
                         お子様連れのご家族だけでなく、広々脱衣場、手すり付きお風呂、トイレなど車椅子でのご利用にも適したお部屋です。<br><br>
@@ -388,7 +388,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-r con_text-l">
+                    <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>扉を開いた瞬間、“ほっ”とする和の心。</p>
                             <h2>
@@ -438,7 +438,7 @@ get_header(); ?>
                             <p>・加湿機能付空気清浄機</p>
                         </div>
                     </div>
-                    <div class="float-l con_text-r">
+                    <div class="float-l con_text-l">
                         <div class="con_title">
                             <p>天然木でしつらえた和モダンな洋室</p>
                             <h2>
