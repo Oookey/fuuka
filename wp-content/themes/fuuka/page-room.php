@@ -643,7 +643,7 @@ get_header(); ?>
                         <p>・加湿機能付き空気清浄機</p>
                     </div>
                     <div class="float-l">
-                        <p>・フリーWIFI ※多客時はつながりづらい場合あり</p>
+                        <p>・フリーWIFI<br>※多客時はつながりづらい場合あり</p>
                     </div>
                 </div>
                 <p class="text room_ame_list">
