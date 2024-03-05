@@ -99,7 +99,7 @@ get_header(); ?>
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、バスアメニティはロクシタン
+                            マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617417" class="flex">
@@ -167,7 +167,7 @@ get_header(); ?>
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、アレクサ、バスアメニティはロクシタン
+                            マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、アレクサ
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617418" class="flex">
@@ -234,7 +234,7 @@ get_header(); ?>
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、バスアメニティはロクシタン、天然アロマの茶香炉、アレクサ
+                            マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、アレクサ
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617419" class="flex">

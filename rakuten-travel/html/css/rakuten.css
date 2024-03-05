@@ -248,7 +248,7 @@ footer .hotel_net p{
 #cuisine .cuisine_inline_menu p{
     font-size: 1.35rem !important;
     letter-spacing: 0 !important;
-    white-space: nowrap !important;
+    /* white-space: nowrap !important; */
 }
 #cuisine .cuisine_inline_menu .float-l, .cuisine_inline_menu .float-r{
     width: 49.5% !important;
