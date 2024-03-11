@@ -94,7 +94,8 @@ get_header(); ?>
                 <div class="float-l con_text-l fadein">
                     <p class="text">
                         チェックイン～チェックアウトまでお部屋の檜風呂温泉をひとりじめできます。<br>
-                        100㎡の広々ルームですので三世代でのご利用を特におすすめいたします。<br><br>
+                        100㎡の広々ルームですので三世代でのご利用を特におすすめいたします。<br>
+                        <span style="text-indent: -1em; padding-left:1em;">※4月下旬まで隣室改装工事の為、9：00～17：00まで音には最大限の注意を払い工事を行っております。ご迷惑をおかけするかもしれませんがよろしくご利用お願いします。</span><br><br>
                         定員：2名～8名　／　広さ：100m&#178;
                     </p>
                     <div class="room_star_wrap">
@@ -234,7 +235,7 @@ get_header(); ?>
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、アレクサ
+                            マッサージチェア、Panasonicイオンブースター美顔器、<br class="pc">Panasonic高浸透ナノイー搭載ヘアドライヤー、SALONIAストレートアイロン、カプセル式コーヒーメーカー、天然アロマの茶香炉、アレクサ
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617419" class="flex">
@@ -302,7 +303,7 @@ get_header(); ?>
                     </p>
                     <div class="room_star_wrap">
                         <p>
-                            EPSON製超短視点プロジェクター（100インチスクリーン）、ブルーレイレコーダー、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉
+                            EPSON製超短視点プロジェクター（100インチスクリーン）、ブルーレイレコーダー、カプセル式コーヒーメーカー、天然アロマの茶香炉
                         </p>
                     </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/617420" class="flex">

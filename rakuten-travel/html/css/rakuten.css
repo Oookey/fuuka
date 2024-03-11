@@ -320,6 +320,9 @@ footer .hotel_net p{
 .room_ame_list{
     padding-left: 0 !important;
 }
+.room_mask2 {
+    bottom: -16vw !important;
+}
 /* まるごとおもてなし */
 #hos .c_info_bg{
     background-image: none !important;
