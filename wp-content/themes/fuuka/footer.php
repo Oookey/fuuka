@@ -107,8 +107,8 @@
                         <a href="<?php bloginfo('url'); ?>/pdf/syukuhakuyakkan.pdf">
                             <p>・宿泊約款</p>
                         </a>
-                        <a href="https://oyadonet.com/img/guideline20230508.pdf" target="_blank" rel="noopener">
-                            <p>・新型コロナウィルス対応 ガイドライン<br>　(2023年5月8日改定）</p>
+                        <a href="https://hotel-fuuka.jp/wp/wp-content/themes/fuuka/document/guideline20240101.pdf" target="_blank" rel="noopener">
+                            <p>・新型コロナウィルス対応 ガイドライン<br>　(2024年1月1日改定）</p>
                         </a>
                     </div>
                 </div>
