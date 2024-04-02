@@ -135,24 +135,22 @@
                             <p class="bold">加盟施設</p>
                         </div>
                         <div class="hotel_net">
+                            <a href="https://zuihouen.net/" target="_blank" rel="noopener"><p>・有馬 瑞宝園</p></a>
                             <a href="https://www.namine-kairo.com/" target="_blank" rel="noopener"><p>・伊勢志摩の波音 海楼</p></a>
                             <a href="https://www.umikaze-atami.com/" target="_blank" rel="noopener"><p>・海風テラス あたみ</p></a>
+                            <a href="https://www.hotel-uminpia.jp/" target="_blank" rel="noopener"><p>・オーシャンリゾート＆スパ うみんぴあ</p></a>
                             <a href="https://www.shimeikan.jp/" target="_blank" rel="noopener"><p>・風木立の川辺 紫明館</p></a>
                             <a href="https://www.hekiryu.jp/" target="_blank" rel="noopener"><p>・絹の渓谷 碧流 </p></a>
-                            <a href="https://www.castle-manai.jp/" target="_blank" rel="noopener"><p>・キャッスル真名井</p></a>
                             <a href="https://www.kuji-sunpia-hitachi.com/" target="_blank" rel="noopener"><p>・久慈サンピア日立</p></a> 
                             <a href="https://www.gora-kazenone.jp/" target="_blank" rel="noopener"><p>・強羅 風の音</p></a>
                             <a href="https://www.kyoto-keburikawa.jp/" target="_blank" rel="noopener"><p>・里山の休日 京都・烟河</p></a>
                             <a href="https://www.sunhills-mikawawan.com/" target="_blank" rel="noopener"><p>・サンヒルズ三河湾</p></a>
-                            <a href="https://www.sunperla-shima.jp/" target="_blank" rel="noopener"><p>・汐岬の湯 サンペルラ志摩</p></a>
                             <a href="https://www.hotel-yubana.com/" target="_blank" rel="noopener"><p>・ちりはま ホテルゆ華</p></a>
-                            <a href="https://www.nemunohatago-arashiyama.com/" target="_blank" rel="noopener"><p>・合歓の旅籠 嵐山</p></a>
-                            <a href="https://www.noto-omakidai.com/" target="_blank" rel="noopener"><p>・能登小牧台</p></a>
                             <a href="https://www.panorama-inn-yamanakako.jp/" target="_blank" rel="noopener"><p>・パノラマイン山中湖</p></a>
                             <a href="https://www.housensou.com/" target="_blank" rel="noopener"><p>・別府 豊泉荘</p></a>
-                            <a href="https://www.hotel-uminpia.jp/" target="_blank" rel="noopener"><p>・ホテルうみんぴあ</p></a>
                             <a href="https://www.hotel-fuuka.jp/" target="_blank" rel="noopener"><p>・八ヶ岳 ホテル風か</p></a>
                             <a href="https://kumanoclub.jp/" target="_blank" rel="noopener"><p>・里創人 熊野倶楽部</p></a>
+                            <a href="https://resortclub-iseshima.jp/" target="_blank" rel="noopener"><p>・里創人倶楽部 伊勢志摩</p></a>
                         </div>
                         <div class="title">
                             <p class="bold">紹介施設</p>
@@ -164,6 +162,7 @@
                             <a href="https://www.greenview-t.com/" target="_blank" rel="noopener"><p>・グリーンビュー立山</p></a>
                             <a href="https://www.nasunomori-village.jp/" target="_blank" rel="noopener"><p>・那須の森ヴィレッジ</p></a>
                             <a href="https://www.oyadonet.com/fujijutaku/" target="_blank" rel="noopener"><p>・フジ住宅白浜保養所</p></a>
+                            <a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener"><p>・マリッサリゾート サザンセト周防大島</p></a>
                             <a href="https://www.kuroshioso.jp/" target="_blank" rel="noopener"><p>・南房総鴨川 黒潮荘</p></a>
                         </div>
                         </div>
@@ -176,21 +175,20 @@
                 </div>
                 <div class="flex">
                     <div class="hotel_net">
+                        <a href="https://zuihouen.net/" target="_blank" rel="noopener"><p>・有馬 瑞宝園</p></a>
                         <a href="https://www.namine-kairo.com/" target="_blank" rel="noopener"><p>・伊勢志摩の波音 海楼</p></a>
                         <a href="https://www.kuji-sunpia-hitachi.com/" target="_blank" rel="noopener"><p>・久慈サンピア日立</p></a> 
                         <a href="https://www.hotel-yubana.com/" target="_blank" rel="noopener"><p>・ちりはま ホテルゆ華</p></a> 
-                        <a href="https://www.hotel-uminpia.jp/" target="_blank" rel="noopener"><p>・ホテルうみんぴあ</p></a>
                     </div>
                     <div class="hotel_net">
                         <a href="https://www.umikaze-atami.com/" target="_blank" rel="noopener"><p>・海風テラス あたみ</p></a>
+                        <a href="https://www.hotel-uminpia.jp/" target="_blank" rel="noopener"><p>・オーシャンリゾート＆スパ うみんぴあ</p></a>
                         <a href="https://www.gora-kazenone.jp/" target="_blank" rel="noopener"><p>・強羅 風の音</p></a>
-                        <a href="https://www.nemunohatago-arashiyama.com/" target="_blank" rel="noopener"><p>・合歓の旅籠 嵐山</p></a>
                         <a href="https://www.hotel-fuuka.jp/" target="_blank" rel="noopener"><p>・八ヶ岳 ホテル風か</p></a>
                     </div>
                     <div class="hotel_net">
                         <a href="https://www.shimeikan.jp/" target="_blank" rel="noopener"><p>・風木立の川辺 紫明館</p></a>
                         <a href="https://www.kyoto-keburikawa.jp/" target="_blank" rel="noopener"><p>・里山の休日 京都・烟河</p></a>
-                        <a href="https://www.noto-omakidai.com/" target="_blank" rel="noopener"><p>・能登小牧台 </p></a>
                         <a href="https://kumanoclub.jp/" target="_blank" rel="noopener"><p>・里創人 熊野倶楽部</p></a>
                     </div>
                     <div class="hotel_net">
@@ -199,7 +197,7 @@
                         <a href="https://www.panorama-inn-yamanakako.jp/" target="_blank" rel="noopener"><p>・パノラマイン山中湖</p></a>
                     </div>
                     <div class="hotel_net">
-                        <a href="https://www.castle-manai.jp/" target="_blank" rel="noopener"><p>・キャッスル真名井</p></a>
+                        <a href="https://resortclub-iseshima.jp/" target="_blank" rel="noopener"><p>・里創人倶楽部 伊勢志摩</p></a>
                         <a href="https://www.sunperla-shima.jp/" target="_blank" rel="noopener"><p>・汐岬の湯 サンペルラ志摩</p></a>
                         <a href="https://www.housensou.com/" target="_blank" rel="noopener"><p>・別府 豊泉荘</p></a>
                     </div>
@@ -215,10 +213,11 @@
                     </div>
                     <div class="hotel_net">
                         <a href="http://www.okuikelodge.jp/" target="_blank" rel="noopener"><p>・大阪ガス研修施設 奥池ロッジ</p></a>
-                        <a href="https://www.kuroshioso.jp/" target="_blank" rel="noopener"><p>・南房総鴨川 黒潮荘</p></a>
+                        <a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener"><p>・マリッサリゾート サザンセト周防大島</p></a>
                     </div>
                     <div class="hotel_net">
                         <a href="http://www.kurashiki-seaside.co.jp/" target="_blank" rel="noopener"><p>・倉敷シーサイドホテル</p></a>
+                        <a href="https://www.kuroshioso.jp/" target="_blank" rel="noopener"><p>・南房総鴨川 黒潮荘</p></a>
                     </div>
                     <div class="hotel_net">
                         <a href="https://www.greenview-t.com/" target="_blank" rel="noopener"><p>・グリーンビュー立山</p></a>
