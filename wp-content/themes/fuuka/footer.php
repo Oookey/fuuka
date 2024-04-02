@@ -182,7 +182,7 @@
                     </div>
                     <div class="hotel_net">
                         <a href="https://www.umikaze-atami.com/" target="_blank" rel="noopener"><p>・海風テラス あたみ</p></a>
-                        <a href="https://www.hotel-uminpia.jp/" target="_blank" rel="noopener"><p>・オーシャンリゾート＆スパ うみんぴあ</p></a>
+                        <a href="https://www.hotel-uminpia.jp/" target="_blank" rel="noopener"><p style="white-space: break-spaces;text-indent: -1em;padding-left: 1em;line-height: 1.3;">・オーシャンリゾート＆スパ<br>うみんぴあ</p></a>
                         <a href="https://www.gora-kazenone.jp/" target="_blank" rel="noopener"><p>・強羅 風の音</p></a>
                         <a href="https://www.hotel-fuuka.jp/" target="_blank" rel="noopener"><p>・八ヶ岳 ホテル風か</p></a>
                     </div>
@@ -213,7 +213,7 @@
                     </div>
                     <div class="hotel_net">
                         <a href="http://www.okuikelodge.jp/" target="_blank" rel="noopener"><p>・大阪ガス研修施設 奥池ロッジ</p></a>
-                        <a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener"><p>・マリッサリゾート サザンセト周防大島</p></a>
+                        <a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener"><p style="white-space: break-spaces;text-indent: -1em;padding-left: 1em;line-height: 1.3;">・マリッサリゾート<br>サザンセト周防大島</p></a>
                     </div>
                     <div class="hotel_net">
                         <a href="http://www.kurashiki-seaside.co.jp/" target="_blank" rel="noopener"><p>・倉敷シーサイドホテル</p></a>
