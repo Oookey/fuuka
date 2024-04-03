@@ -401,9 +401,9 @@ get_header(); ?>
                 </div>
                 <div class="float-r con_text-r fadein">
                     <p class="text">
-                    2024年5月にオープンする未就学児（トドラー）お子様連れファミリーにぴったりの新しいお部屋です。<br>
-                    10畳の和室に広々キングサイズ（幅180センチ）のローベッドをご用意。ユニットバス付、その他幼児向けの備品をご用意しております。もちろん大人2名様でのご利用でも快適にご利用いただけます。<br><br>
-                        定員：2名～3名(お子様は幼児のみ受入)　／　広さ：10畳&#178;
+                        2024年5月にオープンする未就学児（トドラー）お子様連れファミリーにぴったりの新しいお部屋です。<br>
+                        10畳の和室に広々キングサイズ（幅180センチ）のローベッドをご用意。ユニットバス付、その他幼児向けの備品をご用意しております。もちろん大人2名様でのご利用でも快適にご利用いただけます。<br><br>
+                        定員：2名～3名(お子様は幼児のみ受入)　／　広さ：10畳
                     </p>
                     <a href="#" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
@@ -423,7 +423,7 @@ get_header(); ?>
 <!-- ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー -->
 
         <!-- ハートフルファミリールーム(ユニバーサルルーム) -->
-        <div class="content bg_wave room5">
+        <div class="content bg_wave room7">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
@@ -471,7 +471,7 @@ get_header(); ?>
         </div>
 
         <!-- スタンダード和洋ルーム -->
-        <div class="content bg_b_c room6">
+        <div class="content bg_b_c room8">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
@@ -520,7 +520,7 @@ get_header(); ?>
         </div>
 
         <!-- 洋室ツイン -->
-        <div class="content bg_wave room7">
+        <div class="content bg_wave room9">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
@@ -572,7 +572,7 @@ get_header(); ?>
         </div>
 
         <!-- 洋室ダブル -->
-        <div class="content bg_b_c room8">
+        <div class="content bg_b_c room10">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
@@ -618,7 +618,7 @@ get_header(); ?>
         </div>
 
         <!-- 和室10畳 -->
-        <div class="content bg_wave room9">
+        <div class="content bg_wave room11">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
@@ -663,7 +663,7 @@ get_header(); ?>
         </div>
 
         <!-- スタンダードファミリールーム -->
-        <div class="content bg_b_c room10">
+        <div class="content bg_b_c room12">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
