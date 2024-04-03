@@ -85,8 +85,8 @@ get_header(); ?>
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
-                            <p>半露天温泉＋プライベートテラス付のラグジュアリースイート</p>
-                            <h2>温泉岩風呂付客室FUUKAラグジュアリースイート90平米</h2>
+                            <p>半露天温泉＋プライベートテラス付の<br class="pc">ラグジュアリースイート</p>
+                            <h2>温泉岩風呂付客室FUUKA<br>ラグジュアリースイート<br>90平米</h2>
                         </div>
                     </div>
                 </div>
@@ -287,7 +287,7 @@ get_header(); ?>
                         <div class="con_title">
                             <p>プライベートバス付客室</p>
                             <h2>
-                                【プライベートバス付客室】<br>
+                                【プライベートバス付客室】<br class="pc">
                                 美容FUUKAジュニアスイート
                             </h2>
                         </div>
@@ -340,7 +340,7 @@ get_header(); ?>
                         <div class="con_title">
                             <p>ワンランク上の和洋室タイプのお部屋</p>
                             <h2>
-                                【100インチ超スクリーン付】<br>
+                                【100インチ超スクリーン付】<br class="pc">
                                 スーペリア和洋ルーム
                             </h2>
                         </div>
@@ -408,11 +408,6 @@ get_header(); ?>
                     <a href="#" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
-                    <!-- <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_3_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_3_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_3_3.png"></li>
-                    </ul> -->
                     <div class="sp room_point">
                         <p>・キングサイズのローベッド（180センチ×210センチ）</p>
                         <p>・ユニットバス</p>
@@ -542,8 +537,7 @@ get_header(); ?>
                         <div class="con_title">
                             <p>天然木でしつらえた和モダンな洋室</p>
                             <h2>
-                                洋室ツイン<br class="sp">
-                                ［和モダン］
+                                洋室ツイン［和モダン］
                             </h2>
                         </div>
                     </div>
@@ -595,8 +589,7 @@ get_header(); ?>
                         <div class="con_title">
                             <p>天然木でしつらえた和モダンな洋室</p>
                             <h2>
-                                洋室ダブル<br class="sp">
-                                ［和モダン］
+                                洋室ダブル［和モダン］
                             </h2>
                         </div>
                     </div>
