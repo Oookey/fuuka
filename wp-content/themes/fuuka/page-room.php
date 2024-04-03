@@ -77,8 +77,8 @@ get_header(); ?>
                         </div>
                         <div class="pc room_point">
                             <p>・ベッドルーム1部屋（ベッド2台）＋フラットな畳スペース（10畳）と広々ダイニング（ベッド2台）＋半露天岩風呂温泉</p>
-                            <p>・檜風呂は24時間入浴可能 </p>
-                            <p>・檜風呂の温泉の泉質　ナトリウム塩化物、炭酸水素塩、硫酸塩温泉（中性性低張性高温泉）</p>
+                            <p>・岩風呂は24時間入浴可能 </p>
+                            <p>・岩風呂の温泉の泉質　ナトリウム塩化物、炭酸水素塩、硫酸塩温泉（中性性低張性高温泉）</p>
                             <p>・お湯の色：無色透明</p>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
@@ -109,8 +109,8 @@ get_header(); ?>
                     </ul>
                     <div class="sp room_point">
                         <p>・ベッドルーム1部屋（ベッド2台）+フラットな畳スペース（10畳）と広々ダイニング（ベッド2台）+半露天岩風呂温泉</p>
-                        <p>・檜風呂は24時間入浴可能 </p>
-                        <p>・檜風呂の温泉の泉質　ナトリウム塩化物、炭酸水素塩、硫酸塩温泉（中性性低張性高温泉）</p>
+                        <p>・岩風呂は24時間入浴可能 </p>
+                        <p>・岩風呂の温泉の泉質　ナトリウム塩化物、炭酸水素塩、硫酸塩温泉（中性性低張性高温泉）</p>
                         <p>・お湯の色：無色透明</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
@@ -616,7 +616,7 @@ get_header(); ?>
         </div>
 
         <!-- 和室10畳 -->
-        <div class="content bg_wave room11">
+        <div class="content bg_wave">
             <div class="inner">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
@@ -714,7 +714,7 @@ get_header(); ?>
         </div>
 
         <!-- 設備・備品 -->
-        <div class="content bg_wave room11">
+        <div class="content bg_wave room11 room-facility">
             <div class="inner fadein">
                 <div class="con_title">
                     <h2>
