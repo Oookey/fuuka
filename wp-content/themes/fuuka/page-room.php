@@ -101,7 +101,7 @@ get_header(); ?>
                         超短焦点プロジェクター（150インチの大画面）、庭付プライベートテラス、地元作家作一枚板ダイニングテーブル、マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、浄水器
                         </p>
                     </div>
-                    <a href="#" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/862499" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
@@ -405,7 +405,7 @@ get_header(); ?>
                         10畳の和室に広々キングサイズ（幅180センチ）のローベッドをご用意。ユニットバス付、その他幼児向けの備品をご用意しております。もちろん大人2名様でのご利用でも快適にご利用いただけます。<br><br>
                         定員：2名～3名(お子様は幼児のみ受入)　／　広さ：10畳
                     </p>
-                    <a href="#" class="flex">
+                    <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/862500" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <div class="sp room_point">
@@ -419,8 +419,6 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-
-<!-- ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー -->
 
         <!-- ハートフルファミリールーム(ユニバーサルルーム) -->
         <div class="content bg_wave room7">
