@@ -40,7 +40,7 @@ get_header(); ?>
                 <div class="pageinfo_inner">
                     <h2 class="fv_fadein">春夏秋冬<br>
                         表情の違う八ヶ岳を愛でる<br>
-                        10趣の客室
+                        12趣の客室
                     </h2>
                     <p class="fadein">
                         温泉が楽しめるスイートルーム、<br>
@@ -67,11 +67,79 @@ get_header(); ?>
             </div>
         </div>
 
-        <!-- 温泉檜風呂付客室 -->
+        <!-- 温泉岩風呂付客室FUUKAラグジュアリースイート90平米 -->
         <div class="content bg_wave">
             <div class="inner img_bg_1">
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
+                        <div class="zoom" style="border-radius: 3.8rem;">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main_iwaburosweet.jpg" alt="">
+                        </div>
+                        <div class="pc room_point">
+                            <p>・ベッドルーム1部屋（ベッド2台）＋フラットな畳スペース（10畳）と広々ダイニング（ベッド2台）＋半露天岩風呂温泉</p>
+                            <p>・檜風呂は24時間入浴可能 </p>
+                            <p>・檜風呂の温泉の泉質　ナトリウム塩化物、炭酸水素塩、硫酸塩温泉（中性性低張性高温泉）</p>
+                            <p>・お湯の色：無色透明</p>
+                            <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
+                        </div>
+                    </div>
+                    <div class="float-l con_text-l">
+                        <div class="con_title">
+                            <p>半露天温泉＋プライベートテラス付のラグジュアリースイート</p>
+                            <h2>温泉岩風呂付客室FUUKAラグジュアリースイート90平米</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-l con_text-l fadein">
+                    <p class="text">
+                        2024年6月新設の和を貴重とした森が薫るラグジュアリースイートです。<br>
+                        半露天岩風呂、庭付のプライベートテラス、150インチ大画面スクリーン、地元作家作の一枚板ダイニングテーブル、シモンズ製ベッドなど風かで最もラグジュアリーな客室です。<br><br>
+                        定員：2名～8名　／　広さ：90m&#178;
+                    </p>
+                    <div class="room_star_wrap">
+                        <p>
+                        超短焦点プロジェクター（150インチの大画面）、庭付プライベートテラス、地元作家作一枚板ダイニングテーブル、マッサージチェア、カプセル式コーヒーメーカー、空間除菌脱臭機ジアイーノ、天然アロマの茶香炉、浄水器
+                        </p>
+                    </div>
+                    <a href="#" class="flex">
+                        <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
+                    </a>
+                    <ul class="slick">
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_iwaburosweet_1.jpg"></li>
+                    </ul>
+                    <div class="sp room_point">
+                        <p>・ベッドルーム1部屋（ベッド2台）+フラットな畳スペース（10畳）と広々ダイニング（ベッド2台）+半露天岩風呂温泉</p>
+                        <p>・檜風呂は24時間入浴可能 </p>
+                        <p>・檜風呂の温泉の泉質　ナトリウム塩化物、炭酸水素塩、硫酸塩温泉（中性性低張性高温泉）</p>
+                        <p>・お湯の色：無色透明</p>
+                        <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
+                    </div>
+                </div>
+                <!-- アニメーション -->
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" transform="rotate(0)" class="room_mask room_mask2">
+                    <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_room2.png" preserveAspectRatio="none"/>
+                    <defs>
+                        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color: rgb(238, 205, 163);"/>
+                            <stop offset="100%" style="stop-color: rgb(239, 98, 159);"/>
+                        </linearGradient>
+                    </defs>
+                    <clipPath id="shape">
+                        <path id="blob" fill="url(#gradient)">
+                            <animate attributeName="d" dur="9.5s" repeatCount="indefinite" values="M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;"/>
+                        </path>
+                    </clipPath>
+                </svg>
+            </div>
+        </div>
+
+<!-- ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー -->
+
+        <!-- 温泉檜風呂付客室 -->
+        <div class="content bg_b_c">
+            <div class="inner img_bg_1">
+                <div class="con-sp-fv fadein">
+                    <div class="float-l con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main1.png" alt="">
                         </div>
@@ -83,7 +151,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-l con_text-l">
+                    <div class="float-r con_text-r">
                         <div class="con_title">
                             <p>檜風呂付の木のぬくもり溢れるプライベートスイート。</p>
                             <h2>温泉檜風呂付客室<br>
@@ -91,7 +159,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-l con_text-l fadein">
+                <div class="float-r con_text-r fadein">
                     <p class="text">
                         チェックイン～チェックアウトまでお部屋の檜風呂温泉をひとりじめできます。<br>
                         100㎡の広々ルームですので三世代でのご利用を特におすすめいたします。<br>
@@ -120,8 +188,8 @@ get_header(); ?>
                     </div>
                 </div>
                 <!-- アニメーション -->
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" transform="rotate(0)" class="room_mask room_mask2">
-                    <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_room2.png" preserveAspectRatio="none"/>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" transform="rotate(0)" class="room_mask room_mask3">
+                    <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_room3.png" preserveAspectRatio="none"/>
                     <defs>
                         <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                             <stop offset="0%" style="stop-color: rgb(238, 205, 163);"/>
@@ -137,11 +205,13 @@ get_header(); ?>
             </div>
         </div>
 
+<!-- ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー -->
+
         <!-- 星見ジャグジー風呂付客室 -->
-        <div class="content bg_b_c">
+        <div class="content bg_wave room3">
             <div class="inner img_bg_2">
                 <div class="con-sp-fv fadein">
-                    <div class="float-l con_mv">
+                    <div class="float-r con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
                             <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main2.png" alt="">
                         </div>
@@ -151,7 +221,7 @@ get_header(); ?>
                             <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                         </div>
                     </div>
-                    <div class="float-r con_text-r">
+                    <div class="float-l con_text-l">
                         <div class="con_title">
                             <p>星を眺めながらのんびりと<br class="sp">お風呂に浸かれる</p>
                             <h2>
@@ -161,7 +231,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="float-r con_text-r fadein">
+                <div class="float-l con_text-l fadein">
                     <p class="text">
                         2020年新設の新しいお部屋。洋風のおしゃれなお部屋で女性グループ、ご家族での記念日旅行でのご利用に特におすすめです。<br><br>
                         定員：2名～8名　／　広さ：80m&#178;
@@ -186,8 +256,8 @@ get_header(); ?>
                     </div>
                 </div>
                 <!-- アニメーション -->
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" transform="rotate(0)" class="room_mask room_mask3">
-                    <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_room3.png" preserveAspectRatio="none"/>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" transform="rotate(0)" class="room_mask room_mask4">
+                    <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_room4.png" preserveAspectRatio="none"/>
                     <defs>
                         <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                             <stop offset="0%" style="stop-color: rgb(238, 205, 163);"/>
@@ -323,6 +393,8 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+
+<!-- ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー -->
 
         <!-- ハートフルファミリールーム(ユニバーサルルーム) -->
         <div class="content bg_wave room5">
