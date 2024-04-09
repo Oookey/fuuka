@@ -34,9 +34,9 @@ get_header(); ?>
                                 添付ファイルを印刷しご記入いただき、当日スタッフにお渡しください。<br>
                             </p>
                             <a href="" class="flex btn" style="float: none;display: block;margin-bottom: 4rem;">
-                                <p class=""><span class="arrow"></span>チェックイン入力フォームはこちら</p>
+                                <p class=""><span class="arrow"></span>チェックイン入力フォーム<br class="sp">はこちら</p>
                             </a>
-                            <p class="news_info indent2">
+                            <p class="news_info">
                                 ※下記の案内をご確認ください。すぐにチェックイン時のおもてなしを楽しみ、お部屋にお入りいただけるよう当日の説明は省かせていただきます。<br>
                             </p>
                             <p class="news_info">
