@@ -24,7 +24,7 @@ get_header(); ?>
                                 また当日ご不明点がありましたらフロントにお尋ねください。
                             </p>
                             <p class="news_info indent2">
-                                <b>１）「<a href="<?php bloginfo('url'); ?>/smartcheckin_form">チェックイン入力フォーム</a>」に入力</b><br>
+                                <b>１）「<a href="<?php bloginfo('url'); ?>/smartCheckIn_form">チェックイン入力フォーム</a>」に入力</b><br>
                                 「チェックイン入力フォーム」に必要事項をご入力いただき送信してください。<br>
                                 お客様に入力いただいた情報はメールにてお送りさせていただきます。<br>
                                 こちらは宿泊日前日までに情報を入力し送信してください。<br>
