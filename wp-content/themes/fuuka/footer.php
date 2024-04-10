@@ -233,8 +233,6 @@
 </footer>
 <!-- ↑↑↑ FOOTER ↑↑↑ -->
 
-<?php wp_footer(); ?>
-
 <!-- ↓↓↓ etc. ↓↓↓ -->
 <script src="<?php bloginfo('template_directory'); ?>/js/swiper-bundle.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/slick.min.js"></script>
@@ -243,5 +241,6 @@
 <script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
 <!-- ↑↑↑ etc. ↑↑↑ -->
 
+<?php wp_footer(); ?>
 </body>
 </html>
