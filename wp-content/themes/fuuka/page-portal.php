@@ -24,16 +24,16 @@ get_header(); ?>
                                 また当日ご不明点がありましたらフロントにお尋ねください。
                             </p>
                             <p class="news_info indent2">
-                                <b>１）「<a href="<?php bloginfo('url'); ?>/smartCheckIn_form">チェックイン入力フォーム</a>」に入力</b><br>
+                                <b>１）「<a href="<?php bloginfo('url'); ?>/smartcheckIn_form">チェックイン入力フォーム</a>」に入力</b><br>
                                 「チェックイン入力フォーム」に必要事項をご入力いただき送信してください。<br>
                                 お客様に入力いただいた情報はメールにてお送りさせていただきます。<br>
                                 こちらは宿泊日前日までに情報を入力し送信してください。<br>
                             </p>
                             <p class="news_info indent2">
-                                <b>２）「<a href="<?php bloginfo('url'); ?>/smartcheckin_form">チェックインシート</a>」を当日持参</b><br>
+                                <b>２）「<a href="<?php bloginfo('url'); ?>/smartcheckIn_form">チェックインシート</a>」を当日持参</b><br>
                                 添付ファイルを印刷しご記入いただき、当日スタッフにお渡しください。<br>
                             </p>
-                            <a href="" class="flex btn" style="float: none;display: block;margin-bottom: 4rem;">
+                            <a href="<?php bloginfo('url'); ?>/smartcheckIn_form" class="flex btn" style="float: none;display: block;margin-bottom: 4rem;">
                                 <p class=""><span class="arrow"></span>チェックイン入力フォーム<br class="sp">はこちら</p>
                             </a>
                             <p class="news_info">
