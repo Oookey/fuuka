@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/swiper.min.css">
 
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery-3.6.3.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/jquery-ui.js"></script>
 
     <!-- special-mask -->
     <svg width="0" height="0" style="position: absolute; top: 0; left: 0;">
