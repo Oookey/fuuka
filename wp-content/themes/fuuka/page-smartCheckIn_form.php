@@ -3,6 +3,7 @@
 * Template Name: スマートチェックイン
 */
 get_header(); ?>
+<?php if( !post_password_required( $post->ID ) ) :  ?>
 <!------------- HEADER ------------->
 
     <!-- ↓↓↓ MAIN ↓↓↓ -->
@@ -21,7 +22,7 @@ get_header(); ?>
             <div class="news">
                 <div class="inner">
 
-                    <p class="f-error">入力エラーです。<br>※まだ申請は完了しておりません。</p>
+                    <p class="f-error">入力エラーです。<br>※まだフォームの記入は完了しておりません。</p>
 
                     <p class="top_info f-er-n">
                     下記へご記入ください。<br>
@@ -61,6 +62,10 @@ get_header(); ?>
         }
         });
     </script>
+
+<?php else:  ?>
+    <?php echo get_the_password_form(); ?>
+<?php endif;  ?>
 
 <?php get_footer(); ?>
 
