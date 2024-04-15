@@ -3,7 +3,6 @@
 * Template Name: スマートチェックイン
 */
 get_header(); ?>
-<?php if( !post_password_required( $post->ID ) ) :  ?>
 <!------------- HEADER ------------->
 
     <!-- ↓↓↓ MAIN ↓↓↓ -->
@@ -16,6 +15,8 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+        
+        <?php if( !post_password_required( $post->ID ) ) :  ?>
 
         <!-- スマートチェックインフォーム -->
         <div class="content bg_wave">

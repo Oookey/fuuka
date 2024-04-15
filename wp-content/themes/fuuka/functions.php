@@ -45,6 +45,7 @@ function my_mwform_csv_encoding($encode)
 	return 'utf-8';
 }
 add_filter('mwform_csv_encoding-mwf_15', 'my_mwform_csv_encoding');
+add_filter('mwform_csv_encoding-mwf_351', 'my_mwform_csv_encoding');
 
 // ============================================
 // mw-wp-form CSV
