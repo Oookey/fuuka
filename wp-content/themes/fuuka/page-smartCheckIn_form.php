@@ -15,22 +15,15 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-        
+
         <?php if( !post_password_required( $post->ID ) ) :  ?>
 
         <!-- スマートチェックインフォーム -->
         <div class="content bg_wave">
             <div class="news">
                 <div class="inner">
-
                     <p class="f-error">入力エラーです。<br>※まだフォームの記入は完了しておりません。</p>
-
-                    <p class="top_info f-er-n">
-                    下記へご記入ください。<br>
-                    <b style="color:red;">【必須】</b>は必ずご入力ください。<br>
-                    ご記入いただいた内容、及び館内の営業時間等は
-                    </p>
-
+                    <p class="top_info f-er-n">下記へご記入ください。<br><b style="color:red;">【必須】</b>は必ずご入力ください。<br>ご記入いただいた内容、及び館内の営業時間等は</p>
                     <div class="detail">
                         <!-- フォーム -->
                         <div class="content_wrap form_wrap">
@@ -38,10 +31,8 @@ get_header(); ?>
                                 <?php echo do_shortcode('[mwform_formkey key="351"]'); ?>
                             </div>
                         </div>
-
                     </div>
                     <a href="<?php bloginfo('url'); ?>/"><span class="arrow"></span>トップページへ戻る</a>
-
                 </div>
             </div>
         </div>
