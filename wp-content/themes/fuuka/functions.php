@@ -81,4 +81,7 @@ EOC;
 }
 add_action( 'wp_print_footer_scripts', 'add_yubinbango_class' );
 
+// ============================================
+remove_filter('the_content', 'wpautop');
+
 ?>
