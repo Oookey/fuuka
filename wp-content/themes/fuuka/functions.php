@@ -84,7 +84,7 @@ add_action( 'wp_print_footer_scripts', 'add_yubinbango_class' );
 // ============================================
 // スマートチェックインフォーム用(WordPressで空のpタグを削除する)
 function wpautop_disable_ispage() {
-	if(is_page('smartcheckin_form')) {
+	if(is_page(array( 'smartcheckin_form','smartcheckin_confilm' ))) {
 		remove_filter('the_content', 'wpautop'); 
 	}
 }
