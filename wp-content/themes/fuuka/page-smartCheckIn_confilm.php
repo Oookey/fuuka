@@ -29,7 +29,7 @@ get_header(); ?>
                         <!-- フォーム -->
                         <div class="content_wrap form_wrap">
                             <div class="form_inner">
-                                <?php echo do_shortcode('[mwform_formkey key="351"]'); ?>
+                                <?php echo do_shortcode('[mwform_formkey key="922"]'); ?>
                             </div>
                         </div>
 
