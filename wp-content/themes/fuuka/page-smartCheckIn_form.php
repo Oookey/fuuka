@@ -45,8 +45,8 @@ get_header(); ?>
                             <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
                                 <li>荒天時は一部中止、内容変更の可能性があります</li>
                                 <li>当社に、事務取扱責任者1人を置く。</li>
-                                <li>ウエルカムビールは22：30までご利用いただけます。</li>
-                                <li>ジュース、珈琲は22：30まで、翌朝7：00～チェックアウトまでご利用いただけます。</li>
+                                <li>ウエルカムビールは22:30までご利用いただけます。</li>
+                                <li>ジュース、珈琲は22:30まで、翌朝7:00～チェックアウトまでご利用いただけます。</li>
                             </ol>
                             <!--  -->
                             <p class="news_info" style="margin-top: 1.5rem;">
@@ -85,7 +85,7 @@ get_header(); ?>
                             <!--  -->
                             <p class="news_info" style="margin-top: 1.5rem;">
                                 <b>杜のライブラリー</b><br>
-                                15:00～23:00　7:00～11:00<br>
+                                15:00～23:00 7:00～11:00<br>
                             </p>
                             <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
                                 <li>たくさんのコミック、小説をご用意</li>
@@ -109,7 +109,7 @@ get_header(); ?>
                             <!--  -->
                             <p class="news_info" style="margin-top: 1.5rem;">
                                 <b>キッズルーム</b><br>
-                                14：00～22：00　7：00～11：00<br>
+                                14:00～22:00 7:00～11:00<br>
                             </p>
                             <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
                                 <li>たくさんの工作体験、遊具、おもちゃをご用意しています</li>
