@@ -32,7 +32,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="detail_inner">
+                    <div class="detail">
                             <p class="news_info">
                                 <b>【館内のご案内】</b><br>
                             </p>
