@@ -82,8 +82,8 @@ EOC;
 add_action( 'wp_print_footer_scripts', 'add_yubinbango_class' );
 
 // ============================================
-// スマートチェックインフォーム用(不要なpタグ削除)
-if is_page( array( 'smartcheckin_form' ) ) {//arrayの中に適用するページのスラッグを入れる
+// スマートチェックインフォーム用(WordPressで空のpタグを削除する)
+if(is_page(array( 'smartcheckin_form' ))) {
     remove_filter('the_content', 'wpautop');
 }
 
