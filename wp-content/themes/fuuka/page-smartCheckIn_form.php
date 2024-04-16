@@ -32,7 +32,8 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="detail">
+                    <div class="detail" style="border-top: none;">
+                        <div class="c_bottom_wrap">
                             <p class="news_info">
                                 <b>【館内のご案内】</b><br>
                             </p>
@@ -69,6 +70,7 @@ get_header(); ?>
                                 <li>ウィスキー、カクテルなど約50種類がフリードリンク（白州など一部有料銘柄あり）</li>
                                 <li>星見テラスで焚火を実施(雨天時除く)</li>
                             </ol>
+                        </div>
                         </div>
                     <a href="<?php bloginfo('url'); ?>/"><span class="arrow"></span>トップページへ戻る</a>
                 </div>
