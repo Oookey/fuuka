@@ -3,7 +3,6 @@
 * Template Name: スマートチェックイン ポータルページ
 */
 get_header(); ?>
-<?php if( !post_password_required( $post->ID ) ) :  ?>
 <!------------- HEADER ------------->
 
     <!-- ↓↓↓ MAIN ↓↓↓ -->
@@ -14,6 +13,9 @@ get_header(); ?>
             <div class="news">
                 <div class="inner">
                     <div class="detail">
+
+                        <?php if( !post_password_required( $post->ID ) ) :  ?>
+
                         <div class="detail_title">
                             <h2>スマートチェックイン</h2>
                         </div>
@@ -62,6 +64,11 @@ get_header(); ?>
                                 21:00～<br>
                             </p>
                         </div>
+
+                        <?php else:  ?>
+                            <?php echo get_the_password_form(); ?>
+                        <?php endif;  ?>
+
                     </div>
                 </div>
             </div>
@@ -77,8 +84,5 @@ get_header(); ?>
 
 
     <!-- ↓↓↓ FOOTER ↓↓↓ -->
-    <?php else:  ?>
-        <?php echo get_the_password_form(); ?>
-    <?php endif;  ?>
 
     <?php get_footer(); ?>
