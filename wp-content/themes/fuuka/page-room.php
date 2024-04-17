@@ -426,7 +426,7 @@ get_header(); ?>
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main10.png" alt="">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main10_240417.jpg" alt="">
                         </div>
                         <div class="pc room_point">
                             <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>
@@ -454,9 +454,9 @@ get_header(); ?>
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_1.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_2.png"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_3.png"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_1_240417.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_2_240417.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_10_3_240417.jpg"></li>
                     </ul>
                     <div class="sp room_point">
                         <p>・ツインベッド（ベッド1200×2000） ＋ 畳スペース</p>

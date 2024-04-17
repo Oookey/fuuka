@@ -213,7 +213,7 @@ get_header(); ?>
             <div class="inner img_bg_3">
                 <!-- アニメーション -->
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" transform="rotate(0)" class="cuisine_mask cuisine_mask1">
-                    <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_cuisine1.png" preserveAspectRatio="none"/>
+                    <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_cuisine1_240417.jpg" preserveAspectRatio="none"/>
                     <defs>
                         <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                             <stop offset="0%" style="stop-color: rgb(238, 205, 163);"/>
@@ -228,7 +228,7 @@ get_header(); ?>
                 </svg>
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_main4.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_main4_240417.jpg" alt="">
                     </div>
                     <div class="float-r con_text-r">
                         <div class="con_title">
@@ -306,7 +306,7 @@ get_header(); ?>
                 </svg>
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv zoom">
-                        <img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_main5.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/image/cuisine_photo_main5_240417.jpg" alt="">
                     </div>
                     <div class="float-l con_text-l">
                         <div class="con_title">
