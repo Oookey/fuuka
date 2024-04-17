@@ -23,7 +23,7 @@ get_header(); ?>
             <div class="news">
                 <div class="inner">
                     <p class="f-error">入力エラーです。<br>※まだフォームの記入は完了しておりません。</p>
-                    <p class="top_info f-er-n">下記へご記入ください。<br><b style="color:red;">【必須】</b>は必ずご入力ください。<br>ご記入いただいた内容、及び館内の営業時間等は</p>
+                    <p class="top_info f-er-n">下記へご記入ください。<br><b style="color:red;">【必須】</b>は必ずご入力ください。<br>ご記入いただいた内容、及び館内の営業時間等はメールで返信させていただきます。必ずご確認ください。</p>
                     <div class="detail">
                         <!-- フォーム -->
                         <div class="content_wrap form_wrap">
