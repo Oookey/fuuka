@@ -111,6 +111,9 @@
                         <a href="<?php bloginfo('url'); ?>/pdf/guideline20240101.pdf" target="_blank" rel="noopener">
                             <p>・新型コロナウィルス対応 ガイドライン<br>　(2024年1月1日改定）</p>
                         </a>
+                        <a href="<?php bloginfo('url'); ?>/portal/">
+                            <p>・スマートチェックイン</p>
+                        </a>
                     </div>
                 </div>
                 

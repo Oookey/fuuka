@@ -31,7 +31,7 @@ get_header(); ?>
                                 こちらは宿泊日前日までに情報を入力し送信してください。<br>
                             </p>
                             <p class="news_info indent2">
-                                <b>２）「<a href="<?php bloginfo('url'); ?>/pdf/_スマートチェックイン用宿泊受付表.pdf">チェックインシート</a>」を当日持参</b><br>
+                                <b>２）「<a href="<?php bloginfo('url'); ?>/pdf/_スマートチェックイン用宿泊受付表.pdf" target="_blank" rel="noopener">チェックインシート</a>」を当日持参</b><br>
                                 添付ファイルを印刷しご記入いただき、当日スタッフにお渡しください。<br>
                             </p>
                             <a href="<?php bloginfo('url'); ?>/smartcheckIn_form" class="flex btn" style="float: none;display: block;margin-bottom: 4rem;">
