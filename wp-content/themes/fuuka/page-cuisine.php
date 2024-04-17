@@ -290,7 +290,7 @@ get_header(); ?>
         <div class="content bg_b_c cuisine_content">
             <div class="inner">
                 <!-- アニメーション -->
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500" width="100%" id="blobSvg" filter="blur(0px)" transform="rotate(0)" class="cuisine_mask cuisine_mask2">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 620 500" width="100%" id="blobSvg" filter="blur(0px)" transform="rotate(0)" class="cuisine_mask cuisine_mask2">
                     <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" href="<?php bloginfo('template_directory'); ?>/image/mask_cuisine2.png" preserveAspectRatio="none"/>
                     <defs>
                         <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
