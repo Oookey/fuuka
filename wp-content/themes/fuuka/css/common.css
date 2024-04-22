@@ -1407,7 +1407,7 @@ footer .personal_information a:last-child {
 }
 .footer2_inner {
     width: 100%;
-    max-width: 130rem;
+    max-width: 105rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -1444,8 +1444,8 @@ footer .meal_menu_text {
 }
 .footer2 .title {
     font-size: 1.8rem !important;
-    max-width: 91.5rem !important;
-    margin: 3rem auto 0 !important;
+    /* max-width: 91.5rem !important; */
+    margin: 5rem auto 0 !important;
     display: block !important;
     text-align: left !important;
     font-weight: 500;
@@ -1468,9 +1468,10 @@ footer .hotel_net li{
     min-width: 20%;
     position: relative;
     margin-top: 4px;
-    padding-left: 20px;
-    color: #fff;
     font-size: 12px;
+}
+.f_grow {
+    flex-grow: 2;
 }
 .footer2 .flex {
     justify-content: center;
@@ -1668,8 +1669,9 @@ footer .hotel_net li{
     } */
     footer .hotel_net li{
         width: 50%;
-        padding-left: 18px;
-        font-size: 12px;
+    }
+    .f_grow {
+        flex-grow: initial;
     }
     /* banner */
     .footer_banner{
