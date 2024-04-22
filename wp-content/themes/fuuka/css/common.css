@@ -1451,16 +1451,26 @@ footer .meal_menu_text {
     font-weight: 500;
 }
 footer .hotel_net {
-    margin: 1.2rem 0.5rem 0rem 0rem;
-    padding-bottom: 0rem;
-    white-space: nowrap;
+    /* margin: 1.2rem 0.5rem 0rem 0rem; */
+    /* padding-bottom: 0rem; */
+    /* white-space: nowrap; */
     font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
-footer .hotel_net p {
+/* footer .hotel_net p {
     line-height: 3.2rem;
     letter-spacing: 0.11rem;
     font-size: 1.15rem;
     width: 18rem;
+} */
+footer .hotel_net li{
+    min-width: 20%;
+    position: relative;
+    margin-top: 4px;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 12px;
 }
 .footer2 .flex {
     justify-content: center;
@@ -1630,11 +1640,11 @@ footer .hotel_net p {
         padding-left: 2rem;
     }
     .hotel_net {
-        width: 100%;
+        /* width: 100%;
         margin-top: 6rem;
         margin: 1rem 4rem 0 0;
         padding-bottom: 0rem;
-        padding-left: 1em;
+        padding-left: 1em; */
     }
     .hotel_net:last-child {
         padding-bottom: 3.6rem;
@@ -1653,8 +1663,13 @@ footer .hotel_net p {
     footer .accordion_title::after {
         transform: rotate(90deg);
     }
-    footer .hotel_net p {
+    /* footer .hotel_net p {
         font-size: 1.2rem;
+    } */
+    footer .hotel_net li{
+        width: 50%;
+        padding-left: 18px;
+        font-size: 12px;
     }
     /* banner */
     .footer_banner{
