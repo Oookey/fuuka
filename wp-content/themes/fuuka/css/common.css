@@ -1467,8 +1467,9 @@ footer .hotel_net {
 footer .hotel_net li{
     min-width: 20%;
     position: relative;
-    margin-top: 4px;
-    font-size: 12px;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-align: left;
 }
 .f_grow {
     flex-grow: 2;
@@ -1669,9 +1670,14 @@ footer .hotel_net li{
     } */
     footer .hotel_net li{
         width: 50%;
+        text-indent: -1em;
+        padding-left: 1em;
     }
     .f_grow {
         flex-grow: initial;
+    }
+    footer .meal_menu_text{
+        padding: 0rem 1rem;
     }
     /* banner */
     .footer_banner{
