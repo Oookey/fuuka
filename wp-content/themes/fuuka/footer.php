@@ -133,7 +133,7 @@
             <div class="accordion meal_menu">
                 <div class="option">
                     <input type="checkbox" class="toggle" id="toggle3" >
-                        <label class="accordion_title oyado" for="toggle3">お宿ねっと掲載施設一覧</label>
+                    <label class="accordion_title oyado" for="toggle3">お宿ねっと掲載施設一覧</label>
                     <div class="fs18 meal_menu_text accordion_content">
                         <div class="title">
                             <p class="bold">加盟施設</p>
@@ -177,7 +177,7 @@
                         <div class="title">
                             <p class="bold">紹介施設</p>
                         </div>
-                        <div class="hotel_net">
+                        <!-- <div class="hotel_net">
                             <a href="https://www.oyadonet.com/arimine" target="_blank" rel="noopener"><p>・有峰ハウス</p></a>
                             <a href="http://www.okuikelodge.jp/" target="_blank" rel="noopener"><p>・大阪ガス研修施設 奥池ロッジ</p></a>
                             <a href="http://www.kurashiki-seaside.co.jp/" target="_blank" rel="noopener"><p>・倉敷シーサイドホテル</p></a>
@@ -186,8 +186,17 @@
                             <a href="https://www.oyadonet.com/fujijutaku/" target="_blank" rel="noopener"><p>・フジ住宅白浜保養所</p></a>
                             <a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener"><p>・マリッサリゾート サザンセト周防大島</p></a>
                             <a href="https://www.kuroshioso.jp/" target="_blank" rel="noopener"><p>・南房総鴨川 黒潮荘</p></a>
-                        </div>
-                        </div>
+                        </div> -->
+                        <ul class="shisetsu_archives">
+                            <li><a href="https://oyadonet.com/arimine/">有峰ハウス</a></li>
+                            <li><a href="https://oyadonet.com/okuikelodge/">大阪ガス研修施設 奥池ロッジ</a></li>
+                            <li><a href="https://oyadonet.com/kurashiki-seaside/">倉敷シーサイドホテル</a></li>
+                            <li><a href="https://oyadonet.com/greenview-t/">グリーンビュー立山</a></li>
+                            <li><a href="https://oyadonet.com/nasunomori-village/">那須の森ヴィレッジ</a></li>
+                            <li><a href="https://oyadonet.com/fujijutaku/">フジ住宅白浜保養所</a></li>
+                            <li><a href="https://oyadonet.com/marissa-resort/">マリッサリゾートサザンセト周防大島</a></li>
+                            <li><a href="https://oyadonet.com/kuroshioso/">南房総鴨川 黒潮荘</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -227,7 +236,7 @@
                 </div>
                 <div class="title">
                     <p class="bold">紹介施設</p>
-                    </div>
+                </div>
                 <div class="flex">
                     <div class="hotel_net">
                         <a href="https://www.oyadonet.com/arimine" target="_blank" rel="noopener"><p>・有峰ハウス</p></a>
@@ -250,8 +259,8 @@
                 </div>
             </div> -->
         </div>
-
     </div>
+
 </footer>
 <!-- ↑↑↑ FOOTER ↑↑↑ -->
 

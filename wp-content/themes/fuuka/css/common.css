@@ -1418,17 +1418,18 @@ footer .personal_information a:last-child {
 footer .option {
     position: relative;
 }
-footer .toggle {
+/* footer .toggle {
     display: none;
-}
+} */
 footer .accordion_title {
-    display: block;
+    /* display: block;
     text-align: center;
     font-size: 1.8rem;
     padding: 2.5rem 0;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.3rem; */
+    pointer-events: none;
 }
-footer .accordion_title,footer .accordion_content {
+/* footer .accordion_title,footer .accordion_content {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: translateZ(0);
@@ -1437,7 +1438,7 @@ footer .accordion_title,footer .accordion_content {
 footer .accordion_content {
     max-height: 0;
     overflow: hidden;
-}
+} */
 footer .meal_menu_text {
     text-align: left;
     border-bottom: 1px solid var(--main-color);
@@ -1663,6 +1664,39 @@ footer .hotel_net li{
     footer .accordion_title::after {
         transform: rotate(90deg);
     }
+    input:checked + .toggle{
+		height: auto;
+		padding: 8px;
+	}
+
+
+    footer .accordion_title {
+        display: block;
+        text-align: center;
+        font-size: 1.8rem;
+        padding: 2.5rem 0;
+        letter-spacing: 0.3rem;
+        pointer-events: all;
+    }
+    footer .accordion_title,footer .accordion_content {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translateZ(0);
+        transition: all 0.3s;
+    }
+    footer .accordion_content {
+        /* max-height: 0;
+        overflow: hidden; */
+        height: 0;
+		padding: 0 8px;
+		transition: .2s;
+		overflow: hidden;
+    }
+    footer .meal_menu_text {
+        text-align: left;
+        border-bottom: 1px solid var(--main-color);
+    }
+
     /* footer .hotel_net p {
         font-size: 1.2rem;
     } */
