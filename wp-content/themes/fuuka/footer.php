@@ -130,7 +130,7 @@
             <a href="https://www.oyadonet.com/" class="footer2_title sp" target="_blank" rel="noopener">
                 <img src="<?php bloginfo('template_directory'); ?>/image/hotel_net_logo.svg">
             </a>
-            <div class="accordion meal_menu">
+            <div class="accordion meal_menu sp">
                 <div class="option">
                     <input type="checkbox" class="toggle" id="toggle3" >
                     <label class="accordion_title oyado" for="toggle3">お宿ねっと掲載施設一覧</label>
@@ -200,11 +200,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="pc">
+            <div class="pc">
                 <div class="title">
                     <p class="bold">加盟施設</p>
                 </div>
-                <div class="flex">
+                <!-- <div class="flex">
                     <div class="hotel_net">
                         <a href="https://zuihouen.net/" target="_blank" rel="noopener"><p>・有馬 瑞宝園</p></a>
                         <a href="https://www.namine-kairo.com/" target="_blank" rel="noopener"><p>・伊勢志摩の波音 海楼</p></a>
@@ -232,12 +232,30 @@
                         <a href="https://www.sunperla-shima.jp/" target="_blank" rel="noopener"><p>・汐岬の湯 サンペルラ志摩</p></a>
                         <a href="https://www.housensou.com/" target="_blank" rel="noopener"><p>・別府 豊泉荘</p></a>
                     </div>
-    
-                </div>
+                </div> -->
+                <ul class="hotel_net">
+                    <li><a href="https://oyadonet.com/zuihouen/">有馬 瑞宝園</a></li>
+                    <li><a href="https://oyadonet.com/namine-kairo/">伊勢志摩の波音 海楼</a></li>
+                    <li><a href="https://oyadonet.com/umikaze-atami/">海風テラス あたみ</a></li>
+                    <li><a href="https://oyadonet.com/hotel-uminpia/">オーシャンリゾートホテル&#038;スパ うみんぴあ</a></li>
+                    <li><a href="https://oyadonet.com/shimeikan/">風木立の川辺 紫明館</a></li>
+                    <li><a href="https://oyadonet.com/hekiryu/">絹の渓谷 碧流</a></li>
+                    <li><a href="https://oyadonet.com/kuji-sunpia-hitachi/">久慈サンピア日立</a></li>
+                    <li><a href="https://oyadonet.com/gora-kazenone/">強羅 風の音</a></li>
+                    <li><a href="https://oyadonet.com/kyoto-keburikawa/">里山の休日 京都・烟河</a></li>
+                    <li><a href="https://oyadonet.com/sunhills-mikawawan/">サンヒルズ三河湾</a></li>
+                    <li><a href="https://oyadonet.com/hotel-yubana/">ちりはま ホテルゆ華</a></li>
+                    <li><a href="https://oyadonet.com/panorama-inn-yamanakako/">パノラマイン山中湖</a></li>
+                    <li><a href="https://oyadonet.com/housensou/">別府 豊泉荘</a></li>
+                    <li><a href="https://oyadonet.com/hotel-fuuka/">八ヶ岳 ホテル風か</a></li>
+                    <li><a href="https://oyadonet.com/kumanoclub/">里創人 熊野倶楽部</a></li>
+                    <li><a href="https://oyadonet.com/sunperla-shima/">里創人俱楽部 伊勢志摩</a></li>
+                </ul>
+
                 <div class="title">
                     <p class="bold">紹介施設</p>
                 </div>
-                <div class="flex">
+                <!-- <div class="flex">
                     <div class="hotel_net">
                         <a href="https://www.oyadonet.com/arimine" target="_blank" rel="noopener"><p>・有峰ハウス</p></a>
                         <a href="https://www.oyadonet.com/fujijutaku/" target="_blank" rel="noopener"><p>・フジ住宅白浜保養所</p></a>
@@ -256,8 +274,18 @@
                     <div class="hotel_net">
                         <a href="https://www.nasunomori-village.jp/" target="_blank" rel="noopener"><p>・那須の森ヴィレッジ</p></a>
                     </div>
-                </div>
-            </div> -->
+                </div> -->
+                <ul class="shisetsu_archives">
+                    <li><a href="https://oyadonet.com/arimine/">有峰ハウス</a></li>
+                    <li><a href="https://oyadonet.com/okuikelodge/">大阪ガス研修施設 奥池ロッジ</a></li>
+                    <li><a href="https://oyadonet.com/kurashiki-seaside/">倉敷シーサイドホテル</a></li>
+                    <li><a href="https://oyadonet.com/greenview-t/">グリーンビュー立山</a></li>
+                    <li><a href="https://oyadonet.com/nasunomori-village/">那須の森ヴィレッジ</a></li>
+                    <li><a href="https://oyadonet.com/fujijutaku/">フジ住宅白浜保養所</a></li>
+                    <li><a href="https://oyadonet.com/marissa-resort/">マリッサリゾートサザンセト周防大島</a></li>
+                    <li><a href="https://oyadonet.com/kuroshioso/">南房総鴨川 黒潮荘</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
