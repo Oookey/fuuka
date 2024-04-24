@@ -30,7 +30,7 @@ get_header(); ?>
                                 <b>１）「<a href="<?php bloginfo('url'); ?>/smartcheckIn_form">チェックイン入力フォーム</a>」に入力</b><br>
                                 「チェックイン入力フォーム」に必要事項をご入力いただき送信してください。<br>
                                 お客様に入力いただいた情報はメールにてお送りさせていただきます。<br>
-                                こちらは宿泊日前日までに情報を入力し送信してください。<br>
+                                <b style="color:red;">こちらは宿泊日２週間前から前日までに情報を入力し送信してください。</b><br>
                             </p>
                             <p class="news_info indent2">
                                 <b>２）「<a href="<?php bloginfo('url'); ?>/pdf/_スマートチェックイン用宿泊受付表.pdf" target="_blank" rel="noopener">チェックインシート</a>」を当日持参</b><br>
