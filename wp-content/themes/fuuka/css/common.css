@@ -1458,6 +1458,12 @@ footer .hotel_net {
     display: flex;
     flex-wrap: wrap;
 }
+footer .hotel_net::before{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 0;
+}
 /* footer .hotel_net p {
     line-height: 3.2rem;
     letter-spacing: 0.11rem;

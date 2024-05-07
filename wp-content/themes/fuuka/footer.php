@@ -184,7 +184,7 @@
                     <li><a href="https://zuihouen.net/">・有馬 瑞宝園</a></li>
                     <li><a href="https://www.namine-kairo.com/">・伊勢志摩の波音 海楼</a></li>
                     <li><a href="https://www.umikaze-atami.com/">・海風テラス あたみ</a></li>
-                    <li><a href="https://www.hotel-uminpia.jp/" class="f_grow">・オーシャンリゾートホテル&#038;スパ うみんぴあ</a></li>
+                    <li class="f_grow"><a href="https://www.hotel-uminpia.jp/">・オーシャンリゾートホテル&#038;スパ うみんぴあ</a></li>
 
                     <li><a href="https://www.shimeikan.jp/">・風木立の川辺 紫明館</a></li>
                     <li><a href="https://www.hekiryu.jp/">・絹の渓谷 碧流</a></li>
@@ -212,7 +212,7 @@
                     <li><a href="https://www.greenview-t.com/">・グリーンビュー立山</a></li>
                     <li><a href="https://www.nasunomori-village.jp/">・那須の森ヴィレッジ</a></li>
                     <li><a href="https://www.oyadonet.com/fujijutaku/">・フジ住宅白浜保養所</a></li>
-                    <li><a href="https://www.marissa-resort.jp/" class="f_grow">・マリッサリゾートサザンセト周防大島</a></li>
+                    <li class="f_grow"><a href="https://www.marissa-resort.jp/">・マリッサリゾートサザンセト周防大島</a></li>
                     <li><a href="https://www.kuroshioso.jp/">・南房総鴨川 黒潮荘</a></li>
                 </ul>
             </div>
