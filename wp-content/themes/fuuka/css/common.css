@@ -1463,6 +1463,7 @@ footer .hotel_net::before{
     display: block;
     width: 20%;
     height: 0;
+    order: 1;
 }
 /* footer .hotel_net p {
     line-height: 3.2rem;
