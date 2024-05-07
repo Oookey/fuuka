@@ -142,7 +142,7 @@
                             <li><a href="https://zuihouen.net/" target="_blank" rel="noopener">・有馬 瑞宝園</a></li>
                             <li><a href="https://www.namine-kairo.com/" target="_blank" rel="noopener">・伊勢志摩の波音 海楼</a></li>
                             <li><a href="https://www.umikaze-atami.com/" target="_blank" rel="noopener">・海風テラス あたみ</a></li>
-                            <li><a href="https://www.hotel-uminpia.jp/" class="f_grow" target="_blank" rel="noopener">・オーシャンリゾートホテル&#038;スパ うみんぴあ</a></li>
+                            <li class="f_grow"><a href="https://www.hotel-uminpia.jp/" target="_blank" rel="noopener">・オーシャンリゾートホテル&#038;スパ うみんぴあ</a></li>
 
                             <li><a href="https://www.shimeikan.jp/" target="_blank" rel="noopener">・風木立の川辺 紫明館</a></li>
                             <li><a href="https://www.hekiryu.jp/" target="_blank" rel="noopener">・絹の渓谷 碧流</a></li>
@@ -170,7 +170,7 @@
                             <li><a href="https://www.greenview-t.com/" target="_blank" rel="noopener">・グリーンビュー立山</a></li>
                             <li><a href="https://www.nasunomori-village.jp/" target="_blank" rel="noopener">・那須の森ヴィレッジ</a></li>
                             <li><a href="https://www.oyadonet.com/fujijutaku/" target="_blank" rel="noopener">・フジ住宅白浜保養所</a></li>
-                            <li><a href="https://www.marissa-resort.jp/" class="f_grow" target="_blank" rel="noopener">・マリッサリゾートサザンセト周防大島</a></li>
+                            <li class="f_grow"><a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener">・マリッサリゾートサザンセト周防大島</a></li>
                             <li><a href="https://www.kuroshioso.jp/" target="_blank" rel="noopener">・南房総鴨川 黒潮荘</a></li>
                         </ul>
                     </div>
@@ -184,7 +184,7 @@
                     <li><a href="https://zuihouen.net/" target="_blank" rel="noopener">・有馬 瑞宝園</a></li>
                     <li><a href="https://www.namine-kairo.com/" target="_blank" rel="noopener">・伊勢志摩の波音 海楼</a></li>
                     <li><a href="https://www.umikaze-atami.com/" target="_blank" rel="noopener">・海風テラス あたみ</a></li>
-                    <li><a href="https://www.hotel-uminpia.jp/" class="f_grow" target="_blank" rel="noopener">・オーシャンリゾートホテル&#038;スパ うみんぴあ</a></li>
+                    <li class="f_grow"><a href="https://www.hotel-uminpia.jp/" target="_blank" rel="noopener">・オーシャンリゾートホテル&#038;スパ うみんぴあ</a></li>
 
                     <li><a href="https://www.shimeikan.jp/" target="_blank" rel="noopener">・風木立の川辺 紫明館</a></li>
                     <li><a href="https://www.hekiryu.jp/" target="_blank" rel="noopener">・絹の渓谷 碧流</a></li>
@@ -212,7 +212,7 @@
                     <li><a href="https://www.greenview-t.com/" target="_blank" rel="noopener">・グリーンビュー立山</a></li>
                     <li><a href="https://www.nasunomori-village.jp/" target="_blank" rel="noopener">・那須の森ヴィレッジ</a></li>
                     <li><a href="https://www.oyadonet.com/fujijutaku/" target="_blank" rel="noopener">・フジ住宅白浜保養所</a></li>
-                    <li><a href="https://www.marissa-resort.jp/" class="f_grow" target="_blank" rel="noopener">・マリッサリゾートサザンセト周防大島</a></li>
+                    <li class="f_grow"><a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener">・マリッサリゾートサザンセト周防大島</a></li>
                     <li><a href="https://www.kuroshioso.jp/" target="_blank" rel="noopener">・南房総鴨川 黒潮荘</a></li>
                 </ul>
             </div>
