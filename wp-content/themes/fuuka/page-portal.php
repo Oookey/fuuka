@@ -32,15 +32,22 @@ get_header(); ?>
                                 お客様に入力いただいた情報はメールにてお送りさせていただきます。<br>
                                 <b style="color:red;">こちらは宿泊日２週間前から前日までに情報を入力し送信してください。</b><br>
                             </p>
-                            <p class="news_info indent2">
-                                <b>２）「<a href="<?php bloginfo('url'); ?>/pdf/_スマートチェックイン用宿泊受付表.pdf" target="_blank" rel="noopener">チェックインシート</a>」を当日持参</b><br>
-                                添付ファイルを印刷しご記入いただき、当日スタッフにお渡しください。<br>
-                            </p>
                             <a href="<?php bloginfo('url'); ?>/smartcheckIn_form" class="flex btn" style="float: none;display: block;margin-bottom: 4rem;">
                                 <p class=""><span class="arrow"></span>チェックイン入力フォーム<br class="sp">はこちら</p>
                             </a>
-                            <p class="news_info">
-                                ※下記の案内をご確認ください。すぐにチェックイン時のおもてなしを楽しみ、お部屋にお入りいただけるよう当日の説明は省かせていただきます。<br>
+                            <p class="news_info indent2">
+                                <b>２）「<a href="<?php bloginfo('url'); ?>/document/スマートチェックイン用宿泊受付表.pdf" target="_blank" rel="noopener">チェックインシート</a>」を当日持参</b><br>
+                                添付ファイルを印刷しご記入いただき、当日スタッフにお渡しください。<br>
+                            </p>
+                            <a href="<?php bloginfo('url'); ?>/document/スマートチェックイン用宿泊受付表.pdf" class="flex btn" style="float: none;display: block;margin-bottom: 4rem;">
+                                <p class=""><span class="arrow"></span>チェックインシート<br class="sp">PDFはこちら</p>
+                            </a>
+                            <p class="news_info" style="text-indent: -1.1em; padding-left: 1em;">
+                                ※下記の案内をご確認ください。すぐにチェックイン時のおもてなしを楽しみ、お部屋にお入りいただけるよう当日の説明は省かせていただきます。
+                            </p>
+                            <p class="news_info" style="text-indent: -1.1em; padding-left: 1em;">
+                                ※ホテル風か館内案内図です。こちらもご確認ください。<br>
+                                <b><a href="<?php bloginfo('url'); ?>/document/スマートチェックイン用宿泊受付表.pdf">館内案内図はこちら</a></b><br>
                             </p>
                             <p class="news_info">
                                 <b>【ホテル風かは大人も子供も楽しめるオールインクルーシブの宿です】</b><br>
