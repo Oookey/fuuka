@@ -709,7 +709,7 @@ footer .personal_information a:last-child {
 }
 .footer2_inner {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1050px;
   margin: 0 auto;
   text-align: center;
 }
@@ -747,23 +747,44 @@ footer .meal_menu_text {
 .footer2 .title {
   font-size: 18px !important;
   max-width: 915px !important;
-  margin: 30px auto 0 !important;
+  margin: 50px 0 0 !important;
   display: block !important;
   text-align: left !important;
   font-weight: 500;
 }
 footer .hotel_net {
-  margin: 12px 5px 0 0;
+  /* margin: 12px 5px 0 0;
   padding-bottom: 0;
-  white-space: nowrap;
+  white-space: nowrap; */
   font-family: 'Noto Sans JP', sans-serif;
   text-align: left;
+
+  font-family: 'Noto Sans JP', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
-footer .hotel_net p {
+footer .hotel_net::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 0;
+  order: 1;
+}
+/* footer .hotel_net p {
   line-height: 32px;
   letter-spacing: 1.1px;
   font-size: 11.5px;
   width: 180px;
+} */
+footer .hotel_net li{
+  min-width: 20%;
+  position: relative;
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: left;
+}
+.f_grow {
+  flex-grow: 2;
 }
 .footer2 .flex {
   justify-content: center;

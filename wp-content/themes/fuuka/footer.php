@@ -154,19 +154,19 @@
                             <li><a href="https://www.housensou.com/" target="_blank" rel="noopener">・別府 豊泉荘</a></li>
                             <li><a href="https://hotel-fuuka.jp/" target="_blank" rel="noopener">・八ヶ岳 ホテル風か</a></li>
                             <li><a href="https://kumanoclub.jp/" target="_blank" rel="noopener">・里創人 熊野倶楽部</a></li>
-                            <li><a href="https://resortclub-iseshima.jp/" target="_blank" rel="noopener">・里創人俱楽部 伊勢志摩</a></li>
+                            <li><a href="https://resortclub-iseshima.jp/" target="_blank" rel="noopener">・里創人倶楽部 伊勢志摩</a></li>
                         </ul>
 
                         <div class="title">
                             <p class="bold">紹介施設</p>
                         </div>
                         <ul class="hotel_net">
-                            <li><a href="https://www.oyadonet.com/arimine" target="_blank" rel="noopener">・有峰ハウス</a></li>
+                            <li><a href="https://oyadonet.com/arimine" target="_blank" rel="noopener">・有峰ハウス</a></li>
                             <li><a href="http://www.okuikelodge.jp/" target="_blank" rel="noopener">・大阪ガス研修施設 奥池ロッジ</a></li>
                             <li><a href="http://www.kurashiki-seaside.co.jp/" target="_blank" rel="noopener">・倉敷シーサイドホテル</a></li>
                             <li><a href="https://www.greenview-t.com/" target="_blank" rel="noopener">・グリーンビュー立山</a></li>
                             <li><a href="https://www.nasunomori-village.jp/" target="_blank" rel="noopener">・那須の森ヴィレッジ</a></li>
-                            <li><a href="https://www.oyadonet.com/fujijutaku/" target="_blank" rel="noopener">・フジ住宅白浜保養所</a></li>
+                            <li><a href="https://oyadonet.com/fujijutaku/" target="_blank" rel="noopener">・フジ住宅白浜保養所</a></li>
                             <li class="f_grow"><a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener">・マリッサリゾートサザンセト周防大島</a></li>
                             <li><a href="https://www.kuroshioso.jp/" target="_blank" rel="noopener">・南房総鴨川 黒潮荘</a></li>
                         </ul>
@@ -196,19 +196,19 @@
                     <li><a href="https://www.housensou.com/" target="_blank" rel="noopener">・別府 豊泉荘</a></li>
                     <li><a href="https://hotel-fuuka.jp/" target="_blank" rel="noopener">・八ヶ岳 ホテル風か</a></li>
                     <li><a href="https://kumanoclub.jp/" target="_blank" rel="noopener">・里創人 熊野倶楽部</a></li>
-                    <li><a href="https://resortclub-iseshima.jp/" target="_blank" rel="noopener">・里創人俱楽部 伊勢志摩</a></li>
+                    <li><a href="https://resortclub-iseshima.jp/" target="_blank" rel="noopener">・里創人倶楽部 伊勢志摩</a></li>
                 </ul>
 
                 <div class="title">
                     <p class="bold">紹介施設</p>
                 </div>
                 <ul class="hotel_net">
-                    <li><a href="https://www.oyadonet.com/arimine" target="_blank" rel="noopener">・有峰ハウス</a></li>
+                    <li><a href="https://oyadonet.com/arimine" target="_blank" rel="noopener">・有峰ハウス</a></li>
                     <li><a href="http://www.okuikelodge.jp/" target="_blank" rel="noopener">・大阪ガス研修施設 奥池ロッジ</a></li>
                     <li><a href="http://www.kurashiki-seaside.co.jp/" target="_blank" rel="noopener">・倉敷シーサイドホテル</a></li>
                     <li><a href="https://www.greenview-t.com/" target="_blank" rel="noopener">・グリーンビュー立山</a></li>
                     <li><a href="https://www.nasunomori-village.jp/" target="_blank" rel="noopener">・那須の森ヴィレッジ</a></li>
-                    <li><a href="https://www.oyadonet.com/fujijutaku/" target="_blank" rel="noopener">・フジ住宅白浜保養所</a></li>
+                    <li><a href="https://oyadonet.com/fujijutaku/" target="_blank" rel="noopener">・フジ住宅白浜保養所</a></li>
                     <li class="f_grow"><a href="https://www.marissa-resort.jp/" target="_blank" rel="noopener">・マリッサリゾートサザンセト周防大島</a></li>
                     <li><a href="https://www.kuroshioso.jp/" target="_blank" rel="noopener">・南房総鴨川 黒潮荘</a></li>
                 </ul>
