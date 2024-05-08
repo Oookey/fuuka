@@ -135,6 +135,12 @@
                             <p><span class="arrow"></span>詳しくはこちら</p>
                         </div>
                     </a>
+                    <a href="<?php bloginfo('url'); ?>/portal/" style="margin-top: 2rem; display: block;">
+                        <div class="nav_star" style="background-color: var(--main-color); background-image: none;">
+                            <h2>スマートチェックイン<br><span>Smart Check-in</span></h2>
+                            <p style="text-shadow: none;"><span class="arrow"></span>ポータルページはこちら</p>
+                        </div>
+                    </a>
                     <div class="flex">
                         <a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan" class="btn"><span class="arrow"></span>宿泊プラン一覧</a>
                     </div>

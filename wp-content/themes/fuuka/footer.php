@@ -121,10 +121,10 @@
     </div>
     <div class="footer2 bg_b_c">
         <div class="footer2_inner">
-            <a href="https://www.oyadonet.com/" class="footer2_title pc" target="_blank" rel="noopener">
+            <a href="https://oyadonet.com/" class="footer2_title pc" target="_blank" rel="noopener">
                 <img src="<?php bloginfo('template_directory'); ?>/image/hotel_net_logo.svg">
             </a>
-            <a href="https://www.oyadonet.com/" class="footer2_title sp" target="_blank" rel="noopener">
+            <a href="https://oyadonet.com/" class="footer2_title sp" target="_blank" rel="noopener">
                 <img src="<?php bloginfo('template_directory'); ?>/image/hotel_net_logo.svg">
             </a>
             <div class="accordion meal_menu sp">
@@ -152,7 +152,7 @@
                             <li><a href="https://www.panorama-inn-yamanakako.jp/" target="_blank" rel="noopener">・パノラマイン山中湖</a></li>
 
                             <li><a href="https://www.housensou.com/" target="_blank" rel="noopener">・別府 豊泉荘</a></li>
-                            <li><a href="https://www.hotel-fuuka.jp/" target="_blank" rel="noopener">・八ヶ岳 ホテル風か</a></li>
+                            <li><a href="https://hotel-fuuka.jp/" target="_blank" rel="noopener">・八ヶ岳 ホテル風か</a></li>
                             <li><a href="https://kumanoclub.jp/" target="_blank" rel="noopener">・里創人 熊野倶楽部</a></li>
                             <li><a href="https://resortclub-iseshima.jp/" target="_blank" rel="noopener">・里創人俱楽部 伊勢志摩</a></li>
                         </ul>
@@ -194,7 +194,7 @@
                     <li><a href="https://www.panorama-inn-yamanakako.jp/" target="_blank" rel="noopener">・パノラマイン山中湖</a></li>
 
                     <li><a href="https://www.housensou.com/" target="_blank" rel="noopener">・別府 豊泉荘</a></li>
-                    <li><a href="https://www.hotel-fuuka.jp/" target="_blank" rel="noopener">・八ヶ岳 ホテル風か</a></li>
+                    <li><a href="https://hotel-fuuka.jp/" target="_blank" rel="noopener">・八ヶ岳 ホテル風か</a></li>
                     <li><a href="https://kumanoclub.jp/" target="_blank" rel="noopener">・里創人 熊野倶楽部</a></li>
                     <li><a href="https://resortclub-iseshima.jp/" target="_blank" rel="noopener">・里創人俱楽部 伊勢志摩</a></li>
                 </ul>
