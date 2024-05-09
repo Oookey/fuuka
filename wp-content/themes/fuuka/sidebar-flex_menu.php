@@ -23,7 +23,8 @@
                 <nav class="hotel_reserve_inner">
                     <div class="box_search_489ban">
                         <div id="search_489ban">
-                            <script src="https://reserve.489ban.net/client/hotel-fuuka/0/plan/searchjs?search_stay=1&search_guest_types=3&search_date_type=1&link_target=0" type="text/javascript" charset="utf-8"></script>
+                            <!-- <script src="https://reserve.489ban.net/client/hotel-fuuka/0/plan/searchjs?search_stay=1&search_guest_types=3&search_date_type=1&link_target=0" type="text/javascript" charset="utf-8"></script> -->
+                            <script src="https://reserve.489ban.net/client/hotel-fuuka/0/plan/searchjs?search_stay=1&search_guest_types=0&search_date_type=1&link_target=1" type="text/javascript" charset="utf-8"></script>
                             <ul>
                                 <li class="ico_489ban1"><span><strong><a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan">プラン一覧・ご予約</a></strong></span></li>
                                 <li class="ico_489ban2"><span><strong><a href="https://reserve.489ban.net/client/hotel-fuuka/0/plan/availability/room">客室タイプから予約</a></strong></span></li>
