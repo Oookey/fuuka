@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: 個人情報保護規定
+* Template Name: 個人情報保護規程
 */
 get_header(); ?>
 <!------------- HEADER ------------->
@@ -8,13 +8,13 @@ get_header(); ?>
     <!-- ↓↓↓ MAIN ↓↓↓ -->
     <main id="news_detail" class="subpage pp r">
         
-        <!-- 個人情報保護規定 -->
+        <!-- 個人情報保護規程 -->
         <div class="content">
             <div class="news">
                 <div class="inner">
                     <div class="detail">
                         <div class="detail_title">
-                            <h2>個人情報保護規定</h2>
+                            <h2>個人情報保護規程</h2>
                         </div>
                         <div class="detail_inner">
                             <h2 style="margin-top: 1rem;">第1章 総則</h2>
