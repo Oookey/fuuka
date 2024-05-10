@@ -44,7 +44,7 @@ get_header(); ?>
                                 <br>
                                 【本方針および当社の個人情報の取り扱いに関するお問合せ窓口】<br>
                                 <br>
-                                株式会社エムアンドエムサービス<br>
+                                <a href="https://mandm.co.jp/" target="_blank" rel="noopener">株式会社エムアンドエムサービス</a><br>
                                 管理本部　TEL 06-6222-1051　FAX 06-6222-1144<br>
                                 電子メール：office-info@mandm.co.jp<br>
                                 <br>

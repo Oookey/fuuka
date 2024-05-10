@@ -852,7 +852,7 @@ get_header(); ?>
                             <p class="policy_provision">
                                 附 則<br>
                                 この規程は、2021 年 10 月 1 日から施行する。<br>
-                                株式会社 エムアンドエムサービス<br>
+                                <a href="https://mandm.co.jp/" target="_blank" rel="noopener">株式会社 エムアンドエムサービス</a><br>
                                 〒541-0041<br>
                                 大阪府大阪市中央区北浜2-6-26 大阪グリーンビル<br>
                                 TEL 06-6222-1051 / FAX 06-6222-1144<br>
