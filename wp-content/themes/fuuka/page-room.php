@@ -73,7 +73,7 @@ get_header(); ?>
                 <div class="con-sp-fv fadein">
                     <div class="float-r con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main_iwaburosweet.jpg" alt="">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main_iwaburosweet_240513.jpg" alt="">
                         </div>
                         <div class="pc room_point">
                             <p>・ベッドルーム1部屋（ベッド2台）＋フラットな畳スペース（10畳）と広々ダイニング（ベッド2台）＋半露天岩風呂温泉</p>
@@ -105,7 +105,11 @@ get_header(); ?>
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
                     <ul class="slick">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_iwaburosweet_1.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_iwaburosweet_1_240513.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_iwaburosweet_2_240513.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_iwaburosweet_3_240513.jpeg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_iwaburosweet_4_240513.jpeg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_iwaburosweet_5_240513.jpeg"></li>
                     </ul>
                     <div class="sp room_point">
                         <p>・ベッドルーム1部屋（ベッド2台）+フラットな畳スペース（10畳）と広々ダイニング（ベッド2台）+半露天岩風呂温泉</p>
@@ -381,7 +385,7 @@ get_header(); ?>
                 <div class="con-sp-fv fadein">
                     <div class="float-l con_mv">
                         <div class="zoom" style="border-radius: 3.8rem;">
-                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main_toddlerfamily.jpg" alt="">
+                            <img src="<?php bloginfo('template_directory'); ?>/image/room_photo_main_toddlerfamily_240513.jpg" alt="">
                         </div>
                         <div class="pc room_point">
                             <p>・キングサイズのローベッド（180センチ×210センチ）</p>
@@ -408,6 +412,13 @@ get_header(); ?>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/862500" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
+                    <ul class="slick">
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_1_240513.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_2_240513.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_3_240513.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_4_240513.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_5_240513.jpg"></li>
+                    </ul>
                     <div class="sp room_point">
                         <p>・キングサイズのローベッド（180センチ×210センチ）</p>
                         <p>・ユニットバス</p>
