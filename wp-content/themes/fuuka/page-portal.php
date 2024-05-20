@@ -52,7 +52,7 @@ get_header(); ?>
                                 <b>【ホテル風かは大人も子供も楽しめるオールインクルーシブの宿です】</b><br>
                             </p> -->
                             
-                            <div class="detail" style="border-top: none;">
+                            <div class="detail hotel_info" style="border-top: none;">
                                 <div class="" style="margin-bottom: 5rem;font-size: 1.4rem;font-family: 'Noto Sans JP', sans-serif;    line-height: 1.4em;">
                                     <!--  -->
                                     <p class="news_info">
