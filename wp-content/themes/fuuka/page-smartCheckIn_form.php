@@ -116,15 +116,6 @@ get_header(); ?>
                             </ol>
                             <!--  -->
                             <p class="news_info" style="margin-top: 1.5rem;">
-                                <b>マッサージ和（なごみ）</b><br>
-                                15:00～22:30（受付終了20:00/最終スタート21:00）<br>
-                            </p>
-                            <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
-                                <li>整体マッサージで身も心もリフレッシュ。できれば前日までに電話でご予約ください。</li>
-                                <li>当日ご予約は、希望時間の遅くとも１時間前まで予約を受け付けています。１名での施術ですので予約状況によりご利用いただけない場合がございます。</li>
-                            </ol>
-                            <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
                                 <b>チェックアウト</b><br>
                                 11:00<br>
                             </p>
