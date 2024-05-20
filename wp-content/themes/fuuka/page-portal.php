@@ -48,9 +48,6 @@ get_header(); ?>
                                 ※ホテル風か館内案内図です。こちらもご確認ください。<br>
                                 <b><a href="<?php bloginfo('template_directory'); ?>/document/館内案内図.pdf" target="_blank" rel="noopener" style="font-size: 1.8rem; line-height: 1.8;" class="hotel_map"><span class="arrow"></span>館内案内図はこちら</a></b><br>
                             </p>
-                            <!-- <p class="news_info">
-                                <b>【ホテル風かは大人も子供も楽しめるオールインクルーシブの宿です】</b><br>
-                            </p> -->
                             
                             <div class="detail hotel_info" style="border-top: none; border-bottom: none;">
                                 <div class="" style="margin-bottom: 5rem;font-size: 1.4rem;font-family: 'Noto Sans JP', sans-serif;    line-height: 1.4em;">
