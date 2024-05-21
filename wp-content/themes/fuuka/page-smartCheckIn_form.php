@@ -37,7 +37,7 @@ get_header(); ?>
                                 <b>【館内のご案内】</b><br>
                             </p>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>チェックイン時のおもてなし</b><br>
                                 15:00～16:30<br>
                                 ウエルカムドリンク、ウエルカムピザ、ヤギさんふれあい体験、焼きマシュマロ等
@@ -49,7 +49,7 @@ get_header(); ?>
                                 <li>ジュース、珈琲は22:30まで、翌朝7:00～チェックアウトまでご利用いただけます。</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>選べる色浴衣</b><br>
                             </p>
                             <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
@@ -57,7 +57,7 @@ get_header(); ?>
                                 <li>館内、レストランは浴衣、作務衣でご利用いただけます。</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>ご夕食 ＜レストラン炙－あぶり－＞</b><br>
                                 17:30～ 19:30～の二部制
                             </p>
@@ -65,7 +65,7 @@ get_header(); ?>
                                 <li>夕食時、山梨県産ワインをはじめ約50種類がフリードリンク</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>ナイトBAR＜夜更かし処＞</b><br>
                                 21:00～22:30<br>
                             </p>
@@ -74,7 +74,7 @@ get_header(); ?>
                                 <li>星見テラスで焚火を実施(雨天時除く)</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>大浴場</b><br>
                                 15:00～24:00 / 6:00～10:00（10:00クローズ）<br>
                             </p>
@@ -83,7 +83,7 @@ get_header(); ?>
                                 <li>内湯：麗水備長炭風呂</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>杜のライブラリー</b><br>
                                 15:00～23:00 7:00～11:00<br>
                             </p>
@@ -91,7 +91,7 @@ get_header(); ?>
                                 <li>たくさんのコミック、小説をご用意</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>星見テラス</b><br>
                                 1階<br>
                             </p>
@@ -99,7 +99,7 @@ get_header(); ?>
                                 <li>昼はピザやヤギさんとのふれあい、夜は星空とたき火をお楽しみください</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>売店</b><br>
                                 8:00～11:00 / 15:00～21:00<br>
                             </p>
@@ -107,7 +107,7 @@ get_header(); ?>
                                 <li>風かおすすめの地元の特産を中心にご用意しています。</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>キッズルーム</b><br>
                                 14:00～22:00 7:00～11:00<br>
                             </p>
@@ -115,31 +115,31 @@ get_header(); ?>
                                 <li>たくさんの工作体験、遊具、おもちゃをご用意しています</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>チェックアウト</b><br>
                                 11:00<br>
                             </p>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>【よくあるご質問】</b><br>
                             </p>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>Ｑ.クレジットカード、ＱＲコードは使えますか</b><br>
                             </p>
                             <ol style="list-style: 'Ａ.';padding-left: 1.5em;line-height: 1.2em;">
                                 <li>クレジットカードは使えます（JCB、VISA、マスターカード、アメリカンエクスプレス、ダイナーズクラブ）。QRコード決済も使えます（PayPay、auPAY、d払い、LINEPayなど）※楽天Payはご利用いただけません</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
+                            <p class="news_info" style="margin-top: 2rem;">
                                 <b>Ｑ.お部屋にWIFIはありますか</b><br>
                             </p>
                             <ol style="list-style: 'Ａ.';padding-left: 1.5em;line-height: 1.2em;">
                                 <li>全室無料でWIFIはつながりますが、多客時はつながりづらい場合がございます。</li>
                             </ol>
                             <!--  -->
-                            <p class="news_info" style="margin-top: 1.5rem;">
-                                <b>宿泊時にご不明な点がございましたら 内線９番 またはフロントでお訊ねください。</b><br>
+                            <p class="news_info" style="margin-top: 2rem;">
+                                宿泊時にご不明な点がございましたら 内線９番 またはフロントでお訊ねください。<br>
                             </p>
                         </div>
                     </div>
