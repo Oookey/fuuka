@@ -125,14 +125,14 @@ get_header(); ?>
                             </p>
                             <!--  -->
                             <p class="news_info" style="margin-top: 2rem;">
-                                <b>Ｑ.クレジットカード、ＱＲコードは使えますか</b><br>
+                                Ｑ.クレジットカード、ＱＲコードは使えますか<br>
                             </p>
                             <ol style="list-style: 'Ａ.';padding-left: 1.5em;line-height: 1.2em;">
                                 <li>クレジットカードは使えます（JCB、VISA、マスターカード、アメリカンエクスプレス、ダイナーズクラブ）。QRコード決済も使えます（PayPay、auPAY、d払い、LINEPayなど）※楽天Payはご利用いただけません</li>
                             </ol>
                             <!--  -->
                             <p class="news_info" style="margin-top: 2rem;">
-                                <b>Ｑ.お部屋にWIFIはありますか</b><br>
+                                Ｑ.お部屋にWIFIはありますか<br>
                             </p>
                             <ol style="list-style: 'Ａ.';padding-left: 1.5em;line-height: 1.2em;">
                                 <li>全室無料でWIFIはつながりますが、多客時はつながりづらい場合がございます。</li>
