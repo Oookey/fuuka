@@ -774,7 +774,7 @@ body{
     }
     #g-nav .nav_access {
         white-space: nowrap;
-        top: 110rem;
+        top: 116rem;
         bottom: auto;
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
@@ -784,7 +784,7 @@ body{
     }
     #g-nav .nav_access img {
         position: absolute;
-        top: -104rem;
+        top: -110rem;
         width: 19rem;
         margin-left: 0rem;
     }
