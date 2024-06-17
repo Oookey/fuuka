@@ -409,6 +409,11 @@ get_header(); ?>
                         10畳の和室に広々キングサイズ（幅180センチ）のローベッドをご用意。ユニットバス付、その他幼児向けの備品をご用意しております。もちろん大人2名様でのご利用でも快適にご利用いただけます。<br><br>
                         定員：2名～3名(お子様は幼児のみ受入)　／　広さ：10畳
                     </p>
+                    <div class="room_star_wrap">
+                        <p>
+                            お子様に嬉しい備品：電子レンジ、哺乳瓶消毒容器、バンボ、携帯用ベビーベッド、ベビーバス、補助便座、おむつ用ゴミ箱、乳児用ボディーソープ
+                        </p>
+                    </div>
                     <a href="https://reserve.489ban.net/client/hotel-fuuka/0/detail/862500" class="flex">
                         <p class="btn"><span class="arrow"></span>このお部屋のプランはこちら</p>
                     </a>
@@ -416,14 +421,13 @@ get_header(); ?>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_1_240513.jpg"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_2_240513.jpg"></li>
                         <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_3_240513.jpg"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_4_240513.jpg"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_5_240513.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_4_240617.jpg"></li>
+                        <li><img src="<?php bloginfo('template_directory'); ?>/image/room_photo_toddlerfamily_5_240617.jpg"></li>
                     </ul>
                     <div class="sp room_point">
                         <p>・キングサイズのローベッド（180センチ×210センチ）</p>
                         <p>・ユニットバス</p>
                         <p>・流し台</p>
-                        <p>・電子レンジ、哺乳瓶消毒容器など未就学児連れファミリーに嬉しい備品</p>
                         <p>・空気清浄機</p>
                         <p>・当ホテルはお部屋の布団敷きはセルフサービスとなります</p>
                     </div>
