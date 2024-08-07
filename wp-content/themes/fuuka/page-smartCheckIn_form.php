@@ -27,7 +27,8 @@ get_header(); ?>
                     <div class="detail">
                         <!-- フォーム -->
                         <div class="content_wrap form_wrap">
-                            <div class="form_inner"><?php echo do_shortcode('[mwform_formkey key="922"]'); ?></div>
+                            <!-- 公開時は変更↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+                            <div class="form_inner"><?php echo do_shortcode('[mwform_formkey key="351"]'); ?></div>
                         </div>
                     </div>
                     <div class="detail" style="border-top: none;">
@@ -81,6 +82,14 @@ get_header(); ?>
                             <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
                                 <li>露天風呂：芹ケ沢温泉からの運び湯（ナトリウム炭酸水素塩硫酸塩塩化物温泉）</li>
                                 <li>内湯：麗水備長炭風呂</li>
+                            </ol>
+                            <!--  -->
+                            <p class="news_info" style="margin-top: 2rem;">
+                                <b>キーワード宝探し</b><br>
+                                15:00～20:00<br>
+                            </p>
+                            <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
+                                <li>お子様にキーワード宝探しの用紙をお渡しします。館内を巡りすべてのキーワードを集めてフロントにお越しいただくと駄菓子をプレゼント</li>
                             </ol>
                             <!--  -->
                             <p class="news_info" style="margin-top: 2rem;">

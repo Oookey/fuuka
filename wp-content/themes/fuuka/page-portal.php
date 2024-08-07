@@ -22,31 +22,34 @@ get_header(); ?>
                         <div class="detail_inner">
                             <p class="news_info">
                                 この度はホテルのご予約をいただき誠にありがとうございます。<br>
-                                ご到着時のチェックイン手続きが不要になる「スマートチェックイン」へのご協力をお願いしております。以下の２つのいずれかの方法をお選びいただくだけで、到着時の署名や館内説明を省略され、当日はスムーズにお部屋へご入室いただけます。当館自慢の「チェックイン時のおもてなし」を存分にお楽しみください。<br>
+                                ご到着時のチェックイン手続きが不要になる「スマートチェックイン」へのご協力をお願いしております。到着時の署名や館内説明を省略され、当日はスムーズにお部屋へご入室いただけます。当館自慢の「チェックイン時のおもてなし」を存分にお楽しみください。<br>
                                 また当日ご不明点がありましたらフロントにお尋ねください。
                             </p>
                             <p class="news_info indent2">
-                                <b>１）「<a href="<?php bloginfo('url'); ?>/smartcheckIn_form">チェックイン入力フォーム</a>」に入力</b><br>
+                                <b>「<a href="<?php bloginfo('url'); ?>/smartcheckIn_form">チェックイン入力フォーム</a>」に入力</b><br>
                                 「チェックイン入力フォーム」に必要事項をご入力いただき送信してください。<br>
                                 お客様に入力いただいた情報はメールにてお送りさせていただきます。<br>
-                                <b style="color:red;">こちらは宿泊日２週間前から前日までに情報を入力し送信してください。</b><br>
+                                <b>・宿泊２週間前から前日の18時までに情報を入力し送信してください。</b><br>
                             </p>
                             <a href="<?php bloginfo('url'); ?>/smartcheckIn_form" class="flex btn" style="float: none;display: block;margin-bottom: 4rem;">
                                 <p class=""><span class="arrow"></span>チェックイン入力フォーム<br class="sp">はこちら</p>
                             </a>
-                            <p class="news_info indent2">
+                            <!-- <p class="news_info indent2">
                                 <b>２）「<a href="<?php bloginfo('template_directory'); ?>/document/スマートチェックイン用宿泊受付表.pdf" target="_blank" rel="noopener">チェックインシート</a>」を当日持参</b><br>
                                 添付ファイルを印刷しご記入いただき、当日スタッフにお渡しください。<br>
                             </p>
                             <a href="<?php bloginfo('template_directory'); ?>/document/スマートチェックイン用宿泊受付表.pdf" class="flex btn" style="float: none;display: block;margin-bottom: 4rem;" target="_blank" rel="noopener">
                                 <p class=""><span class="arrow"></span>チェックインシートPDF<br class="sp">はこちら</p>
-                            </a>
+                            </a> -->
                             <p class="news_info" style="text-indent: -1.1em; padding-left: 1em; margin-bottom: .5em;">
-                                ※下記の案内をご確認ください。すぐにチェックイン時のおもてなしを楽しみ、お部屋にお入りいただけるよう当日の説明は省かせていただきます。
+                                ※下記の案内を<span style="color: red;">必ず</span>ご確認ください。すぐにチェックイン時のおもてなしを楽しみ、お部屋にお入りいただけるよう当日の説明は省かせていただきます。
                             </p>
-                            <p class="news_info" style="text-indent: -1.1em; padding-left: 1em;">
+                            <p class="news_info" style="text-indent: -1.1em; padding-left: 1em; margin-bottom: .5em;    ">
                                 ※ホテル風か館内案内図です。こちらもご確認ください。<br>
                                 <b><a href="<?php bloginfo('template_directory'); ?>/document/館内案内図.pdf" target="_blank" rel="noopener" style="font-size: 1.8rem; line-height: 1.8;" class="hotel_map"><span class="arrow"></span>館内案内図はこちら</a></b><br>
+                            </p>
+                            <p class="news_info" style="text-indent: -1.1em; padding-left: 1em;">
+                                <b>※クーポン、割引券をお持ちのお客様はチェックイン時またはチェックイン当日にフロントにご提示ください。（チェックアウト時のご提示はご遠慮ください。）</b><br>
                             </p>
                             
                             <div class="detail hotel_info" style="border-top: none; border-bottom: none;">
@@ -100,6 +103,14 @@ get_header(); ?>
                                     <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
                                         <li>露天風呂：芹ケ沢温泉からの運び湯（ナトリウム炭酸水素塩硫酸塩塩化物温泉）</li>
                                         <li>内湯：麗水備長炭風呂</li>
+                                    </ol>
+                                    <!--  -->
+                                    <p class="news_info" style="">
+                                        <b>キーワード宝探し</b><br>
+                                        15:00～20:00<br>
+                                    </p>
+                                    <ol style="list-style: '・';padding-left: 1em;line-height: 1.2em;">
+                                        <li>お子様にキーワード宝探しの用紙をお渡しします。館内を巡りすべてのキーワードを集めてフロントにお越しいただくと駄菓子をプレゼント</li>
                                     </ol>
                                     <!--  -->
                                     <p class="news_info" style="">
