@@ -25,7 +25,7 @@ get_header(); ?>
                                 ご到着時のチェックイン手続きが不要になる「スマートチェックイン」へのご協力をお願いしております。到着時の署名や館内説明を省略され、当日はスムーズにお部屋へご入室いただけます。当館自慢の「チェックイン時のおもてなし」を存分にお楽しみください。<br>
                                 また当日ご不明点がありましたらフロントにお尋ねください。
                             </p>
-                            <p class="news_info indent2">
+                            <p class="news_info">
                                 <b>「<a href="<?php bloginfo('url'); ?>/smartcheckIn_form">チェックイン入力フォーム</a>」に入力</b><br>
                                 「チェックイン入力フォーム」に必要事項をご入力いただき送信してください。<br>
                                 お客様に入力いただいた情報はメールにてお送りさせていただきます。<br>
@@ -42,7 +42,7 @@ get_header(); ?>
                                 <p class=""><span class="arrow"></span>チェックインシートPDF<br class="sp">はこちら</p>
                             </a> -->
                             <p class="news_info" style="text-indent: -1.1em; padding-left: 1em; margin-bottom: .5em;">
-                                ※下記の案内を<span style="color: red;">必ず</span>ご確認ください。すぐにチェックイン時のおもてなしを楽しみ、お部屋にお入りいただけるよう当日の説明は省かせていただきます。
+                                ※下記の案内を<b style="color: red;">必ず</b>ご確認ください。すぐにチェックイン時のおもてなしを楽しみ、お部屋にお入りいただけるよう当日の説明は省かせていただきます。
                             </p>
                             <p class="news_info" style="text-indent: -1.1em; padding-left: 1em; margin-bottom: .5em;    ">
                                 ※ホテル風か館内案内図です。こちらもご確認ください。<br>
